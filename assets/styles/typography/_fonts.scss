@@ -191,3 +191,31 @@
   font-display: swap;
   font-style: normal;
 }
+
+/* Farsi/Persian - Vazirmatn */
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("#{$path_font}vazirmatn-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+FB50-FDFF, U+FE70-FEFF; /* Arabic/Persian unicode range */
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("#{$path_font}vazirmatn-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+FB50-FDFF, U+FE70-FEFF;
+}
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url("#{$path_font}vazirmatn-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0600-06FF, U+FB50-FDFF, U+FE70-FEFF;
+}

@@ -1,0 +1,22 @@
+/* RTL Support for Persian text */
+[dir="rtl"] {
+  font-family: "Vazirmatn", "Poppins", sans-serif;
+  
+  h1, h2, h3, h4, h5, h6,
+  .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: "Vazirmatn", "Excon", sans-serif;
+  }
+
+  /* Flip margin/padding for RTL */
+  .mr-15 { margin-left: 15px; margin-right: 0; }
+  .mr-5 { margin-left: 5px; margin-right: 0; }
+  .ml-5 { margin-right: 5px; margin-left: 0; }
+
+  /* Flip positions for RTL */
+  .left-0 { right: 0; left: auto; }
+  .right-0 { left: 0; right: auto; }
+
+  /* Text alignment */
+  .text-left { text-align: right; }
+  .text-right { text-align: left; }
+}
