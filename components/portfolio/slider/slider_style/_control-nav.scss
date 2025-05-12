@@ -135,16 +135,19 @@
 	min-width: 200px;
 	transform: rotate(90deg);
 	left: auto;
-	right: -50px;
+	right: 30px; /* Fixed position instead of negative value */
 	bottom: 50%;
 	z-index: 99999;
-
+	transform-origin: right; /* This ensures rotation happens from the right side */
+	display: flex !important; /* Force display as flex */
+	justify-content: center; /* Center the bullets */
+	
 	@include media_1400() {
-		right: -75px;
+		right: 15px;
 	}
 
 	@include media_991() {
-		right: -80px;
+		right: 10px;
 	}
 
 	.swiper-pagination-bullet {
