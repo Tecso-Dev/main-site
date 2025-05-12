@@ -2,11 +2,11 @@
     {
         "id": 1,
         "categories": [
-            "Production"
+            "Development"
         ],
-        "title": "هدفون",
+        "title": "Platform Development",
         "subtitle": "",
-        "description": "ABOUT THE PROJECT Mode is an audio range designed to provide optimal performance and comfort for every mode of use. The system utilises a",
+        "description": "developing custom websites, applications and platforms.",
         "link": "/portfolio/style-6",
         "linkName": "View Case",
         "slug": "headphones",
@@ -93,11 +93,11 @@
         "id": 2,
         "categories": [
             "Photography",
-            "Production"
+            "Graphic"
         ],
-        "title": "DOG CHOW",
+        "title": "Graphic Design",
         "subtitle": "2022",
-        "description": "This optional section is only applicable to posts. It is a space for you to write a summary of the post. Depending on the",
+        "description": "studio, recording advertising videos and edit, design logo, ui/ux and etc.",
         "link": "/portfolio/style-5",
         "linkName": "View Case",
         "slug": "dog-chow",
@@ -180,11 +180,11 @@
     {
         "id": 3,
         "categories": [
-            "Production"
+            "Business"
         ],
-        "title": "OPEN RUN",
+        "title": "Business Analyses",
         "subtitle": "",
-        "description": "ABOUT THE PROJECT Wondour™ was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We’re helping",
+        "description": "analyzing business, write proposal, analyze Market, revenue stream and etc.",
         "link": "/portfolio/style-4",
         "linkName": "View Case",
         "slug": "open-run",
@@ -287,12 +287,11 @@
     {
         "id": 4,
         "categories": [
-            "Photography",
-            "Production"
+            "Content"
         ],
-        "title": "AUDI RS",
+        "title": "SEO",
         "subtitle": "GT-2022",
-        "description": "This optional section is only applicable to posts. It is a space for you to write a summary of the post. Depending on the",
+        "description": "working on websites SEO.",
         "link": "/portfolio/style-3",
         "linkName": "View Case",
         "slug": "audu-rs",
@@ -402,9 +401,9 @@
             "Creative",
             "Photography"
         ],
-        "title": "MEN FASHION",
+        "title": "AI",
         "subtitle": "",
-        "description": "Service Photographer Industry Daniel Jaramillo Published June 15th 2022 How is your visual identity? we give fashion forward",
+        "description": "generating ai agents like chatbots, support for bussiness and etc.",
         "link": "/portfolio/style-2",
         "linkName": "View Case",
         "slug": "men-fashion",
@@ -518,7 +517,7 @@
             "Creative",
             "Photography"
         ],
-        "title": "VISIONAID",
+        "title": "Infrastructure & Security",
         "subtitle": "",
         "description": "ABOUT THE PROJECT Mode is an audio range designed to provide optimal performance and comfort for every mode of use. The",
         "link": "/portfolio/style-1",
@@ -582,6 +581,176 @@
         "video": [
             {
                 "src": "images/portfolio/project1/video.mp4"
+            }
+        ],
+        "textLines": [
+            {
+                "text": "Beautiful and easy to understand UI"
+            },
+            {
+                "text": "Theme advantages are pixel perfect design"
+            },
+            {
+                "text": "Present your services with flexible"
+            }
+        ],
+        "metas": []
+    },
+    {
+        "id": 7,
+        "categories": [
+            "Creative",
+            "Photography"
+        ],
+        "title": "Discover",
+        "subtitle": "",
+        "description": "our team wanna teach programming to students.",
+        "link": "/portfolio/style-1",
+        "linkName": "View Case",
+        "slug": "visionaid",
+        "Photographer": "Daniel Jaramillo",
+        "autherLink": "https://www.behance.net/gallery/142440825/VisionAid?tracking_source=for_you_feed_recommended",
+        "infoProject": [
+            {
+                "title": "Service",
+                "description": "Photographer"
+            },
+            {
+                "title": "Industry",
+                "description": "Daniel Jaramillo"
+            },
+            {
+                "title": "Published",
+                "description": "June 15th 2022"
+            }
+        ],
+        "about": [
+            {
+                "title": "ABOUT THE PROJECT",
+                "text": [
+                    "Wondour™ was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We're helping people with Wet & Dry Macular Degeneration, Diabetic and Non-Diabetic Retinopathy, Glaucoma, Optic-Nerve-Atrophy."
+                ]
+            },
+            {
+                "title": "HOW IS YOUR VISUAL <b> IDENTITY?</b>",
+                "text": [
+                    "we give fashion forward men, quick access to the finest, premium-quality, designer clothes for men. Not only that, our online selection is comprised of versatile.",
+                    "CMF designs were an essential part of the process. Material variations make sure your VisionAid™ matches your unique personal style."
+                ]
+            },
+            {
+                "title": "Patents Pending.",
+                "text": [
+                    "We designed VisionAid™ as a modular system. This enables the release of new SmartFrame™ and new DigitalLens™ styles in the future that can be purchased to improve the style or functionality of your device."
+                ]
+            }
+        ],
+        "images": [
+            {
+                "src": "images/portfolio/project7/1.jpg",
+                "name": "Caption #01"
+            },
+            {
+                "src": "images/portfolio/project7/2.jpg",
+                "name": "Caption #02"
+            },
+            {
+                "src": "images/portfolio/project7/3.jpg",
+                "name": "Caption #03"
+            },
+            {
+                "src": "images/portfolio/project7/4.jpg",
+                "name": "Caption #04"
+            }
+        ],
+        "video": [
+            {
+                "src": "images/portfolio/project7/video.mp4"
+            }
+        ],
+        "textLines": [
+            {
+                "text": "Beautiful and easy to understand UI"
+            },
+            {
+                "text": "Theme advantages are pixel perfect design"
+            },
+            {
+                "text": "Present your services with flexible"
+            }
+        ],
+        "metas": []
+    },
+    {
+        "id": 8,
+        "categories": [
+            "Creative",
+            "Photography"
+        ],
+        "title": "Mobile",
+        "subtitle": "",
+        "description": "mobile hardware and software repairing and etc.",
+        "link": "/portfolio/style-1",
+        "linkName": "View Case",
+        "slug": "visionaid",
+        "Photographer": "Daniel Jaramillo",
+        "autherLink": "https://www.behance.net/gallery/142440825/VisionAid?tracking_source=for_you_feed_recommended",
+        "infoProject": [
+            {
+                "title": "Service",
+                "description": "Photographer"
+            },
+            {
+                "title": "Industry",
+                "description": "Daniel Jaramillo"
+            },
+            {
+                "title": "Published",
+                "description": "June 15th 2022"
+            }
+        ],
+        "about": [
+            {
+                "title": "ABOUT THE PROJECT",
+                "text": [
+                    "Wondour™ was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We're helping people with Wet & Dry Macular Degeneration, Diabetic and Non-Diabetic Retinopathy, Glaucoma, Optic-Nerve-Atrophy."
+                ]
+            },
+            {
+                "title": "HOW IS YOUR VISUAL <b> IDENTITY?</b>",
+                "text": [
+                    "we give fashion forward men, quick access to the finest, premium-quality, designer clothes for men. Not only that, our online selection is comprised of versatile.",
+                    "CMF designs were an essential part of the process. Material variations make sure your VisionAid™ matches your unique personal style."
+                ]
+            },
+            {
+                "title": "Patents Pending.",
+                "text": [
+                    "We designed VisionAid™ as a modular system. This enables the release of new SmartFrame™ and new DigitalLens™ styles in the future that can be purchased to improve the style or functionality of your device."
+                ]
+            }
+        ],
+        "images": [
+            {
+                "src": "images/portfolio/project8/1.jpg",
+                "name": "Caption #01"
+            },
+            {
+                "src": "images/portfolio/project8/2.jpg",
+                "name": "Caption #02"
+            },
+            {
+                "src": "images/portfolio/project8/3.jpg",
+                "name": "Caption #03"
+            },
+            {
+                "src": "images/portfolio/project8/4.jpg",
+                "name": "Caption #04"
+            }
+        ],
+        "video": [
+            {
+                "src": "images/portfolio/project8/video.mp4"
             }
         ],
         "textLines": [
