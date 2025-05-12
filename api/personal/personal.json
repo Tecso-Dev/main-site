@@ -1,16 +1,16 @@
 [
     {
-        "subtitle": "I'M",
-        "name": "john doe",
+        "subtitle": "من",
+        "name": "جان دو",
         "job": [
-            "Designer",
-            "Freelancer",
-            "Developer"
+            "طراح",
+            "فریلنسر",
+            "توسعه‌دهنده"
         ],
         "about": [
-            "Architect & Spatial Planner",
-            "“Architecture is the learned game, correct and magnificent, of forms assembled in the light.”",
-            "In my work, I try to find the right balance between form and function. From technical drawings, all the way to the photographic renders, and the actual representations of my work as a designer, my philosophy is that of simplicity."
+            "معمار و برنامه‌ریز فضایی",
+            "معماری بازی آموخته شده، درست و باشکوه، از فرم‌هایی است که در نور جمع شده‌اند.",
+            "در کار خود، تلاش می‌کنم تعادل درستی بین فرم و عملکرد پیدا کنم. از نقشه‌های فنی گرفته تا ارائه‌های تصویری و نمایش واقعی کارم به عنوان یک طراح، فلسفه من سادگی است."
         ],
         "emails": [
             "info@dsngrid.com"
@@ -19,7 +19,7 @@
             "+123456789"
         ],
         "location": [
-            "New York, USA"
+            "نیویورک، آمریکا"
         ],
         "social": [
             {
@@ -50,11 +50,11 @@
         "images": [
             {
                 "src": "images/head-personal.jpg",
-                "name": "john doe"
+                "name": "جان دو"
             },
             {
                 "src": "images/p-1.jpg",
-                "name": "john doe"
+                "name": "جان دو"
             }
         ],
         "video": [
@@ -64,48 +64,48 @@
         ],
         "skills": [
             {
-                "skill": "UI Design",
+                "skill": "طراحی رابط کاربری",
                 "Percentage": 80
             },
             {
-                "skill": "UX Design",
+                "skill": "طراحی تجربه کاربری",
                 "Percentage": 75
             },
             {
-                "skill": "Product Design",
+                "skill": "طراحی محصول",
                 "Percentage": 70
             }
         ],
         "experience": [
             {
-                "company": "Google",
-                "time": "SeniorProduct Designer (Jan 2021 - Present)",
-                "description": "Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna."
+                "company": "گوگل",
+                "time": "طراح ارشد محصول (ژانویه ۲۰۲۱ - اکنون)",
+                "description": "ما با افتخار راه‌حل‌های نوآورانه و خلاقانه برای پروژه‌های مختلف ارائه می‌دهیم. تیم ما با تخصص و تجربه کافی آماده همکاری در پروژه‌های متنوع است."
             },
             {
-                "company": "Webflow",
-                "time": "Lead UI Designer (June 2019 - Dec 2020)",
-                "description": "Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna."
+                "company": "وبفلو",
+                "time": "سرپرست طراحی رابط کاربری (ژوئن ۲۰۱۹ - دسامبر ۲۰۲۰)",
+                "description": "ما با افتخار راه‌حل‌های نوآورانه و خلاقانه برای پروژه‌های مختلف ارائه می‌دهیم. تیم ما با تخصص و تجربه کافی آماده همکاری در پروژه‌های متنوع است."
             },
             {
-                "company": "Figma",
-                "time": "Lead UI Designer (March 2016 - May 2019)",
-                "description": "Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna."
+                "company": "فیگما",
+                "time": "سرپرست طراحی رابط کاربری (مارس ۲۰۱۶ - می ۲۰۱۹)",
+                "description": "ما با افتخار راه‌حل‌های نوآورانه و خلاقانه برای پروژه‌های مختلف ارائه می‌دهیم. تیم ما با تخصص و تجربه کافی آماده همکاری در پروژه‌های متنوع است."
             }
         ]
     },
     {
-        "subtitle": "Welcome !",
-        "name": "Masum Billah.",
+        "subtitle": "خوش آمدید!",
+        "name": "معصوم بیلا",
         "job": [
-            "Designer",
-            "Freelancer",
-            "Developer"
+            "طراح",
+            "فریلنسر",
+            "توسعه‌دهنده"
         ],
         "about": [
-            "I make the complex simple.",
-            "My name is Masum Billah. I am a Web Developer, and I'm very passionate and dedicated to my work. With 20 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.",
-            "In my work, I try to find the right balance between form and function. From technical drawings, all the way to the photographic renders, and the actual representations of my work as a designer, my philosophy is that of simplicity."
+            "من پیچیدگی را ساده می‌کنم.",
+            "نام من معصوم بیلا است. من یک توسعه‌دهنده وب هستم و به کارم بسیار علاقه‌مند و متعهد هستم. با ۲۰ سال تجربه به عنوان توسعه‌دهنده حرفه‌ای وب، مهارت‌ها و دانش لازم برای موفقیت پروژه شما را کسب کرده‌ام. من از هر مرحله فرآیند طراحی، از بحث و همکاری لذت می‌برم.",
+            "در کار خود، تلاش می‌کنم تعادل درستی بین فرم و عملکرد پیدا کنم. از نقشه‌های فنی گرفته تا ارائه‌های تصویری و نمایش واقعی کارم به عنوان یک طراح، فلسفه من سادگی است."
         ],
         "emails": [
             "info@dsngrid.com"
@@ -114,7 +114,7 @@
             "+123456789"
         ],
         "location": [
-            "New York, USA"
+            "نیویورک، آمریکا"
         ],
         "social": [
             {
@@ -139,15 +139,15 @@
         "images": [
             {
                 "src": "images/personal.jpg",
-                "name": "Masum Billah"
+                "name": "معصوم بیلا"
             },
             {
                 "src": "images/p1.jpg",
-                "name": "Masum Billah"
+                "name": "معصوم بیلا"
             },
             {
                 "src": "images/p2.jpg",
-                "name": "Masum Billah"
+                "name": "معصوم بیلا"
             }
         ],
         "video": [
@@ -157,41 +157,41 @@
         ],
         "skills": [
             {
-                "skill": "UI Design",
+                "skill": "طراحی رابط کاربری",
                 "Percentage": 98
             },
             {
-                "skill": "UX Design",
+                "skill": "طراحی تجربه کاربری",
                 "Percentage": 95
             },
             {
-                "skill": "Product Design",
+                "skill": "طراحی محصول",
                 "Percentage": 85
             },
             {
-                "skill": "Design Thinking",
+                "skill": "تفکر طراحی",
                 "Percentage": 80
             },
             {
-                "skill": "User Research",
+                "skill": "تحقیقات کاربری",
                 "Percentage": 60
             }
         ],
         "experience": [
             {
-                "company": "Google",
-                "time": "SeniorProduct Designer (Jan 2021 - Present)",
-                "description": "Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna."
+                "company": "گوگل",
+                "time": "طراح ارشد محصول (ژانویه ۲۰۲۱ - اکنون)",
+                "description": "ما با افتخار راه‌حل‌های نوآورانه و خلاقانه برای پروژه‌های مختلف ارائه می‌دهیم. تیم ما با تخصص و تجربه کافی آماده همکاری در پروژه‌های متنوع است."
             },
             {
-                "company": "Webflow",
-                "time": "Lead UI Designer (June 2019 - Dec 2020)",
-                "description": "Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna."
+                "company": "وبفلو",
+                "time": "سرپرست طراحی رابط کاربری (ژوئن ۲۰۱۹ - دسامبر ۲۰۲۰)",
+                "description": "ما با افتخار راه‌حل‌های نوآورانه و خلاقانه برای پروژه‌های مختلف ارائه می‌دهیم. تیم ما با تخصص و تجربه کافی آماده همکاری در پروژه‌های متنوع است."
             },
             {
-                "company": "Figma",
-                "time": "Lead UI Designer (March 2016 - May 2019)",
-                "description": "Praesent dignissim sollicitudin justo, sed elementum quam lacinia quis. Phasellus eleifend tristique posuere. Sed vitae dui nec magna."
+                "company": "فیگما",
+                "time": "سرپرست طراحی رابط کاربری (مارس ۲۰۱۶ - می ۲۰۱۹)",
+                "description": "ما با افتخار راه‌حل‌های نوآورانه و خلاقانه برای پروژه‌های مختلف ارائه می‌دهیم. تیم ما با تخصص و تجربه کافی آماده همکاری در پروژه‌های متنوع است."
             }
         ]
     }

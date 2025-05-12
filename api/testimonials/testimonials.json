@@ -1,41 +1,41 @@
 [
     {
         "id": 1,
-        "name": "MTL Graphic",
-        "job": "Graphic Design",
+        "name": "گروه گرافیک MTL",
+        "job": "طراح گرافیک",
         "string": [
-            "This theme is awesome and the designer is very helpful. I had a few questions purchase. He/She helped me with all the doubts.",
-            "This theme is awesome and the designer is very helpful. I had a few questions purchase. He/She helped me with all the doubts. Also, they provide quick support. Thank you so much for a beautiful theme."
+            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند.",
+            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند. همچنین آنها پشتیبانی سریعی ارائه می‌دهند. بابت این قالب زیبا بسیار سپاسگزارم."
         ],
         "imageSrc": "images/team/1.jpg"
     },
     {
         "id": 2,
-        "name": "Jeremy Smith",
-        "job": "Creative Studio Head",
+        "name": "جرمی اسمیت",
+        "job": "مدیر استودیو خلاق",
         "string": [
-            "This theme is awesome and the designer is very helpful. I had a few questions purchase. He/She helped me with all the doubts.",
-            "This theme is awesome and the designer is very helpful. I had a few questions purchase. He/She helped me with all the doubts. Also, they provide quick support. Thank you so much for a beautiful theme."
+            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند.",
+            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند. همچنین آنها پشتیبانی سریعی ارائه می‌دهند. بابت این قالب زیبا بسیار سپاسگزارم."
         ],
         "imageSrc": "images/team/2.jpg"
     },
     {
         "id": 3,
-        "name": "Angelo Walking",
-        "job": "Developer Lead",
+        "name": "آنجلو واکینگ",
+        "job": "سرپرست توسعه‌دهندگان",
         "string": [
-            "This theme is awesome and the designer is very helpful. I had a few questions purchase. He/She helped me with all the doubts.",
-            "This theme is awesome and the designer is very helpful. I had a few questions purchase. He/She helped me with all the doubts. Also, they provide quick support. Thank you so much for a beautiful theme."
+            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند.",
+            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند. همچنین آنها پشتیبانی سریعی ارائه می‌دهند. بابت این قالب زیبا بسیار سپاسگزارم."
         ],
         "imageSrc": "images/team/3.jpg"
     },
     {
         "id": 4,
-        "name": "Bill Gardner",
-        "job": "Web designer",
+        "name": "بیل گاردنر",
+        "job": "طراح وب",
         "string": [
-            "This theme is awesome and the designer is very helpful. I had a few questions purchase. He/She helped me with all the doubts.",
-            "This theme is awesome and the designer is very helpful. I had a few questions purchase. He/She helped me with all the doubts. Also, they provide quick support. Thank you so much for a beautiful theme."
+            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند.",
+            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند. همچنین آنها پشتیبانی سریعی ارائه می‌دهند. بابت این قالب زیبا بسیار سپاسگزارم."
         ],
         "imageSrc": "images/team/4.jpg"
     }

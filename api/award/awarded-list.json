@@ -1,21 +1,21 @@
 [
     {
         "id": 1,
-        "name": "Team Members",
+        "name": "اعضای تیم",
         "number": "200",
         "mark": "+",
-        "description": "A diverse and global community of independent thinkers make up our inclusive workplace."
+        "description": "جامعه‌ای متنوع و جهانی از متفکران مستقل که محیط کاری فراگیر ما را تشکیل می‌دهند."
     },{
         "id": 2,
-        "name": "Portfolio Managers",
+        "name": "مدیران پروژه",
         "number": "60",
         "mark": "+",
-        "description": "A diverse and global community of independent thinkers make up our inclusive workplace."
+        "description": "تیمی متشکل از مدیران حرفه‌ای که با تخصص و تجربه، پروژه‌های ما را هدایت می‌کنند."
     },{
         "id": 3,
-        "name": "Offices",
+        "name": "دفاتر",
         "number": "10",
         "mark": "+",
-        "description": "A diverse and global community of independent thinkers make up our inclusive workplace."
+        "description": "شبکه‌ای گسترده از دفاتر در نقاط مختلف که خدمات ما را در دسترس همگان قرار می‌دهد."
     }
 ]

@@ -1,22 +1,22 @@
 [
     {
         "id": 1,
-        "title": "Consultancy",
-        "description": "Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole."
+        "title": "خدمات مشاوره",
+        "description": "با تجربه و تخصص کامل، همچون صبح‌های دلپذیر بهاری که با تمام وجود از آن لذت می‌برم، آماده ارائه بهترین راهکارها به شما هستیم."
     },
     {
         "id": 2,
-        "title": "Construction projects",
-        "description": "Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole."
+        "title": "پروژه‌های ساخت و ساز",
+        "description": "با تکیه بر دانش فنی و تجربه‌ی گسترده، همانند صبح‌های زیبای بهاری که سرشار از شور و اشتیاق است، در خدمت پروژه‌های شما هستیم."
     },
     {
         "id": 3,
-        "title": "Architecture bureau",
-        "description": "Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole."
+        "title": "دفتر معماری",
+        "description": "با خلاقیت و نوآوری، همچون طراوت صبح‌های بهاری، به خلق فضاهای معماری منحصر به فرد می‌پردازیم که روح و جان را تسخیر می‌کند."
     },
     {
         "id": 4,
-        "title": "Building ventures",
-        "description": "Cepteur sint occaecat cupidatat proident, taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole."
+        "title": "سرمایه‌گذاری ساختمانی",
+        "description": "با چشم‌اندازی روشن و پویا، همانند نشاط صبح‌های بهاری، فرصت‌های سرمایه‌گذاری در صنعت ساختمان را با تمام وجود هدایت می‌کنیم."
     }
 ]
