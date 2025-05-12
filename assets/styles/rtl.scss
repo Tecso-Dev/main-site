@@ -1,22 +1,121 @@
 /* RTL Support for Persian text */
 [dir="rtl"] {
-  font-family: "Vazirmatn", "Poppins", sans-serif;
+  font-family: "Ray", sans-serif;
   
   h1, h2, h3, h4, h5, h6,
   .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "Vazirmatn", "Excon", sans-serif;
+    font-family: "Ray", sans-serif;
   }
 
-  /* Flip margin/padding for RTL */
-  .mr-15 { margin-left: 15px; margin-right: 0; }
-  .mr-5 { margin-left: 5px; margin-right: 0; }
-  .ml-5 { margin-right: 5px; margin-left: 0; }
+  /* Navigation and Swiper RTL */
+  .dsn-nav-arrow {
+    .dsn-nav-left {
+      margin-right: 0;
+      margin-left: 60px;
+    }
 
-  /* Flip positions for RTL */
-  .left-0 { right: 0; left: auto; }
-  .right-0 { left: 0; right: auto; }
+    .dsn-nav-right .dsn-icon {
+      transform: rotate(0deg);
+    }
+
+    .dsn-nav-left .dsn-icon {
+      transform: rotate(180deg);
+    }
+  }
+
+  .next-container,
+  .prev-container {
+    &.next-container {
+      .container-inner:before {
+        margin-right: 0;
+        margin-left: 7px;
+      }
+
+      .triangle {
+        border-right: 6px solid var(--heading-color);
+        border-left: none;
+        margin-left: calc(22.5px - 3px);
+        margin-right: 0;
+      }
+
+      svg {
+        left: 0;
+        right: auto;
+      }
+    }
+
+    &.prev-container {
+      .container-inner:after {
+        margin-left: 0;
+        margin-right: 7px;
+      }
+
+      .triangle {
+        border-left: 6px solid var(--heading-color);
+        border-right: none;
+        margin-right: calc(22.5px - 3px);
+        margin-left: 0;
+      }
+
+      svg {
+        right: 0;
+        left: auto;
+      }
+    }
+  }
+
+  /* General RTL Support */
+  .ml-auto { margin-right: auto !important; margin-left: 0 !important; }
+  .mr-auto { margin-left: auto !important; margin-right: 0 !important; }
+  
+  .me-1 { margin-right: 0 !important; margin-left: 0.25rem !important; }
+  .me-2 { margin-right: 0 !important; margin-left: 0.5rem !important; }
+  .me-3 { margin-right: 0 !important; margin-left: 1rem !important; }
+  .me-4 { margin-right: 0 !important; margin-left: 1.5rem !important; }
+  .me-5 { margin-right: 0 !important; margin-left: 3rem !important; }
+
+  .ms-1 { margin-left: 0 !important; margin-right: 0.25rem !important; }
+  .ms-2 { margin-left: 0 !important; margin-right: 0.5rem !important; }
+  .ms-3 { margin-left: 0 !important; margin-right: 1rem !important; }
+  .ms-4 { margin-left: 0 !important; margin-right: 1.5rem !important; }
+  .ms-5 { margin-left: 0 !important; margin-right: 3rem !important; }
+
+  .pe-1 { padding-right: 0 !important; padding-left: 0.25rem !important; }
+  .pe-2 { padding-right: 0 !important; padding-left: 0.5rem !important; }
+  .pe-3 { padding-right: 0 !important; padding-left: 1rem !important; }
+  .pe-4 { padding-right: 0 !important; padding-left: 1.5rem !important; }
+  .pe-5 { padding-right: 0 !important; padding-left: 3rem !important; }
+
+  .ps-1 { padding-left: 0 !important; padding-right: 0.25rem !important; }
+  .ps-2 { padding-left: 0 !important; padding-right: 0.5rem !important; }
+  .ps-3 { padding-left: 0 !important; padding-right: 1rem !important; }
+  .ps-4 { padding-left: 0 !important; padding-right: 1.5rem !important; }
+  .ps-5 { padding-left: 0 !important; padding-right: 3rem !important; }
+
+  /* Border radius */
+  .rounded-start { 
+    border-top-right-radius: var(--bs-border-radius) !important;
+    border-bottom-right-radius: var(--bs-border-radius) !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+
+  .rounded-end {
+    border-top-left-radius: var(--bs-border-radius) !important;
+    border-bottom-left-radius: var(--bs-border-radius) !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
 
   /* Text alignment */
-  .text-left { text-align: right; }
-  .text-right { text-align: left; }
+  .text-start { text-align: right !important; }
+  .text-end { text-align: left !important; }
+
+  /* Float */
+  .float-start { float: right !important; }
+  .float-end { float: left !important; }
+
+  /* Position */
+  .start-0 { right: 0 !important; left: auto !important; }
+  .end-0 { left: 0 !important; right: auto !important; }
 }
