@@ -6,10 +6,40 @@ export default defineNuxtConfig({
 	app: {
 		baseURL: '/',
 		head: {
+			htmlAttrs: {
+				lang: 'en'
+			},
 			title: 'Blackdsn',
-			meta: [{ name: 'description',content: 'Blackdsn Nuxt-js Template' }],
-			link: [{ rel: 'icon',type: 'image/x-icon',href: '/images/logo-32x32.png' }],
-			script: [{ src: '/js/threejs.min.js',body: true,async: true,defer: true }],
+			titleTemplate: '%s | Professional Digital Solutions',
+			meta: [
+				{ charset: 'utf-8' },
+				{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+				{ name: 'format-detection', content: 'telephone=no' },
+				{ name: 'description', content: 'Blackdsn - Professional digital solutions and creative services. We specialize in web development, design, and digital transformation.' },
+				{ name: 'keywords', content: 'digital solutions, web development, design, creative services, professional services' },
+				
+				// Open Graph / Facebook
+				{ property: 'og:type', content: 'website' },
+				{ property: 'og:site_name', content: 'Blackdsn' },
+				{ property: 'og:title', content: 'Blackdsn | Professional Digital Solutions' },
+				{ property: 'og:description', content: 'Professional digital solutions and creative services. We specialize in web development, design, and digital transformation.' },
+				{ property: 'og:image', content: '/images/logo-32x32.png' },
+				
+				// Twitter
+				{ name: 'twitter:card', content: 'summary_large_image' },
+				{ name: 'twitter:title', content: 'Blackdsn | Professional Digital Solutions' },
+				{ name: 'twitter:description', content: 'Professional digital solutions and creative services. We specialize in web development, design, and digital transformation.' },
+				{ name: 'twitter:image', content: '/images/logo-32x32.png' },
+				
+				// SEO
+				{ name: 'robots', content: 'index, follow' },
+				{ name: 'author', content: 'Blackdsn' }
+			],
+			link: [
+				{ rel: 'icon', type: 'image/x-icon', href: '/images/logo-32x32.png' },
+				{ rel: 'canonical', href: process.env.FRONTENDURL || 'https://tecso.team' }
+			],
+			script: [{ src: '/js/threejs.min.js', body: true, async: true, defer: true }],
 		}
 	},
 	privateRuntimeConfig: { apiSecret: process.env.API_SECRET },
