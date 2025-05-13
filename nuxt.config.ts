@@ -6,40 +6,41 @@ export default defineNuxtConfig({
 	app: {
 		baseURL: '/',
 		head: {
+			title: 'Tecso Team - Digital Agency & Software Development',
 			htmlAttrs: {
 				lang: 'en'
 			},
-			title: 'Blackdsn',
-			titleTemplate: '%s | Professional Digital Solutions',
 			meta: [
 				{ charset: 'utf-8' },
 				{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
+				{ name: 'description', content: 'Tecso Team is a leading digital agency specializing in Platform Development, Graphic Design, Business Analysis, SEO, AI Software Programming, Infrastructure & Security, and Mobile Development.' },
+				{ name: 'keywords', content: 'Platform Development, Graphic Design, Business Analysis, SEO, AI Software, Infrastructure Security, Mobile Development, Digital Agency' },
+				{ name: 'robots', content: 'index, follow' },
 				{ name: 'format-detection', content: 'telephone=no' },
-				{ name: 'description', content: 'Blackdsn - Professional digital solutions and creative services. We specialize in web development, design, and digital transformation.' },
-				{ name: 'keywords', content: 'digital solutions, web development, design, creative services, professional services' },
 				
 				// Open Graph / Facebook
 				{ property: 'og:type', content: 'website' },
-				{ property: 'og:site_name', content: 'Blackdsn' },
-				{ property: 'og:title', content: 'Blackdsn | Professional Digital Solutions' },
-				{ property: 'og:description', content: 'Professional digital solutions and creative services. We specialize in web development, design, and digital transformation.' },
+				{ property: 'og:title', content: 'Tecso Team - Digital Agency & Software Development' },
+				{ property: 'og:description', content: 'Professional digital agency offering comprehensive software solutions including Platform Development, AI, SEO, and Business Analysis.' },
 				{ property: 'og:image', content: '/images/logo-32x32.png' },
 				
 				// Twitter
 				{ name: 'twitter:card', content: 'summary_large_image' },
-				{ name: 'twitter:title', content: 'Blackdsn | Professional Digital Solutions' },
-				{ name: 'twitter:description', content: 'Professional digital solutions and creative services. We specialize in web development, design, and digital transformation.' },
+				{ name: 'twitter:title', content: 'Tecso Team - Digital Agency & Software Development' },
+				{ name: 'twitter:description', content: 'Professional digital agency offering comprehensive software solutions including Platform Development, AI, SEO, and Business Analysis.' },
 				{ name: 'twitter:image', content: '/images/logo-32x32.png' },
 				
-				// SEO
-				{ name: 'robots', content: 'index, follow' },
-				{ name: 'author', content: 'Blackdsn' }
+				// Additional SEO
+				{ name: 'author', content: 'Tecso Team' },
+				{ name: 'theme-color', content: '#ffffff' }
 			],
 			link: [
 				{ rel: 'icon', type: 'image/x-icon', href: '/images/logo-32x32.png' },
-				{ rel: 'canonical', href: process.env.FRONTENDURL || 'https://tecso.team' }
+				{ rel: 'canonical', href: 'https://your-domain.com' }
 			],
-			script: [{ src: '/js/threejs.min.js', body: true, async: true, defer: true }],
+			script: [
+				{ src: '/js/threejs.min.js', body: true, async: true, defer: true }
+			],
 		}
 	},
 	privateRuntimeConfig: { apiSecret: process.env.API_SECRET },
