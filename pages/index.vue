@@ -30,7 +30,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 <template>
 
 	<Head>
-		<Title>Tecso</Title>
+		<Title>Tecso.Team</Title>
 	</Head>
 
 	<Layout>

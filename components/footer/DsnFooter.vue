@@ -90,11 +90,13 @@ onMounted(() => {
                             <span class="background-revere">CONTACT</span>
                         </h4>
                         <div class="col-contact">
-                            <p><strong>T</strong> :&nbsp;+001 225 3351</p>
-                            <p class="mt-10"><strong>F</strong> :&nbsp;+001 225 3351</p>
+                            <p><strong>T</strong> :&nbsp;+98 905 843 2452</p>
+                            <p><strong>T</strong> :&nbsp;+98 919 989 1447</p>
+                            <p><strong>T</strong> :&nbsp;+98 992 746 1899</p>
+                            <!-- <p class="mt-10"><strong>F</strong> :&nbsp;+001 225 3351</p> -->
                             <p class="over-hidden mt-10">
                                 <strong>E</strong> :
-                                <a class="link-hover" href="mailto:info@dsngrid.com">&nbsp;info@dsngrid.com</a>
+                                <a class="link-hover" href="mailto:sobhan.gjhav.azimzadeh@gmail.com">&nbsp;info@Tecso.team</a>
                             </p>
                         </div>
                     </div>
@@ -104,8 +106,8 @@ onMounted(() => {
                         </h4>
                         <div class="col-address">
                             <p>
-                                El-Mahalla El-Kubra 37<br />
-                                1776 Damietta<br />Egypt
+                                West Azarbayjan - Urmia<br />
+                                Bra'ati Street - Asatid Building - P 6<br />Iran
                             </p>
                         </div>
                     </div>
@@ -113,7 +115,7 @@ onMounted(() => {
                 <div class="footer-bottom mt-60 pt-30 border-top pb-30 text-center">
                     <p class="over-hidden">
                         © 2022 Digital Agency Designed by
-                        <a href="#0" class="link-hover" target="_blank">DSN Grid</a>
+                        <a href="/about-us" class="link-hover" target="_blank">Tecso.Team</a>
                     </p>
                 </div>
             </div>
