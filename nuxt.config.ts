@@ -36,7 +36,7 @@ export default defineNuxtConfig({
 			],
 			link: [
 				{ rel: 'icon', type: 'image/x-icon', href: '/images/logo-32x32.png' },
-				{ rel: 'canonical', href: 'https://your-domain.com' }
+				{ rel: 'canonical', href: 'https://tecso.team' }
 			],
 			script: [
 				{ src: '/js/threejs.min.js', body: true, async: true, defer: true }
