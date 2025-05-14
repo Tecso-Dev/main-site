@@ -40,7 +40,7 @@ onBeforeUnmount(() => Fancybox.destroy());
 <template>
 
     <Head>
-        <Title>Project</Title>
+        <Title>Tecso Platform Development</Title>
     </Head>
 
     <Layout>
@@ -76,7 +76,7 @@ onBeforeUnmount(() => Fancybox.destroy());
         <!-- ========== End Image Popup  ========== -->
 
         <!-- ========== Parallax Image With Popup  ========== -->
-        <ParallaxImageTwo :src="item.images[4].src" :caption="item.images[4].name" fancybox="_1" />
+        <ParallaxImageTwo :src="item.images[6].src" :caption="item.images[6].name" fancybox="_1" />
         <!-- ========== End Parallax Image With Popup  ========== -->
 
         <!-- ========== Image Popup  ========== -->
@@ -86,7 +86,7 @@ onBeforeUnmount(() => Fancybox.destroy());
         <!-- ========== Paragraph  ========== -->
         <ParagraphBox>
             {{ item.about[1].text[1] }}
-            <h5 class="title-block dsn-up mt-15">Richard Price</h5>
+            <h5 class="title-block dsn-up mt-15">Tecso Team</h5>
         </ParagraphBox>
         <!-- ========== End Paragraph  ========== -->
 

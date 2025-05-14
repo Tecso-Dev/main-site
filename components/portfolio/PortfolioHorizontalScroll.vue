@@ -62,9 +62,8 @@ onMounted(() => {
 				<article class="dsn-item-post grid-item over-hidden box-hover-image swiper-slide"
 					v-for="(item, index) in props.data" :key="index">
 					<div class="box-content d-flex ">
-						<NuxtLink class="effect-ajax box-image-link bg-shadow" :to="`${item.link}/${item.slug}`"
-							title="HEADPHONES">
-							<div class="box-image-bg before-z-index dsn-swiper-parallax-transform" data-overlay="4">
+						<NuxtLink class="effect-ajax box-image-link bg-shadow" :to="`${item.link}/${item.slug}`"							title="Platform Development">
+							<div class="box-image-bg before-z-index dsn-swiper-parallax-transform"data-overlay="4">
 								<NuxtImg format="webp" class="cover-bg-img" :src="item.images[0].src" alt="" />
 							</div>
 						</NuxtLink>

@@ -92,7 +92,7 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 				<BoxInfoItem v-for="(item,index) in data_InBox" :key="index" :item="item.text" />
 			</BoxInfoList>
 			<LinkDefualt linkClass="background-main" :iconAwesome="['fas','angle-right']" popup linkName="LEARN MORE"
-				linkTo="/portfolio/style-6/headphones" parallax />
+				linkTo="/portfolio/style-6/platform-development" parallax />
 		</BoxInfo>
 		<!-- ========== End About Section One ========== -->
 

@@ -64,11 +64,11 @@ onBeforeUnmount(() => Fancybox.destroy());
         <!-- ========== End Info Project  ========== -->
 
         <!-- ========== Image Popup  ========== -->
-        <ImagePopup class="container" :imageList="[item.images[2], item.images[3]]" />
+        <ImagePopup class="container" :imageList="[item.images[1], item.images[3]]" />
         <!-- ========== End Image Popup  ========== -->
 
         <!-- ========== Right Box With Image ========== -->
-        <BoxInfoFull :imageSrc="item.images[4].src">
+        <BoxInfoFull :imageSrc="item.images[6].src">
             <template v-slot:title>
                 <SectionTitle :title="item.about[1].title" beforeStyle="circle-before" :spaceDown="false" />
             </template>
@@ -81,13 +81,14 @@ onBeforeUnmount(() => Fancybox.destroy());
 
         <!-- ========== Scroll Image Right  ========== -->
         <ScrollImages :data="item.images.slice(4, 9)" />
+        <ScrollImages :data="item.images.slice(1, 4)" />
         <!-- ========== End Scroll Image Right  ========== -->
 
         <!-- ========== Paragraph  ========== -->
         <div class="container section-margin">
             <p class="title-block heading-color">
-                <span class="dsn-up d-block" data-split-char>SHOKZ_OPENRUN</span>
-                <span class="dsn-up" data-split-char><b>Render/Postproduction</b>: Tardis 42</span>
+                <span class="dsn-up d-block" data-split-char>Tecso Team</span>
+                <span class="dsn-up" data-split-char><b>depth market and competitive analysis</b> to crafting compelling proposals that win contracts.</span>
             </p>
         </div>
         <!-- ========== End Paragraph  ========== -->

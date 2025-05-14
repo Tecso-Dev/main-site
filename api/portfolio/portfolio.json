@@ -1,289 +1,298 @@
 [
     {
-        "id": 1,
-        "categories": [
-            "Development"
-        ],
-        "title": "Platform Development",
-        "subtitle": "",
-        "description": "developing custom websites, applications and platforms.",
-        "link": "/portfolio/style-6",
-        "linkName": "View Case",
-        "slug": "headphones",
-        "Photographer": "Daniel Jaramillo",
-        "autherLink": "https://www.behance.net/gallery/60425833/Mode-Modular-Headphones",
-        "infoProject": [
-            {
-                "title": "Service",
-                "description": "Modular"
-            },
-            {
-                "title": "Industry",
-                "description": "Richard Price"
-            },
-            {
-                "title": "Published",
-                "description": "January 8th 2018"
-            }
-        ],
-        "about": [
-            {
-                "title": "ABOUT THE PROJECT",
-                "text": [
-                    "Mode is an audio range designed to provide optimal performance and comfort for every mode of use. The system utilises a modular setup which allows the speaker and interface unit to be transferred from the MD2 Headband which features on-ear ."
-                ]
-            },
-            {
-                "title": "HOW IS YOUR VISUAL <b> IDENTITY?</b>",
-                "text": [
-                    "The interface uses gesture control via the touch sensitive speaker unit to wirelessly adjust audio preferences and the system is also available with active noise cancelling technology for a fully immersive experience.",
-                    "The interface uses gesture control via the touch sensitive speaker unit to wirelessly adjust audio preferences and the system is also available with active noise cancelling technology for a fully immersive experience."
-                ]
-            }
-        ],
-        "images": [
-            {
-                "src": "images/portfolio/project6/1.jpg",
-                "name": "Caption #01"
-            },
-            {
-                "src": "images/portfolio/project6/2.gif",
-                "name": "Caption #02"
-            },
-            {
-                "src": "images/portfolio/project6/3.jpg",
-                "name": "Caption #03"
-            },
-            {
-                "src": "images/portfolio/project6/4.jpg",
-                "name": "Caption #04"
-            },
-            {
-                "src": "images/portfolio/project6/5.jpg",
-                "name": "Caption #05"
-            },
-            {
-                "src": "images/portfolio/project6/6.jpg",
-                "name": "Caption #06"
-            },
-            {
-                "src": "images/portfolio/project6/7.jpg",
-                "name": "Caption #07"
-            }
-        ],
-        "video": [
-            {
-                "src": ""
-            }
-        ],
-        "textLines": [
-            {
-                "text": "Beautiful and easy to understand UI"
-            },
-            {
-                "text": "Theme advantages are pixel perfect design"
-            },
-            {
-                "text": "Present your services with flexible"
-            }
-        ],
-        "metas": []
-    },
-    {
-        "id": 2,
-        "categories": [
-            "Photography",
-            "Graphic"
-        ],
-        "title": "Graphic Design",
-        "subtitle": "2022",
-        "description": "studio, recording advertising videos and edit, design logo, ui/ux and etc.",
-        "link": "/portfolio/style-5",
-        "linkName": "View Case",
-        "slug": "dog-chow",
-        "Photographer": "Daniel Jaramillo",
-        "autherLink": "https://www.behance.net/gallery/148168567/Purina-Dog-Chow?tracking_source=for_you_feed_featured_category",
-        "infoProject": [
-            {
-                "title": "Service",
-                "description": "Photographer"
-            },
-            {
-                "title": "Industry",
-                "description": "Daniel Jaramillo"
-            },
-            {
-                "title": "Published",
-                "description": "June 15th 2022"
-            }
-        ],
-        "about": [
-            {
-                "title": "ABOUT THE PROJECT",
-                "text": [
-                    "Wondour™ was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We're helping people with Wet & Dry Macular Degeneration, Diabetic and Non-Diabetic Retinopathy, Glaucoma, Optic-Nerve-Atrophy."
-                ]
-            },
-            {
-                "title": "HOW IS YOUR VISUAL <b> IDENTITY?</b>",
-                "text": [
-                    "we give fashion forward men, quick access to the finest, premium-quality, designer clothes for men. Not only that, our online selection is comprised of versatile.",
-                    "we give fashion forward men, quick access to the finest, premium-quality, designer clothes for men. Not only that, our online selection is comprised of versatile, exclusive and unique looks made with you in mind. You can always be confident, not only when wearing our shirts, but in our unrivaled customer service and affordable premium quality collections fresh off the catwalk.."
-                ]
-            }
-        ],
-        "images": [
-            {
-                "src": "images/portfolio/project5/1.jpg",
-                "name": "Caption #01"
-            },
-            {
-                "src": "images/portfolio/project5/2.jpg",
-                "name": "Caption #02"
-            },
-            {
-                "src": "images/portfolio/project5/3.jpg",
-                "name": "Caption #03"
-            },
-            {
-                "src": "images/portfolio/project5/4.jpg",
-                "name": "Caption #04"
-            },
-            {
-                "src": "images/portfolio/project5/5.jpg",
-                "name": "Caption #05"
-            }
-        ],
-        "video": [
-            {
-                "src": ""
-            }
-        ],
-        "textLines": [
-            {
-                "text": "Beautiful and easy to understand UI"
-            },
-            {
-                "text": "Theme advantages are pixel perfect design"
-            },
-            {
-                "text": "Present your services with flexible"
-            }
-        ],
-        "metas": [
-            [
-                "Published ",
-                "July 14th 2022"
+    "id": 1,
+    "categories": [
+        "Development"
+    ],
+    "title": "Platform Development",
+    "subtitle": "",
+    "description": "Building scalable, high-performance websites, applications, and platforms using Golang, Vue.js, Nuxt.js, React, Node.js, and GraphQL.",
+    "link": "/portfolio/style-6",
+    "linkName": "View Case",
+    "slug": "platform-development",
+    "Photographer": "Daniel Jaramillo",
+    "autherLink": "https://www.behance.net/gallery/60425833/Mode-Modular-Headphones",
+    "infoProject": [
+        {
+            "title": "Service",
+            "description": "Full-Stack Development"
+        },
+        {
+            "title": "Industry",
+            "description": "Technology"
+        },
+        {
+            "title": "Published",
+            "description": "May 14th 2025"
+        }
+    ],
+    "about": [
+        {
+            "title": "ABOUT THE PROJECT",
+            "text": [
+                "This platform is a cutting-edge solution designed to deliver seamless performance and scalability. Built with a modular architecture, it leverages Golang for robust backend processing, Vue.js and Nuxt.js for SEO-optimized frontends, React for dynamic UI components, Node.js for server-side logic, and GraphQL for efficient data management."
             ]
-        ]
-    },
-    {
-        "id": 3,
-        "categories": [
-            "Business"
-        ],
-        "title": "Business Analyses",
-        "subtitle": "",
-        "description": "analyzing business, write proposal, analyze Market, revenue stream and etc.",
-        "link": "/portfolio/style-4",
-        "linkName": "View Case",
-        "slug": "open-run",
-        "Photographer": "Daniel Jaramillo",
-        "autherLink": "https://www.behance.net/gallery/140001541/OpenRun-pro?tracking_source=search_projects",
-        "infoProject": [
-            {
-                "title": "Service",
-                "description": "3D worker"
-            },
-            {
-                "title": "Industry",
-                "description": "Tars 42"
-            },
-            {
-                "title": "Published",
-                "description": "March 22nd 2022"
-            }
-        ],
-        "about": [
-            {
-                "title": "ABOUT THE PROJECT",
-                "text": [
-                    "Wondour™ was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We're helping people with Wet & Dry Macular Degeneration, Diabetic and Non-Diabetic Retinopathy, Glaucoma, Optic-Nerve-Atrophy."
-                ]
-            },
-            {
-                "title": "HOW IS YOUR VISUAL <b> IDENTITY?</b>",
-                "text": [
-                    "we give fashion forward men, quick access to the finest, premium-quality, designer clothes for men. Not only that, our online selection is comprised of versatile.",
-                    "we give fashion forward men, quick access to the finest, premium-quality, designer clothes for men. Not only that, our online selection is comprised of versatile, exclusive and unique looks made with you in mind. You can always be confident, not only when wearing our shirts, but in our unrivaled customer service and affordable premium quality collections fresh off the catwalk.."
-                ]
-            }
-        ],
-        "images": [
-            {
-                "src": "images/portfolio/project4/1.jpg",
-                "name": "Caption #01"
-            },
-            {
-                "src": "images/portfolio/project4/2.jpg",
-                "name": "Caption #02"
-            },
-            {
-                "src": "images/portfolio/project4/3.jpg",
-                "name": "Caption #03"
-            },
-            {
-                "src": "images/portfolio/project4/4.jpg",
-                "name": "Caption #04"
-            },
-            {
-                "src": "images/portfolio/project4/5.jpg",
-                "name": "Caption #05"
-            },
-            {
-                "src": "images/portfolio/project4/6.jpg",
-                "name": "Caption #06"
-            },
-            {
-                "src": "images/portfolio/project4/7.jpg",
-                "name": "Caption #07"
-            },
-            {
-                "src": "images/portfolio/project4/8.jpg",
-                "name": "Caption #08"
-            },
-            {
-                "src": "images/portfolio/project4/9.jpg",
-                "name": "Caption #08"
-            },
-            {
-                "src": "images/portfolio/project4/10.jpg",
-                "name": "Caption #08"
-            }
-        ],
-        "video": [
-            {
-                "src": ""
-            }
-        ],
-        "textLines": [
-            {
-                "text": "Beautiful and easy to understand UI"
-            },
-            {
-                "text": "Theme advantages are pixel perfect design"
-            },
-            {
-                "text": "Present your services with flexible"
-            }
-        ],
-        "metas": [
-            [
-                "Published",
-                "March 22nd 2022"
+        },
+        {
+            "title": "HOW IS YOUR DIGITAL <b>PLATFORM?</b>",
+            "text": [
+                "Our platform uses modern programming languages to ensure a responsive, user-friendly experience. With Nuxt.js’s server-side rendering, we optimize for search engines, while GraphQL enables fast, flexible data queries. The system supports real-time interactions and is scalable to meet growing business needs.",
+                "The platform integrates advanced features like real-time data processing and dynamic UI updates, powered by React and Node.js, ensuring a future-proof solution for businesses seeking innovation."
             ]
-        ]
-    },
+        }
+    ],
+    "images": [
+        {
+            "src": "images/portfolio/project6/1.jpg",
+            "name": "Platform Dashboard"
+        },
+        {
+            "src": "images/portfolio/project6/020.jpg",
+            "name": "Interactive UI Animation"
+        },
+        {
+            "src": "images/portfolio/project6/022.jpg",
+            "name": "Responsive Frontend"
+        },
+        {
+            "src": "images/portfolio/project6/024.jpg",
+            "name": "Backend Architecture"
+        },
+        {
+            "src": "images/portfolio/project6/025.jpg",
+            "name": "API Integration"
+        },
+        {
+            "src": "images/portfolio/project6/026.jpg",
+            "name": "User Workflow"
+        },
+        {
+            "src": "images/portfolio/project6/027.jpg",
+            "name": "Scalable Platform"
+        }
+    ],
+    "video": [
+        {
+            "src": ""
+        }
+    ],
+    "textLines": [
+        {
+            "text": "Intuitive and responsive user interface"
+        },
+        {
+            "text": "Pixel-perfect design with modern frameworks"
+        },
+        {
+            "text": "Scalable platforms with flexible integrations"
+        }
+    ],
+    "metas": [
+        {
+            "name": "description",
+            "content": "Explore Tecso Team’s platform development project, built with Golang, Vue.js, Nuxt.js, React, Node.js, and GraphQL for scalable, SEO-optimized solutions."
+        },
+        {
+            "name": "keywords",
+            "content": "Golang development, Vue.js portfolio, Nuxt.js SEO, React web development, Node.js programming, GraphQL integration, platform development"
+        }
+    ]
+},
+   {
+    "id": 2,
+    "categories": [
+        "Design",
+        "Graphic"
+    ],
+    "title": "Graphic Design",
+    "subtitle": "2022",
+    "description": "Crafting stunning logos, UI/UX interfaces, advertising videos, and branding solutions for businesses worldwide.",
+    "link": "/portfolio/style-5",
+    "linkName": "View Case",
+    "slug": "graphic-design",
+    "Photographer": "Daniel Jaramillo",
+    "autherLink": "https://www.behance.net/gallery/148168567/Purina-graphic-design?tracking_source=for_you_feed_featured_category",
+    "infoProject": [
+        {
+            "title": "Service",
+            "description": "Graphic Design & Video Editing"
+        },
+        {
+            "title": "Industry",
+            "description": "Creative Services"
+        },
+        {
+            "title": "Published",
+            "description": "June 15th 2022"
+        }
+    ],
+    "about": [
+        {
+            "title": "ABOUT THE PROJECT",
+            "text": [
+                "Tecso Team’s graphic design portfolio showcases our expertise in creating visually compelling solutions, including logo design, UI/UX interfaces, motion graphics, and advertising video editing. Our work elevates brands through innovative design and storytelling."
+            ]
+        },
+        {
+            "title": "HOW IS YOUR VISUAL <b>IDENTITY?</b>",
+            "text": [
+                "We deliver custom graphic design services that blend creativity with functionality. From sleek UI/UX designs for web and mobile to impactful branding and logo creation, our solutions are tailored to enhance user engagement and brand recognition.",
+                "Our advertising video editing services combine dynamic motion graphics with professional storytelling, ensuring your message resonates with audiences. Tecso Team’s designs are pixel-perfect, versatile, and crafted to stand out in today’s competitive market."
+            ]
+        }
+    ],
+    "images": [
+        {
+            "src": "images/portfolio/project5/1.jpg",
+            "name": "Logo Design"
+        },
+                {
+            "src": "images/portfolio/project5/028.jpg",
+            "name": "Logo Design Showcase"
+        },
+        {
+            "src": "images/portfolio/project5/029.jpg",
+            "name": "UI/UX Interface"
+        },
+        {
+            "src": "images/portfolio/project5/031.jpg",
+            "name": "Branding Mockup"
+        },
+        {
+            "src": "images/portfolio/project5/032.jpg",
+            "name": "Motion Graphics Scene"
+        },
+        {
+            "src": "images/portfolio/project5/030.jpg",
+            "name": "Advertising Video Frame"
+        }
+    ],
+    "video": [
+        {
+            "src": ""
+        }
+    ],
+    "textLines": [
+        {
+            "text": "Visually stunning and intuitive UI/UX designs"
+        },
+        {
+            "text": "Pixel-perfect logos and branding solutions"
+        },
+        {
+            "text": "Dynamic advertising videos with flexible storytelling"
+        }
+    ],
+    "metas": [
+        {
+            "name": "description",
+            "content": "Discover Tecso Team’s graphic design portfolio, featuring logo design, UI/UX, advertising video editing, and branding solutions for a lasting visual impact."
+        },
+        {
+            "name": "keywords",
+            "content": "graphic design services, UI/UX design, logo design, advertising video editing, creative design agency, branding design"
+        }
+    ]
+},
+   {
+    "id": 3,
+    "categories": [
+        "Business"
+    ],
+    "title": "Business Analyses",
+    "subtitle": "",
+    "description": "Delivering expert market analysis, proposal writing, revenue stream optimization, and strategic planning for business growth.",
+    "link": "/portfolio/style-4",
+    "linkName": "View Case",
+    "slug": "business-analyses",
+    "Photographer": "Daniel Jaramillo",
+    "autherLink": "https://www.behance.net/gallery/140001541/OpenRun-pro?tracking_source=search_projects",
+    "infoProject": [
+        {
+            "title": "Service",
+            "description": "Business Analysis & Consulting"
+        },
+        {
+            "title": "Industry",
+            "description": "Business Consulting"
+        },
+        {
+            "title": "Published",
+            "description": "March 22nd 2022"
+        }
+    ],
+    "about": [
+        {
+            "title": "ABOUT THE PROJECT",
+            "text": [
+                "Tecso Team’s business analysis portfolio highlights our expertise in driving growth through comprehensive market analysis, strategic proposal writing, and revenue stream optimization. We empower businesses with actionable insights and data-driven strategies."
+            ]
+        },
+        {
+            "title": "HOW IS YOUR BUSINESS <b>STRATEGY?</b>",
+            "text": [
+                "Our business analysis services deliver tailored solutions, from in-depth market and competitive analysis to crafting compelling proposals that win contracts. We optimize revenue streams by identifying untapped opportunities and streamlining operations.",
+                "Using advanced analytics and industry expertise, Tecso Team helps clients achieve sustainable growth. Our strategic planning ensures businesses stay ahead in competitive markets, with clear, measurable outcomes."
+            ]
+        }
+    ],
+    "images": [
+        {
+            "src": "images/portfolio/project4/1.jpg",
+            "name": "Market Analysis "
+        },
+                {
+            "src": "images/portfolio/project4/033.jpg",
+            "name": "Market Analysis Dashboard"
+        },
+        {
+            "src": "images/portfolio/project4/034.jpg",
+            "name": "Competitive Analysis Chart"
+        },
+        {
+            "src": "images/portfolio/project4/035.jpg",
+            "name": "Revenue Stream Model"
+        },
+        {
+            "src": "images/portfolio/project4/036.jpg",
+            "name": "Proposal Document Design"
+        },
+        {
+            "src": "images/portfolio/project4/037.jpg",
+            "name": "Strategic Planning Blueprint"
+        },
+        {
+            "src": "images/portfolio/project4/038.jpg",
+            "name": "Financial Report Visualization"
+        }
+    ],
+    "video": [
+        {
+            "src": ""
+        }
+    ],
+    "textLines": [
+        {
+            "text": "Data-driven market analysis for informed decisions"
+        },
+        {
+            "text": "Strategic proposals that win contracts"
+        },
+        {
+            "text": "Optimized revenue streams for sustainable growth"
+        }
+    ],
+    "metas": [
+        {
+            "name": "description",
+            "content": "Explore Tecso Team’s business analysis portfolio, featuring market analysis, proposal writing, and revenue stream optimization for strategic growth."
+        },
+        {
+            "name": "keywords",
+            "content": "business analysis services, market analysis, proposal writing, revenue stream optimization, strategic planning, business consulting"
+        }
+    ]
+   },
     {
         "id": 4,
         "categories": [

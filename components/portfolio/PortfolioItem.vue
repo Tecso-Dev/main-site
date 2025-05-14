@@ -30,7 +30,7 @@ const props = defineProps({
 		]">
 			<div class="box-content d-flex">
 				<NuxtLink class="box-image-link bg-shadow effect-ajax" v-if="item.link" :to="`${item.link}/${item.slug}`"
-					data-dsn-ajax="work" title="HEADPHONES">
+					data-dsn-ajax="work" title="Platform Development">
 					<div class="box-image-bg before-z-index dsn-swiper-parallax-transform" data-overlay="4"
 						v-bind="props.dataParallax" :data-dsn-animate="props.imageAnimate ? setImageParallax : null">
 						<NuxtImg format="webp" class="cover-bg-img" :src="item.images[0].src" alt="img" />

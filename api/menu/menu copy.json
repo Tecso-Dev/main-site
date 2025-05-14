@@ -199,11 +199,10 @@
             },
             {
                 "name": "DOG CHOW",
-                "href": "/portfolio/style-5/dog-chow"
+                "href": "/portfolio/style-5/graphic-design"
             },
-            {
-                "name": "HEADPHONES",
-                "href": "/portfolio/style-6/headphones"
+            {                "name": "Platform Development",
+                "href": "/portfolio/style-6/platform-development"
             }
         ]
     },
