@@ -64,7 +64,7 @@ onBeforeUnmount(() => Fancybox.destroy());
         <!-- ========== End Info Project  ========== -->
 
         <!-- ========== Parallax Image With Popup  ========== -->
-        <ParallaxImageTwo :src="item.images[1].src" :caption="item.images[1].name" fancybox="_1" />
+        <ParallaxImageTwo :src="item.images[3].src" :caption="item.images[3].name" fancybox="_1" />
         <!-- ========== End Parallax Image With Popup  ========== -->
 
         <!-- ========== Paragraph  ========== -->
@@ -72,7 +72,7 @@ onBeforeUnmount(() => Fancybox.destroy());
         <!-- ========== End Paragraph  ========== -->
 
         <!-- ========== Image Popup  ========== -->
-        <ImagePopup class="dsn-container" :imageList="[item.images[2], item.images[3]]" />
+        <ImagePopup class="dsn-container" :imageList="[item.images[2], item.images[1]]" />
         <!-- ========== End Image Popup  ========== -->
 
         <!-- ========== Parallax Image With Popup  ========== -->
@@ -81,6 +81,12 @@ onBeforeUnmount(() => Fancybox.destroy());
 
         <!-- ========== Image Popup  ========== -->
         <ImagePopup class="dsn-container" :imageList="[item.images[4], item.images[5]]" />
+        <!-- ========== End Image Popup  ========== -->
+         <!-- ========== Parallax Image With Popup  ========== -->
+        <ParallaxImageTwo :src="item.images[9].src" :caption="item.images[9].name" fancybox="_1" />
+        <!-- ========== End Parallax Image With Popup  ========== -->
+                 <!-- ========== Image Popup  ========== -->
+        <ImagePopup class="dsn-container" :imageList="[item.images[7], item.images[8]]" />
         <!-- ========== End Image Popup  ========== -->
 
         <!-- ========== Paragraph  ========== -->
