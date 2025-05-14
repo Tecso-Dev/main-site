@@ -75,9 +75,8 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
                 </div>
             </div>
             <div class="p-relative box-img">
-                <div class="p-relative container d-grid grid-1-half mt-50 z-index-2">
-                    <NuxtImg format="webp" src="images/s1.jpg" alt="" />
-                    <NuxtImg format="webp" class="d-sm-none" src="images/s2.jpg" alt="" />
+                <div class="p-relative container d-grid grid-1-half mt-50 z-index-2">                    <NuxtImg format="webp" src="images/s1.webp" alt="" />
+                    <NuxtImg format="webp" class="d-sm-none" src="images/s2.webp" alt="" />
                 </div>
 
                 <div class="dsn-bg-mask background-main h-50 bottom-0 z-index-1"></div>

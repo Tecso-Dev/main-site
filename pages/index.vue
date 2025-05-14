@@ -182,7 +182,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 
 		<!-- ========== About Section One ========== -->
 		<AboutOne class="section-padding background-section" bgMask="background-main"
-			imageOneSrc="images/about-1.jpg" imageTwoSrc="images/about-2.jpeg">
+			imageOneSrc="images/about-1.webp" imageTwoSrc="images/about-2.webp">
 			<template v-slot:moveTitle>WE ARE</template>
 			<template v-slot:centerTitle>BLACK DSN</template>
 			<template v-slot:lastTitle>AGENCY</template>

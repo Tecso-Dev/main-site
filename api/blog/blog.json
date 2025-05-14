@@ -12,11 +12,11 @@
         "slug": "wildlife-could-be-amazing-see-why",
         "images": [
             {
-                "src": "images/blog/1/1.jpg",
+                "src": "images/blog/1/1.webp",
                 "name": "تصویر #۰۱"
             },
             {
-                "src": "images/blog/1/2.jpg",
+                "src": "images/blog/1/2.webp",
                 "name": "تصویر #۰۲"
             }
         ],
@@ -35,14 +35,14 @@
         "comments": [
             {
                 "name": "دیانا تورس",
-                "imageSrc": "images/team/1.jpg",
+                "imageSrc": "images/team/1.webp",
                 "date": "۳ بهمن ۱۴۰۱",
                 "email": "diana@torres.com",
                 "subject": "نظرات و پیشنهادات سازنده شما باعث بهبود کیفیت خدمات ما می‌شود. لطفاً تجربیات خود را با ما به اشتراک بگذارید.",
                 "children": [
                     {
                         "name": "دیانا تورس",
-                        "imageSrc": "images/team/1.jpg",
+                        "imageSrc": "images/team/1.webp",
                         "date": "۳ بهمن ۱۴۰۱",
                         "email": "diana@torres.com",
                         "subject": "نظرات و پیشنهادات سازنده شما باعث بهبود کیفیت خدمات ما می‌شود. لطفاً تجربیات خود را با ما به اشتراک بگذارید.",
@@ -65,11 +65,11 @@
         "slug": "quick-tips-for-an-effective-styled-wedding",
         "images": [
             {
-                "src": "images/blog/2/1.jpg",
+                "src": "images/blog/2/1.webp",
                 "name": "تصویر #۰۱"
             },
             {
-                "src": "images/blog/2/2.jpg",
+                "src": "images/blog/2/2.webp",
                 "name": "تصویر #۰۲"
             }
         ],
@@ -100,11 +100,11 @@
         "slug": "soul-artwork-from-lizzy-styled-wedding",
         "images": [
             {
-                "src": "images/blog/3/1.jpg",
+                "src": "images/blog/3/1.webp",
                 "name": "Caption #01"
             },
             {
-                "src": "images/blog/3/2.jpg",
+                "src": "images/blog/3/2.webp",
                 "name": "Caption #02"
             }
         ],
@@ -135,11 +135,11 @@
         "slug": "wildlife-could-be-amazing-see",
         "images": [
             {
-                "src": "images/blog/4/1.jpg",
+                "src": "images/blog/4/1.webp",
                 "name": "Caption #01"
             },
             {
-                "src": "images/blog/4/2.jpg",
+                "src": "images/blog/4/2.webp",
                 "name": "Caption #02"
             }
         ],
@@ -170,11 +170,11 @@
         "slug": "soul-artwork-from-lizzy",
         "images": [
             {
-                "src": "images/blog/5/1.jpg",
+                "src": "images/blog/5/1.webp",
                 "name": "Caption #01"
             },
             {
-                "src": "images/blog/5/2.jpg",
+                "src": "images/blog/5/2.webp",
                 "name": "Caption #02"
             }
         ],
@@ -205,11 +205,11 @@
         "slug": "create-the-bestworkplace",
         "images": [
             {
-                "src": "images/blog/6/1.jpg",
+                "src": "images/blog/6/1.webp",
                 "name": "Caption #01"
             },
             {
-                "src": "images/blog/6/2.jpg",
+                "src": "images/blog/6/2.webp",
                 "name": "Caption #02"
             }
         ],

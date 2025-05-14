@@ -49,11 +49,11 @@
         ],
         "images": [
             {
-                "src": "images/head-personal.jpg",
+                "src": "images/head-personal.webp",
                 "name": "جان دو"
             },
             {
-                "src": "images/p-1.jpg",
+                "src": "images/p-1.webp",
                 "name": "جان دو"
             }
         ],
@@ -138,15 +138,15 @@
         ],
         "images": [
             {
-                "src": "images/personal.jpg",
+                "src": "images/personal.webp",
                 "name": "معصوم بیلا"
             },
             {
-                "src": "images/p1.jpg",
+                "src": "images/p1.webp",
                 "name": "معصوم بیلا"
             },
             {
-                "src": "images/p2.jpg",
+                "src": "images/p2.webp",
                 "name": "معصوم بیلا"
             }
         ],

@@ -27,7 +27,7 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 	<Layout bodyStyle="bg-dots">
 		<!-- ========== Slider Parallax ========== -->
 		<PortfolioSlider :data="data_Portf" setStyle="carousel-1" :webgel="true" :webgelOptions="{
-			displacement: 'images/displacement/7.jpg',
+			displacement: 'images/displacement/7.webp',
 			speedIn: 3.5,
 		}" :optionSlider="{ direction: 'horizontal' }" :swiperOptions="{
 				allowTouchMove: true,
@@ -198,7 +198,7 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 		<!-- ========== End Portfolio ============== -->
 
 		<!-- ========== Play Video ================= -->
-		<SectionVideo imageSrc="images/about-4.jpg" btnName="PLAY" videoLink="https://vimeo.com/175353205" />
+		<SectionVideo imageSrc="images/about-4.webp" btnName="PLAY" videoLink="https://vimeo.com/175353205" />
 		<!-- ========== End Play Video ============= -->
 
 		<!-- ========== testimonials =============== -->

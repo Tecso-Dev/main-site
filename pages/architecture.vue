@@ -20,11 +20,9 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 
     <Head>
         <Title>Architecture</Title>
-    </Head>
-
-    <Layout>
+    </Head>    <Layout>
         <!-- ========== Header ===================== -->
-        <HeaderFlat imageSrc="images/architecture.jpg" btnScrollTo="about">
+        <HeaderFlat imageSrc="images/architecture.webp" btnScrollTo="about">
             <template v-slot:title>MODERN CITY BUILDINGS</template>
             <template v-slot:description>
                 We’ve taken care of all the digital boring details, so you can take care
@@ -55,9 +53,8 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
             <template v-slot:btn>
                 <LinkDefualt class="mt-30" linkClass="background-main" :iconAwesome="['fas', 'angle-right']"
                     linkName="Get Free Estimate" linkTo="/contact" parallax />
-            </template>
-            <template v-slot:backImage><NuxtImg format="webp" class="cover-bg-img" src="images/arc1.jpg" alt="" /></template>
-            <template v-slot:frontImage><NuxtImg format="webp" class="cover-bg-img" src="images/arc2.jpg"
+            </template>            <template v-slot:backImage><NuxtImg format="webp" class="cover-bg-img" src="images/arc1.webp" alt="" /></template>
+            <template v-slot:frontImage><NuxtImg format="webp" class="cover-bg-img" src="images/arc2.webp"
                     alt="" /></template>
         </about-two>
         <!-- ========== End About Section ========== -->
@@ -72,10 +69,8 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
                 <SectionTitlePin title="services in <b>various architecture fields.</b>" />
             </template>
         </about-according>
-        <!-- ========== End About According ======== -->
-
-        <!-- ========== Play Video ================= -->
-        <VideoOnly imageSrc="images/about-4.jpg" btnName="PLAY" videoLink="https://vimeo.com/175353205" />
+        <!-- ========== End About According ======== -->        <!-- ========== Play Video ================= -->
+        <VideoOnly imageSrc="images/about-4.webp" btnName="PLAY" videoLink="https://vimeo.com/175353205" />
         <!-- ========== End Play Video ============= -->
 
         <!-- ========== Awarded ==================== -->

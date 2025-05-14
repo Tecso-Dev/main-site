@@ -33,7 +33,7 @@ const pageStyle = { titleBeforeStyle: "circle-before", };
         <!-- ========== End Header Normal ======== -->
 
         <!-- ========== About Section ============ -->
-        <AboutSection id="about" imageSrc="images/about-5.jpg">
+        <AboutSection id="about" imageSrc="images/about-5.webp">
             <template v-slot:title>Help Millions To Bring <br />There Creative Projects To Life</template>
             <template v-slot:string>e were thoughtful about presenting these in a way where we could also
                 tell the story of the individual.. It is a long established fact that a

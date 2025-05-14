@@ -40,7 +40,7 @@ const personal = 0;
 		<PortfolioHorizontalScroll :data="data_Portf" />
 
 		<!-- ========== background Box Image ========== -->
-		<BoxImage imageSrc="images/about-4.jpg">
+		<BoxImage imageSrc="images/about-4.webp">
 			<h3 class="title-h2 text-upper">
 				Need help with professional <br />photography?
 				<b>Let's work together!</b>

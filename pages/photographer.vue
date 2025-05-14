@@ -38,9 +38,8 @@ const pageStyle = { titleBeforeStyle: "circle-before" }
         </HeaderCenter>
         <!-- ========== End Header ========== -->
 
-        <!-- ========== About Section ========== -->
-        <AboutFour imageOneSrc="images/photo-1.jpg" imageTwoSrc="images/photo-2.jpg"
-            imageThreeSrc="images/photo-3.jpg">
+        <!-- ========== About Section ========== -->        <AboutFour imageOneSrc="images/photo-1.webp" imageTwoSrc="images/photo-2.webp"
+            imageThreeSrc="images/photo-3.webp">
             <template v-slot:title>
                 <SectionTitle class="mt-section" subTitle="The Gear cage" title="Why I started <b>as a photographer"
                     :beforeStyle="pageStyle.titleBeforeStyle" :spaceDown="false" />
@@ -79,9 +78,8 @@ const pageStyle = { titleBeforeStyle: "circle-before" }
         </PortfolioFilter>
         <!-- ========== End Portfolio ========== -->
 
-        <!-- ========== About Section ========== -->
-        <AboutOne bgMask="background-section" smTitleBlock imageOneSrc="images/photo-4.jpg"
-            imageTwoSrc="images/photo-5.jpg" linkName="ABOUT US" linkTo="/about-us">
+        <!-- ========== About Section ========== -->        <AboutOne bgMask="background-section" smTitleBlock imageOneSrc="images/photo-4.webp"
+            imageTwoSrc="images/photo-5.webp" linkName="ABOUT US" linkTo="/about-us">
             <template v-slot:moveTitle>PHOTOS</template>
             <template v-slot:centerTitle>THAT ARE</template>
             <template v-slot:lastTitle>ADMIRED</template>

@@ -33,7 +33,7 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 		<!-- ========== Slider Parallax ========== -->
 			<PortfolioSlider :data="data_Portf" setStyle="padding-h" contentStyle="end-between" hasDescription
 				linkDefualt :webgel="true" :webgelOptions="{
-					displacement: 'images/displacement/7.jpg',
+					displacement: 'images/displacement/7.webp',
 					speedIn: 3.5,
 				}" :optionSlider="{ direction: 'horizontal' }" :swiperOptions="{
 				allowTouchMove: true,
@@ -50,7 +50,7 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 
 		<!-- ========== About Section One ========== -->
 		<AboutOne class="section-padding background-section" bgMask="background-main"
-			imageOneSrc="images/about-1.jpg" imageTwoSrc="images/about-2.jpeg">
+			imageOneSrc="images/about-1.webp" imageTwoSrc="images/about-2.webp">
 			<template v-slot:moveTitle>WE ARE</template>
 			<template v-slot:centerTitle>BLACK DSN</template>
 			<template v-slot:lastTitle>AGENCY</template>
@@ -76,7 +76,7 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 		<!-- ========== End Service ========== -->
 
 		<!-- ========== About Section One ========== -->
-		<BoxInfo imageSrc="images/about-3.jpg">
+		<BoxInfo imageSrc="images/about-3.webp">
 			<template v-slot:title>
 				<SectionTitle subTitle="TECHNOLOGY" title="How is your <br>visual <b>identity?</b>"
 					beforeStyle="circle-before" :spaceDown="false" />
@@ -110,9 +110,8 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 			</template>
 		</PortfolioSwiper>
 		<!-- ========== End Portfolio ========== -->
-
 		<!-- ========== background Box Image ========== -->
-		<BoxImage imageSrc="images/about-4.jpg">
+		<BoxImage imageSrc="images/about-4.webp">
 			<h3 class="title-h2">
 				Need help with professional <br />photography?
 				<b>Let's work together!</b>
