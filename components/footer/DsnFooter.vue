@@ -33,11 +33,11 @@ const socialData = [
     },
 ];
 const footerLinks = [
-    { link: "/",name: "HOME" },
-    { link: "/work/work-classic-2",name: "PORTFOLIO" },
-    { link: "/blog/stories",name: "NEWS" },
-    { link: "/about-us",name: "ABOUT" },
-    { link: "/contact",name: "CONTACT" },
+    { link: "/",name: "خانه" },
+    { link: "/work/work-classic-2",name: "پروژه ها" },
+    { link: "/blog/stories",name: "اخبار" },
+    { link: "/about-us",name: "درباره ما" },
+    { link: "/contact",name: "تماس با ما" },
 ];
 
 onMounted(() => {
@@ -56,12 +56,12 @@ onMounted(() => {
             :class="['footer-content p-relative mt-section',props.containerContent ? 'container' : null]">
             <div class="container">
                 <h2 class="text-center title-h2">
-                    LET'S BUILD SOMETHING
-                    <span class="d-block"><b><i>AMAZING </i></b>TOGETHER</span>
+                    بیایید چیزی
+                    <span class="d-block"><b><i>شگفت انگیز </i></b>با هم بسازیم</span>
                 </h2>
                 <LinkDefualt class="justify-content-center mt-30"
                     :linkClass="props.light ? 'background-main' : 'background-section'"
-                    :iconAwesome="['fas','angle-right']" popup linkName="START A PROJECT" linkTo="/contact" parallax />
+                    :iconAwesome="['fas','angle-right']" popup linkName="شروع یک پروژه" linkTo="/contact" parallax />
             </div>
             <div class="dsn-container pt-60">
                 <div class="d-grid grid-lg-4 grid-md-2">
@@ -73,7 +73,7 @@ onMounted(() => {
                     </div>
                     <div class="grid-col-2">
                         <h4 class="subtitle p-relative line-shape line-shape-after">
-                            <span class="background-revere">NAVIGATION</span>
+                            <span class="background-revere">راهبری</span>
                         </h4>
                         <div class="menu-footer-menu-container">
                             <ul id="menu-footer-menu" class="menu">
@@ -87,7 +87,7 @@ onMounted(() => {
                     </div>
                     <div class="grid-col-3">
                         <h4 class="subtitle p-relative line-shape line-shape-after">
-                            <span class="background-revere">CONTACT</span>
+                            <span class="background-revere">تماس با ما</span>
                         </h4>
                         <div class="col-contact">
                             <p><strong>T</strong> :&nbsp;+98 905 843 2452</p>
@@ -102,7 +102,7 @@ onMounted(() => {
                     </div>
                     <div class="grid-col-4">
                         <h4 class="subtitle p-relative line-shape line-shape-after">
-                            <span class="background-revere">ADDRESS</span>
+                            <span class="background-revere">آدرس</span>
                         </h4>
                         <div class="col-address">
                             <p>
@@ -114,7 +114,7 @@ onMounted(() => {
                 </div>
                 <div class="footer-bottom mt-60 pt-30 border-top pb-30 text-center">
                     <p class="over-hidden">
-                        © 2022 Digital Agency Designed by
+                        © 2022 آژانس دیجیتال طراحی شده توسط
                         <a href="/about-us" class="link-hover" target="_blank">Tecso.Team</a>
                     </p>
                 </div>

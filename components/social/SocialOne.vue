@@ -17,7 +17,7 @@ const socialData = [
                 </NuxtLink>
             </li>
         </ul>
-        <div class="icon">FOLLOW US</div>
+        <div class="icon">ما را دنبال کنید</div>
     </div>
 </template>
 

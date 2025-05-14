@@ -1,5 +1,38 @@
 /* RTL Support for Persian text */
 [dir="rtl"] {
+  text-align: right;
+
+  // Generic helpers
+  .text-left {
+    text-align: right !important;
+  }
+
+  .text-right {
+    text-align: left !important;
+  }
+
+  .float-left {
+    float: right !important;
+  }
+
+  .float-right {
+    float: left !important;
+  }
+
+  // Adjust margins and paddings
+  // Example: if you have ml-auto, it should become mr-auto in RTL
+  .ml-auto {
+    margin-left: unset !important;
+    margin-right: auto !important;
+  }
+
+  .mr-auto {
+    margin-right: unset !important;
+    margin-left: auto !important;
+  }
+
+  // Consider specific components that need RTL adjustments
+  // For example, if a component uses absolute positioning with 'left', it might need 'right' in RTL.
   font-family: "Ray", sans-serif;
   
   h1, h2, h3, h4, h5, h6,
@@ -8,15 +41,30 @@
   }
 
   /* Navigation and Swiper RTL */
+  .swiper-button-prev,
+  .swiper-button-next {
+    transform: scaleX(-1); // Flip navigation arrows
+  }
+
+  .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    transform-origin: right center !important;
+  }
+
   .dsn-nav-arrow {
     .dsn-nav-left {
-      margin-right: 0;
-      margin-left: 60px;
+      margin-left: 0;
+      margin-right: 60px;
     }
 
     .dsn-nav-right .dsn-icon {
-      transform: rotate(0deg);
+      transform: rotate(180deg); // Ensure right arrow points correctly
     }
+
+    .dsn-nav-left .dsn-icon {
+      transform: rotate(0deg); // Ensure left arrow points correctly
+    }
+
+    /* Ensure the above .dsn-nav-right .dsn-icon rule is correctly applied or removed if redundant */
 
     .dsn-nav-left .dsn-icon {
       transform: rotate(180deg);

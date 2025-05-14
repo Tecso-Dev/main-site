@@ -6,32 +6,33 @@ export default defineNuxtConfig({
 	app: {
 		baseURL: '/',
 		head: {
-			title: 'Tecso Team - Digital Agency & Software Development',
+				title: 'تیم تکسو - آژانس دیجیتال و توسعه نرم افزار', // TODO: Translate accurately
 			htmlAttrs: {
-				lang: 'en'
+				lang: 'fa',
+				dir: 'rtl'
 			},
 			meta: [
 				{ charset: 'utf-8' },
 				{ name: 'viewport', content: 'width=device-width, initial-scale=1' },
-				{ name: 'description', content: 'Tecso Team is a leading digital agency specializing in Platform Development, Graphic Design, Business Analysis, SEO, AI Software Programming, Infrastructure & Security, and Mobile Development.' },
-				{ name: 'keywords', content: 'Platform Development, Graphic Design, Business Analysis, SEO, AI Software, Infrastructure Security, Mobile Development, Digital Agency' },
+				{ name: 'description', content: 'تیم تکسو یک آژانس دیجیتال پیشرو متخصص در توسعه پلتفرم، طراحی گرافیک، تحلیل کسب و کار، سئو، برنامه نویسی نرم افزار هوش مصنوعی، زیرساخت و امنیت و توسعه موبایل است.' }, // TODO: Translate accurately
+				{ name: 'keywords', content: 'توسعه پلتفرم، طراحی گرافیک، تحلیل کسب و کار، سئو، نرم افزار هوش مصنوعی، امنیت زیرساخت، توسعه موبایل، آژانس دیجیتال' }, // TODO: Translate accurately
 				{ name: 'robots', content: 'index, follow' },
 				{ name: 'format-detection', content: 'telephone=no' },
 				
 				// Open Graph / Facebook
 				{ property: 'og:type', content: 'website' },
-				{ property: 'og:title', content: 'Tecso Team - Digital Agency & Software Development' },
-				{ property: 'og:description', content: 'Professional digital agency offering comprehensive software solutions including Platform Development, AI, SEO, and Business Analysis.' },
+				{ property: 'og:title', content: 'تیم تکسو - آژانس دیجیتال و توسعه نرم افزار' }, // TODO: Translate accurately
+				{ property: 'og:description', content: 'آژانس دیجیتال حرفه ای ارائه دهنده راهکارهای جامع نرم افزاری شامل توسعه پلتفرم، هوش مصنوعی، سئو و تحلیل کسب و کار.' }, // TODO: Translate accurately
 				{ property: 'og:image', content: '/images/logo-32x32.png' },
 				
 				// Twitter
 				{ name: 'twitter:card', content: 'summary_large_image' },
-				{ name: 'twitter:title', content: 'Tecso Team - Digital Agency & Software Development' },
-				{ name: 'twitter:description', content: 'Professional digital agency offering comprehensive software solutions including Platform Development, AI, SEO, and Business Analysis.' },
+				{ name: 'twitter:title', content: 'تیم تکسو - آژانس دیجیتال و توسعه نرم افزار' }, // TODO: Translate accurately
+				{ name: 'twitter:description', content: 'آژانس دیجیتال حرفه ای ارائه دهنده راهکارهای جامع نرم افزاری شامل توسعه پلتفرم، هوش مصنوعی، سئو و تحلیل کسب و کار.' }, // TODO: Translate accurately
 				{ name: 'twitter:image', content: '/images/logo-32x32.png' },
 				
 				// Additional SEO
-				{ name: 'author', content: 'Tecso Team' },
+				{ name: 'author', content: 'تیم تکسو' }, // TODO: Translate accurately
 				{ name: 'theme-color', content: '#ffffff' }
 			],
 			link: [

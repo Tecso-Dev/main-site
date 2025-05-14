@@ -125,6 +125,81 @@
 
 /** Heading  */
 
+/* Ray Font Family */
+@font-face {
+  font-family: "Ray";
+  font-style: normal;
+  font-weight: 300; // Light
+  font-display: swap;
+  src: url("#{$path_font}ray fonts/Ray-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ray";
+  font-style: normal;
+  font-weight: 400; // Regular
+  font-display: swap;
+  src: url("#{$path_font}ray fonts/Ray.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ray";
+  font-style: normal;
+  font-weight: 500; // Medium
+  font-display: swap;
+  src: url("#{$path_font}ray fonts/Ray-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ray";
+  font-style: normal;
+  font-weight: 700; // Bold
+  font-display: swap;
+  src: url("#{$path_font}ray fonts/Ray-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ray";
+  font-style: normal;
+  font-weight: 800; // ExtraBold
+  font-display: swap;
+  src: url("#{$path_font}ray fonts/Ray-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Ray";
+  font-style: normal;
+  font-weight: 900; // Black & ExtraBlack (using ExtraBlack for 900)
+  font-display: swap;
+  src: url("#{$path_font}ray fonts/Ray-ExtraBlack.ttf") format("truetype");
+}
+
+/* Vazirmatn Font Family - Assuming these are already used or will be added if not present */
+// @font-face {
+//   font-family: 'Vazirmatn';
+//   font-style: normal;
+//   font-weight: 400; // Regular
+//   font-display: swap;
+//   src: url(#{$path_font}vazirmatn-regular.woff2) format('woff2');
+// }
+
+// @font-face {
+//   font-family: 'Vazirmatn';
+//   font-style: normal;
+//   font-weight: 500; // Medium
+//   font-display: swap;
+//   src: url(#{$path_font}vazirmatn-medium.woff2) format('woff2');
+// }
+
+// @font-face {
+//   font-family: 'Vazirmatn';
+//   font-style: normal;
+//   font-weight: 700; // Bold
+//   font-display: swap;
+//   src: url(#{$path_font}vazirmatn-bold.woff2) format('woff2');
+// }
+
+
 /* Excon */
 @font-face {
   font-family: "Excon";

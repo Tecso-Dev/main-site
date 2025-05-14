@@ -54,12 +54,12 @@ onMounted(()=>{
 		<div
 			class="unique-demos section-title section-padding container v-light background-theme border-style p-relative z-index-2">
 			<div class="d-flex justify-content-between w-100 v-middle box-content">
-				<h6 class="title">Unique</h6>
-				<h6 class="title">Portfolio</h6>
+				<h6 class="title">منحصر به فرد</h6>
+				<h6 class="title">نمونه کارها</h6>
 			</div>
 			<div class="align-items-center text-center">
 				<div class="p-relative">
-					<h2 class="title-head mb-10">Portfolio Grids</h2>
+					<h2 class="title-head mb-10">شبکه نمونه کارها</h2>
 					<p>
 						Choose a homepage to start navigating dsn. Build strong &amp;
 						impressive <br />

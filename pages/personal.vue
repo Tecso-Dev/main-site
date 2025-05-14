@@ -15,51 +15,51 @@ const personal = 0;
 <template>
 
 	<Head>
-		<Title>Personal - {{ data_Personal[personal].name }}</Title>
+		<Title>شخصی - {{ data_Personal[personal].name }}</Title>
 	</Head>
 
 	<Layout bodyStyle="bg-dots">
-		<!-- ========== Header Personal ========== -->
+		<!-- ========== هدر شخصی ========== -->
 		<HeaderPersonal :data="data_Personal[personal]"></HeaderPersonal>
-		<!-- ========== End Header Personal ========== -->
+		<!-- ========== پایان هدر شخصی ========== -->
 
-		<!-- ========== About Section ========== -->
-		<AboutPersonal :data="data_Personal[personal]" subTitle="ABOUT US" title="What CAN I do" />
-		<!-- ========== End About Section ========== -->
+		<!-- ========== بخش درباره ما ========== -->
+		<AboutPersonal :data="data_Personal[personal]" subTitle="درباره ما" title="چه کاری می توانم انجام دهم" />
+		<!-- ========== پایان بخش درباره ما ========== -->
 
-		<!-- ========== Service ========== -->
+		<!-- ========== خدمات ========== -->
 		<ServiceStyle :data="data_Serve.slice(0, 3)" titleClass="border-bottom border-top pt-20 pb-20 mb-20"
 			serviceInnerClass="background-section" iconsize="80px" masonry center>
 			<template v-slot:title>
-				<SectionTitle center subTitle="advantages" title="Let’s Check Our Services" beforeStyle=""
+				<SectionTitle center subTitle="مزایا" title="بیایید خدمات ما را بررسی کنیم" beforeStyle=""
 					:spaceDown="true" titleClass="background-theme p-10" />
 			</template>
 		</ServiceStyle>
-		<!-- ========== End Service ========== -->
+		<!-- ========== پایان خدمات ========== -->
 
 		<PortfolioHorizontalScroll :data="data_Portf" />
 
-		<!-- ========== background Box Image ========== -->
+		<!-- ========== تصویر جعبه پس زمینه ========== -->
 		<BoxImage imageSrc="images/about-4.webp">
 			<h3 class="title-h2 text-upper">
-				Need help with professional <br />photography?
-				<b>Let's work together!</b>
+				آیا برای عکاسی حرفه ای به کمک نیاز دارید؟ <br />
+				<b>بیایید با هم کار کنیم!</b>
 			</h3>
 			<p class="mt-30 max-w570">
-				In my work, I try to find the right balance between form and function.
-				From technical drawings, all the way to the photographic renders, and the
-				actual representations of my work as a designer, my philosophy is that of
-				simplicity.
+				در کارم سعی می کنم تعادل مناسبی بین فرم و عملکرد پیدا کنم.
+				از نقشه های فنی گرفته تا رندرهای عکاسی و
+				بازنمایی واقعی کار من به عنوان یک طراح، فلسفه من
+				سادگی است.
 				<span class="mb-10 d-block"></span>
-				At the same time, my style is distinctly mine – uncluttered, with clean
-				shapes and modern space-saving solutions.
+				در عین حال، سبک من کاملاً متعلق به خودم است – بدون شلوغی، با اشکال
+				تمیز و راه حل های مدرن صرفه جویی در فضا.
 			</p>
 			<LinkDefualt linkClass="background-section" :iconAwesome="['far', 'envelope-open']" popup
-				linkName="CONTACT US" linkTo="/contact" parallax />
+				linkName="تماس با ما" linkTo="/contact" parallax />
 		</BoxImage>
-		<!-- ========== End background Box Image ========== -->
+		<!-- ========== پایان تصویر جعبه پس زمینه ========== -->
 
-		<!-- ========== testimonials =============== -->
+		<!-- ========== نظرات مشتریان =============== -->
 		<div class="background-section section-padding">
 			<Testimonials :data="data_Teste" :stringLine="1" className="container  " slideClass="border-style"
 				boxStyle="center" Pagination loop :speed="1200" grabCursor
@@ -67,27 +67,27 @@ const personal = 0;
 				:tablet="{ slidesPerView: 1, spaceBetween: 30, centeredSlides: false }"
 				:mobile="{ slidesPerView: 1, spaceBetween: 30, centeredSlides: false }">
 				<template v-slot:title>
-					<SectionTitle center subTitle="TESTIMONIALS" title="What People ARE SAYING" beforeStyle=""
+					<SectionTitle center subTitle="نظرات مشتریان" title="مردم چه می گویند" beforeStyle=""
 						titleClass="background-theme p-10" />
 				</template>
 			</Testimonials>
 		</div>
 
-		<!-- ========== End testimonials =========== -->
+		<!-- ========== پایان نظرات مشتریان =========== -->
 
-		<!-- ========== Stories ==================== -->
+		<!-- ========== داستان ها ==================== -->
 		<BlogSwiper setStyle="cards" :data="data_blogs" allowPrevButton allowNextButton allowPagination grabCursor
 			parallax loop :speed="1200" :desktop="{ slidesPerView: 1, spaceBetween: 30 }"
 			:tablet="{ slidesPerView: 1, spaceBetween: 30 }" :mobile="{ slidesPerView: 1, spaceBetween: 30 }">
 			<template v-slot:title>
-				<SectionTitle center subTitle="Lasts post" title="Latest And Greatest Post" beforeStyle=""
+				<SectionTitle center subTitle="آخرین پست" title="جدیدترین و بهترین پست" beforeStyle=""
 					:spaceDown="true" titleClass="background-theme p-10" />
 			</template>
 		</BlogSwiper>
-		<!-- ========== End Stories ================ -->
+		<!-- ========== پایان داستان ها ================ -->
 
-		<!-- ========== Footer ============== -->
+		<!-- ========== فوتر ============== -->
 		<DsnFooter light animate />
-		<!-- ========== End Footer ========== -->
+		<!-- ========== پایان فوتر ========== -->
 	</Layout>
 </template>
