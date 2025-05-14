@@ -73,7 +73,7 @@
     ],
     "video": [
         {
-            "src": ""
+            "src": "images/portfolio/project6/video.mp4"
         }
     ],
     "textLines": [
@@ -513,91 +513,98 @@
         }
     ]
 },
-    {
-        "id": 6,
-        "categories": [
-            "Creative",
-            "Photography"
-        ],
-        "title": "Infrastructure & Security",
-        "subtitle": "",
-        "description": "ABOUT THE PROJECT Mode is an audio range designed to provide optimal performance and comfort for every mode of use. The",
-        "link": "/portfolio/style-1",
-        "linkName": "View Case",
-        "slug": "visionaid",
-        "Photographer": "Tecso Team",
-        "autherLink": "https://www.behance.net/gallery/142440825/VisionAid?tracking_source=for_you_feed_recommended",
-        "infoProject": [
-            {
-                "title": "Service",
-                "description": "Photographer"
-            },
-            {
-                "title": "Industry",
-                "description": "Tecso Team"
-            },
-            {
-                "title": "Published",
-                "description": "June 15th 2022"
-            }
-        ],
-        "about": [
-            {
-                "title": "ABOUT THE PROJECT",
-                "text": [
-                    "Wondour™ was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We're helping people with Wet & Dry Macular Degeneration, Diabetic and Non-Diabetic Retinopathy, Glaucoma, Optic-Nerve-Atrophy."
-                ]
-            },
-            {
-                "title": "HOW IS YOUR VISUAL <b> IDENTITY?</b>",
-                "text": [
-                    "we give fashion forward men, quick access to the finest, premium-quality, designer clothes for men. Not only that, our online selection is comprised of versatile.",
-                    "CMF designs were an essential part of the process. Material variations make sure your VisionAid™ matches your unique personal style."
-                ]
-            },
-            {
-                "title": "Patents Pending.",
-                "text": [
-                    "We designed VisionAid™ as a modular system. This enables the release of new SmartFrame™ and new DigitalLens™ styles in the future that can be purchased to improve the style or functionality of your device."
-                ]
-            }
-        ],
-        "images": [
-            {
-                "src": "images/portfolio/project1/1.jpg",
-                "name": "Caption #01"
-            },
-            {
-                "src": "images/portfolio/project1/2.jpg",
-                "name": "Caption #02"
-            },
-            {
-                "src": "images/portfolio/project1/3.jpg",
-                "name": "Caption #03"
-            },
-            {
-                "src": "images/portfolio/project1/4.jpg",
-                "name": "Caption #04"
-            }
-        ],
-        "video": [
-            {
-                "src": "images/portfolio/project1/video.mp4"
-            }
-        ],
-        "textLines": [
-            {
-                "text": "Beautiful and easy to understand UI"
-            },
-            {
-                "text": "Theme advantages are pixel perfect design"
-            },
-            {
-                "text": "Present your services with flexible"
-            }
-        ],
-        "metas": []
-    },
+{
+    "id": 6,
+    "categories": [
+        "Technology",
+        "Security"
+    ],
+    "title": "Infrastructure & Security",
+    "subtitle": "",
+    "description": "Delivering robust IT infrastructure and advanced cybersecurity solutions for secure, scalable business operations.",
+    "link": "/portfolio/style-10",
+    "linkName": "View Case",
+    "slug": "infrastructure-security",
+    "Photographer": "Tecso Team",
+    "autherLink": "https://www.behance.net/gallery/142440825/VisionAid?tracking_source=for_you_feed_recommended",
+    "infoProject": [
+        {
+            "title": "Service",
+            "description": "Infrastructure & Cybersecurity"
+        },
+        {
+            "title": "Industry",
+            "description": "Information Technology"
+        },
+        {
+            "title": "Published",
+            "description": "June 15th 2022"
+        }
+    ],
+    "about": [
+        {
+            "title": "ABOUT THE PROJECT",
+            "text": [
+                "Tecso Team’s infrastructure and security portfolio showcases our expertise in building resilient IT systems and advanced cybersecurity solutions. We empower businesses with secure cloud architecture, network management, and data protection strategies."
+            ]
+        },
+        {
+            "title": "HOW SECURE IS YOUR <b>INFRASTRUCTURE?</b>",
+            "text": [
+                "Our infrastructure services include designing scalable cloud architectures and optimizing network performance for seamless operations. We implement robust cybersecurity measures, including threat detection, encryption, and compliance frameworks, to safeguard your data.",
+                "From secure cloud solutions to proactive network security, Tecso Team delivers tailored strategies that minimize risks and ensure business continuity. Our solutions are built for scalability, reliability, and maximum protection."
+            ]
+        }
+    ],
+    "images": [
+                {
+            "src": "images/portfolio/project1/1.jpg",
+            "name": "Infrastructure & Security"
+        },
+        {
+            "src": "images/portfolio/project1/056.jpg",
+            "name": "Cloud Architecture Diagram"
+        },
+        {
+            "src": "images/portfolio/project1/057.jpg",
+            "name": "Cybersecurity Dashboard"
+        },
+        {
+            "src": "images/portfolio/project1/058.jpg",
+            "name": "Network Security Framework"
+        },
+        {
+            "src": "images/portfolio/project1/059.jpg",
+            "name": "Data Protection Interface"
+        }
+    ],
+    "video": [
+        {
+            "src": "images/portfolio/project1/video.mp4"
+        }
+    ],
+    "textLines": [
+        {
+            "text": "Scalable cloud infrastructure for seamless operations"
+        },
+        {
+            "text": "Advanced cybersecurity for robust protection"
+        },
+        {
+            "text": "Optimized networks for reliability and speed"
+        }
+    ],
+    "metas": [
+        {
+            "name": "description",
+            "content": "Explore Tecso Team’s infrastructure and security portfolio, featuring cloud architecture, cybersecurity, and network management for secure business operations."
+        },
+        {
+            "name": "keywords",
+            "content": "infrastructure and security services, cloud architecture, cybersecurity, network security, IT infrastructure management, data protection"
+        }
+    ]
+},
     {
         "id": 7,
         "categories": [
@@ -607,7 +614,7 @@
         "title": "Discover",
         "subtitle": "",
         "description": "our team wanna teach programming to students.",
-        "link": "/portfolio/style-1",
+        "link": "/portfolio/style-2",
         "linkName": "View Case",
         "slug": "visionaid",
         "Photographer": "Tecso Team",
