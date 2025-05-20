@@ -1,0 +1,230 @@
+[
+    {
+        "id": 1,
+        "categories": [
+            "دسته‌بندی نشده"
+        ],
+        "title": "حیات وحش می‌تواند شگفت‌انگیز باشد، دلیلش را ببینید",
+        "description": "با جزئیات کامل و دقیق، مطالب جذاب و خواندنی را در مورد حیات وحش کشف کنید",
+        "date": "۱۲ خرداد ۱۴۰۱",
+        "link": "/blog/1",
+        "linkName": "خواندن مقاله",
+        "slug": "wildlife-could-be-amazing-see-why",
+        "images": [
+            {
+                "src": "images/blog/1/1.webp",
+                "name": "تصویر #۰۱"
+            },
+            {
+                "src": "images/blog/1/2.webp",
+                "name": "تصویر #۰۲"
+            }
+        ],
+        "strings": [
+            "<a href='#'>به عنوان یک آژانس پیشرو در طراحی تجربه کاربری، </a> مشتریان و طراحان همکار اغلب سوالات مشابهی از ما می‌پرسند: تجربه ما نشان‌دهنده رویکرد آژانس در رشد برندها از طریق ساخت فناوری است. در مقاله‌ای که در FWA Insights منتشر شده، تیم ما انگیزه پشت ایجاد این سایت را توضیح می‌دهد.",
+            "<a href='#'>به عنوان یک آژانس پیشرو در طراحی تجربه کاربری، </a> مشتریان و طراحان همکار اغلب سوالات مشابهی از ما می‌پرسند: تجربه ما نشان‌دهنده رویکرد آژانس در رشد برندها از طریق ساخت فناوری است. در مقاله‌ای که در FWA Insights منتشر شده، تیم ما انگیزه پشت ایجاد این سایت را توضیح می‌دهد.",
+            "<a href='#'>به عنوان یک آژانس پیشرو در طراحی تجربه کاربری، </a> مشتریان و طراحان همکار اغلب سوالات مشابهی از ما می‌پرسند: تجربه ما نشان‌دهنده رویکرد آژانس در رشد برندها از طریق ساخت فناوری است. در مقاله‌ای که در FWA Insights منتشر شده، تیم ما انگیزه پشت ایجاد این سایت را توضیح می‌دهد."
+        ],
+        "blockquote": [
+            "ما با تلاش مداوم در جهت نوآوری و خلاقیت، همواره به دنبال ارائه بهترین راهکارها برای مشتریان خود هستیم. با تکیه بر تجربه و دانش تخصصی، ما راه‌حل‌های منحصر به فردی را برای هر پروژه ارائه می‌دهیم."
+        ],
+        "tags": [
+            "وبلاگ",
+            "خلاقیت"
+        ],
+        "comments": [
+            {
+                "name": "دیانا تورس",
+                "imageSrc": "images/team/1.webp",
+                "date": "۳ بهمن ۱۴۰۱",
+                "email": "diana@torres.com",
+                "subject": "نظرات و پیشنهادات سازنده شما باعث بهبود کیفیت خدمات ما می‌شود. لطفاً تجربیات خود را با ما به اشتراک بگذارید.",
+                "children": [
+                    {
+                        "name": "دیانا تورس",
+                        "imageSrc": "images/team/1.webp",
+                        "date": "۳ بهمن ۱۴۰۱",
+                        "email": "diana@torres.com",
+                        "subject": "نظرات و پیشنهادات سازنده شما باعث بهبود کیفیت خدمات ما می‌شود. لطفاً تجربیات خود را با ما به اشتراک بگذارید.",
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "categories": [
+            "سرمقاله"
+        ],
+        "title": "نکات سریع برای یک عروسی استایل شده موثر",
+        "description": "راهنمای جامع برای برگزاری یک مراسم عروسی زیبا و به یادماندنی",
+        "date": "۲۴ اسفند ۱۴۰۱",
+        "link": "/blog/2",
+        "linkName": "خواندن مقاله",
+        "slug": "quick-tips-for-an-effective-styled-wedding",
+        "images": [
+            {
+                "src": "images/blog/2/1.webp",
+                "name": "تصویر #۰۱"
+            },
+            {
+                "src": "images/blog/2/2.webp",
+                "name": "تصویر #۰۲"
+            }
+        ],
+        "strings": [
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site.",
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site.",
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site."
+        ],
+        "blockquote": [
+            "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitulandit Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus."
+        ],
+        "tags": [
+            "وبلاگ",
+            "خلاقیت"
+        ],
+        "comments": []
+    },
+    {
+        "id": 3,
+        "categories": [
+            "دسته‌بندی نشده"
+        ],
+        "title": "هنر روح از عروسی استایل شده لیزی",
+        "description": "نگاهی به زیبایی‌های هنری در مراسم عروسی با سبک خاص",
+        "date": "۱ آبان ۱۴۰۱",
+        "link": "/blog/1",
+        "linkName": "خواندن مقاله",
+        "slug": "soul-artwork-from-lizzy-styled-wedding",
+        "images": [
+            {
+                "src": "images/blog/3/1.webp",
+                "name": "Caption #01"
+            },
+            {
+                "src": "images/blog/3/2.webp",
+                "name": "Caption #02"
+            }
+        ],
+        "strings": [
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site.",
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site.",
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site."
+        ],
+        "blockquote": [
+            "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitulandit Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus."
+        ],
+        "tags": [
+            "وبلاگ",
+            "خلاقیت"
+        ],
+        "comments": []
+    },
+    {
+        "id": 4,
+        "categories": [
+            "دسته‌بندی نشده"
+        ],
+        "title": "حیات وحش می‌تواند شگفت‌انگیز باشد، دلیلش را ببینید",
+        "description": "با جزئیات کامل و دقیق، مطالب جذاب و خواندنی را در مورد حیات وحش کشف کنید",
+        "date": "۱۲ خرداد ۱۴۰۱",
+        "link": "/blog/1",
+        "linkName": "خواندن مقاله",
+        "slug": "wildlife-could-be-amazing-see",
+        "images": [
+            {
+                "src": "images/blog/4/1.webp",
+                "name": "Caption #01"
+            },
+            {
+                "src": "images/blog/4/2.webp",
+                "name": "Caption #02"
+            }
+        ],
+        "strings": [
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site.",
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site.",
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site."
+        ],
+        "blockquote": [
+            "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitulandit Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus."
+        ],
+        "tags": [
+            "وبلاگ",
+            "خلاقیت"
+        ],
+        "comments": []
+    },
+    {
+        "id": 5,
+        "categories": [
+            "معماری"
+        ],
+        "title": "هنر روح از لیزی",
+        "description": "کشف جنبه‌های هنری و خلاقانه در کارهای لیزی",
+        "date": "۲۱ خرداد ۱۴۰۱",
+        "link": "/blog/5",
+        "linkName": "خواندن مقاله",
+        "slug": "soul-artwork-from-lizzy",
+        "images": [
+            {
+                "src": "images/blog/5/1.webp",
+                "name": "Caption #01"
+            },
+            {
+                "src": "images/blog/5/2.webp",
+                "name": "Caption #02"
+            }
+        ],
+        "strings": [
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site.",
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site.",
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site."
+        ],
+        "blockquote": [
+            "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitulandit Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus."
+        ],
+        "tags": [
+            "وبلاگ",
+            "خلاقیت"
+        ],
+        "comments": []
+    },
+    {
+        "id": 6,
+        "categories": [
+            "دسته‌بندی نشده"
+        ],
+        "title": "ایجاد بهترین محیط کاری",
+        "description": "راهنمای جامع برای ایجاد یک محیط کار ایده‌آل و پویا",
+        "date": "۱۲ خرداد ۱۴۰۱",
+        "link": "/blog/6",
+        "linkName": "خواندن مقاله",
+        "slug": "create-the-bestworkplace",
+        "images": [
+            {
+                "src": "images/blog/6/1.webp",
+                "name": "Caption #01"
+            },
+            {
+                "src": "images/blog/6/2.webp",
+                "name": "Caption #02"
+            }
+        ],
+        "strings": [
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site.",
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site.",
+            "<a href='#'>As a leading UX design agency, </a> we’re often asked by prospective clients and fellow designers similar questions:Disrupt is an experience to showcase the agency's approach to growing brands bybuilding tech. Featured in an FWA Insights article, our team elaborates on themotivation behind the creation of this site."
+        ],
+        "blockquote": [
+            "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitulandit Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus."
+        ],
+        "tags": [
+            "وبلاگ",
+            "خلاقیت"
+        ],
+        "comments": []
+    }
+]

@@ -1,0 +1,777 @@
+[
+    {
+    "id": 1,
+    "categories": [
+        "توسعه"
+    ],
+    "title": "توسعه پلتفرم",
+    "subtitle": "",
+    "description": "ساخت وب‌سایت‌ها، برنامه‌ها و پلتفرم‌های مقیاس‌پذیر و با کارایی بالا با استفاده از Golang، Vue.js، Nuxt.js، React، Node.js و GraphQL.",
+    "link": "/portfolio/style-6",
+    "linkName": "View Case",
+    "slug": "platform-development",
+    "Photographer": "Tecso Team",
+    "autherLink": "https://www.behance.net/gallery/60425833/Mode-Modular-Headphones",
+    "infoProject": [
+        {
+            "title": "سرویس",
+            "description": "توسعه فول استک"
+        },
+        {
+            "title": "صنعت",
+            "description": "تکنولوژی"
+        },
+        {
+            "title": "انتشار",
+            "description": "1 فروردین 1404"
+        }
+    ],
+    "about": [
+        {
+            "title": "درباره پروژه",
+            "text": [
+                "این پلتفرم یک راهکار پیشرفته است که برای ارائه عملکرد و مقیاس‌پذیری یکپارچه طراحی شده است. این پلتفرم که با معماری ماژولار ساخته شده است، از Golang برای پردازش قوی backend، از Vue.js و Nuxt.js برای frontendهای بهینه‌شده برای سئو، از React برای کامپوننت‌های رابط کاربری پویا، از Node.js برای منطق سمت سرور و از GraphQL برای مدیریت کارآمد داده‌ها بهره می‌برد."
+            ]
+        },
+        {
+            "title": "دیجیتال شما چگونه است؟<b>پلتفرم</b>",
+            "text": [
+                " پلتفرم ما از زبان‌های برنامه‌نویسی مدرن برای تضمین یک تجربه واکنش‌گرا و کاربرپسند استفاده می‌کند. با رندر سمت سرور Nuxt.js، ما برای موتورهای جستجو بهینه‌سازی می‌کنیم، در حالی که GraphQL امکان پرس‌وجوهای داده سریع و انعطاف‌پذیر را فراهم می‌کند. این سیستم از تعاملات بلادرنگ پشتیبانی می‌کند و برای پاسخگویی به نیازهای رو به رشد کسب‌وکارها، مقیاس‌پذیر است. این پلتفرم ویژگی‌های پیشرفته‌ای مانند پردازش داده‌های بلادرنگ و به‌روزرسانی‌های پویای رابط کاربری را که توسط React و Node.js پشتیبانی می‌شوند، ادغام می‌کند و یک راه‌حل آینده‌نگر برای کسب‌وکارهایی که به دنبال نوآوری هستند، تضمین می‌کند."
+            ]
+        }
+    ],
+    "images": [
+        {
+            "src": "images/portfolio/project6/1.webp",
+            "name": "داشبورد پلتفرم"
+        },
+        {
+            "src": "images/portfolio/project6/020.webp",
+            "name": "انیمیشن رابط کاربری تعاملی"
+        },
+        {
+            "src": "images/portfolio/project6/022.webp",
+            "name": "رابط کاربری ریسپانسیو"
+        },
+        {
+            "src": "images/portfolio/project6/024.webp",
+            "name": "معماری بک اند"
+        },
+        {
+            "src": "images/portfolio/project6/025.webp",
+            "name": "ادغام API"
+        },
+        {
+            "src": "images/portfolio/project6/026.webp",
+            "name": "گردش کار کاربر"
+        },
+        {
+            "src": "images/portfolio/project6/027.webp",
+            "name": "پلتفرم مقیاس پذیر"
+        }
+    ],
+    "video": [
+        {
+            "src": "images/portfolio/project6/video.mp4"
+        }
+    ],
+    "textLines": [
+        {
+            "text": "رابط کاربری بصری و ریسپانسیو"
+        },
+        {
+            "text": "طراحی پیکسلی بی‌نقص با فریم‌ورک‌های مدرن"
+        },
+        {
+            "text": "پلتفرم‌های مقیاس‌پذیر با ادغام‌های انعطاف‌پذیر"
+        }
+    ],
+    "metas": [
+        {
+            "name": "توضیحات",
+            "content": "پروژه توسعه پلتفرم تیم Tecso را که با Golang، Vue.js، Nuxt.js، React، Node.js و GraphQL برای راهکارهای مقیاس‌پذیر و بهینه‌شده برای سئو ساخته شده است، بررسی کنید."
+        },
+        {
+            "name": "کلمات کلیدی",
+            "content": "توسعه گولنگ, Vue.js نمونه کار, Nuxt.js SEO, توسعه ری اکت,برنامه نویسی Node.js, GraphQL ادغام, توسعه پلتفرم"
+        }
+    ]
+},
+   {
+    "id": 2,
+    "categories": [
+        "Design",
+        "Graphic"
+    ],
+    "title": "Graphic Design",
+    "subtitle": "2022",
+    "description": "Crafting stunning logos, UI/UX interfaces, advertising videos, and branding solutions for businesses worldwide.",
+    "link": "/portfolio/style-5",
+    "linkName": "View Case",
+    "slug": "graphic-design",
+    "Photographer": "Tecso Team",
+    "autherLink": "https://www.behance.net/gallery/148168567/Purina-graphic-design?tracking_source=for_you_feed_featured_category",
+    "infoProject": [
+        {
+            "title": "Service",
+            "description": "Graphic Design & Video Editing"
+        },
+        {
+            "title": "Industry",
+            "description": "Creative Services"
+        },
+        {
+            "title": "Published",
+            "description": "June 15th 2022"
+        }
+    ],
+    "about": [
+        {
+            "title": "ABOUT THE PROJECT",
+            "text": [
+                "Tecso Team’s graphic design portfolio showcases our expertise in creating visually compelling solutions, including logo design, UI/UX interfaces, motion graphics, and advertising video editing. Our work elevates brands through innovative design and storytelling."
+            ]
+        },
+        {
+            "title": "HOW IS YOUR VISUAL <b>IDENTITY?</b>",
+            "text": [
+                "We deliver custom graphic design services that blend creativity with functionality. From sleek UI/UX designs for web and mobile to impactful branding and logo creation, our solutions are tailored to enhance user engagement and brand recognition.",
+                "Our advertising video editing services combine dynamic motion graphics with professional storytelling, ensuring your message resonates with audiences. Tecso Team’s designs are pixel-perfect, versatile, and crafted to stand out in today’s competitive market."
+            ]
+        }
+    ],
+    "images": [
+        {
+            "src": "images/portfolio/project5/1.webp",
+            "name": "Logo Design"
+        },
+                {
+            "src": "images/portfolio/project5/028.webp",
+            "name": "Logo Design Showcase"
+        },
+        {
+            "src": "images/portfolio/project5/029.webp",
+            "name": "UI/UX Interface"
+        },
+        {
+            "src": "images/portfolio/project5/031.webp",
+            "name": "Branding Mockup"
+        },
+        {
+            "src": "images/portfolio/project5/032.webp",
+            "name": "Motion Graphics Scene"
+        },
+        {
+            "src": "images/portfolio/project5/030.webp",
+            "name": "Advertising Video Frame"
+        }
+    ],
+    "video": [
+        {
+            "src": ""
+        }
+    ],
+    "textLines": [
+        {
+            "text": "Visually stunning and intuitive UI/UX designs"
+        },
+        {
+            "text": "Pixel-perfect logos and branding solutions"
+        },
+        {
+            "text": "Dynamic advertising videos with flexible storytelling"
+        }
+    ],
+    "metas": [
+        {
+            "name": "description",
+            "content": "Discover Tecso Team’s graphic design portfolio, featuring logo design, UI/UX, advertising video editing, and branding solutions for a lasting visual impact."
+        },
+        {
+            "name": "keywords",
+            "content": "graphic design services, UI/UX design, logo design, advertising video editing, creative design agency, branding design"
+        }
+    ]
+},
+   {
+    "id": 3,
+    "categories": [
+        "Business"
+    ],
+    "title": "Business Analyses",
+    "subtitle": "",
+    "description": "Delivering expert market analysis, proposal writing, revenue stream optimization, and strategic planning for business growth.",
+    "link": "/portfolio/style-4",
+    "linkName": "View Case",
+    "slug": "business-analyses",
+    "Photographer": "Tecso Team",
+    "autherLink": "https://www.behance.net/gallery/140001541/OpenRun-pro?tracking_source=search_projects",
+    "infoProject": [
+        {
+            "title": "Service",
+            "description": "Business Analysis & Consulting"
+        },
+        {
+            "title": "Industry",
+            "description": "Business Consulting"
+        },
+        {
+            "title": "Published",
+            "description": "March 22nd 2022"
+        }
+    ],
+    "about": [
+        {
+            "title": "ABOUT THE PROJECT",
+            "text": [
+                "Tecso Team’s business analysis portfolio highlights our expertise in driving growth through comprehensive market analysis, strategic proposal writing, and revenue stream optimization. We empower businesses with actionable insights and data-driven strategies."
+            ]
+        },
+        {
+            "title": "HOW IS YOUR BUSINESS <b>STRATEGY?</b>",
+            "text": [
+                "Our business analysis services deliver tailored solutions, from in-depth market and competitive analysis to crafting compelling proposals that win contracts. We optimize revenue streams by identifying untapped opportunities and streamlining operations.",
+                "Using advanced analytics and industry expertise, Tecso Team helps clients achieve sustainable growth. Our strategic planning ensures businesses stay ahead in competitive markets, with clear, measurable outcomes."
+            ]
+        }
+    ],
+    "images": [
+        {
+            "src": "images/portfolio/project4/1.webp",
+            "name": "Market Analysis "
+        },
+                {
+            "src": "images/portfolio/project4/033.webp",
+            "name": "Market Analysis Dashboard"
+        },
+        {
+            "src": "images/portfolio/project4/034.webp",
+            "name": "Competitive Analysis Chart"
+        },
+        {
+            "src": "images/portfolio/project4/035.webp",
+            "name": "Revenue Stream Model"
+        },
+        {
+            "src": "images/portfolio/project4/036.webp",
+            "name": "Proposal Document Design"
+        },
+        {
+            "src": "images/portfolio/project4/037.webp",
+            "name": "Strategic Planning Blueprint"
+        },
+        {
+            "src": "images/portfolio/project4/038.webp",
+            "name": "Financial Report Visualization"
+        }
+    ],
+    "video": [
+        {
+            "src": ""
+        }
+    ],
+    "textLines": [
+        {
+            "text": "Data-driven market analysis for informed decisions"
+        },
+        {
+            "text": "Strategic proposals that win contracts"
+        },
+        {
+            "text": "Optimized revenue streams for sustainable growth"
+        }
+    ],
+    "metas": [
+        {
+            "name": "description",
+            "content": "Explore Tecso Team’s business analysis portfolio, featuring market analysis, proposal writing, and revenue stream optimization for strategic growth."
+        },
+        {
+            "name": "keywords",
+            "content": "business analysis services, market analysis, proposal writing, revenue stream optimization, strategic planning, business consulting"
+        }
+    ]
+   },
+   {
+    "id": 4,
+    "categories": [
+        "SEO"
+    ],
+    "title": "SEO Services",
+    "subtitle": "GT-2022",
+    "description": "Boosting website rankings through expert SEO analysis, keyword research, on-page optimization, and content strategies.",
+    "link": "/portfolio/style-8",
+    "linkName": "View Case",
+    "slug": "seo-services",
+    "Photographer": "Tecso Team",
+    "autherLink": "https://www.behance.net/gallery/147192333/Audi-RS-e-tron-GT?tracking_source=for_you_feed_featured_category",
+    "infoProject": [
+        {
+            "title": "Service",
+            "description": "SEO Analysis & Optimization"
+        },
+        {
+            "title": "Industry",
+            "description": "Digital Marketing"
+        },
+        {
+            "title": "Published",
+            "description": "June 15th 2022"
+        }
+    ],
+    "about": [
+        {
+            "title": "ABOUT THE PROJECT",
+            "text": [
+                "Tecso Team’s SEO services portfolio showcases our expertise in elevating website performance through comprehensive SEO analysis, targeted keyword research, and strategic on-page optimization. We drive organic traffic and improve search engine rankings for businesses worldwide."
+            ]
+        },
+        {
+            "title": "HOW IS YOUR SEARCH <b>PERFORMANCE?</b>",
+            "text": [
+                "Our SEO services include in-depth keyword research to identify high-impact opportunities, on-page SEO to optimize content and structure, and content strategies that engage users and boost rankings. We use advanced analytics to monitor performance and refine tactics.",
+                "From technical SEO to link building, Tecso Team delivers tailored solutions that enhance visibility and drive conversions. Our proven approach ensures sustainable growth in organic traffic and search engine authority."
+            ]
+        }
+    ],
+    "images": [
+    {
+            "src": "images/portfolio/project3/1.webp",
+            "name": "SEO"
+        },
+        {
+            "src": "images/portfolio/project3/039.webp",
+            "name": "Keyword Research Dashboard"
+        },
+        {
+            "src": "images/portfolio/project3/040.webp",
+            "name": "On-Page SEO Audit"
+        },
+        {
+            "src": "images/portfolio/project3/041.webp",
+            "name": "Organic Traffic Graph"
+        },
+        {
+            "src": "images/portfolio/project3/044.webp",
+            "name": "SEO Performance Metrics"
+
+        },
+        {
+            "src": "images/portfolio/project3/043.webp",
+            "name": "Backlink Analysis Chart"
+        },
+        {
+            "src": "images/portfolio/project3/042.webp",
+            "name": "Content Optimization Report"
+        },
+        {
+            "src": "images/portfolio/project3/045.webp",
+            "name": "Technical SEO Checklist"
+        },
+        {
+            "src": "images/portfolio/project3/046.webp",
+            "name": "Search Ranking Snapshot"
+        }
+    ],
+    "video": [
+        {
+            "src": ""
+        }
+    ],
+    "textLines": [
+        {
+            "text": "Data-driven SEO strategies for top rankings"
+        },
+        {
+            "text": "Optimized content that drives engagement"
+        },
+        {
+            "text": "Scalable SEO solutions for organic growth"
+        }
+    ],
+    "metas": [
+        {
+            "name": "description",
+            "content": "Discover Tecso Team’s SEO services portfolio, featuring expert SEO analysis, keyword research, and on-page optimization for higher rankings and organic traffic."
+        },
+        {
+            "name": "keywords",
+            "content": "SEO services, SEO analysis, keyword research, on-page SEO, content optimization, search engine optimization, SEO consulting"
+        }
+    ]
+},
+    {
+    "id": 5,
+    "categories": [
+        "AI",
+        "Agents"
+    ],
+    "title": "AI Services",
+    "subtitle": "",
+    "description": "Developing advanced AI agents, chatbots, and business automation solutions through expert AI programming.",
+    "link": "/portfolio/style-9",
+    "linkName": "View Case",
+    "slug": "ai-services",
+    "Photographer": "Tecso Team",
+    "autherLink": "https://www.behance.net/gallery/146067617/Daniel-Jaramillo",
+    "infoProject": [
+        {
+            "title": "Service",
+            "description": "AI Development & Integration"
+        },
+        {
+            "title": "Industry",
+            "description": "Artificial Intelligence"
+        },
+        {
+            "title": "Published",
+            "description": "June 15th 2022"
+        }
+    ],
+    "about": [
+        {
+            "title": "ABOUT THE PROJECT",
+            "text": [
+                "Tecso Team’s AI services portfolio showcases our expertise in building intelligent AI agents, chatbots, and automation solutions. We empower businesses with cutting-edge AI programming, enhancing efficiency and customer engagement through innovative technology."
+            ]
+        },
+        {
+            "title": "HOW IS YOUR AI <b>STRATEGY?</b>",
+            "text": [
+                "Our AI services include developing AI chatbots for seamless customer support, AI agents for business automation, and machine learning models for data-driven insights. We leverage modern AI frameworks to deliver scalable, tailored solutions.",
+                "From natural language processing to predictive analytics, Tecso Team’s AI programming drives measurable outcomes. Our solutions integrate seamlessly, boosting productivity and enabling businesses to stay ahead in the digital era."
+            ]
+        }
+    ],
+    "images": [
+                {
+            "src": "images/portfolio/project2/1.webp",
+            "name": "AI "
+        },
+        {
+            "src": "images/portfolio/project2/047.webp",
+            "name": "AI Chatbot Interface"
+        },
+        {
+            "src": "images/portfolio/project2/048.webp",
+            "name": "AI Agent Workflow"
+        },
+        {
+            "src": "images/portfolio/project2/049.webp",
+            "name": "Machine Learning Dashboard"
+        },
+        {
+            "src": "images/portfolio/project2/050.webp",
+            "name": "AI Automation Diagram"
+        },
+        {
+            "src": "images/portfolio/project2/051.webp",
+            "name": "Chatbot Analytics Report"
+        },
+        {
+            "src": "images/portfolio/project2/052.webp",
+            "name": "AI Integration Mockup"
+        },
+        {
+            "src": "images/portfolio/project2/053.webp",
+            "name": "Predictive Analytics Graph"
+        },
+        {
+            "src": "images/portfolio/project2/054.webp",
+            "name": "AI-Powered Support System"
+        },
+        {
+            "src": "images/portfolio/project2/055.webp",
+            "name": "NLP Model Visualization"
+        }
+    ],
+    "video": [
+        {
+            "src": ""
+        }
+    ],
+    "textLines": [
+        {
+            "text": "Intelligent AI chatbots for seamless support"
+        },
+        {
+            "text": "Scalable AI agents with modern frameworks"
+        },
+        {
+            "text": "Data-driven automation for business growth"
+        }
+    ],
+    "metas": [
+        {
+            "name": "description",
+            "content": "Explore Tecso Team’s AI services portfolio, featuring AI agents, chatbots, and business automation through expert AI programming."
+        },
+        {
+            "name": "keywords",
+            "content": "AI services, AI agents, AI chatbots, AI programming, artificial intelligence solutions, business AI support, AI automation"
+        }
+    ]
+},
+{
+    "id": 6,
+    "categories": [
+        "Technology",
+        "Security"
+    ],
+    "title": "Infrastructure & Security",
+    "subtitle": "",
+    "description": "Delivering robust IT infrastructure and advanced cybersecurity solutions for secure, scalable business operations.",
+    "link": "/portfolio/style-10",
+    "linkName": "View Case",
+    "slug": "infrastructure-security",
+    "Photographer": "Tecso Team",
+    "autherLink": "https://www.behance.net/gallery/142440825/VisionAid?tracking_source=for_you_feed_recommended",
+    "infoProject": [
+        {
+            "title": "Service",
+            "description": "Infrastructure & Cybersecurity"
+        },
+        {
+            "title": "Industry",
+            "description": "Information Technology"
+        },
+        {
+            "title": "Published",
+            "description": "June 15th 2022"
+        }
+    ],
+    "about": [
+        {
+            "title": "ABOUT THE PROJECT",
+            "text": [
+                "Tecso Team’s infrastructure and security portfolio showcases our expertise in building resilient IT systems and advanced cybersecurity solutions. We empower businesses with secure cloud architecture, network management, and data protection strategies."
+            ]
+        },
+        {
+            "title": "HOW SECURE IS YOUR <b>INFRASTRUCTURE?</b>",
+            "text": [
+                "Our infrastructure services include designing scalable cloud architectures and optimizing network performance for seamless operations. We implement robust cybersecurity measures, including threat detection, encryption, and compliance frameworks, to safeguard your data.",
+                "From secure cloud solutions to proactive network security, Tecso Team delivers tailored strategies that minimize risks and ensure business continuity. Our solutions are built for scalability, reliability, and maximum protection."
+            ]
+        }
+    ],
+    "images": [
+                {
+            "src": "images/portfolio/project1/1.webp",
+            "name": "Infrastructure & Security"
+        },
+        {
+            "src": "images/portfolio/project1/056.webp",
+            "name": "Cloud Architecture Diagram"
+        },
+        {
+            "src": "images/portfolio/project1/057.webp",
+            "name": "Cybersecurity Dashboard"
+        },
+        {
+            "src": "images/portfolio/project1/058.webp",
+            "name": "Network Security Framework"
+        },
+        {
+            "src": "images/portfolio/project1/059.webp",
+            "name": "Data Protection Interface"
+        }
+    ],
+    "video": [
+        {
+            "src": "images/portfolio/project1/video.mp4"
+        }
+    ],
+    "textLines": [
+        {
+            "text": "Scalable cloud infrastructure for seamless operations"
+        },
+        {
+            "text": "Advanced cybersecurity for robust protection"
+        },
+        {
+            "text": "Optimized networks for reliability and speed"
+        }
+    ],
+    "metas": [
+        {
+            "name": "description",
+            "content": "Explore Tecso Team’s infrastructure and security portfolio, featuring cloud architecture, cybersecurity, and network management for secure business operations."
+        },
+        {
+            "name": "keywords",
+            "content": "infrastructure and security services, cloud architecture, cybersecurity, network security, IT infrastructure management, data protection"
+        }
+    ]
+},
+    {
+        "id": 7,
+        "categories": [
+            "Creative",
+            "Photography"
+        ],
+        "title": "Discover",
+        "subtitle": "",
+        "description": "our team wanna teach programming to students.",
+        "link": "/portfolio/style-2",
+        "linkName": "View Case",
+        "slug": "visionaid",
+        "Photographer": "Tecso Team",
+        "autherLink": "https://www.behance.net/gallery/142440825/VisionAid?tracking_source=for_you_feed_recommended",
+        "infoProject": [
+            {
+                "title": "Service",
+                "description": "Photographer"
+            },
+            {
+                "title": "Industry",
+                "description": "Tecso Team"
+            },
+            {
+                "title": "Published",
+                "description": "June 15th 2022"
+            }
+        ],
+        "about": [
+            {
+                "title": "ABOUT THE PROJECT",
+                "text": [
+                    "Wondour™ was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We're helping people with Wet & Dry Macular Degeneration, Diabetic and Non-Diabetic Retinopathy, Glaucoma, Optic-Nerve-Atrophy."
+                ]
+            },
+            {
+                "title": "HOW IS YOUR VISUAL <b> IDENTITY?</b>",
+                "text": [
+                    "we give fashion forward men, quick access to the finest, premium-quality, designer clothes for men. Not only that, our online selection is comprised of versatile.",
+                    "CMF designs were an essential part of the process. Material variations make sure your VisionAid™ matches your unique personal style."
+                ]
+            },
+            {
+                "title": "Patents Pending.",
+                "text": [
+                    "We designed VisionAid™ as a modular system. This enables the release of new SmartFrame™ and new DigitalLens™ styles in the future that can be purchased to improve the style or functionality of your device."
+                ]
+            }
+        ],
+        "images": [
+            {
+                "src": "images/portfolio/project7/1.webp",
+                "name": "Caption #01"
+            },
+            {
+                "src": "images/portfolio/project7/2.webp",
+                "name": "Caption #02"
+            },
+            {
+                "src": "images/portfolio/project7/3.webp",
+                "name": "Caption #03"
+            },
+            {
+                "src": "images/portfolio/project7/4.webp",
+                "name": "Caption #04"
+            }
+        ],
+        "video": [
+            {
+                "src": "images/portfolio/project7/video.mp4"
+            }
+        ],
+        "textLines": [
+            {
+                "text": "Beautiful and easy to understand UI"
+            },
+            {
+                "text": "Theme advantages are pixel perfect design"
+            },
+            {
+                "text": "Present your services with flexible"
+            }
+        ],
+        "metas": []
+    },
+    {
+        "id": 8,
+        "categories": [
+            "Creative",
+            "Photography"
+        ],
+        "title": "Mobile",
+        "subtitle": "",
+        "description": "mobile hardware and software repairing and etc.",
+        "link": "/portfolio/style-7",
+        "linkName": "View Case",
+        "slug": "mobile",
+        "Photographer": "Tecso Team",
+        "autherLink": "https://www.behance.net/gallery/142440825/VisionAid?tracking_source=for_you_feed_recommended",
+        "infoProject": [
+            {
+                "title": "Service",
+                "description": "Photographer"
+            },
+            {
+                "title": "Industry",
+                "description": "Tecso Team"
+            },
+            {
+                "title": "Published",
+                "description": "June 15th 2022"
+            }
+        ],
+        "about": [
+            {
+                "title": "ABOUT THE PROJECT",
+                "text": [
+                    "ddddddd was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We're helping people with Wet & Dry Macular Degeneration, Diabetic and Non-Diabetic Retinopathy, Glaucoma, Optic-Nerve-Atrophy."
+                ]
+            },
+            {
+                "title": "HOW IS YOUR VISUAL <b> IDENTITY?</b>",
+                "text": [
+                    "we give fashion forward men, quick access to the finest, premium-quality, designer clothes for men. Not only that, our online selection is comprised of versatile.",
+                    "CMF designs were an essential part of the process. Material variations make sure your VisionAid™ matches your unique personal style."
+                ]
+            },
+            {
+                "title": "Patents Pending.",
+                "text": [
+                    "We designed VisionAid™ as a modular system. This enables the release of new SmartFrame™ and new DigitalLens™ styles in the future that can be purchased to improve the style or functionality of your device."
+                ]
+            }
+        ],
+        "images": [
+            {
+                "src": "images/portfolio/project8/1.webp",
+                "name": "Caption #01"
+            },
+            {
+                "src": "images/portfolio/project8/2.webp",
+                "name": "Caption #02"
+            },
+            {
+                "src": "images/portfolio/project8/3.webp",
+                "name": "Caption #03"
+            },
+            {
+                "src": "images/portfolio/project8/4.webp",
+                "name": "Caption #04"
+            }
+        ],
+        "video": [
+            {
+                "src": "images/portfolio/project8/video.mp4"
+            }
+        ],
+        "textLines": [
+            {
+                "text": "Beautiful and easy to understand UI"
+            },
+            {
+                "text": "Theme advantages are pixel perfect design"
+            },
+            {
+                "text": "Present your services with flexible"
+            }
+        ],
+        "metas": []
+    }
+]
