@@ -1,7 +1,7 @@
 <script setup>
 import { nextProject } from "@/hooks/plugin.js"
 import { Fancybox } from "@fancyapps/ui";
-import data_Portf from "@/api/portfolio/portfolio.json";
+import data_Portf from "@/api/fa/portfolio/portfolio.json";
 import ParallaxImage from "@/components/images/ParallaxImage.vue";
 import NextProject from "@/components/next/NextProject.vue";
 definePageMeta({ documentDriven: false });

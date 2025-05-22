@@ -78,9 +78,6 @@ onMounted(() => {
         <swiper-container ref="nextSlider" class="h-100" init="false">
             <swiper-slide v-for="(item,index) in data" :key="index" :data-dsn-id="index">
                 <div ref="nextSliderContent" class="box-content w-100 d-flex align-items-center justify-content-end">
-                    <div class='box-title'>
-                        <h6 class="sm-title-block words chars splitting" data-splitting="chars">{{ item.title }}</h6>
-                    </div>
                     <div class="next-arrow" @click="slideNext()">
                         <div class="container-inner">
                             <svg class="arrow v-middle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28.214 23.057">

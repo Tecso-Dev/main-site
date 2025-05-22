@@ -1,7 +1,7 @@
 <script setup>
 import { nextProject } from "@/hooks/plugin.js"
 import { Fancybox } from "@fancyapps/ui";
-import data_Portf from "@/api/portfolio/portfolio.json";
+import data_Portf from "@/api/fa/portfolio/portfolio.json";
 import SectionTitle from "@/components/title/SectionTitle.vue";
 import LinkCircle from "@/components/links/LinkCircle.vue"
 import InfoProject from "@/components/portfolio/info-project/InfoProject.vue";

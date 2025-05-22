@@ -7,8 +7,8 @@
     "title": "توسعه پلتفرم",
     "subtitle": "",
     "description": "ساخت وب‌سایت‌ها، برنامه‌ها و پلتفرم‌های مقیاس‌پذیر و با کارایی بالا با استفاده از Golang، Vue.js، Nuxt.js، React، Node.js و GraphQL.",
-    "link": "/portfolio/style-6",
-    "linkName": "View Case",
+    "link": "fa/portfolio/style-6",
+    "linkName": "مشاهده بیشتر",
     "slug": "platform-development",
     "Photographer": "Tecso Team",
     "autherLink": "https://www.behance.net/gallery/60425833/Mode-Modular-Headphones",
@@ -100,70 +100,70 @@
    {
     "id": 2,
     "categories": [
-        "Design",
-        "Graphic"
+        "طراحی",
+        "گرافیک"
     ],
-    "title": "Graphic Design",
+    "title": "طراحی گرافیک",
     "subtitle": "2022",
-    "description": "Crafting stunning logos, UI/UX interfaces, advertising videos, and branding solutions for businesses worldwide.",
-    "link": "/portfolio/style-5",
-    "linkName": "View Case",
+    "description": "ساخت لوگوهای خیره‌کننده، رابط‌های کاربری UI/UX، ویدیوهای تبلیغاتی و راهکارهای برندسازی برای کسب‌وکارها در سراسر جهان.",
+    "link": "fa/portfolio/style-5",
+    "linkName": "مشاهده بیشتر",
     "slug": "graphic-design",
     "Photographer": "Tecso Team",
     "autherLink": "https://www.behance.net/gallery/148168567/Purina-graphic-design?tracking_source=for_you_feed_featured_category",
     "infoProject": [
         {
-            "title": "Service",
-            "description": "Graphic Design & Video Editing"
+            "title": "سرویس",
+            "description": "طراحی گرافیک و ویرایش ویدیو"
         },
         {
-            "title": "Industry",
-            "description": "Creative Services"
+            "title": "صنعت",
+            "description": "خدمات خلاقانه"
         },
         {
-            "title": "Published",
-            "description": "June 15th 2022"
+            "title": "انتشار",
+            "description": "1 فروردین 1404"
         }
     ],
     "about": [
         {
-            "title": "ABOUT THE PROJECT",
+            "title": "درباره پروژه",
             "text": [
-                "Tecso Team’s graphic design portfolio showcases our expertise in creating visually compelling solutions, including logo design, UI/UX interfaces, motion graphics, and advertising video editing. Our work elevates brands through innovative design and storytelling."
+                "نمونه کارهای طراحی گرافیک تیم Tecso، تخصص ما را در ایجاد راهکارهای بصری جذاب، از جمله طراحی لوگو، رابط‌های کاربری/تجربه کاربری، موشن گرافیک و تدوین ویدیوی تبلیغاتی، نشان می‌دهد. کار ما از طریق طراحی و داستان‌سرایی نوآورانه، برندها را ارتقا می‌دهد."
             ]
         },
         {
-            "title": "HOW IS YOUR VISUAL <b>IDENTITY?</b>",
+            "title": "شما چگونه است؟ <b>هویت بصری?</b>",
             "text": [
-                "We deliver custom graphic design services that blend creativity with functionality. From sleek UI/UX designs for web and mobile to impactful branding and logo creation, our solutions are tailored to enhance user engagement and brand recognition.",
-                "Our advertising video editing services combine dynamic motion graphics with professional storytelling, ensuring your message resonates with audiences. Tecso Team’s designs are pixel-perfect, versatile, and crafted to stand out in today’s competitive market."
+                "ما خدمات طراحی گرافیک سفارشی ارائه می‌دهیم که خلاقیت را با کارایی ترکیب می‌کند. از طراحی‌های UI/UX شیک برای وب و موبایل گرفته تا برندسازی و خلق لوگوهای تأثیرگذار، راه‌حل‌های ما برای افزایش تعامل کاربر و شناخت برند تنظیم شده‌اند.",
+                "خدمات تدوین ویدیوی تبلیغاتی ما، گرافیک متحرک پویا را با داستان‌سرایی حرفه‌ای ترکیب می‌کند و تضمین می‌کند که پیام شما با مخاطبان طنین‌انداز می‌شود. طرح‌های تیم Tecso از نظر پیکسل بی‌نقص، همه‌کاره و برای متمایز شدن در بازار رقابتی امروز ساخته شده‌اند."
             ]
         }
     ],
     "images": [
         {
             "src": "images/portfolio/project5/1.webp",
-            "name": "Logo Design"
+            "name": "طراحی لوگو"
         },
                 {
             "src": "images/portfolio/project5/028.webp",
-            "name": "Logo Design Showcase"
+            "name": "ویترین طراحی لوگو"
         },
         {
             "src": "images/portfolio/project5/029.webp",
-            "name": "UI/UX Interface"
+            "name": "UI/UX رابط کاربری"
         },
         {
             "src": "images/portfolio/project5/031.webp",
-            "name": "Branding Mockup"
+            "name": "ماکت برندسازی"
         },
         {
             "src": "images/portfolio/project5/032.webp",
-            "name": "Motion Graphics Scene"
+            "name": "صحنه موشن گرافیک"
         },
         {
             "src": "images/portfolio/project5/030.webp",
-            "name": "Advertising Video Frame"
+            "name": "قاب ویدیویی تبلیغاتی"
         }
     ],
     "video": [
@@ -173,96 +173,96 @@
     ],
     "textLines": [
         {
-            "text": "Visually stunning and intuitive UI/UX designs"
+            "text": "طرح‌های UI/UX بصری خیره‌کننده و شهودی"
         },
         {
-            "text": "Pixel-perfect logos and branding solutions"
+            "text": "لوگوها و راهکارهای برندسازی با کیفیت پیکسلی"
         },
         {
-            "text": "Dynamic advertising videos with flexible storytelling"
+            "text": "ویدیوهای تبلیغاتی پویا با داستان‌سرایی انعطاف‌پذیر"
         }
     ],
     "metas": [
         {
-            "name": "description",
-            "content": "Discover Tecso Team’s graphic design portfolio, featuring logo design, UI/UX, advertising video editing, and branding solutions for a lasting visual impact."
+            "name": "توضیحات",
+            "content": "با نمونه کارهای طراحی گرافیک تیم Tecso آشنا شوید، که شامل طراحی لوگو، رابط کاربری/تجربه کاربری، ویرایش ویدیوی تبلیغاتی و راهکارهای برندسازی برای ایجاد یک تأثیر بصری ماندگار است."
         },
         {
-            "name": "keywords",
-            "content": "graphic design services, UI/UX design, logo design, advertising video editing, creative design agency, branding design"
+            "name": "کلمات کلیدی",
+            "content": "خدمات طراحی گرافیک، طراحی رابط کاربری/تجربه کاربری، طراحی لوگو، تدوین ویدیوی تبلیغاتی، آژانس طراحی خلاق، طراحی برند"
         }
     ]
 },
    {
     "id": 3,
     "categories": [
-        "Business"
+        "بیزینس"
     ],
-    "title": "Business Analyses",
+    "title": "تحلیل بیزینس",
     "subtitle": "",
-    "description": "Delivering expert market analysis, proposal writing, revenue stream optimization, and strategic planning for business growth.",
-    "link": "/portfolio/style-4",
-    "linkName": "View Case",
+    "description": "ارائه تحلیل تخصصی بازار، نگارش پروپوزال، بهینه‌سازی جریان درآمد و برنامه‌ریزی استراتژیک برای رشد کسب و کار.",
+    "link": "fa/portfolio/style-4",
+    "linkName": "مشاهده بیشتر",
     "slug": "business-analyses",
     "Photographer": "Tecso Team",
     "autherLink": "https://www.behance.net/gallery/140001541/OpenRun-pro?tracking_source=search_projects",
     "infoProject": [
         {
-            "title": "Service",
-            "description": "Business Analysis & Consulting"
+            "title": "سرویس",
+            "description": "تحلیل و مشاوره کسب و کار"
         },
         {
-            "title": "Industry",
-            "description": "Business Consulting"
+            "title": "صنعت",
+            "description": "مشاوره کسب و کار"
         },
         {
-            "title": "Published",
-            "description": "March 22nd 2022"
+            "title": "انتشار",
+            "description": "1 فروردین 1404"
         }
     ],
     "about": [
         {
-            "title": "ABOUT THE PROJECT",
+            "title": "درباره پروژه",
             "text": [
-                "Tecso Team’s business analysis portfolio highlights our expertise in driving growth through comprehensive market analysis, strategic proposal writing, and revenue stream optimization. We empower businesses with actionable insights and data-driven strategies."
+                "نمونه کارهای تحلیل کسب و کار تیم Tecso، تخصص ما را در پیشبرد رشد از طریق تحلیل جامع بازار، نوشتن پیشنهادهای استراتژیک و بهینه‌سازی جریان درآمد برجسته می‌کند. ما با بینش‌های عملی و استراتژی‌های مبتنی بر داده، کسب و کارها را توانمند می‌سازیم."
             ]
         },
         {
-            "title": "HOW IS YOUR BUSINESS <b>STRATEGY?</b>",
+            "title": "شما چگونه است؟ <b>کسب و کار?</b>",
             "text": [
-                "Our business analysis services deliver tailored solutions, from in-depth market and competitive analysis to crafting compelling proposals that win contracts. We optimize revenue streams by identifying untapped opportunities and streamlining operations.",
-                "Using advanced analytics and industry expertise, Tecso Team helps clients achieve sustainable growth. Our strategic planning ensures businesses stay ahead in competitive markets, with clear, measurable outcomes."
+                "خدمات تحلیل کسب و کار ما، راهکارهای متناسبی را ارائه می‌دهد، از تحلیل عمیق بازار و رقابت گرفته تا ارائه پیشنهادهای جذاب برای برنده شدن در قراردادها. ما با شناسایی فرصت‌های بکر و ساده‌سازی عملیات، جریان‌های درآمدی را بهینه می‌کنیم.",
+                "تیم تکسو با استفاده از تجزیه و تحلیل پیشرفته و تخصص در صنعت، به مشتریان خود در دستیابی به رشد پایدار کمک می‌کند. برنامه‌ریزی استراتژیک ما تضمین می‌کند که کسب‌وکارها در بازارهای رقابتی پیشرو باشند و نتایج واضح و قابل اندازه‌گیری داشته باشند."
             ]
         }
     ],
     "images": [
         {
             "src": "images/portfolio/project4/1.webp",
-            "name": "Market Analysis "
+            "name": "تحلیل بازار"
         },
                 {
             "src": "images/portfolio/project4/033.webp",
-            "name": "Market Analysis Dashboard"
+            "name": "داشبورد تحلیل بازار"
         },
         {
             "src": "images/portfolio/project4/034.webp",
-            "name": "Competitive Analysis Chart"
+            "name": "نمودار تحلیل رقابتی"
         },
         {
             "src": "images/portfolio/project4/035.webp",
-            "name": "Revenue Stream Model"
+            "name": "مدل جریان درآمد"
         },
         {
             "src": "images/portfolio/project4/036.webp",
-            "name": "Proposal Document Design"
+            "name": "طراحی سند پروپوزال"
         },
         {
             "src": "images/portfolio/project4/037.webp",
-            "name": "Strategic Planning Blueprint"
+            "name": "طرح کلی برنامه‌ریزی استراتژیک"
         },
         {
             "src": "images/portfolio/project4/038.webp",
-            "name": "Financial Report Visualization"
+            "name": "تجسم گزارش مالی"
         }
     ],
     "video": [
@@ -272,105 +272,105 @@
     ],
     "textLines": [
         {
-            "text": "Data-driven market analysis for informed decisions"
+            "text": "تحلیل بازار مبتنی بر داده برای تصمیم‌گیری‌های آگاهانه"
         },
         {
-            "text": "Strategic proposals that win contracts"
+            "text": "پیشنهادهای استراتژیک که منجر به عقد قرارداد می‌شوند"
         },
         {
-            "text": "Optimized revenue streams for sustainable growth"
+            "text": "جریان‌های درآمدی بهینه برای رشد پایدار"
         }
     ],
     "metas": [
         {
-            "name": "description",
-            "content": "Explore Tecso Team’s business analysis portfolio, featuring market analysis, proposal writing, and revenue stream optimization for strategic growth."
+            "name": "توضیحات",
+            "content": "نمونه کارهای تحلیل کسب و کار تیم Tecso، شامل تحلیل بازار، نگارش پروپوزال و بهینه‌سازی جریان درآمد برای رشد استراتژیک را بررسی کنید."
         },
         {
-            "name": "keywords",
-            "content": "business analysis services, market analysis, proposal writing, revenue stream optimization, strategic planning, business consulting"
+            "name": "کلمات کلیدی",
+            "content": "خدمات تحلیل کسب و کار، تحلیل بازار، نگارش پروپوزال، بهینه سازی جریان درآمد، برنامه ریزی استراتژیک، مشاوره کسب و کار"
         }
     ]
    },
    {
     "id": 4,
     "categories": [
-        "SEO"
+        "سئو"
     ],
-    "title": "SEO Services",
+    "title": "سرویس های سئو",
     "subtitle": "GT-2022",
-    "description": "Boosting website rankings through expert SEO analysis, keyword research, on-page optimization, and content strategies.",
-    "link": "/portfolio/style-8",
-    "linkName": "View Case",
+    "description": "افزایش رتبه وب‌سایت از طریق تحلیل تخصصی سئو، تحقیق کلمات کلیدی، بهینه‌سازی درون صفحه‌ای و استراتژی‌های محتوا.",
+    "link": "fa/portfolio/style-8",
+    "linkName": "مشاهده بیشتر",
     "slug": "seo-services",
     "Photographer": "Tecso Team",
     "autherLink": "https://www.behance.net/gallery/147192333/Audi-RS-e-tron-GT?tracking_source=for_you_feed_featured_category",
     "infoProject": [
         {
-            "title": "Service",
-            "description": "SEO Analysis & Optimization"
+            "title": "سرویس",
+            "description": "تحلیل سئو"
         },
         {
-            "title": "Industry",
-            "description": "Digital Marketing"
+            "title": "صنعت",
+            "description": "دیجیتال مارکتینگ"
         },
         {
-            "title": "Published",
-            "description": "June 15th 2022"
+            "title": "انتشار",
+            "description": "1 فروردین 1404"
         }
     ],
     "about": [
         {
-            "title": "ABOUT THE PROJECT",
+            "title": "درباره پروژه",
             "text": [
-                "Tecso Team’s SEO services portfolio showcases our expertise in elevating website performance through comprehensive SEO analysis, targeted keyword research, and strategic on-page optimization. We drive organic traffic and improve search engine rankings for businesses worldwide."
+                "مجموعه خدمات سئو تیم تکسو، تخصص ما را در ارتقاء عملکرد وب‌سایت از طریق تجزیه و تحلیل جامع سئو، تحقیق کلمات کلیدی هدفمند و بهینه‌سازی استراتژیک درون صفحه‌ای نشان می‌دهد. ما ترافیک ارگانیک را هدایت می‌کنیم و رتبه‌بندی موتورهای جستجو را برای مشاغل در سراسر جهان بهبود می‌بخشیم."
             ]
         },
         {
-            "title": "HOW IS YOUR SEARCH <b>PERFORMANCE?</b>",
+            "title": " <b>عملکرد?</b>جست و جوی شما چطور است؟ ",
             "text": [
-                "Our SEO services include in-depth keyword research to identify high-impact opportunities, on-page SEO to optimize content and structure, and content strategies that engage users and boost rankings. We use advanced analytics to monitor performance and refine tactics.",
-                "From technical SEO to link building, Tecso Team delivers tailored solutions that enhance visibility and drive conversions. Our proven approach ensures sustainable growth in organic traffic and search engine authority."
+                "خدمات سئو ما شامل تحقیقات عمیق کلمات کلیدی برای شناسایی فرصت‌های با تأثیر بالا، سئوی داخلی برای بهینه‌سازی محتوا و ساختار، و استراتژی‌های محتوایی است که کاربران را درگیر کرده و رتبه‌بندی را افزایش می‌دهد. ما از تجزیه و تحلیل پیشرفته برای نظارت بر عملکرد و اصلاح تاکتیک‌ها استفاده می‌کنیم.",
+                "از سئو فنی گرفته تا لینک سازی، تیم تکسو راهکارهای سفارشی ارائه می‌دهد که باعث افزایش دیده شدن و افزایش نرخ تبدیل می‌شود. رویکرد اثبات شده ما، رشد پایدار در ترافیک ارگانیک و اعتبار موتور جستجو را تضمین می‌کند."
             ]
         }
     ],
     "images": [
     {
             "src": "images/portfolio/project3/1.webp",
-            "name": "SEO"
+            "name": "سئو"
         },
         {
             "src": "images/portfolio/project3/039.webp",
-            "name": "Keyword Research Dashboard"
+            "name": "داشبورد تحقیقاتی کلمات کلیدی"
         },
         {
             "src": "images/portfolio/project3/040.webp",
-            "name": "On-Page SEO Audit"
+            "name": "حسابرسی سئوی داخلی"
         },
         {
             "src": "images/portfolio/project3/041.webp",
-            "name": "Organic Traffic Graph"
+            "name": "نمودار ترافیک ارگانیک"
         },
         {
             "src": "images/portfolio/project3/044.webp",
-            "name": "SEO Performance Metrics"
+            "name": "معیارهای عملکرد سئو"
 
         },
         {
             "src": "images/portfolio/project3/043.webp",
-            "name": "Backlink Analysis Chart"
+            "name": "چارت تحلیل بک لینک"
         },
         {
             "src": "images/portfolio/project3/042.webp",
-            "name": "Content Optimization Report"
+            "name": "گزارش بهینه سازی محتوا"
         },
         {
             "src": "images/portfolio/project3/045.webp",
-            "name": "Technical SEO Checklist"
+            "name": "چک لیست سئو تکنیکال"
         },
         {
             "src": "images/portfolio/project3/046.webp",
-            "name": "Search Ranking Snapshot"
+            "name": "اسنپ شات رتبه بندی جست و جو"
         }
     ],
     "video": [
@@ -380,109 +380,109 @@
     ],
     "textLines": [
         {
-            "text": "Data-driven SEO strategies for top rankings"
+            "text": "استراتژی‌های سئو مبتنی بر داده برای رتبه‌بندی برتر"
         },
         {
-            "text": "Optimized content that drives engagement"
+            "text": "محتوای بهینه شده که باعث افزایش تعامل می‌شود"
         },
         {
-            "text": "Scalable SEO solutions for organic growth"
+            "text": "راهکارهای سئو مقیاس‌پذیر برای رشد ارگانیک"
         }
     ],
     "metas": [
         {
-            "name": "description",
-            "content": "Discover Tecso Team’s SEO services portfolio, featuring expert SEO analysis, keyword research, and on-page optimization for higher rankings and organic traffic."
+            "name": "توضیحات",
+            "content": "با خدمات سئوی تیم تکسو آشنا شوید، خدماتی که شامل تحلیل تخصصی سئو، تحقیق کلمات کلیدی و بهینه‌سازی درون صفحه‌ای برای رتبه‌بندی بالاتر و ترافیک ارگانیک می‌شود."
         },
         {
-            "name": "keywords",
-            "content": "SEO services, SEO analysis, keyword research, on-page SEO, content optimization, search engine optimization, SEO consulting"
+            "name": "کلمات کلیدی",
+            "content": "سرویس های سئو, تحلیل سئو, تحقیقات کلمات کلیدی, سئو در صفحه, بهینه سازی محتوا, بهینه سازی موتور جست و جو, SEO consulting"
         }
     ]
 },
     {
     "id": 5,
     "categories": [
-        "AI",
-        "Agents"
+        "هوش مصنوعی",
+        "عامل ها"
     ],
-    "title": "AI Services",
+    "title": "سرویس های هوش مصنوعی",
     "subtitle": "",
-    "description": "Developing advanced AI agents, chatbots, and business automation solutions through expert AI programming.",
-    "link": "/portfolio/style-9",
-    "linkName": "View Case",
+    "description": "توسعه‌ی عامل‌های پیشرفته‌ی هوش مصنوعی، چت‌بات‌ها و راهکارهای اتوماسیون تجاری از طریق برنامه‌نویسی تخصصی هوش مصنوعی.",
+    "link": "fa/portfolio/style-9",
+    "linkName": "مشاهده بیشتر",
     "slug": "ai-services",
     "Photographer": "Tecso Team",
     "autherLink": "https://www.behance.net/gallery/146067617/Daniel-Jaramillo",
     "infoProject": [
         {
-            "title": "Service",
-            "description": "AI Development & Integration"
+            "title": "سرویس",
+            "description": "ادغام و توسعه هوش مصنوعی"
         },
         {
-            "title": "Industry",
-            "description": "Artificial Intelligence"
+            "title": "صنعت",
+            "description": "هوش مصنوعی"
         },
         {
-            "title": "Published",
-            "description": "June 15th 2022"
+            "title": "انتشار",
+            "description": "1 فروردین 1404"
         }
     ],
     "about": [
         {
-            "title": "ABOUT THE PROJECT",
+            "title": "درباره پروژه",
             "text": [
-                "Tecso Team’s AI services portfolio showcases our expertise in building intelligent AI agents, chatbots, and automation solutions. We empower businesses with cutting-edge AI programming, enhancing efficiency and customer engagement through innovative technology."
+                "Tمجموعه خدمات هوش مصنوعی تیم ecso، تخصص ما را در ساخت عوامل هوشمند هوش مصنوعی، چت‌بات‌ها و راهکارهای اتوماسیون نشان می‌دهد. ما با برنامه‌نویسی پیشرفته هوش مصنوعی، کسب‌وکارها را توانمند می‌سازیم و از طریق فناوری نوآورانه، کارایی و تعامل با مشتری را افزایش می‌دهیم."
             ]
         },
         {
-            "title": "HOW IS YOUR AI <b>STRATEGY?</b>",
+            "title": " هوش مصنوعی شما چگونه است؟<b>استراتژی?</b>",
             "text": [
-                "Our AI services include developing AI chatbots for seamless customer support, AI agents for business automation, and machine learning models for data-driven insights. We leverage modern AI frameworks to deliver scalable, tailored solutions.",
-                "From natural language processing to predictive analytics, Tecso Team’s AI programming drives measurable outcomes. Our solutions integrate seamlessly, boosting productivity and enabling businesses to stay ahead in the digital era."
+                "خدمات هوش مصنوعی ما شامل توسعه چت‌بات‌های هوش مصنوعی برای پشتیبانی یکپارچه از مشتری، عوامل هوش مصنوعی برای اتوماسیون کسب‌وکار و مدل‌های یادگیری ماشین برای بینش‌های مبتنی بر داده می‌شود. ما از چارچوب‌های مدرن هوش مصنوعی برای ارائه راه‌حل‌های مقیاس‌پذیر و متناسب با نیاز شما بهره می‌بریم.",
+                "از پردازش زبان طبیعی گرفته تا تجزیه و تحلیل پیش‌بینی‌کننده، برنامه‌نویسی هوش مصنوعی تیم Tecso نتایج قابل اندازه‌گیری را هدایت می‌کند. راهکارهای ما به طور یکپارچه ادغام می‌شوند، بهره‌وری را افزایش می‌دهند و به کسب‌وکارها این امکان را می‌دهند که در عصر دیجیتال پیشرو باشند."
             ]
         }
     ],
     "images": [
                 {
             "src": "images/portfolio/project2/1.webp",
-            "name": "AI "
+            "name": "هوش مصنوعی "
         },
         {
             "src": "images/portfolio/project2/047.webp",
-            "name": "AI Chatbot Interface"
+            "name": "رابط چت بات هوش مصنوعی"
         },
         {
             "src": "images/portfolio/project2/048.webp",
-            "name": "AI Agent Workflow"
+            "name": "جریان عامل هوش مصنوعی"
         },
         {
             "src": "images/portfolio/project2/049.webp",
-            "name": "Machine Learning Dashboard"
+            "name": "داشبورد یادگیری ماشین"
         },
         {
             "src": "images/portfolio/project2/050.webp",
-            "name": "AI Automation Diagram"
+            "name": "دیاگرام اتوماسیون هوش مصنوعی"
         },
         {
             "src": "images/portfolio/project2/051.webp",
-            "name": "Chatbot Analytics Report"
+            "name": "گزارش تحلیل چت بات"
         },
         {
             "src": "images/portfolio/project2/052.webp",
-            "name": "AI Integration Mockup"
+            "name": "ماکت ادغام هوش مصنوعی"
         },
         {
             "src": "images/portfolio/project2/053.webp",
-            "name": "Predictive Analytics Graph"
+            "name": "نمودار تحلیل پیش‌بینی‌کننده"
         },
         {
             "src": "images/portfolio/project2/054.webp",
-            "name": "AI-Powered Support System"
+            "name": "سیستم پشتیبانی مبتنی بر هوش مصنوعی"
         },
         {
             "src": "images/portfolio/project2/055.webp",
-            "name": "NLP Model Visualization"
+            "name": "تجسم مدل NLP"
         }
     ],
     "video": [
@@ -492,89 +492,89 @@
     ],
     "textLines": [
         {
-            "text": "Intelligent AI chatbots for seamless support"
+            "text": "چت‌بات‌های هوشمند هوش مصنوعی برای پشتیبانی یکپارچه"
         },
         {
-            "text": "Scalable AI agents with modern frameworks"
+            "text": "عامل‌های هوش مصنوعی مقیاس‌پذیر با چارچوب‌های مدرن"
         },
         {
-            "text": "Data-driven automation for business growth"
+            "text": "اتوماسیون داده‌محور برای رشد کسب‌وکار"
         }
     ],
     "metas": [
         {
-            "name": "description",
-            "content": "Explore Tecso Team’s AI services portfolio, featuring AI agents, chatbots, and business automation through expert AI programming."
+            "name": "توضیحات",
+            "content": "مجموعه خدمات هوش مصنوعی تیم Tecso را بررسی کنید، که شامل عوامل هوش مصنوعی، چت‌بات‌ها و اتوماسیون تجاری از طریق برنامه‌نویسی تخصصی هوش مصنوعی است."
         },
         {
-            "name": "keywords",
-            "content": "AI services, AI agents, AI chatbots, AI programming, artificial intelligence solutions, business AI support, AI automation"
+            "name": "کلمات کلیدی",
+            "content": "خدمات هوش مصنوعی، عامل‌های هوش مصنوعی، چت‌بات‌های هوش مصنوعی، برنامه‌نویسی هوش مصنوعی، راه‌حل‌های هوش مصنوعی، پشتیبانی هوش مصنوعی تجاری، اتوماسیون هوش مصنوعی"
         }
     ]
 },
 {
     "id": 6,
     "categories": [
-        "Technology",
-        "Security"
+        "تکنولوژی",
+        "امنیت"
     ],
-    "title": "Infrastructure & Security",
+    "title": "زیرساخت و امنیت",
     "subtitle": "",
-    "description": "Delivering robust IT infrastructure and advanced cybersecurity solutions for secure, scalable business operations.",
-    "link": "/portfolio/style-10",
-    "linkName": "View Case",
+    "description": "ارائه زیرساخت‌های قوی فناوری اطلاعات و راهکارهای پیشرفته امنیت سایبری برای عملیات تجاری ایمن و مقیاس‌پذیر.",
+    "link": "fa/portfolio/style-10",
+    "linkName": "مشاهده بیشتر",
     "slug": "infrastructure-security",
     "Photographer": "Tecso Team",
     "autherLink": "https://www.behance.net/gallery/142440825/VisionAid?tracking_source=for_you_feed_recommended",
     "infoProject": [
         {
-            "title": "Service",
-            "description": "Infrastructure & Cybersecurity"
+            "title": "سرویس",
+            "description": "زیرساخت و امنیت سایبری"
         },
         {
-            "title": "Industry",
-            "description": "Information Technology"
+            "title": "صنعت",
+            "description": "فناوری اطلاعات"
         },
         {
-            "title": "Published",
-            "description": "June 15th 2022"
+            "title": "انتشار",
+            "description": "1 فروردین 1404"
         }
     ],
     "about": [
         {
-            "title": "ABOUT THE PROJECT",
+            "title": "درباره پروژه",
             "text": [
-                "Tecso Team’s infrastructure and security portfolio showcases our expertise in building resilient IT systems and advanced cybersecurity solutions. We empower businesses with secure cloud architecture, network management, and data protection strategies."
+                "زیرساخت‌ها و سبد محصولات امنیتی تیم Tecso، تخصص ما را در ساخت سیستم‌های فناوری اطلاعات انعطاف‌پذیر و راهکارهای پیشرفته امنیت سایبری نشان می‌دهد. ما با معماری ابری امن، مدیریت شبکه و استراتژی‌های حفاظت از داده‌ها، کسب و کارها را توانمند می‌سازیم."
             ]
         },
         {
-            "title": "HOW SECURE IS YOUR <b>INFRASTRUCTURE?</b>",
+            "title": " شما چقدر امن است؟ <b>زیرساخت?</b>",
             "text": [
-                "Our infrastructure services include designing scalable cloud architectures and optimizing network performance for seamless operations. We implement robust cybersecurity measures, including threat detection, encryption, and compliance frameworks, to safeguard your data.",
-                "From secure cloud solutions to proactive network security, Tecso Team delivers tailored strategies that minimize risks and ensure business continuity. Our solutions are built for scalability, reliability, and maximum protection."
+                "خدمات زیرساختی ما شامل طراحی معماری‌های ابری مقیاس‌پذیر و بهینه‌سازی عملکرد شبکه برای عملیات یکپارچه است. ما اقدامات امنیت سایبری قوی، از جمله شناسایی تهدید، رمزگذاری و چارچوب‌های انطباق را برای محافظت از داده‌های شما پیاده‌سازی می‌کنیم.",
+                "از راهکارهای ابری امن گرفته تا امنیت شبکه پیشگیرانه، تیم Tecso استراتژی‌های سفارشی ارائه می‌دهد که خطرات را به حداقل می‌رساند و تداوم کسب‌وکار را تضمین می‌کند. راهکارهای ما برای مقیاس‌پذیری، قابلیت اطمینان و حداکثر محافظت ساخته شده‌اند."
             ]
         }
     ],
     "images": [
                 {
             "src": "images/portfolio/project1/1.webp",
-            "name": "Infrastructure & Security"
+            "name": "زیرساخت و امنیت"
         },
         {
             "src": "images/portfolio/project1/056.webp",
-            "name": "Cloud Architecture Diagram"
+            "name": "نمودار معماری ابر"
         },
         {
             "src": "images/portfolio/project1/057.webp",
-            "name": "Cybersecurity Dashboard"
+            "name": "داشبورد امنیت سایبری"
         },
         {
             "src": "images/portfolio/project1/058.webp",
-            "name": "Network Security Framework"
+            "name": "چارچوب امنیت شبکه"
         },
         {
             "src": "images/portfolio/project1/059.webp",
-            "name": "Data Protection Interface"
+            "name": "رابط حفاظت از داده‌ها"
         }
     ],
     "video": [
@@ -584,91 +584,91 @@
     ],
     "textLines": [
         {
-            "text": "Scalable cloud infrastructure for seamless operations"
+            "text": "زیرساخت ابری مقیاس‌پذیر برای عملیات یکپارچه"
         },
         {
-            "text": "Advanced cybersecurity for robust protection"
+            "text": "امنیت سایبری پیشرفته برای محافظت قوی"
         },
         {
-            "text": "Optimized networks for reliability and speed"
+            "text": "شبکه‌های بهینه‌شده برای قابلیت اطمینان و سرعت"
         }
     ],
     "metas": [
         {
-            "name": "description",
-            "content": "Explore Tecso Team’s infrastructure and security portfolio, featuring cloud architecture, cybersecurity, and network management for secure business operations."
+            "name": "توضیحات",
+            "content": "با نمونه کارهای زیرساخت و امنیت تیم Tecso، شامل معماری ابری، امنیت سایبری و مدیریت شبکه برای عملیات تجاری ایمن، آشنا شوید."
         },
         {
-            "name": "keywords",
-            "content": "infrastructure and security services, cloud architecture, cybersecurity, network security, IT infrastructure management, data protection"
+            "name": "کلمات کلیدی",
+            "content": "خدمات زیرساخت و امنیت، معماری ابری، امنیت سایبری، امنیت شبکه، مدیریت زیرساخت فناوری اطلاعات، حفاظت از داده‌ها"
         }
     ]
 },
     {
         "id": 7,
         "categories": [
-            "Creative",
-            "Photography"
+            "خلاق",
+            "عکاسی"
         ],
-        "title": "Discover",
+        "title": "کشف کنید",
         "subtitle": "",
-        "description": "our team wanna teach programming to students.",
-        "link": "/portfolio/style-2",
-        "linkName": "View Case",
+        "description": "تیم ما می‌خواهد برنامه‌نویسی را به دانش‌آموزان آموزش دهد.",
+        "link": "fa/portfolio/style-2",
+        "linkName": "مشاهده بیشتر",
         "slug": "visionaid",
         "Photographer": "Tecso Team",
         "autherLink": "https://www.behance.net/gallery/142440825/VisionAid?tracking_source=for_you_feed_recommended",
         "infoProject": [
             {
-                "title": "Service",
-                "description": "Photographer"
+                "title": "سرویس",
+                "description": "عکاس"
             },
             {
-                "title": "Industry",
-                "description": "Tecso Team"
+                "title": "صنعت",
+                "description": "تیمTecso"
             },
             {
-                "title": "Published",
-                "description": "June 15th 2022"
+                "title": "انتشار",
+                "description": "1 فروردین 1404"
             }
         ],
         "about": [
             {
-                "title": "ABOUT THE PROJECT",
+                "title": "درباره پروژه",
                 "text": [
-                    "Wondour™ was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We're helping people with Wet & Dry Macular Degeneration, Diabetic and Non-Diabetic Retinopathy, Glaucoma, Optic-Nerve-Atrophy."
+                    "شرکت واندور™ وظیفه داشت یک عینک الکترونیکی بسازد که به افراد نابینا و کم‌بینا کمک کند تا دوباره ببینند. ما به افراد مبتلا به دژنراسیون ماکولا خشک و تر، رتینوپاتی دیابتی و غیر دیابتی، گلوکوم و آتروفی عصب بینایی کمک می‌کنیم."
                 ]
             },
             {
-                "title": "HOW IS YOUR VISUAL <b> IDENTITY?</b>",
+                "title": "هویت بصری شما چگونه است؟",
                 "text": [
-                    "we give fashion forward men, quick access to the finest, premium-quality, designer clothes for men. Not only that, our online selection is comprised of versatile.",
-                    "CMF designs were an essential part of the process. Material variations make sure your VisionAid™ matches your unique personal style."
+                    "ما به مردانِ پیشرو در مد، دسترسی سریع به بهترین و باکیفیت‌ترین لباس‌های مردانه‌ی طراحانه را ارائه می‌دهیم. نه تنها این، بلکه مجموعه‌ی آنلاین ما از لباس‌های متنوع و متنوعی تشکیل شده است.",
+                    "طراحی‌های CMF بخش اساسی این فرآیند بودند. تنوع مواد تضمین می‌کند که VisionAid™ شما با سبک شخصی و منحصر به فرد شما مطابقت دارد."
                 ]
             },
             {
-                "title": "Patents Pending.",
+                "title": "ثبت اختراعات در انتظار.",
                 "text": [
-                    "We designed VisionAid™ as a modular system. This enables the release of new SmartFrame™ and new DigitalLens™ styles in the future that can be purchased to improve the style or functionality of your device."
+                    "ما VisionAid™ را به عنوان یک سیستم ماژولار طراحی کرده‌ایم. این امر امکان انتشار مدل‌های جدید SmartFrame™ و DigitalLens™ را در آینده فراهم می‌کند که می‌توانید برای بهبود ظاهر یا عملکرد دستگاه خود خریداری کنید."
                 ]
             }
         ],
         "images": [
             {
                 "src": "images/portfolio/project7/1.webp",
-                "name": "Caption #01"
+                "name": "#01 کپشن"
             },
             {
                 "src": "images/portfolio/project7/2.webp",
-                "name": "Caption #02"
+                "name": "#02 کپشن"
             },
             {
                 "src": "images/portfolio/project7/3.webp",
-                "name": "Caption #03"
+                "name": "#03 کپشن"
             },
             {
                 "src": "images/portfolio/project7/4.webp",
-                "name": "Caption #04"
+                "name": "#04 کپشن"
             }
         ],
         "video": [
@@ -678,13 +678,13 @@
         ],
         "textLines": [
             {
-                "text": "Beautiful and easy to understand UI"
+                "text": "رابط کاربری زیبا و قابل فهم"
             },
             {
-                "text": "Theme advantages are pixel perfect design"
+                "text": "مزایای قالب، طراحی پیکسلی بی‌نقص است"
             },
             {
-                "text": "Present your services with flexible"
+                "text": "خدمات خود را با انعطاف پذیری ارائه دهید"
             }
         ],
         "metas": []
@@ -692,68 +692,68 @@
     {
         "id": 8,
         "categories": [
-            "Creative",
-            "Photography"
+            "خلاق",
+            "عکاسی"
         ],
-        "title": "Mobile",
+        "title": "موبایل",
         "subtitle": "",
-        "description": "mobile hardware and software repairing and etc.",
-        "link": "/portfolio/style-7",
-        "linkName": "View Case",
+        "description": "تعمیرات سخت افزار و نرم افزار موبایل و غیره",
+        "link": "fa/portfolio/style-7",
+        "linkName": "مشاهده بیشتر",
         "slug": "mobile",
         "Photographer": "Tecso Team",
         "autherLink": "https://www.behance.net/gallery/142440825/VisionAid?tracking_source=for_you_feed_recommended",
         "infoProject": [
             {
-                "title": "Service",
-                "description": "Photographer"
+                "title": "سرویس",
+                "description": "عکاس"
             },
             {
-                "title": "Industry",
-                "description": "Tecso Team"
+                "title": "صنعت",
+                "description": "تیمTecso"
             },
             {
-                "title": "Published",
-                "description": "June 15th 2022"
+                "title": "انتشار",
+                "description": "1 فروردین 1404"
             }
         ],
         "about": [
             {
-                "title": "ABOUT THE PROJECT",
+                "title": "درباره پروژه",
                 "text": [
-                    "ddddddd was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We're helping people with Wet & Dry Macular Degeneration, Diabetic and Non-Diabetic Retinopathy, Glaucoma, Optic-Nerve-Atrophy."
+                    "وظیفه تسکو ایجاد یک عینک الکترونیکی بود که می‌تواند به افراد نابینا و کم‌بینا کمک کند تا دوباره ببینند. ما به افراد مبتلا به دژنراسیون ماکولا مرطوب و خشک، رتینوپاتی دیابتی و غیر دیابتی، گلوکوم و آتروفی عصب بینایی کمک می‌کنیم."
                 ]
             },
             {
-                "title": "HOW IS YOUR VISUAL <b> IDENTITY?</b>",
+                "title": "هویت بصری شما چگونه است؟",
                 "text": [
-                    "we give fashion forward men, quick access to the finest, premium-quality, designer clothes for men. Not only that, our online selection is comprised of versatile.",
-                    "CMF designs were an essential part of the process. Material variations make sure your VisionAid™ matches your unique personal style."
+                    "ما به مردانِ پیشرو در مد، دسترسی سریع به بهترین و باکیفیت‌ترین لباس‌های مردانه‌ی طراحانه را ارائه می‌دهیم. نه تنها این، بلکه مجموعه‌ی آنلاین ما از لباس‌های متنوع و متنوعی تشکیل شده است.",
+                    "طراحی‌های CMF بخش اساسی این فرآیند بودند. تنوع مواد تضمین می‌کند که VisionAid™ شما با سبک شخصی و منحصر به فرد شما مطابقت دارد."
                 ]
             },
             {
-                "title": "Patents Pending.",
+                "title": "ثبت اختراعات در انتظار.",
                 "text": [
-                    "We designed VisionAid™ as a modular system. This enables the release of new SmartFrame™ and new DigitalLens™ styles in the future that can be purchased to improve the style or functionality of your device."
+                    "ما VisionAid™ را به عنوان یک سیستم ماژولار طراحی کرده‌ایم. این امر امکان انتشار مدل‌های جدید SmartFrame™ و DigitalLens™ را در آینده فراهم می‌کند که می‌توانید برای بهبود ظاهر یا عملکرد دستگاه خود خریداری کنید."
                 ]
             }
         ],
         "images": [
             {
                 "src": "images/portfolio/project8/1.webp",
-                "name": "Caption #01"
+                "name": "#01 کپشن"
             },
             {
                 "src": "images/portfolio/project8/2.webp",
-                "name": "Caption #02"
+                "name": "#02 کپشن"
             },
             {
                 "src": "images/portfolio/project8/3.webp",
-                "name": "Caption #03"
+                "name": "#03 کپشن"
             },
             {
                 "src": "images/portfolio/project8/4.webp",
-                "name": "Caption #04"
+                "name": "#04 کپشن"
             }
         ],
         "video": [
@@ -763,13 +763,13 @@
         ],
         "textLines": [
             {
-                "text": "Beautiful and easy to understand UI"
+                "text": "رابط کاربری زیبا و قابل فهم"
             },
             {
-                "text": "Theme advantages are pixel perfect design"
+                "text": "مزایای قالب، طراحی پیکسلی بی‌نقص است"
             },
             {
-                "text": "Present your services with flexible"
+                "text": "خدمات خود را با انعطاف پذیری ارائه دهید"
             }
         ],
         "metas": []

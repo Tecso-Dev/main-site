@@ -91,9 +91,6 @@ onMounted(() => {
                             </svg>
                         </div>
                     </div>
-                    <div class='box-title'>
-                        <h6 class="sm-title-block words chars splitting" data-splitting="chars">{{ item.title }}</h6>
-                    </div>
                 </div>
             </swiper-slide>
         </swiper-container>

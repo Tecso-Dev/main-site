@@ -1,7 +1,7 @@
 <script setup>
 import { nextProject } from "@/hooks/plugin.js";
 import { Fancybox } from "@fancyapps/ui";
-import data_Portf from "@/api/portfolio/portfolio.json";
+import data_Portf from "@/api/fa/portfolio/portfolio.json";
 import InfoProject from "@/components/portfolio/info-project/InfoProject.vue";
 import InfoProjectItem from "@/components/portfolio/info-project/InfoProjectItem.vue";
 import ParallaxImageTwo from "@/components/images/ParallaxImageTwo.vue";

@@ -1,9 +1,9 @@
 <script setup>
 
-import data_InBox from "@/api/box-info/box-info.json";
+import data_InBox from "@/api/fa/box-info/box-info.json";
 import data_Portf from "@/api/fa/portfolio/portfolio.json";
 import data_blogs from "@/api/blog/blog.json";
-import data_Serve from "@/api/services/service.json";
+import data_Serve from "@/api/fa/services/service.json";
 import data_IServ from "@/api/services/service-icon.json";
 import data_Teste from "@/api/testimonials/testimonials.json";
 import data_Brand from "@/api/brands/brand-one.json";
@@ -12,7 +12,7 @@ import SectionTitleGrid from "@/components/title/SectionTitleGrid.vue";
 import LinkDefualt from "@/components/links/LinkDefualt.vue";
 import LinkAngle from "@/components/links/LinkAngle.vue";
 import ServiceIcon from "@/components/services/ServiceIcon.vue";
-import ServiceStyle from "@/components/services/ServiceStyle.vue";
+import ServiceStyleFa from "~/components/services/ServiceStyle-fa.vue";
 import BoxImage from "@/components/box-image/BoxImage.vue";
 import BoxInfo from "@/components/box-info/BoxInfo.vue";
 import BoxInfoList from "@/components/box-info/BoxInfoList.vue";
@@ -20,11 +20,12 @@ import BoxInfoItem from "@/components/box-info/BoxInfoItem.vue";
 import BlogSwiper from "@/components/blog/BlogSwiper.vue";
 import Testimonials from "@/components/testimonials/Testimonials.vue";
 // import BrandOne from "@/components/brand/BrandOne.vue";
-import DsnFooter from "@/components/footer/DsnFooter.vue";
 import Accordion from "@/components/accordion/Accordion.vue";
 import AccorItem from "@/components/accordion/AccordionItem.vue";
 import AboutThree from "@/components/about/AboutThree.vue";
 import BrandTwo from "@/components/brand/BrandTwo.vue";
+import PortfolioHorizontalScrollFa from "~/components/portfolio/PortfolioHorizontalScrollFa.vue";
+import DsnFooterFa from "~/components/footer/DsnFooterFa.vue";
 </script>
 
 <template>
@@ -35,7 +36,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 
 	<Layout>
 		<!-- ========== Slider Parallax ========== -->
-			<PortfolioSlider :data="data_Portf" setStyle="padding-parallax-h" contentStyle="center-between"
+			<PortfolioSliderFa :data="data_Portf" setStyle="padding-parallax-h" contentStyle="center-between"
 			direction="horizontal" hasDescription linkLine :swiperOptions="{
 				allowTouchMove: true,
 				watchSlidesProgress: true,
@@ -43,17 +44,17 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 				mousewheel: true,
 				speed: 1200,
 			}">
-		</PortfolioSlider>
+			</PortfolioSliderFa>
 		<!-- ========== End Slider Parallax ========== -->
 
 		<!-- ========== About Section ============== -->
 		<AboutThree>
 			<template v-slot:boxLeftTitle>
-				<SectionTitle subTitle="ABOUT US" title="WHO WE ARE" beforeStyle="square-before" :spaceDown="false" />
+				<SectionTitle subTitle="درباره ما" title="ما کیستیم؟" beforeStyle="square-before" :spaceDown="false" />
 			</template>
 			<template v-slot:boxLeftContain>
 				<Accordion>
-					<AccorItem title="OUR VISION" active>
+					<AccorItem title="چشم انداز ما" active>
 						<template v-slot:question>
 							<span class="dsn-icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -93,13 +94,11 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
 							</p>
 						</template>
 					</AccorItem>
-					<AccorItem title="OUR GOALS">
+					<AccorItem title="اهداف ما">
 						<template v-slot:question>
 							<span class="dsn-icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -122,13 +121,11 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
 							</p>
 						</template>
 					</AccorItem>
-					<AccorItem title="OUR MISSION">
+					<AccorItem title="ماموریت ما">
 						<template v-slot:question>
 							<span class="dsn-icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -158,97 +155,89 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
 							</p>
 						</template>
 					</AccorItem>
 				</Accordion>
 			</template>
-			<template v-slot:boxRightTitle>Hello we, are Dsn Grid</template>
+			<template v-slot:boxRightTitle>سلام ما، دی‌اس‌ان گرید هستیم</template>
 			<template v-slot:boxRightDescrption>
-				Founded in 2000, Dsn Grid has become one of the best Digital Agency in
-				Themeforest. Blue money going forward, but deploy to production.
-				First-order optimal strategies build on a culture of contribution and
-				inclusion so those options
+				Dsn Grid که در سال ۲۰۰۰ تأسیس شد، به یکی از بهترین آژانس‌های دیجیتال در Themeforest تبدیل شده است. پول آبی به جلو می‌رود، اما به تولید اختصاص داده می‌شود.
+استراتژی‌های بهینه مرتبه اول بر اساس فرهنگ مشارکت و شمول بنا  بنابراین این 
 			</template>
-			<template v-slot:boxRightSmTitle>SALVADOR DALI</template>
-			<template v-slot:boxRightSmTitleSm>Digital Artisit</template>
+			<template v-slot:boxRightSmTitle>سالوادور دالی</template>
+			<template v-slot:boxRightSmTitleSm>دیجیتال آرتیست</template>
 			<template v-slot:boxRightnumber>25</template>
-			<template v-slot:boxRightP>YEARS OF <br />DIGITAL EXPERIENCE</template>
+			<template v-slot:boxRightP>سال<br />تجربه دیجیتال</template>
 		</AboutThree>
 		<!-- ========== End About Section ========== -->
 
 		<!-- ========== About Section One ========== -->
 		<AboutOne class="section-padding background-section" bgMask="background-main"
 			imageOneSrc="images/about-1.webp" imageTwoSrc="images/about-2.webp">
-			<template v-slot:moveTitle>WE ARE</template>
-			<template v-slot:centerTitle>BLACK DSN</template>
-			<template v-slot:lastTitle>AGENCY</template>
+			<template v-slot:moveTitle>ما آژانس</template>
+			<template v-slot:centerTitle>دی اس ان سیاه</template>
+			<template v-slot:lastTitle>هستیم</template>
 			<template v-slot:description>
-				We build and activate brands through cultural insight, strategic vision,
-				and the power of emotion across every element of its expression.
+				ما برندها را از طریق بینش فرهنگی، چشم‌انداز استراتژیک و قدرت احساسات در هر عنصر بیان آن، می‌سازیم و فعال می‌کنیم.
 			</template>
 			<template v-slot:button>
-				<LinkAngle classColor="main" linkName="ABOUT US" linkTo="/about-us" />
+				<LinkAngle classColor="main" linkName="درباره ما" linkTo="fa/about-us" />
 			</template>
 		</AboutOne>
 		<!-- ========== About Section One ========== -->
 
 		<!-- ========== Service ========== -->
-		<ServiceStyle :data="data_Serve.slice(0,3)" fadeUp counter titleClass="border-bottom pb-20 mb-20"
+		<ServiceStyleFa :data="data_Serve.slice(0,3)" fadeUp counter titleClass="border-bottom pb-20 mb-20"
 			serviceInnerClass="border-style" iconsize="80px" masonry :center="false" haveButton>
 			<template v-slot:title>
 				<SectionTitleGrid grid btnBackground="background-section" beforeStyle="circle-before"
-					subTitle="advantages" title="Let’s Check <b>Our Services</b>" linkTo="/service"
-					linkName="VIEW ALL SERVICES" />
+					subTitle="مزایا" title="بیایید <b>خدمات ما</b> را بررسی کنیم" linkTo="fa/service"
+					linkName="مشاهده تمامی خدمات" />
 			</template>
-		</ServiceStyle>
+		</ServiceStyleFa>
 		<!-- ========== End Service ========== -->
 
 		<!-- ========== About Section One ========== -->
 		<BoxInfo imageSrc="images/about-3.jpg">
 			<template v-slot:title>
-				<SectionTitle subTitle="TECHNOLOGY" title="How is your <br>visual <b>identity?</b>"
+				<SectionTitle subTitle="تکنولوژی" title="هویت بصری شما چگونه است؟"
 					beforeStyle="circle-before" :spaceDown="false" />
 			</template>
 			<template v-slot:string>
-				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt mollit laborum. Sed ut perspiciatis unde omnis iste natus sit .
+				لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
 				<span class="d-block mt-10"></span>
-				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt
+لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
 			</template>
 			<BoxInfoList>
 				<BoxInfoItem v-for="(item,index) in data_InBox" :key="index" :item="item.text" />
 			</BoxInfoList>
-			<LinkDefualt linkClass="background-main" :iconAwesome="['fas','angle-right']" popup linkName="LEARN MORE"
-				linkTo="/portfolio/style-6/platform-development" parallax />
+			<LinkDefualt linkClass="background-main" :iconAwesome="['fas','angle-right']" popup linkName="بیشتر بدانید"
+				linkTo="fa/portfolio/style-6/platform-development" parallax />
 		</BoxInfo>
 		<!-- ========== End About Section One ========== -->
 
 		<!-- ========== Portfolio ========== -->
-		<PortfolioHorizontalScroll :data="data_Portf" />
+		<PortfolioHorizontalScrollFa :data="data_Portf" />
 		<!-- ========== End Portfolio ========== -->
 
 		<!-- ========== background Box Image ========== -->
 		<BoxImage imageSrc="images/about-4.jpg">
 			<h3 class="title-h2">
-				Need help with professional <br />photography?
-				<b>Let's work together!</b>
+				برای عکاسی حرفه‌ای به کمک نیاز دارید؟ <br />
+<b>بیایید با هم همکاری کنیم!</b>
+
 			</h3>
 			<p class="mt-30 max-w570">
-				In my work, I try to find the right balance between form and function.
-				From technical drawings, all the way to the photographic renders, and the
-				actual representations of my work as a designer, my philosophy is that of
-				simplicity.
+در کارم، سعی می‌کنم تعادل مناسبی بین فرم و عملکرد پیدا کنم.
+
+از طراحی‌های فنی گرفته تا رندرهای عکاسی و نمایش‌های واقعی کارم به عنوان یک طراح، فلسفه من سادگی است.
 				<span class="mb-10 d-block"></span>
-				At the same time, my style is distinctly mine – uncluttered, with clean
-				shapes and modern space-saving solutions.
+در عین حال، سبک من کاملاً مختص خودم است - ساده، با اشکال تمیز و راه‌حل‌های مدرن برای صرفه‌جویی در فضا.
 			</p>
 			<LinkDefualt linkClass="background-section" :iconAwesome="['far','envelope-open']" popup
-				linkName="CONTACT US" linkTo="/contact" parallax />
+				linkName="با ما در تماس باشید" linkTo="fa/contact" parallax />
 		</BoxImage>
 		<!-- ========== End background Box Image ========== -->
 
@@ -258,8 +247,8 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 			:tablet="{ slidesPerView: 2 }" :mobile="{ slidesPerView: 1 }" grabCursor :centeredSlides="false"
 			spaceBetween="30" loop :speed="1200">
 			<template v-slot:title>
-				<SectionTitleGrid grid btnBackground="background-main" beforeStyle="circle-before" subTitle="advantages"
-					title="What People <b>ARE <br>SAYING</b>" linkTo="/contact" linkName="GET STARTED NOW" />
+				<SectionTitleGrid grid btnBackground="background-main" beforeStyle="circle-before" subTitle="مزایا"
+					title="چیزی که افراد <br><b>میگویند</b>" linkTo="fa/contact" linkName="همین الان شروع کنید" />
 			</template>
 		</Testimonials>
 		<!-- ========== End testimonials ========== -->
@@ -270,8 +259,8 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 			:tablet="{ slidesPerView: 2, spaceBetween: 30 }" :mobile="{ slidesPerView: 1, spaceBetween: 30 }">
 			<template v-slot:title>
 				<SectionTitleGrid grid class="container" btnBackground="background-section" beforeStyle="circle-before"
-					subTitle="advantages" title="What People <b>ARE <br>SAYING</b>" linkTo="/blog/stories"
-					linkName="GET STARTED NOW" />
+					subTitle="مزایا" title="چیزی که افراد <br><b>میگویند</b>" linkTo="fa/blog/stories"
+					linkName="همین الان شروع کن" />
 			</template>
 		</BlogSwiper>
 		<!-- ========== End Stories ========== -->
@@ -281,7 +270,13 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
         <!-- ========== End Brand ================== -->
 
 		<!-- ========== Footer ============== -->
-		<DsnFooter light animate />
+		<DsnFooterFa light animate />
 		<!-- ========== End Footer ========== -->
 	</Layout>
 </template>
+
+<style>
+	body{
+		direction: rtl;
+	}
+</style>
