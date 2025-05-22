@@ -10,7 +10,7 @@
 import { store } from "@/store/store";
 import { runOnLoad } from "@/hooks/plugin.js";
 import { runAnimationOnLoad } from "@/hooks/pluginanimations.js";
-import BlackMenu from "@/components/menu/BlackMenu.vue";
+import BlackMenu from "~/components/menu/BlackMenu.vue";
 import CursorGrowing from "@/components/option-theme/CursorGrowing.vue";
 
 const nuxtApp = useNuxtApp();

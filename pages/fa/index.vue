@@ -26,6 +26,10 @@ import AboutThree from "@/components/about/AboutThree.vue";
 import BrandTwo from "@/components/brand/BrandTwo.vue";
 import PortfolioHorizontalScrollFa from "~/components/portfolio/PortfolioHorizontalScrollFa.vue";
 import DsnFooterFa from "~/components/footer/DsnFooterFa.vue";
+
+definePageMeta({
+  layout: 'fa-default'
+});
 </script>
 
 <template>
@@ -34,7 +38,7 @@ import DsnFooterFa from "~/components/footer/DsnFooterFa.vue";
 		<Title>Tecso.Team</Title>
 	</Head>
 
-	<Layout>
+	<NuxtLayout name="fa-default">
 		<!-- ========== Slider Parallax ========== -->
 			<PortfolioSliderFa :data="data_Portf" setStyle="padding-parallax-h" contentStyle="center-between"
 			direction="horizontal" hasDescription linkLine :swiperOptions="{
@@ -272,7 +276,7 @@ import DsnFooterFa from "~/components/footer/DsnFooterFa.vue";
 		<!-- ========== Footer ============== -->
 		<DsnFooterFa light animate />
 		<!-- ========== End Footer ========== -->
-	</Layout>
+	</NuxtLayout>
 </template>
 
 <style>
