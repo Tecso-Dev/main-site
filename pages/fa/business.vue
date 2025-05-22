@@ -1,10 +1,10 @@
 <script setup>
-import data_Serve from "@/api/services/service.json";
-import data_Award from "@/api/award/awarded-list.json";
-import data_Portf from "@/api/portfolio/portfolio.json";
-import data_Teste from "@/api/testimonials/testimonials.json";
-import data_blogs from "@/api/blog/blog.json";
-import data_Brand from "@/api/brands/brand-one.json";
+import data_Serve from "@/api/fa/services/service.json";
+import data_Award from "@/api/fa/award/awarded-list.json";
+import data_Portf from "@/api/fa/portfolio/portfolio.json";
+import data_Teste from "@/api/fa/testimonials/testimonials.json";
+import data_blogs from "@/api/fa/blog/blog.json";
+import data_Brand from "@/api/fa/brands/brand-one.json";
 import SectionTitle from "@/components/title/SectionTitle.vue";
 import SectionTitleGrid from "@/components/title/SectionTitleGrid.vue";
 import Accordion from "@/components/accordion/Accordion.vue";
@@ -14,19 +14,23 @@ import ServicesThree from "@/components/services/ServicesThree.vue";
 import AwardedList from "@/components/awarded/AwardedList.vue";
 import SectionVideo from "@/components/section-video/SectionVideo.vue";
 import BrandOne from "@/components/brand/BrandOne.vue";
-import DsnFooter from "@/components/footer/DsnFooter.vue";
+import DsnFooterFa from "@/components/footer/DsnFooterFa.vue";
+import BlogOneFa from "~/components/blog/BlogOneFa.vue";
 
+definePageMeta({
+  layout: 'fa-default'
+});
 </script>
 
 <template>
 
 	<Head>
-		<Title>Business</Title>
+		<Title>بیزینس</Title>
 	</Head>
 
-	<Layout bodyStyle="bg-dots">
+	<NuxtLayout bodyStyle="bg-dots" name="fa-default">
 		<!-- ========== Slider Parallax ========== -->
-		<PortfolioSlider :data="data_Portf" setStyle="carousel-1" :webgel="true" :webgelOptions="{
+		<PortfolioSliderFa :data="data_Portf" setStyle="carousel-1" :webgel="true" :webgelOptions="{
 			displacement: 'images/displacement/7.webp',
 			speedIn: 3.5,
 		}" :optionSlider="{ direction: 'horizontal' }" :swiperOptions="{
@@ -40,11 +44,11 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 		<!-- ========== About Section ============== -->
 		<AboutThree>
 			<template v-slot:boxLeftTitle>
-				<SectionTitle subTitle="ABOUT US" title="WHO WE ARE" beforeStyle="square-before" :spaceDown="false" />
+				<SectionTitle subTitle="درباره ما" title="ما کیستیم؟" beforeStyle="square-before" :spaceDown="false" />
 			</template>
 			<template v-slot:boxLeftContain>
 				<Accordion>
-					<AccorItem title="OUR VISION" active>
+					<AccorItem title="چشم انداز ما" active>
 						<template v-slot:question>
 							<span class="dsn-icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -84,13 +88,11 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
 							</p>
 						</template>
 					</AccorItem>
-					<AccorItem title="OUR GOALS">
+					<AccorItem title="اهداف ما">
 						<template v-slot:question>
 							<span class="dsn-icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -113,13 +115,11 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
 							</p>
 						</template>
 					</AccorItem>
-					<AccorItem title="OUR MISSION">
+					<AccorItem title="ماموریت ما">
 						<template v-slot:question>
 							<span class="dsn-icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -149,32 +149,28 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
 							</p>
 						</template>
 					</AccorItem>
 				</Accordion>
 			</template>
-			<template v-slot:boxRightTitle>Hello we, are Dsn Grid</template>
+			<template v-slot:boxRightTitle>سلام ما، دی‌اس‌ان گرید هستیم</template>
 			<template v-slot:boxRightDescrption>
-				Founded in 2000, Dsn Grid has become one of the best Digital Agency in
-				Themeforest. Blue money going forward, but deploy to production.
-				First-order optimal strategies build on a culture of contribution and
-				inclusion so those options
+				Dsn Grid که در سال ۲۰۰۰ تأسیس شد، به یکی از بهترین آژانس‌های دیجیتال در Themeforest تبدیل شده است. پول آبی به جلو می‌رود، اما به تولید اختصاص داده می‌شود.
+استراتژی‌های بهینه مرتبه اول بر اساس فرهنگ مشارکت و شمول بنا  بنابراین این 
 			</template>
-			<template v-slot:boxRightSmTitle>SALVADOR DALI</template>
-			<template v-slot:boxRightSmTitleSm>Digital Artisit</template>
+			<template v-slot:boxRightSmTitle>سالوادور دالی</template>
+			<template v-slot:boxRightSmTitleSm>دیجیتال آرتیست</template>
 			<template v-slot:boxRightnumber>25</template>
-			<template v-slot:boxRightP>YEARS OF <br />DIGITAL EXPERIENCE</template>
+			<template v-slot:boxRightP>سال<br />تجربه دیجیتال</template>
 		</AboutThree>
 		<!-- ========== End About Section ========== -->
 
 		<!-- ========== Service ==================== -->
 		<ServicesThree :data="data_Serve.slice(0, 4)" fadeUp>
 			<template v-slot:title>
-				<SectionTitle subTitle="advantages" title="Let’s Check <b>Our Services</b>"
+				<SectionTitle subTitle="مزایا" title=" بریم <b>سرویس های ما</b> را بررسی کنیم"
 					beforeStyle="square-before" />
 			</template>
 		</ServicesThree>
@@ -192,7 +188,7 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 			:mobile="{ spaceBetween: 30, slidesPerView: 1, centeredSlides: true }">
 			<template v-slot:title>
 				<SectionTitleGrid grid class="container" btnBackground="background-main" beforeStyle="square-before"
-					subTitle="OUR WORK" title="Our latest <br><b>AWESOME DESIGNS </b>" />
+					subTitle="پروژه ما" title="آخرین طراحی های <br><b>جذاب ما </b>" />
 			</template>
 		</PortfolioSwiper>
 		<!-- ========== End Portfolio ============== -->
@@ -208,34 +204,39 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 			:tablet="{ slidesPerView: 1, spaceBetween: 30, centeredSlides: false }"
 			:mobile="{ slidesPerView: 1, spaceBetween: 30, centeredSlides: false }">
 			<template v-slot:title>
-				<SectionTitle subTitle="advantages" title="What People <b>ARE SAYING</b>" beforeStyle="square-before" />
+				<SectionTitle subTitle="مزایا" title="چیزی که افراد <br><b>میگویند</b>" beforeStyle="square-before" />
 			</template>
 		</Testimonials>
 		<!-- ========== End testimonials =========== -->
 
 		<!-- ========== Stories ==================== -->
-		<BlogOne :data="data_blogs.slice(0, 3)" class="background-section section-padding"
+		<BlogOneFa :data="data_blogs.slice(0, 3)" class="background-section section-padding"
 			containBoxesStyle="grid-lg-3 grid-sm-2" boxStyle="classic" classItemPost="p-20">
 			<template v-slot:title>
-				<SectionTitle subTitle="Latest News" title="Latest and <b>greatest post</b>"
+				<SectionTitle subTitle="آخرین اخبار" title="آخرین و  <b>بزرگترین پست</b>"
 					beforeStyle="square-before" />
 			</template>
-		</BlogOne>
+		</BlogOneFa>
 		<!-- ========== End Stories ================ -->
 
 		<!-- ========== Brand ====================== -->
 		<BrandOne :data="data_Brand.slice(0, 8)" class="container section-padding">
 			<template v-slot:title>
-				<SectionTitle subTitle="Our Clients" title="Your successful, <b>our reputation"
+				<SectionTitle subTitle="مشتری های ما" title="موفقیت شما, <b>اعتبار ما"
 					beforeStyle="square-before" />
 			</template>
 		</BrandOne>
 		<!-- ========== End Brand ================== -->
 
 		<!-- ========== Footer ===================== -->
-		<DsnFooter light animate />
+		<DsnFooterFa light animate />
 		<!-- ========== End Footer ================= -->
-	</Layout>
+	</NuxtLayout>
 </template>
 
+<style>
+	body{
+		direction: rtl;
+	}
+</style>
 

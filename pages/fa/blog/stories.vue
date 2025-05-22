@@ -1,26 +1,31 @@
 <script setup>
-import data_blogs from "@/api/blog/blog.json";
+import data_blogs from "@/api/fa/blog/blog.json";
 import BlogList from "@/components/blog/BlogList.vue"
-import DsnFooter from '@/components/footer/DsnFooter.vue';
+import DsnFooterFa from '@/components/footer/DsnFooterFa.vue';
+import BlogListFa from "~/components/blog/BlogListFa.vue";
+
+definePageMeta({
+  layout: 'fa-default'
+});
 </script>
 
 <template>
 
     <Head>
-        <Title>Stories</Title>
+        <Title>داستان ها</Title>
     </Head>
 
-    <Layout bodyStyle="bg-dots">
+    <NuxtLayout bodyStyle="bg-dots" name="fa-defalut">
         <!-- ========== Header ========== -->
-        <HeaderHalf title="Our Stories" :metas="['NEWS', 'IDEAS']" btnScrollTo="list" />
+        <HeaderHalf title="داستان های ما" :metas="['اخبار', 'ایده ها']" btnScrollTo="list" />
         <!-- ========== End Header ========== -->
 
         <!-- ========== Stories ========== -->
-        <BlogList id="list" :data="data_blogs" />
+        <BlogListFa id="list" :data="data_blogs" />
         <!-- ========== End Stories ========== -->
 
         <!-- ========== Footer =================== -->
-        <DsnFooter light animate />
+        <DsnFooterFa light animate />
         <!-- ========== End Footer =============== -->
-    </Layout>
+    </NuxtLayout>
 </template>

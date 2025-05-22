@@ -278,9 +278,3 @@ definePageMeta({
 		<!-- ========== End Footer ========== -->
 	</NuxtLayout>
 </template>
-
-<style>
-	body{
-		direction: rtl;
-	}
-</style>
