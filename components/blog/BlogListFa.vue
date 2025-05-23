@@ -8,7 +8,7 @@ const props = defineProps({ data: Array });
 			:key="index">
 			<div class="blog-item-inner p-relative">
 				<div class="left-box">
-					<NuxtLink :to="`fa/blog/${item.slug}`" class="effect-ajax word-wrap" rel="bookmark">
+					<NuxtLink :to="`/fa/blog/${item.slug}`" class="effect-ajax word-wrap" rel="bookmark">
 						<h4 class="title-block">{{ item.title }}</h4>
 					</NuxtLink>
 

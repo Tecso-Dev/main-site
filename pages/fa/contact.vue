@@ -1,41 +1,44 @@
 <script setup>
 import DsnMap from '@/components/contact/DsnMap.vue';
-import DsnFooter from '@/components/footer/DsnFooter.vue';
+import DsnFooterFa from '@/components/footer/DsnFooterFa.vue';
+
+definePageMeta({
+  layout: 'fa-default'
+});
 </script>
 
 <template>
 
     <Head>
-        <Title>Contact</Title>
+        <Title>تماس با ما</Title>
     </Head>
 
-    <Layout>
+    <NuxtLayout name="fa-default">
         <!-- ========== Header Normal=============== -->
         <HeaderNormal contentClass="container" subTitle="" :linkTo="$route.path" linkName="See More Works">
             <template v-slot:title>
-                Look around you<br> everything is changing.
+                به اطرافت نگاه کن<br> همه چیز در حال تغییر است.
             </template>
             <template v-slot:string>
-                What if the time has come for you to change? Starting a collaboration is easy! Order a
-                free consultation or call back. We are always in touch and happy to cooperate with you
+                اگر زمان تغییر شما فرا رسیده باشد چه؟ شروع همکاری آسان است! یک مشاوره رایگان سفارش دهید یا دوباره تماس بگیرید. ما همیشه در تماس هستیم و از همکاری با شما خوشحال می‌شویم.
             </template>
         </HeaderNormal>
         <!-- ========== End Header Normal ========== -->
 
         <!-- ========== Contact  =================== -->
-        <contactForm>
-            <template v-slot:form_title>IF YOU HAVE QUESTIONS PLEASE <br>CONTACT US</template>
-            <template v-slot:address_title>Head Office:</template>
-            <template v-slot:address>El-Mahalla El-Kubra37<br>1776 Damietta Egypt</template>
-            <template v-slot:phones_title>Phones:</template>
+        <ContactFormFa>
+            <template v-slot:form_title>اگر سوالی دارید لطفا با ما تماس بگیرید </template>
+            <template v-slot:address_title>دفتر مرکزی:</template>
+            <template v-slot:address>آذربایجان غربی<br>ارومیه</template>
+            <template v-slot:phones_title>تلفن:</template>
             <template v-slot:phones>
                 <NuxtLink to="tel:+1850344066">+1 (850) 344 066</NuxtLink>
             </template>
-            <template v-slot:email_title>Write Us:</template>
+            <template v-slot:email_title>برای ما بنویسید:</template>
             <template v-slot:email>
                 <NuxtLink to="mailto:info@dsngrid.com">info@dsngrid.com</NuxtLink>
             </template>
-        </contactForm>
+        </ContactFormFa>
         <!-- ========== End Contact  =============== -->
 
         <!-- ========== Map  ======================= -->
@@ -44,8 +47,8 @@ import DsnFooter from '@/components/footer/DsnFooter.vue';
         <!-- ========== End Map  =================== -->
 
         <!-- ========== Footer ===================== -->
-        <DsnFooter :animateContent="false" />
+        <DsnFooterFa :animateContent="false" />
         <!-- ========== End Footer ================= -->
 
-    </Layout>
+    </NuxtLayout>
 </template>

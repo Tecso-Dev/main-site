@@ -23,7 +23,7 @@ const next = () => {
 	<div class="container">
 		<div class="pagination-post d-flex align-items-center border-style border-radius mt-section">
 			<div class="pagination-item w-100 p-20">
-				<NuxtLink :to="`fa/blog/${props.data[prev() - 1].slug}`">
+				<NuxtLink :to="`/fa/blog/${props.data[prev() - 1].slug}`">
 					<span class="mb-5">قبلی</span>
 					<h4 class="title-block word-wrap ellipsis-1">
 						{{ props.data[prev() - 1].title }}
@@ -31,12 +31,12 @@ const next = () => {
 				</NuxtLink>
 			</div>
 			<div class="icon p-20 border-right border-left">
-				<NuxtLink to="fa/blog/stories" class="h-100 heading-color">
+				<NuxtLink to="/fa/blog/stories" class="h-100 heading-color">
 					<font-awesome-icon :icon="['fas','th-large']" />
 				</NuxtLink>
 			</div>
 			<div class="pagination-item w-100 p-20 text-right">
-				<NuxtLink :to="`fa/blog/${props.data[next() - 1].slug}`">
+				<NuxtLink :to="`/fa/blog/${props.data[next() - 1].slug}`">
 					<span class="mb-5">بعدی</span>
 					<h4 class="title-block word-wrap ellipsis-1">
 						{{ props.data[next() - 1].title }}

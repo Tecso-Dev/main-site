@@ -14,7 +14,7 @@ const props = defineProps({ data: Array,boxStyle: String,containBoxesStyle: Stri
 						<article v-for="(item,index) in props.data" :key="index"
 							 :class="['dsn-item-post grid-item over-hidden border-style',props.classItemPost]">
 							<div class="box-content d-flex">
-								<NuxtLink class="effect-ajax box-image-link bg-shadow" :to="`fa/blog/${item.slug}`"
+								<NuxtLink class="effect-ajax box-image-link bg-shadow" :to="`/fa/blog/${item.slug}`"
 									data-dsn-text="Our Stories">
 									<div class="box-image-bg before-z-index dsn-swiper-parallax-transform"
 										data-overlay="4">
@@ -34,7 +34,7 @@ const props = defineProps({ data: Array,boxStyle: String,containBoxesStyle: Stri
 												:category="item.categories" separate=" &" />
 										</div>
 										<h2 class="post-title dsn-bg title-block">
-											<NuxtLink class="effect-ajax" :to="`fa/blog/${item.slug}`"
+											<NuxtLink class="effect-ajax" :to="`/fa/blog/${item.slug}`"
 												data-dsn-text="Our Stories">
 												{{ item.title }}
 											</NuxtLink>
@@ -47,7 +47,7 @@ const props = defineProps({ data: Array,boxStyle: String,containBoxesStyle: Stri
 									</div>
 									<div class="post-description-info">
 										<LinkAngle v-if="item.link" linkName="مطالعه مقاله"
-											:linkTo="`fa/blog/${item.slug}`" />
+											:linkTo="`/fa/blog/${item.slug}`" />
 									</div>
 								</div>
 							</div>

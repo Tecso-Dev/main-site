@@ -1,45 +1,43 @@
 <script setup>
-import data_Team from "@/api/team/team.json";
-import data_Teste from "@/api/testimonials/testimonials.json";
-import data_Brand from "@/api/brands/brand.json";
-import data_Serve from "@/api/services/service.json";
+import data_Team from "@/api/fa/team/team.json";
+import data_Teste from "@/api/fa/testimonials/testimonials.json";
+import data_Brand from "@/api/fa/brands/brand.json";
+import data_Serve from "@/api/fa/services/service.json";
 import LinkAngle from "@/components/links/LinkAngle.vue"
-import Layout from "@/components/layout/Layout.vue";
+
 import SectionTitle from "@/components/title/SectionTitle.vue";
 import ServiceStyle from "@/components/services/ServiceStyle.vue";
-import DsnFooter from "@/components/footer/DsnFooter.vue";
+import DsnFooterFa from "~/components/footer/DsnFooterFa.vue";
 const pageStyle = { titleBeforeStyle: "circle-before", };
+
+definePageMeta({
+  layout: 'fa-default'
+});
 </script>
 
 <template>
 
     <Head>
-        <Title>About</Title>
+        <Title>درباره ما</Title>
     </Head>
 
-    <Layout>
+    <NuxtLayout name="fa-default">
         <!-- ========== Header Normal============= -->
         <HeaderNormal contentClass="container" subTitle="" btnScrollTo="about">
             <template v-slot:title>
-                Digital Agency That <br />Thrives on Your Success
+                آژانس دیجیتالی که <br />با موفقیت شما شکوفا میشود
             </template>
             <template v-slot:string>
-                If you are looking for an agency to help you create a remarkable presence
-                online, you’ve come to the right place. We can help you take your business
-                to the next level.
+                اگر به دنبال آژانسی هستید که به شما در ایجاد حضوری چشمگیر در فضای آنلاین کمک کند، به جای درستی آمده‌اید. ما می‌توانیم به شما کمک کنیم تا کسب و کارتان را به سطح بالاتری ببرید.
             </template>
-            <LinkAngle classColor="section" linkName="Get Started Now" linkTo="/contact" />
+            <LinkAngle classColor="section" linkName="همین الان شروع کن" linkTo="/fa/contact" />
         </HeaderNormal>
         <!-- ========== End Header Normal ======== -->
 
         <!-- ========== About Section ============ -->
         <AboutSection id="about" imageSrc="images/about-5.webp">
-            <template v-slot:title>Help Millions To Bring <br />There Creative Projects To Life</template>
-            <template v-slot:string>e were thoughtful about presenting these in a way where we could also
-                tell the story of the individual.. It is a long established fact that a
-                reader will be distracted by the readable content of a page when looking
-                at its layout. The point of using Lorem Ipsum is that it has a
-                more-or-less normal distribution of letters.
+            <template v-slot:title>به میلیون ها نفر کمک کنید تا <br />پروژه های خلاقانه خود را به واقعیت تبدیل کنند</template>
+            <template v-slot:string>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
             </template>
         </AboutSection>
         <!-- ========== End About Section ======== -->
@@ -48,7 +46,7 @@ const pageStyle = { titleBeforeStyle: "circle-before", };
         <ServiceStyle :data="data_Serve.slice(0, 6)" counter :masonry="false" center
             serviceInnerClass="border-style" iconsize="80px" :haveButton="false" fadeUp>
             <template v-slot:title>
-                <SectionTitle subTitle="advantages" title="Let’s Check Our Services" center
+                <SectionTitle subTitle="مزایا" title="بریم که خدمات ما را بررسی کنیم" center
                     :beforeStyle="pageStyle.titleBeforeStyle" />
             </template>
         </ServiceStyle>
@@ -57,7 +55,7 @@ const pageStyle = { titleBeforeStyle: "circle-before", };
         <!-- ========== Team ===================== -->
         <Team :data="data_Team.slice(0, 3)" class="dsn-right-container" grid="grid-md-3 grid-sm-2">
             <template v-slot:title>
-                <SectionTitle subTitle="Our Team" title="The best team ever!"
+                <SectionTitle subTitle="تیم ما" title="بهترین تیم تاریخ!"
                     :beforeStyle="pageStyle.titleBeforeStyle" />
             </template>
         </Team>
@@ -68,7 +66,7 @@ const pageStyle = { titleBeforeStyle: "circle-before", };
             spaceBetween="30" :desktop="{ slidesPerView: 2 }" :tablet="{ slidesPerView: 2 }"
             :mobile="{ slidesPerView: 1 }" grabCursor :centeredSlides="false" loop :speed="1200">
             <template v-slot:title>
-                <SectionTitle subTitle="testimonials" title="What People are Saying" center
+                <SectionTitle subTitle="توصیفات" title="چیزی که افراد میگوند" center
                     :beforeStyle="pageStyle.titleBeforeStyle" />
             </template>
         </Testimonials>
@@ -77,16 +75,16 @@ const pageStyle = { titleBeforeStyle: "circle-before", };
         <!-- ========== Brand ==================== -->
         <Brand :data="data_Brand.slice(0, 8)">
             <template v-slot:title>
-                <SectionTitle subTitle="Our Clients" title="Your successful, our reputation" center
+                <SectionTitle subTitle="مشتری های ما" title="موفقیت شما، اعتبار ما" center
                     :beforeStyle="pageStyle.titleBeforeStyle" />
             </template>
         </Brand>
         <!-- ========== End Brand ================ -->
 
         <!-- ========== Footer =================== -->
-        <DsnFooter light animate />
+        <DsnFooterFa light animate />
         <!-- ========== End Footer =============== -->
-    </Layout>
+    </NuxtLayout>
 </template>
 
 

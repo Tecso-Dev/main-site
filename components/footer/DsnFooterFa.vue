@@ -33,11 +33,11 @@ const socialData = [
     },
 ];
 const footerLinks = [
-    { link: "/",name: "صفحه اصلی" },
-    { link: "fa/work/work-classic-2",name: "نمونه کارها" },
-    { link: "fa/blog/stories",name: "اخبار" },
-    { link: "fa/about-us",name: "درباره ما" },
-    { link: "fa/contact",name: "تماس با ما" },
+    { link: "/fa",name: "صفحه اصلی" },
+    { link: "/fa/work/work-classic-2",name: "نمونه کارها" },
+    { link: "/fa/blog/stories",name: "اخبار" },
+    { link: "/fa/about-us",name: "درباره ما" },
+    { link: "/fa/contact",name: "تماس با ما" },
 ];
 
 onMounted(() => {
@@ -115,7 +115,7 @@ onMounted(() => {
                 <div class="footer-bottom mt-60 pt-30 border-top pb-30 text-center">
                     <p class="over-hidden">
                         © ۲۰۲۲ آژانس دیجیتال طراحی شده توسط
-                        <a href="/about-us" class="link-hover" target="_blank">Tecso.Team</a>
+                        <a href="/fa/about-us" class="link-hover" target="_blank">Tecso.Team</a>
                     </p>
                 </div>
             </div>
