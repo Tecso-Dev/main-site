@@ -39,6 +39,10 @@ onMounted(() => {
 })
 onUpdated(() => Fancybox.close())
 onBeforeUnmount(() => Fancybox.destroy());
+
+definePageMeta({
+  layout: 'fa-default'
+});
 </script>
 
 <template>
@@ -47,7 +51,7 @@ onBeforeUnmount(() => Fancybox.destroy());
         <Title>{{ item.title }}</Title>
     </Head>
 
-    <Layout>
+    <NuxtLayout name="fa-default">
         <!-- ========== Header  ========== -->
         <HeaderRightImage :data="item" btnScrollTo="info" :linkCircleTo="item.autherLink" />
         <!-- ========== End Header  ========== -->
@@ -95,5 +99,5 @@ onBeforeUnmount(() => Fancybox.destroy());
         <!-- ========== Next Project  ========== -->
         <NextProject light :next="nextProject(item.id, data_Portf)" />
         <!-- ========== End Next Project  ========== -->
-    </Layout>
+    </NuxtLayout>
 </template>

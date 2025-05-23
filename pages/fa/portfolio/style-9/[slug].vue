@@ -35,6 +35,10 @@ onMounted(() => {
 })
 onUpdated(() => Fancybox.close())
 onBeforeUnmount(() => Fancybox.destroy());
+
+definePageMeta({
+  layout: 'fa-default'
+});
 </script>
 
 <template>
@@ -43,7 +47,7 @@ onBeforeUnmount(() => Fancybox.destroy());
         <Title>Tecso AI Services</Title>
     </Head>
 
-    <Layout>
+    <NuxtLayout name="fa-default">
         <!-- ========== Header  ========== -->
         <HeaderFull :data="item" boxShadow btnScrollTo="info" :linkCircleTo="item.autherLink" />
         <!-- ========== End Header  ========== -->
@@ -99,5 +103,5 @@ onBeforeUnmount(() => Fancybox.destroy());
         <!-- ========== Next Project  ========== -->
         <NextProject light :next="nextProject(item.id, data_Portf)" />
         <!-- ========== End Next Project  ========== -->
-    </Layout>
+    </NuxtLayout>
 </template>
