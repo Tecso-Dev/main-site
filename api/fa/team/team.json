@@ -1,8 +1,8 @@
 [
     {
         "id": 1,
-        "name": "Hisham Megahed",
-        "job": "Web Designer",
+        "name": "علی علیپور",
+        "job": "طراح وب",
         "imageSrc": "images/team/3.webp",
         "social": [
             {
@@ -27,8 +27,8 @@
     },
     {
         "id": 2,
-        "name": "Mostafa Sabry",
-        "job": "Founder",
+        "name": "امین امینی",
+        "job": "بنیان گذار",
         "imageSrc": "images/team/2.webp",
         "social": [
             {
@@ -53,8 +53,8 @@
     },
     {
         "id": 3,
-        "name": "Ahmed Shawky",
-        "job": "Engineer",
+        "name": "احمد احمدی",
+        "job": "مهندس",
         "imageSrc": "images/team/1.webp",
         "social": [
             {
@@ -79,8 +79,8 @@
     },
     {
         "id": 4,
-        "name": "Blake Hamilton",
-        "job": "Engineer",
+        "name": "زهرا اسلامی",
+        "job": "مهندس",
         "imageSrc": "images/p-1.webp",
         "social": [
             {

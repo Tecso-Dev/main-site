@@ -27,3 +27,9 @@ onMounted(() => {
 })
 
 </script>
+
+<style>
+    body{
+        direction: rtl;
+    }
+</style>

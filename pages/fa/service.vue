@@ -1,46 +1,47 @@
 <script setup>
-import data_Brand from "@/api/brands/brand-one.json";
-import data_ServA from "@/api/services/services_accordion.json";
-import data_Team from "@/api/team/team.json";
-import data_Serve from "@/api/services/about-services.json";
-import data_Teste from "@/api/testimonials/testimonials.json";
+import data_Brand from "@/api/fa/brands/brand-one.json";
+import data_ServA from "@/api/fa/services/services_accordion.json";
+import data_Team from "@/api/fa/team/team.json";
+import data_Serve from "@/api/fa/services/about-services.json";
+import data_Teste from "@/api/fa/testimonials/testimonials.json";
 import SectionTitle from "@/components/title/SectionTitle.vue";
 import SectionTitlePin from "@/components/title/SectionTitlePin.vue";
 import AboutServices from "@/components/services/AboutServices.vue";
 import BrandTwo from "@/components/brand/BrandTwo.vue";
 import LinkAngle from "@/components/links/LinkAngle.vue";
-import DsnFooter from "@/components/footer/DsnFooter.vue";
+import DsnFooterFa from "@/components/footer/DsnFooterFa.vue";
+
+definePageMeta({
+  layout: 'fa-default'
+});
 </script>
 
 <template>
 
     <Head>
-        <Title>Services</Title>
+        <Title>خدمات</Title>
     </Head>
 
-    <Layout bodyStyle="bg-dots">
+    <NuxtLayout bodyStyle="bg-dots" name="fa-default">
         <!-- ========== Header Normal ================ -->
-        <HeaderNormal contentClass="container" subTitle="OUR SERVICES">
+        <HeaderNormal contentClass="container" subTitle="خدمات ما">
             <template v-slot:title>
-                We are delivering beautiful <br />digital products for you.
+                ما محصولات دیجیتال زیبایی را <br /> برای ما ارائه می دهیم.
             </template>
             <template v-slot:string>
-                If you are looking for an agency to help you create a remarkable presence
-                online, you’ve come to the right place. We can help you take your business
-                to the next level.
+                اگر به دنبال آژانسی هستید که به شما در ایجاد حضوری چشمگیر در فضای آنلاین کمک کند، به جای درستی آمده‌اید. ما می‌توانیم به شما کمک کنیم تا کسب و کارتان را به سطح بالاتری ببرید.
             </template>
-            <LinkAngle linkName="Get Started Now" linkTo="/contact" />
+            <LinkAngle linkName="همین حالا شروع کن" linkTo="/fa/contact" />
         </HeaderNormal>
         <!-- ========== End Header Normal ============ -->
 
         <!-- ========== About Section ================ -->
         <AboutServices :data="data_Serve" imageSrc="images/portfolio/project6/2.gif">
-            <template v-slot:title>Let’s Check <b>Our Services</b></template>
-            <template v-slot:smallBoxTitle>Best Practices from Industry Experts</template>
+            <template v-slot:title>بریم که <b>سرویس هامون رو</b> بررسی کنیم</template>
+            <template v-slot:smallBoxTitle>بهترین شیوه‌ها از متخصصان صنعت</template>
             <template v-slot:smallBoxDescription>
                 <p>
-                    We’ve designed a culture that allows our stewards to assimilate with
-                    our clients and bring.
+ما فرهنگی را طراحی کرده‌ایم که به متصدیان ما اجازه می‌دهد تا با مشتریان ما هماهنگ شوند و آنها را به ارمغان بیاورند.   
                 </p>
             </template>
         </AboutServices>
@@ -52,24 +53,18 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
                 <div class="d-grid grid-md-2" data-dsn-gap="30px 60px">
                     <div class="left">
                         <h5 class="title-h2 body-font text-upper">
-                            We provide you with the best service<b>in the market</b>
+                            ما بهترین خدمات<b>بازار</b> را به شما ارائه می‌دهیم
                         </h5>
                         <p class="mt-20">
-                            There are many variations of passages of Lorem Ipsum
-                            available, but the majority have suffered alteration, by
-                            injected humour. words
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است  
                         </p>
                     </div>
                     <div class="right align-self-end">
                         <p>
-                            There are many variations of passages of Lorem Ipsum
-                            available, but the majority have suffered alteration, Injected
-                            humour words web page editors now use as their.
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
                         </p>
                         <p class="mt-20">
-                            Default and a search for will uncover many web sites still in
-                            their infancy.suffered alteration, by injected humour words
-                            web page.
+                            پیش‌فرض و جستجویی برای [عبارت]، وب‌سایت‌های بسیاری را که هنوز در مراحل ابتدایی خود هستند، آشکار خواهد کرد. [عبارت] صفحه وب، با تزریق کلمات طنز، دچار تغییر شده است.
                         </p>
                     </div>
                 </div>
@@ -87,10 +82,9 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
         <!-- ========== About According ============== -->
         <about-according :data="data_ServA.slice(0, 3)">
             <template v-slot:title>
-                <SectionTitlePin title="We have been doing projects <b>since 2008.</b>">
+                <SectionTitlePin title="ما از سال ۲۰۰۸ مشغول انجام پروژه‌ها بوده‌ایم.">
                     <p class="max-w570 mt-20">
-                        Founded in 2000, Dsn Grid has become one of the best Digital Agency in
-                        ThemeForest. Blue money going forward, but deploy to production.
+                        دی‌اس‌ان گرید که در سال ۲۰۰۰ تأسیس شد، به یکی از بهترین آژانس‌های دیجیتال در تم‌فارست تبدیل شده است. با پول آبی به کار خود ادامه دهید، اما به تولید انبوه برسید.
                     </p>
                 </SectionTitlePin>
             </template>
@@ -100,8 +94,8 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
         <!-- ========== Team ========================= -->
         <Team :data="data_Team.slice(0, 4)" grid="grid-lg-4 grid-sm-2">
             <template v-slot:title>
-                <SectionTitle class="container" subTitle="Our Team" title="The best team ever!"
-                    beforeStyle="circle-before" />
+                <SectionTitle class="container" subTitle="تیم ما" title="بهترین تیم تاریخ!"
+                    beforeStyle="circle-after" />
             </template>
         </Team>
         <!-- ========== End Team ===================== -->
@@ -126,15 +120,15 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
                 centeredSlides: false,
             }" :speed="1200">
             <template v-slot:title>
-                <SectionTitle title="Relationships <b>based on trust.</b>" />
+                <SectionTitle title="روابطی که بر اساس اعتماد بنا شده‌اند." />
             </template>
         </Testimonials>
         <!-- ========== End Testimonials ============= -->
 
         <!-- ========== Footer ======================= -->
-        <DsnFooter animate />
+        <DsnFooterFa animate />
         <!-- ========== End Footer =================== -->
-    </Layout>
+    </NuxtLayout>
 </template>
 
 
