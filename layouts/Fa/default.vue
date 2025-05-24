@@ -1,5 +1,6 @@
 <template>
     <div id="__dsn_content" :class="store.colorPage">
+        <ModeLanguageFa />
         <ModeColors />
         <BlackMenuFa hamburger />
         <slot />
@@ -14,6 +15,7 @@ import { runAnimationOnLoad } from "@/hooks/pluginanimations.js";
 import BlackMenuFa from "~/components/menu/BlackMenuFa.vue";
 import CursorGrowing from "@/components/option-theme/CursorGrowing.vue";
 import ModeColors from "@/components/option-theme/ModeColors"
+import ModeLanguageFa from "~/components/option-theme/ModeLanguageFa.vue";
 
 const nuxtApp = useNuxtApp();
 nuxtApp.hook("page:loading:end",() => {
