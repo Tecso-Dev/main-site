@@ -32,12 +32,12 @@ onMounted(() => {
 
 <style>
     h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
-        font-family: "Ray", sans-serif;
+        font-family: "Excon", sans-serif;
 
     }
     body, .main-navigation{
         direction: ltr;
-        font-family: "Ray", sans-serif;
+        font-family: "Excon", sans-serif;
     }
 
 

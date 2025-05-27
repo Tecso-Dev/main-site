@@ -9,7 +9,7 @@ import ImagePopup from "@/components/images/ImagePopup.vue";
 import BoxInfoFull from "@/components/box-info/BoxInfoFull.vue";
 import ParagraphBox from "@/components/string/ParagraphBox.vue";
 import NextProject from "@/components/next/NextProject.vue";
-import ViewVideo from "@/components/images/ViewVideo.vue";
+import ViewVideoFa from "@/components/images/ViewVideoFa.vue";
 
 definePageMeta({ documentDriven: false });
 const { slug } = useRoute().params
@@ -72,7 +72,7 @@ definePageMeta({
         <!-- ========== Parallax Image With Popup  ========== -->
         <ParallaxImageTwo :src="item.images[1].src" :caption="item.images[1].name" fancybox="_1" />
         <!-- ========== End Parallax Image With Popup  ========== -->
-        <ViewVideo
+        <ViewVideoFa
             class="scale"
             :src="item.video[0].src"
             :poster="item.images[1].src"

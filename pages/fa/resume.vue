@@ -1,36 +1,40 @@
 <script setup>
-import data_Personal from "@/api/personal/personal.json"
-import data_Serve from "@/api/services/service.json";
-import data_Portf from "@/api/portfolio/portfolio.json"
+import data_Personal from "@/api/fa/personal/personal.json"
+import data_Serve from "@/api/fa/services/service.json";
+import data_Portf from "@/api/fa/portfolio/portfolio.json"
 import SectionTitle from "@/components/title/SectionTitle.vue";
 import SectionTitlePin from "@/components/title/SectionTitlePin.vue";
 import Skills from "@/components/skills/Skills.vue"
 import SkillProgressBar from "@/components/skills/SkillProgressBar.vue"
 import ExperienceList from "@/components/experience/ExperienceList.vue"
-import HeaderResume from "@/components/header/HeaderResume.vue"
+import HeaderResumeFa from "@/components/header/HeaderResumeFa.vue"
 import ServiceStyle from "@/components/services/ServiceStyle.vue";
 import SectionData from "@/components/sections/SectionData.vue"
 import PortfolioFilter from "@/components/portfolio/PortfolioFilter.vue"
-import DsnFooter from "@/components/footer/DsnFooter.vue";
+import DsnFooterFa from "@/components/footer/DsnFooterFa.vue";
 const personal = 1
+
+definePageMeta({
+  layout: 'fa-default'
+});
 </script>
 
 <template>
 
     <Head>
-        <Title>Resume</Title>
+        <Title>رزومه</Title>
     </Head>
 
-    <Layout bodyStyle="bg-dots">
+    <Layout name="fa-default" bodyStyle="bg-dots">
 
         <!-- ========== Header ========== -->
-        <HeaderResume :data="data_Personal[personal]" btnScrollTo="about" />
+        <HeaderResumeFa :data="data_Personal[personal]" btnScrollTo="about" />
         <!-- ========== End Header ========== -->
 
         <!-- ========== About Section ========== -->
         <AboutResume id="about" :data="data_Personal[personal]">
             <template v-slot:title>
-                <SectionTitle center subTitle="" title="Main Information About Me<br> And What I Love To Do." spaceDown>
+                <SectionTitle center subTitle="" title="اطلاعات اصلی درباره من<br> و کارهایی که دوست دارم انجام دهم." spaceDown>
                     <p class="max-w750 mt-20">
                         {{ data_Personal[personal].about[1] }}
                     </p>
@@ -43,9 +47,9 @@ const personal = 1
         <ServiceStyle class="border-top pt-section" :data="data_Serve.slice(0,3)" :masonry="false" center
             serviceInnerClass="border-style" iconsize="80px" :haveButton="false" fadeUp>
             <template v-slot:title>
-                <SectionTitle subTitle="" title="Let’s Check Our Services" center beforeStyle="">
+                <SectionTitle subTitle="" title="بریم که خدماتمون رو بررسی کنیم" center beforeStyle="">
                     <p class="max-w570 mt-20">
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nullat.
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
                     </p>
                 </SectionTitle>
             </template>
@@ -55,14 +59,14 @@ const personal = 1
         <!-- ========== Skills ========== -->
         <SectionData>
             <template v-slot:title>
-                <SectionTitlePin title="MY SKILLS">
+                <SectionTitlePin title="مهارت های من">
                     <p class="max-w350 mt-20">
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nullat.
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است     
                     </p>
                 </SectionTitlePin>
             </template>
             <template v-slot:items>
-                <Skills class="d-grid">
+                <Skills id="skills" class="d-grid">
                     <SkillProgressBar v-for="(skill,index) in data_Personal[personal].skills" :key="index"
                         :data="skill" />
                 </Skills>
@@ -73,9 +77,9 @@ const personal = 1
         <!-- ========== Experience ========== -->
         <SectionData>
             <template v-slot:title>
-                <SectionTitlePin title="My past experience">
+                <SectionTitlePin title="تجربه های قبلی من">
                     <p class="max-w350 mt-20">
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nullat.
+                       لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
                     </p>
                 </SectionTitlePin>
             </template>
@@ -94,20 +98,20 @@ const personal = 1
         <!-- ========== Contact ========== -->
         <SectionData>
             <template v-slot:title>
-                <SectionTitlePin title="Contact me">
+                <SectionTitlePin title="تماس با من">
                     <p class="max-w350 mt-0">
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nullat.
+                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
                     </p>
                 </SectionTitlePin>
             </template>
             <template v-slot:items>
-                <ContactFormSmall />
+                <ContactFormSmallFa />
             </template>
         </SectionData>
         <!-- ========== End Contact ========== -->
 
         <!-- ========== Footer ======================= -->
-        <DsnFooter class="container border-top" :animateContent="false" />
+        <DsnFooterFa class="container border-top" :animateContent="false" />
         <!-- ========== End Footer =================== -->
     </Layout>
 </template>

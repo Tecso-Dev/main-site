@@ -40,7 +40,7 @@ onMounted(() => {
         font-family: "Ray", sans-serif;
     }
 
-    .site-header, .control-nav , #port-horz , #about-index{
+    .site-header, .control-nav , #port-horz , #about-index, #skills{
         direction: ltr !important;
     }
 
