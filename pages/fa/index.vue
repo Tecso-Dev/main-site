@@ -24,7 +24,7 @@ import Accordion from "@/components/accordion/Accordion.vue";
 import AccorItem from "@/components/accordion/AccordionItem.vue";
 import AboutThree from "@/components/about/AboutThree.vue";
 import BrandTwo from "@/components/brand/BrandTwo.vue";
-import PortfolioHorizontalScrollFa from "~/components/portfolio/PortfolioHorizontalScrollFa.vue";
+import PortfolioHorizontalScroll from "~/components/portfolio/PortfolioHorizontalScroll.vue";
 import DsnFooterFa from "~/components/footer/DsnFooterFa.vue";
 
 definePageMeta({
@@ -38,7 +38,7 @@ definePageMeta({
 		<Title>Tecso.Team</Title>
 	</Head>
 
-	<NuxtLayout name="fa-default">
+	<Layout name="fa-default">
 		<!-- ========== Slider Parallax ========== -->
 			<PortfolioSliderFa :data="data_Portf" setStyle="padding-parallax-h" contentStyle="center-between"
 			direction="horizontal" hasDescription linkLine :swiperOptions="{
@@ -178,11 +178,11 @@ definePageMeta({
 		<!-- ========== End About Section ========== -->
 
 		<!-- ========== About Section One ========== -->
-		<AboutOne class="section-padding background-section" bgMask="background-main"
+		<AboutOne id="about-index" class="section-padding background-section" bgMask="background-main"
 			imageOneSrc="images/about-1.webp" imageTwoSrc="images/about-2.webp">
-			<template v-slot:moveTitle>ما آژانس</template>
-			<template v-slot:centerTitle>دی اس ان سیاه</template>
-			<template v-slot:lastTitle>هستیم</template>
+			<template v-slot:moveTitle>WE ARE</template>
+			<template v-slot:centerTitle>BLACK DSN</template>
+			<template v-slot:lastTitle>AGENCY</template>
 			<template v-slot:description>
 				ما برندها را از طریق بینش فرهنگی، چشم‌انداز استراتژیک و قدرت احساسات در هر عنصر بیان آن، می‌سازیم و فعال می‌کنیم.
 			</template>
@@ -223,7 +223,7 @@ definePageMeta({
 		<!-- ========== End About Section One ========== -->
 
 		<!-- ========== Portfolio ========== -->
-		<PortfolioHorizontalScrollFa :data="data_Portf" />
+		<PortfolioHorizontalScroll :data="data_Portf" />
 		<!-- ========== End Portfolio ========== -->
 
 		<!-- ========== background Box Image ========== -->
@@ -276,5 +276,5 @@ definePageMeta({
 		<!-- ========== Footer ============== -->
 		<DsnFooterFa light animate />
 		<!-- ========== End Footer ========== -->
-	</NuxtLayout>
+	</Layout>
 </template>

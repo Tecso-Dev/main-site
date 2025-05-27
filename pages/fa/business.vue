@@ -28,7 +28,7 @@ definePageMeta({
 		<Title>بیزینس</Title>
 	</Head>
 
-	<NuxtLayout bodyStyle="bg-dots" name="fa-default">
+	<Layout bodyStyle="bg-dots" name="fa-default">
 		<!-- ========== Slider Parallax ========== -->
 		<PortfolioSliderFa :data="data_Portf" setStyle="carousel-1" :webgel="true" :webgelOptions="{
 			displacement: 'images/displacement/7.webp',
@@ -231,7 +231,7 @@ definePageMeta({
 		<!-- ========== Footer ===================== -->
 		<DsnFooterFa light animate />
 		<!-- ========== End Footer ================= -->
-	</NuxtLayout>
+	</Layout>
 </template>
 
 <style>

@@ -13,7 +13,7 @@ definePageMeta({
         <Title>تماس با ما</Title>
     </Head>
 
-    <NuxtLayout name="fa-default">
+    <Layout name="fa-default">
         <!-- ========== Header Normal=============== -->
         <HeaderNormal contentClass="container" subTitle="" :linkTo="$route.path" linkName="See More Works">
             <template v-slot:title>
@@ -50,5 +50,5 @@ definePageMeta({
         <DsnFooterFa :animateContent="false" />
         <!-- ========== End Footer ================= -->
 
-    </NuxtLayout>
+    </Layout>
 </template>

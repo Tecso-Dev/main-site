@@ -22,7 +22,7 @@ definePageMeta({
         <Title>خدمات</Title>
     </Head>
 
-    <NuxtLayout bodyStyle="bg-dots" name="fa-default">
+    <Layout bodyStyle="bg-dots" name="fa-default">
         <!-- ========== Header Normal ================ -->
         <HeaderNormal contentClass="container" subTitle="خدمات ما">
             <template v-slot:title>
@@ -128,7 +128,7 @@ definePageMeta({
         <!-- ========== Footer ======================= -->
         <DsnFooterFa animate />
         <!-- ========== End Footer =================== -->
-    </NuxtLayout>
+    </Layout>
 </template>
 
 

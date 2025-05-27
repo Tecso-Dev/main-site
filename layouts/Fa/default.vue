@@ -32,11 +32,16 @@ onMounted(() => {
 
 <style>
     h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
-        font-family: anjoman !important;
+        font-family: "Ray", sans-serif;
 
     }
-    body{
+    body, .main-navigation {
         direction: rtl;
-        font-family: anjoman !important;
+        font-family: "Ray", sans-serif;
     }
+
+    .site-header, .control-nav , #port-horz , #about-index{
+        direction: ltr !important;
+    }
+
 </style>

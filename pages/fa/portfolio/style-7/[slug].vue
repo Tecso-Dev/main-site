@@ -61,7 +61,7 @@ definePageMeta({
         <Title>{{ item.title }}</Title>
     </Head>
 
-    <NuxtLayout name="fa-default">
+    <Layout name="fa-default">
         <!-- ========== Header  ========== -->
         <HeaderFull
             :data="item"
@@ -125,5 +125,5 @@ definePageMeta({
         <!-- ========== Next Project  ========== -->
         <NextProject light :next="nextProject(item.id, data_Portf)" />
         <!-- ========== End Next Project  ========== -->
-    </NuxtLayout>
+    </Layout>
 </template>

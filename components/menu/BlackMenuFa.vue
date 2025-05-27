@@ -17,6 +17,8 @@
 	import Collapse from "@/components/menu/nav/contain/Collapse.vue";
 	import Dropdown from "@/components/menu/nav/contain/Dropdown.vue";
 	import ItemLink from "@/components/menu/nav/contain/ItemLink.vue";
+	import MenuContentFa from "@/components/menu/MenuContentFa.vue";
+
 	const Links = () => { const xx = []; data_MENU.forEach((item) => { if
 	(item.dropdownMenu) { const list2 = []; item.dropdownMenu.forEach((item2) => {
 	if (item2.dropdownMenu) { const list3 = []; item2.dropdownMenu.forEach((item3) => { if (item3.dropdownMenu) { const list4 = [];

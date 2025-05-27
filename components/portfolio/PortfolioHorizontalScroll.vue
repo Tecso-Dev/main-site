@@ -51,7 +51,7 @@ onMounted(() => {
 </script>
 
 <template>
-	<div class="p-relative pb-section over-hidden box-shadow-image box-image-transform dsn-style-cards ">
+	<div id="port-horz" class="p-relative pb-section over-hidden box-shadow-image box-image-transform dsn-style-cards ">
 		<div class="root-posts">
 			<div ref="parallaxAnimate"
 				class="dsn-grid-layout dsn-grid dsn-posts dsn-post-type-cards use-horizontal-scroll box-image-normal">

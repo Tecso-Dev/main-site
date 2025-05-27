@@ -21,7 +21,7 @@ definePageMeta({
         <Title>درباره ما</Title>
     </Head>
 
-    <NuxtLayout name="fa-default">
+    <Layout name="fa-default">
         <!-- ========== Header Normal============= -->
         <HeaderNormal contentClass="container" subTitle="" btnScrollTo="about">
             <template v-slot:title>
@@ -84,7 +84,7 @@ definePageMeta({
         <!-- ========== Footer =================== -->
         <DsnFooterFa light animate />
         <!-- ========== End Footer =============== -->
-    </NuxtLayout>
+    </Layout>
 </template>
 
 

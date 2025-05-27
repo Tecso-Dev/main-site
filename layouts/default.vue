@@ -35,8 +35,10 @@ onMounted(() => {
         font-family: "Ray", sans-serif;
 
     }
-    body{
+    body, .main-navigation{
         direction: ltr;
         font-family: "Ray", sans-serif;
     }
+
+
 </style>
