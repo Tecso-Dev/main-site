@@ -1,4 +1,5 @@
 <script setup>
+import { computed } from 'vue'; // Added import
 import { nextProject } from "@/hooks/plugin.js"
 import { Fancybox } from "@fancyapps/ui";
 import data_Portf from "@/api/portfolio/portfolio.json";
@@ -23,6 +24,43 @@ if (!item) {
         data: { msg: useRoute().path, redirectLink: "/work/work-list-1", linkName: "Portfolio" }
     })
 }
+
+// Added computed properties for robust image handling
+const parallaxImageInfo = computed(() => {
+  if (item.images && item.images[1] && item.images[1].src) {
+    return item.images[1];
+  }
+  return null;
+});
+
+const imagePopupList = computed(() => {
+  const list = [];
+  if (item.images) {
+    if (item.images[2] && item.images[2].src) {
+      list.push(item.images[2]);
+    }
+    if (item.images[3] && item.images[3].src) {
+      list.push(item.images[3]);
+    }
+  }
+  return list;
+});
+
+const boxInfoFullImageSrc = computed(() => {
+  if (item.images && item.images[4] && item.images[4].src) {
+    return item.images[4].src;
+  }
+  return null;
+});
+
+const imagesSwiperData = computed(() => {
+  if (item.images) {
+    // Slice first, then filter. Slice handles out-of-bounds gracefully.
+    return item.images.slice(5, 9).filter(img => img && img.src);
+  }
+  return [];
+});
+
 onMounted(() => {
     Fancybox.defaults.Hash = false;
     Fancybox.bind("[data-fancybox]", {
@@ -60,29 +98,29 @@ onBeforeUnmount(() => Fancybox.destroy());
         <!-- ========== End Info Project  ========== -->
 
         <!-- ========== Parallax Image With Popup  ========== -->
-        <ParallaxImage class="section-margin" :src="item.images[1].src" :caption="item.images[1].name" fancybox="_1" />
+        <ParallaxImage v-if="parallaxImageInfo" class="section-margin" :src="parallaxImageInfo.src" :caption="parallaxImageInfo.name" fancybox="_1" />
         <!-- ========== End Parallax Image With Popup  ========== -->
 
         <!-- ========== Image Popup  ========== -->
-        <ImagePopup class="container" :imageList="[item.images[2], item.images[3]]" />
+        <ImagePopup v-if="imagePopupList.length > 0" class="container" :imageList="imagePopupList" />
         <!-- ========== End Image Popup  ========== -->
 
         <!-- ========== Right Box With Image ========== -->
-        <BoxInfoFull v-if="item.images[4].src" :imageSrc="item.images[4].src">
+        <BoxInfoFull v-if="boxInfoFullImageSrc" :imageSrc="boxInfoFullImageSrc">
             <template v-slot:title>
-                <SectionTitle :title="item.about[1].title" beforeStyle="circle-before" :spaceDown="false" />
+                <SectionTitle :title="item.about && item.about[1] ? item.about[1].title : ''" beforeStyle="circle-before" :spaceDown="false" />
             </template>
             <template v-slot:string>
-                <p class="mt-20 pt-20 border-top">{{ item.about[1].text[0] }}</p>
+                <p class="mt-20 pt-20 border-top">{{ item.about && item.about[1] && item.about[1].text && item.about[1].text[0] ? item.about[1].text[0] : '' }}</p>
             </template>
             <BoxInfoList>
-                <BoxInfoItem v-for="(item, index) in item.textLines" :key="index" :item="item.text" />
+                <BoxInfoItem v-for="(textLine, index) in item.textLines" :key="index" :item="textLine.text" />
             </BoxInfoList>
         </BoxInfoFull>
         <!-- ========== End Right Box With Image ========== -->
 
         <!-- ========== Portfolio ========== -->
-        <ImagesSwiper :data="item.images.slice(5, 9)"
+        <ImagesSwiper v-if="imagesSwiperData.length > 0" :data="imagesSwiperData"
             class="dsn-container dsn-right-container over-hidden background-section section-padding section-margin dsn-swiper"
             Pagination grabCursor loop parallax :centeredSlides="false"
             :desktop="{ slidesPerView: 2.5, spaceBetween: 30, centeredSlides: false }"
