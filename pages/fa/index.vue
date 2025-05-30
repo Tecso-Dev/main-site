@@ -8,11 +8,11 @@ import data_IServ from "@/api/services/service-icon.json";
 import data_Teste from "@/api/testimonials/testimonials.json";
 import data_Brand from "@/api/brands/brand-one.json";
 import SectionTitle from "@/components/title/SectionTitle.vue";
-import SectionTitleGrid from "@/components/title/SectionTitleGrid.vue";
-import LinkDefualt from "@/components/links/LinkDefualt.vue";
+import SectionTitleGridFa from "@/components/title/SectionTitleGridFa.vue";
+import LinkDefualtFa from "@/components/links/LinkDefualtFa.vue";
 import LinkAngle from "@/components/links/LinkAngle.vue";
 import ServiceIcon from "@/components/services/ServiceIcon.vue";
-import ServiceStyleFa from "~/components/services/ServiceStyle-fa.vue";
+import ServiceStyleFa from "~/components/services/ServiceStyleFa.vue";
 import BoxImage from "@/components/box-image/BoxImage.vue";
 import BoxInfo from "@/components/box-info/BoxInfo.vue";
 import BoxInfoList from "@/components/box-info/BoxInfoList.vue";
@@ -187,7 +187,7 @@ definePageMeta({
 				ما برندها را از طریق بینش فرهنگی، چشم‌انداز استراتژیک و قدرت احساسات در هر عنصر بیان آن، می‌سازیم و فعال می‌کنیم.
 			</template>
 			<template v-slot:button>
-				<LinkAngle classColor="main" linkName="درباره ما" linkTo="fa/about-us" />
+				<LinkAngle classColor="main" linkName="درباره ما" linkTo="/fa/about-us" />
 			</template>
 		</AboutOne>
 		<!-- ========== About Section One ========== -->
@@ -196,8 +196,8 @@ definePageMeta({
 		<ServiceStyleFa :data="data_Serve.slice(0,3)" fadeUp counter titleClass="border-bottom pb-20 mb-20"
 			serviceInnerClass="border-style" iconsize="80px" masonry :center="false" haveButton>
 			<template v-slot:title>
-				<SectionTitleGrid grid btnBackground="background-section" beforeStyle="circle-before"
-					subTitle="مزایا" title="بیایید <b>خدمات ما</b> را بررسی کنیم" linkTo="fa/service"
+				<SectionTitleGridFa grid btnBackground="background-section" beforeStyle="circle-after"
+					subTitle="مزایا" title="بیایید <b>خدمات ما</b> را بررسی کنیم" linkTo="/fa/service"
 					linkName="مشاهده تمامی خدمات" />
 			</template>
 		</ServiceStyleFa>
@@ -207,7 +207,7 @@ definePageMeta({
 		<BoxInfo imageSrc="images/about-3.jpg">
 			<template v-slot:title>
 				<SectionTitle subTitle="تکنولوژی" title="هویت بصری شما چگونه است؟"
-					beforeStyle="circle-before" :spaceDown="false" />
+					beforeStyle="circle-after" :spaceDown="false" />
 			</template>
 			<template v-slot:string>
 				لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
@@ -217,8 +217,8 @@ definePageMeta({
 			<BoxInfoList>
 				<BoxInfoItem v-for="(item,index) in data_InBox" :key="index" :item="item.text" />
 			</BoxInfoList>
-			<LinkDefualt linkClass="background-main" :iconAwesome="['fas','angle-right']" popup linkName="بیشتر بدانید"
-				linkTo="fa/portfolio/style-6/platform-development" parallax />
+			<LinkDefualtFa linkClass="background-main" :iconAwesome="['fas','angle-left']" popup linkName="بیشتر بدانید"
+				linkTo="/fa/portfolio/style-6/platform-development" parallax />
 		</BoxInfo>
 		<!-- ========== End About Section One ========== -->
 
@@ -240,8 +240,8 @@ definePageMeta({
 				<span class="mb-10 d-block"></span>
 در عین حال، سبک من کاملاً مختص خودم است - ساده، با اشکال تمیز و راه‌حل‌های مدرن برای صرفه‌جویی در فضا.
 			</p>
-			<LinkDefualt linkClass="background-section" :iconAwesome="['far','envelope-open']" popup
-				linkName="با ما در تماس باشید" linkTo="fa/contact" parallax />
+			<LinkDefualtFa linkClass="background-section" :iconAwesome="['far','envelope-open']" popup
+				linkName="با ما در تماس باشید" linkTo="/fa/contact" parallax />
 		</BoxImage>
 		<!-- ========== End background Box Image ========== -->
 

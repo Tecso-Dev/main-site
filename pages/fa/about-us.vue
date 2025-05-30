@@ -8,7 +8,7 @@ import LinkAngle from "@/components/links/LinkAngle.vue"
 import SectionTitle from "@/components/title/SectionTitle.vue";
 import ServiceStyle from "@/components/services/ServiceStyle.vue";
 import DsnFooterFa from "~/components/footer/DsnFooterFa.vue";
-const pageStyle = { titleBeforeStyle: "circle-before", };
+const pageStyle = { titleBeforeStyle: "circle-after", };
 
 definePageMeta({
   layout: 'fa-default'

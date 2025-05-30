@@ -2,7 +2,6 @@
 import { nextProject } from "@/hooks/plugin.js";
 import data_blogs from "@/api/fa/blog/blog.json";
 import PostData from "@/components/blog/PostData.vue";
-import PostPagination from "@/components/blog/PostPagination.vue";
 import DsnFooterFa from "@/components/footer/DsnFooterFa.vue";
 import PostCommentsFa from "~/components/blog/PostCommentsFa.vue";
 import PostPaginationFa from "~/components/blog/PostPaginationFa.vue";
@@ -17,7 +16,7 @@ if (!item) {
         statusMessage: "پست یافت نشد",
         data: {
             msg: useRoute().path,
-            redirectLink: "fa/blog/stories",
+            redirectLink: "/fa/blog/stories",
             linkName: "Blog",
         },
     });
@@ -34,11 +33,11 @@ definePageMeta({
         <Title>پست - {{ item.title }}</Title>
     </Head>
 
-    <NuxtLayout name="fa-default">
+    <Layout name="fa-default">
         <HeaderSinglePost :data="item" btnScrollTo="" />
         <PostData :data="item" />
         <PostPaginationFa :data="data_blogs" />
         <PostCommentsFa :data="item" />
         <DsnFooterFa light animate />
-    </NuxtLayout>
+    </Layout>
 </template>

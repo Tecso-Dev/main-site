@@ -46,12 +46,12 @@ definePageMeta({
 <template>
 
     <Head>
-        <Title>Tecso Platform Development</Title>
+        <Title>توسعه پلتفرم</Title>
     </Head>
 
     <Layout name="fa-default">
         <!-- ========== Header  ========== -->
-        <HeaderFull :data="item" boxShadow btnScrollTo="info" :linkCircleTo="item.autherLink" />
+        <HeaderFullFa :data="item" boxShadow btnScrollTo="info" :linkCircleTo="item.autherLink" />
         <!-- ========== End Header  ========== -->
 
         <!-- ========== Info Project  ========== -->

@@ -32,15 +32,15 @@ onMounted(() => {
 
 <style>
     h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
-        font-family: "Ray", sans-serif;
+        font-family: "Ray", sans-serif !important;
 
     }
     body, .main-navigation {
         direction: rtl;
-        font-family: "Ray", sans-serif;
+        font-family: "Ray", sans-serif !important;
     }
 
-    .site-header, .control-nav , #port-horz , #about-index, #skills{
+    .site-header, .control-nav , #port-horz , #about-index, #skills, .dsn-pagination{
         direction: ltr !important;
     }
 

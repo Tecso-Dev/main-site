@@ -49,7 +49,7 @@ definePageMeta({
 
     <Layout name="fa-default">
         <!-- ========== Header  ========== -->
-        <HeaderFull :data="item" boxShadow btnScrollTo="info" :linkCircleTo="item.autherLink" />
+        <HeaderFullFa :data="item" boxShadow btnScrollTo="info" :linkCircleTo="item.autherLink" />
         <!-- ========== End Header  ========== -->
 
         <!-- ========== Info Project  ========== -->
@@ -92,7 +92,7 @@ definePageMeta({
         <div class="container section-margin">
             <p class="title-block heading-color">
                 <span class="dsn-up d-block" data-split-char>Tecso Team</span>
-                <span class="dsn-up" data-split-char><b>depth market and competitive analysis</b> to crafting compelling proposals that win contracts.</span>
+                <span class="dsn-up" data-split-char>از تحلیل عمیق بازار و رقابت برای ارائه پیشنهادهای جذاب که منجر به عقد قرارداد می‌شوند.</span>
             </p>
         </div>
         <!-- ========== End Paragraph  ========== -->

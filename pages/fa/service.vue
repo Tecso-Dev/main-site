@@ -24,7 +24,7 @@ definePageMeta({
 
     <Layout bodyStyle="bg-dots" name="fa-default">
         <!-- ========== Header Normal ================ -->
-        <HeaderNormal contentClass="container" subTitle="خدمات ما">
+        <HeaderNormalFa contentClass="container" subTitle="خدمات ما">
             <template v-slot:title>
                 ما محصولات دیجیتال زیبایی را <br /> برای ما ارائه می دهیم.
             </template>
@@ -32,16 +32,16 @@ definePageMeta({
                 اگر به دنبال آژانسی هستید که به شما در ایجاد حضوری چشمگیر در فضای آنلاین کمک کند، به جای درستی آمده‌اید. ما می‌توانیم به شما کمک کنیم تا کسب و کارتان را به سطح بالاتری ببرید.
             </template>
             <LinkAngle linkName="همین حالا شروع کن" linkTo="/fa/contact" />
-        </HeaderNormal>
+        </HeaderNormalFa>
         <!-- ========== End Header Normal ============ -->
 
         <!-- ========== About Section ================ -->
-        <AboutServices :data="data_Serve" imageSrc="images/portfolio/project6/2.gif">
+        <AboutServices :data="data_Serve" imageSrc="/images/portfolio/project6/2.gif">
             <template v-slot:title>بریم که <b>سرویس هامون رو</b> بررسی کنیم</template>
             <template v-slot:smallBoxTitle>بهترین شیوه‌ها از متخصصان صنعت</template>
             <template v-slot:smallBoxDescription>
                 <p>
-ما فرهنگی را طراحی کرده‌ایم که به متصدیان ما اجازه می‌دهد تا با مشتریان ما هماهنگ شوند و آنها را به ارمغان بیاورند.   
+ما فرهنگی را طراحی کرده‌ایم که به متصدیان ما اجازه می‌دهد تا با مشتریان ما هماهنگ شوند و آنها را به ارمغان بیاورند        .   
                 </p>
             </template>
         </AboutServices>
@@ -53,7 +53,7 @@ definePageMeta({
                 <div class="d-grid grid-md-2" data-dsn-gap="30px 60px">
                     <div class="left">
                         <h5 class="title-h2 body-font text-upper">
-                            ما بهترین خدمات<b>بازار</b> را به شما ارائه می‌دهیم
+                            ما بهترین خدمات <b>بازار </b> را به شما ارائه می‌دهیم
                         </h5>
                         <p class="mt-20">
                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است  

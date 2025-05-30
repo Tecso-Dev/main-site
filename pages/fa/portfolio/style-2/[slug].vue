@@ -87,7 +87,7 @@ onBeforeUnmount(() => Fancybox.destroy());
 
     <Layout>
         <!-- ========== Header  ========== -->
-        <HeaderRightImage :data="item" btnScrollTo="info" :linkCircleTo="item.autherLink" />
+        <HeaderRightImageFa :data="item" btnScrollTo="info" :linkCircleTo="item.autherLink" />
         <!-- ========== End Header  ========== -->
 
         <!-- ========== Info Project  ========== -->

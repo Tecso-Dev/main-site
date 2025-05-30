@@ -1,7 +1,7 @@
 <script setup>
 import { Animate } from "@/hooks/pluginanimations.js";
 import SiteLogo from "@/components/logo/SiteLogo.vue";
-import LinkDefualt from "@/components/links/LinkDefualt.vue";
+import LinkDefualtFa from "@/components/links/LinkDefualtFa.vue";
 import SvgSeparator from "@/components/svg/SvgSeparator.vue";
 const props = defineProps({ light: Boolean,animate: Boolean,animateContent: { type: Boolean,default: true },containerContent: Boolean,});
 const footer = ref(null);
@@ -59,9 +59,9 @@ onMounted(() => {
                     بیایید با هم چیزی
                     <span class="d-block"><b><i>شگفت انگیز </i></b>بسازیم</span>
                 </h2>
-                <LinkDefualt class="justify-content-center mt-30"
+                <LinkDefualtFa class="justify-content-center mt-30"
                     :linkClass="props.light ? 'background-main' : 'background-section'"
-                    :iconAwesome="['fas','angle-right']" popup linkName="شروع پروژه" linkTo="fa/contact" parallax />
+                    :iconAwesome="['fas','angle-left']" popup linkName="شروع پروژه" linkTo="/fa/contact" parallax />
             </div>
             <div class="dsn-container pt-60">
                 <div class="d-grid grid-lg-4 grid-md-2">

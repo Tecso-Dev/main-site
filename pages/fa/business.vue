@@ -12,7 +12,7 @@ import AccorItem from "@/components/accordion/AccordionItem.vue";
 import AboutThree from "@/components/about/AboutThree.vue";
 import ServicesThree from "@/components/services/ServicesThree.vue";
 import AwardedList from "@/components/awarded/AwardedList.vue";
-import SectionVideo from "@/components/section-video/SectionVideo.vue";
+import SectionVideoFa from "@/components/section-video/SectionVideoFa.vue";
 import BrandOne from "@/components/brand/BrandOne.vue";
 import DsnFooterFa from "@/components/footer/DsnFooterFa.vue";
 import BlogOneFa from "~/components/blog/BlogOneFa.vue";
@@ -44,7 +44,7 @@ definePageMeta({
 		<!-- ========== About Section ============== -->
 		<AboutThree>
 			<template v-slot:boxLeftTitle>
-				<SectionTitle subTitle="درباره ما" title="ما کیستیم؟" beforeStyle="square-before" :spaceDown="false" />
+				<SectionTitle subTitle="درباره ما" title="ما کیستیم؟" beforeStyle="square-after" :spaceDown="false" />
 			</template>
 			<template v-slot:boxLeftContain>
 				<Accordion>
@@ -171,7 +171,7 @@ definePageMeta({
 		<ServicesThree :data="data_Serve.slice(0, 4)" fadeUp>
 			<template v-slot:title>
 				<SectionTitle subTitle="مزایا" title=" بریم <b>سرویس های ما</b> را بررسی کنیم"
-					beforeStyle="square-before" />
+					beforeStyle="square-after" />
 			</template>
 		</ServicesThree>
 		<!-- ========== End Service ================ -->
@@ -187,14 +187,14 @@ definePageMeta({
 			:tablet="{ spaceBetween: 30, slidesPerView: 2, centeredSlides: true }"
 			:mobile="{ spaceBetween: 30, slidesPerView: 1, centeredSlides: true }">
 			<template v-slot:title>
-				<SectionTitleGrid grid class="container" btnBackground="background-main" beforeStyle="square-before"
+				<SectionTitleGrid grid class="container" btnBackground="background-main" beforeStyle="square-after"
 					subTitle="پروژه ما" title="آخرین طراحی های <br><b>جذاب ما </b>" />
 			</template>
 		</PortfolioSwiper>
 		<!-- ========== End Portfolio ============== -->
 
 		<!-- ========== Play Video ================= -->
-		<SectionVideo imageSrc="images/about-4.webp" btnName="PLAY" videoLink="https://vimeo.com/175353205" />
+		<SectionVideoFa imageSrc="images/about-4.webp" btnName="پخش" videoLink="https://vimeo.com/175353205" />
 		<!-- ========== End Play Video ============= -->
 
 		<!-- ========== testimonials =============== -->
@@ -204,7 +204,7 @@ definePageMeta({
 			:tablet="{ slidesPerView: 1, spaceBetween: 30, centeredSlides: false }"
 			:mobile="{ slidesPerView: 1, spaceBetween: 30, centeredSlides: false }">
 			<template v-slot:title>
-				<SectionTitle subTitle="مزایا" title="چیزی که افراد <br><b>میگویند</b>" beforeStyle="square-before" />
+				<SectionTitle subTitle="مزایا" title="چیزی که افراد <br><b>میگویند</b>" beforeStyle="square-after" />
 			</template>
 		</Testimonials>
 		<!-- ========== End testimonials =========== -->
@@ -214,7 +214,7 @@ definePageMeta({
 			containBoxesStyle="grid-lg-3 grid-sm-2" boxStyle="classic" classItemPost="p-20">
 			<template v-slot:title>
 				<SectionTitle subTitle="آخرین اخبار" title="آخرین و  <b>بزرگترین پست</b>"
-					beforeStyle="square-before" />
+					beforeStyle="square-after" />
 			</template>
 		</BlogOneFa>
 		<!-- ========== End Stories ================ -->
@@ -223,7 +223,7 @@ definePageMeta({
 		<BrandOne :data="data_Brand.slice(0, 8)" class="container section-padding">
 			<template v-slot:title>
 				<SectionTitle subTitle="مشتری های ما" title="موفقیت شما, <b>اعتبار ما"
-					beforeStyle="square-before" />
+					beforeStyle="square-after" />
 			</template>
 		</BrandOne>
 		<!-- ========== End Brand ================== -->

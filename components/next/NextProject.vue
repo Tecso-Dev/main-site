@@ -41,7 +41,6 @@ const item = data_Portf.find((item) => item.id === Number(props.next));
 
 <style lang="scss">
 .next-project {
-	font-family: 'Vazirmatn';
 	position: relative;
 	height: 100vh;
 	overflow: hidden;
