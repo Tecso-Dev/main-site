@@ -41,3 +41,9 @@ definePageMeta({
         <DsnFooterFa light animate />
     </Layout>
 </template>
+
+<style>
+    blockquote{
+        font-family: "Ray",sans-serif !important;
+    }
+</style>
