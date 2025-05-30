@@ -10,7 +10,7 @@ import ExperienceList from "@/components/experience/ExperienceList.vue"
 import HeaderResumeFa from "@/components/header/HeaderResumeFa.vue"
 import ServiceStyle from "@/components/services/ServiceStyle.vue";
 import SectionData from "@/components/sections/SectionData.vue"
-import PortfolioFilter from "@/components/portfolio/PortfolioFilter.vue"
+import PortfolioFilterFa from "@/components/portfolio/PortfolioFilterFa.vue"
 import DsnFooterFa from "@/components/footer/DsnFooterFa.vue";
 const personal = 1
 
@@ -92,7 +92,7 @@ definePageMeta({
         <!-- ========== End Experience ========== -->
 
         <!-- ========== Portfolio ========== -->
-        <PortfolioFilter class="container" :data="data_Portf" setStyle="cards-1" LinkCircleArrow />
+        <PortfolioFilterFa class="container" :data="data_Portf" setStyle="cards-1" LinkCircleArrow />
         <!-- ========== End Portfolio ========== -->
 
         <!-- ========== Contact ========== -->
