@@ -8,7 +8,7 @@ import InfoProjectItem from "@/components/portfolio/info-project/InfoProjectItem
 import ScrollImages from "@/components/images/ScrollImages.vue";
 import ImagePopup from "@/components/images/ImagePopup.vue";
 import BoxInfoFull from "@/components/box-info/BoxInfoFull.vue";
-import NextProject from "@/components/next/NextProject.vue";
+import NextProject from "~/components/next/NextProject.vue";
 definePageMeta({ documentDriven: false });
 const { slug } = useRoute().params
 const item = await data_Portf.find(item => item.slug === slug)

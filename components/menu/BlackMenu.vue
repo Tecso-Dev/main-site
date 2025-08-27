@@ -5,7 +5,7 @@
 				<ul id="dsn-primary-list" class="primary-nav h2">
 					<Links />
 				</ul>
-				<MenuContentFa class="section-margin" />
+				<MenuContent class="section-margin" />
 			</Collapse>
 		</Navbar>
 </template>

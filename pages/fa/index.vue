@@ -2,10 +2,10 @@
 
 import data_InBox from "@/api/fa/box-info/box-info.json";
 import data_Portf from "@/api/fa/portfolio/portfolio.json";
-import data_blogs from "@/api/blog/blog.json";
+import data_blogs from "@/api/fa/blog/blog.json";
 import data_Serve from "@/api/fa/services/service.json";
 import data_IServ from "@/api/services/service-icon.json";
-import data_Teste from "@/api/testimonials/testimonials.json";
+import data_Teste from "@/api/fa/testimonials/testimonials.json";
 import data_Brand from "@/api/brands/brand-one.json";
 import SectionTitle from "@/components/title/SectionTitle.vue";
 import SectionTitleGridFa from "@/components/title/SectionTitleGridFa.vue";
@@ -98,7 +98,7 @@ definePageMeta({
 						</template>
 						<template v-slot:answer>
 							<p>
-								لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+								ما آینده ای را پیش بینی می کنیم که خلاقیت ، تخصص و نوآوری برای شکل دادن به فضاهای الهام بخش و تحولات پایدار جمع می شود.
 							</p>
 						</template>
 					</AccorItem>
@@ -125,7 +125,7 @@ definePageMeta({
 						</template>
 						<template v-slot:answer>
 							<p>
-								لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+								هدف ما ارائه مشاوره واضح ، اجرای پروژه ها با کیفیت و کارآیی و ایجاد مشارکتهای ماندگار بر اساس اعتماد است.
 							</p>
 						</template>
 					</AccorItem>
@@ -159,7 +159,7 @@ definePageMeta({
 						</template>
 						<template v-slot:answer>
 							<p>
-								لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+								برای آمیختن تخصص ، خلاقیت و یکپارچگی در ارائه راه حل های معماری و سرمایه گذاری که ایده ها را به ارزش ماندگار برای مشتریان تبدیل می کند.
 							</p>
 						</template>
 					</AccorItem>
@@ -204,15 +204,15 @@ definePageMeta({
 		<!-- ========== End Service ========== -->
 
 		<!-- ========== About Section One ========== -->
-		<BoxInfo imageSrc="images/about-3.jpg">
+		<BoxInfo imageSrc="images/portfolio/project6/023.webp">
 			<template v-slot:title>
 				<SectionTitle subTitle="تکنولوژی" title="هویت بصری شما چگونه است؟"
 					beforeStyle="circle-after" :spaceDown="false" />
 			</template>
 			<template v-slot:string>
-				لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+				یک هویت بصری قوی با یک طراحی زیبا و بصری شروع می شود که توجه را به خود جلب می کند و برند شما را به طور مؤثر ارتباط می دهد.
 				<span class="d-block mt-10"></span>
-لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+				ب	ا ترکیب دقت ، توجه به جزئیات و راه حل های انعطاف پذیر ، ما به برند شما کمک می کنیم تا از هم جدا شود و جلوه ای ماندگار به جا بگذارد.
 			</template>
 			<BoxInfoList>
 				<BoxInfoItem v-for="(item,index) in data_InBox" :key="index" :item="item.text" />
@@ -227,7 +227,7 @@ definePageMeta({
 		<!-- ========== End Portfolio ========== -->
 
 		<!-- ========== background Box Image ========== -->
-		<BoxImage imageSrc="images/about-4.jpg">
+		<BoxImage imageSrc="images\portfolio\project7\3.webp">
 			<h3 class="title-h2">
 				برای عکاسی حرفه‌ای به کمک نیاز دارید؟ <br />
 <b>بیایید با هم همکاری کنیم!</b>
@@ -246,23 +246,23 @@ definePageMeta({
 		<!-- ========== End background Box Image ========== -->
 
 		<!-- ========== testimonials ========== -->
-		<Testimonials :data="data_Teste" :stringLine="1" haveOverlayBG Pagination
+		<Testimonials style="direction:rtl" :data="data_Teste" :stringLine="1" haveOverlayBG Pagination
 			className="section-padding background-section" slideClass="border-style" :desktop="{ slidesPerView: 2 }"
 			:tablet="{ slidesPerView: 2 }" :mobile="{ slidesPerView: 1 }" grabCursor :centeredSlides="false"
 			spaceBetween="30" loop :speed="1200">
 			<template v-slot:title>
-				<SectionTitleGrid grid btnBackground="background-main" beforeStyle="circle-before" subTitle="مزایا"
+				<SectionTitleGridFa grid btnBackground="background-main" beforeStyle="circle-after" subTitle="مزایا"
 					title="چیزی که افراد <br><b>میگویند</b>" linkTo="fa/contact" linkName="همین الان شروع کنید" />
 			</template>
 		</Testimonials>
 		<!-- ========== End testimonials ========== -->
 
 		<!-- ========== Stories ========== -->
-		<BlogSwiper setStyle="normal" :data="data_blogs" haveOverlayBG allowPrevButton allowNextButton allowPagination
+		<BlogSwiper style="direction:rtl" setStyle="normal" :data="data_blogs" haveOverlayBG allowPrevButton allowNextButton allowPagination
 			grabCursor parallax loop :speed="1200" :desktop="{ slidesPerView: 2.5, spaceBetween: 30 }"
 			:tablet="{ slidesPerView: 2, spaceBetween: 30 }" :mobile="{ slidesPerView: 1, spaceBetween: 30 }">
 			<template v-slot:title>
-				<SectionTitleGrid grid class="container" btnBackground="background-section" beforeStyle="circle-before"
+				<SectionTitleGridFa grid class="container" btnBackground="background-section" beforeStyle="circle-after"
 					subTitle="مزایا" title="چیزی که افراد <br><b>میگویند</b>" linkTo="fa/blog/stories"
 					linkName="همین الان شروع کن" />
 			</template>

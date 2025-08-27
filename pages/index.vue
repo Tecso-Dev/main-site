@@ -93,9 +93,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								We envision a future where creativity, expertise, and innovation come together to shape inspiring spaces and sustainable developments.
 							</p>
 						</template>
 					</AccorItem>
@@ -122,9 +120,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								We aim to provide clear consulting, execute projects with quality and efficiency and build lasting partnerships based on trust.
 							</p>
 						</template>
 					</AccorItem>
@@ -158,9 +154,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								To blend expertise, creativity, and integrity in delivering architectural, and investment solutions that turn ideas into lasting value for our clients.
 							</p>
 						</template>
 					</AccorItem>
@@ -208,17 +202,15 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 		<!-- ========== End Service ========== -->
 
 		<!-- ========== About Section One ========== -->
-		<BoxInfo imageSrc="images/about-3.jpg">
+		<BoxInfo imageSrc="images/portfolio/project6/023.webp">
 			<template v-slot:title>
 				<SectionTitle subTitle="TECHNOLOGY" title="How is your <br>visual <b>identity?</b>"
 					beforeStyle="circle-before" :spaceDown="false" />
 			</template>
 			<template v-slot:string>
-				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt mollit laborum. Sed ut perspiciatis unde omnis iste natus sit .
+				A strong visual identity starts with a beautiful and intuitive design that captures attention and communicates your brand effectively. 
 				<span class="d-block mt-10"></span>
-				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt
+				By combining precision, attention to detail, and flexible solutions, we help your brand stand out and leave a lasting impression.
 			</template>
 			<BoxInfoList>
 				<BoxInfoItem v-for="(item,index) in data_InBox" :key="index" :item="item.text" />
@@ -233,7 +225,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 		<!-- ========== End Portfolio ========== -->
 
 		<!-- ========== background Box Image ========== -->
-		<BoxImage imageSrc="images/about-4.jpg">
+		<BoxImage imageSrc="images\portfolio\project7\3.webp">
 			<h3 class="title-h2">
 				Need help with professional <br />photography?
 				<b>Let's work together!</b>

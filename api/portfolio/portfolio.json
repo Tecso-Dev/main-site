@@ -570,12 +570,12 @@
             "name": "Cybersecurity Dashboard"
         },
         {
-            "src": "images/portfolio/project1/058.webp",
-            "name": "Network Security Framework"
-        },
-        {
             "src": "images/portfolio/project1/059.webp",
             "name": "Data Protection Interface"
+        },
+        {
+            "src": "images/portfolio/project1/058.webp",
+            "name": "Network Security Framework"
         }
     ],
     "video": [
@@ -661,15 +661,15 @@
             },
             {
                 "src": "images/portfolio/project7/2.webp",
-                "name": "Caption #02"
+                "name": "Creative Design"
             },
             {
                 "src": "images/portfolio/project7/3.webp",
-                "name": "Caption #03"
+                "name": "professional Photographer"
             },
             {
                 "src": "images/portfolio/project7/4.webp",
-                "name": "Caption #04"
+                "name": "Idea Concept"
             }
         ],
         "video": [
@@ -722,7 +722,7 @@
             {
                 "title": "ABOUT THE PROJECT",
                 "text": [
-                    "ddddddd was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We're helping people with Wet & Dry Macular Degeneration, Diabetic and Non-Diabetic Retinopathy, Glaucoma, Optic-Nerve-Atrophy."
+                    "VisionAid was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We're helping people with Wet & Dry Macular Degeneration, Diabetic and Non-Diabetic Retinopathy, Glaucoma, Optic-Nerve-Atrophy."
                 ]
             },
             {
@@ -746,15 +746,15 @@
             },
             {
                 "src": "images/portfolio/project8/2.webp",
-                "name": "Caption #02"
+                "name": "Smart Glasses"
             },
             {
                 "src": "images/portfolio/project8/3.webp",
-                "name": "Caption #03"
+                "name": "SmartPhone"
             },
             {
                 "src": "images/portfolio/project8/4.webp",
-                "name": "Caption #04"
+                "name": "Blue Eye Cyber "
             }
         ],
         "video": [

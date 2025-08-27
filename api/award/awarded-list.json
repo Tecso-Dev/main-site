@@ -1,21 +1,23 @@
 [
-    {
-        "id": 1,
-        "name": "اعضای تیم",
-        "number": "200",
-        "mark": "+",
-        "description": "جامعه‌ای متنوع و جهانی از متفکران مستقل که محیط کاری فراگیر ما را تشکیل می‌دهند."
-    },{
-        "id": 2,
-        "name": "مدیران پروژه",
-        "number": "60",
-        "mark": "+",
-        "description": "تیمی متشکل از مدیران حرفه‌ای که با تخصص و تجربه، پروژه‌های ما را هدایت می‌کنند."
-    },{
-        "id": 3,
-        "name": "دفاتر",
-        "number": "10",
-        "mark": "+",
-        "description": "شبکه‌ای گسترده از دفاتر در نقاط مختلف که خدمات ما را در دسترس همگان قرار می‌دهد."
-    }
+  {
+    "id": 1,
+    "name": "Team Members",
+    "number": "200",
+    "mark": "+",
+    "description": "A diverse and global community of independent thinkers who make up our inclusive work environment."
+  },
+  {
+    "id": 2,
+    "name": "Project Managers",
+    "number": "60",
+    "mark": "+",
+    "description": "A team of professional managers who lead our projects with expertise and experience."
+  },
+  {
+    "id": 3,
+    "name": "Offices",
+    "number": "10",
+    "mark": "+",
+    "description": "An extensive network of offices across different locations, making our services accessible to everyone."
+  }
 ]

@@ -38,8 +38,8 @@ const props = defineProps({
 					<NuxtImg format="webp" class="cover-bg-img" :src="props.imageOneSrc" alt="about" />
 				</div>
 			</div>
-			<div class="p-relative box-img-bottom hv-50" v-if="props.imageTwoSrc">
-				<NuxtImg format="webp" class="cover-bg-img" :src="props.imageTwoSrc" alt="about" />
+			<div class="p-relative box-img-bottom hv-50" v-if="props.imageOneSrc">
+				<NuxtImg format="webp" class="cover-bg-img" :src="props.imageOneSrc" alt="about" />
 			</div>
 		</div>
 	</section>

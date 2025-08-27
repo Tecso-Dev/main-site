@@ -3,6 +3,7 @@ import { Animate } from "@/hooks/pluginanimations.js";
 import SiteLogo from "@/components/logo/SiteLogo.vue";
 import LinkDefualtFa from "@/components/links/LinkDefualtFa.vue";
 import SvgSeparator from "@/components/svg/SvgSeparator.vue";
+import SiteLogoFa from "../logo/SiteLogoFa.vue";
 const props = defineProps({ light: Boolean,animate: Boolean,animateContent: { type: Boolean,default: true },containerContent: Boolean,});
 const footer = ref(null);
 const footerContent = ref(null);
@@ -34,8 +35,9 @@ const socialData = [
 ];
 const footerLinks = [
     { link: "/fa",name: "صفحه اصلی" },
-    { link: "/fa/work/work-classic-2",name: "نمونه کارها" },
-    { link: "/fa/blog/stories",name: "اخبار" },
+    { link: "/fa/business",name: "پروژه ها" },
+    { link: "/fa/service",name: "سرویس ها" },
+    { link: "/fa/blog/stories",name: "داستان ها" },
     { link: "/fa/about-us",name: "درباره ما" },
     { link: "/fa/contact",name: "تماس با ما" },
 ];
@@ -67,7 +69,7 @@ onMounted(() => {
                 <div class="d-grid grid-lg-4 grid-md-2">
                     <div class="grid-col-1">
                         <div class="dsn-logo main-logo">
-                            <SiteLogo height="undefined" width="undefined" />
+                            <SiteLogoFa height="undefined" width="undefined" />
                         </div>
                         <SocialGroup class="mt-20 dsn-icon-heading-color" :data="socialData" />
                     </div>

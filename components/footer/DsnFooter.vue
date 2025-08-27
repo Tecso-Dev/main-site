@@ -34,8 +34,9 @@ const socialData = [
 ];
 const footerLinks = [
     { link: "/",name: "HOME" },
-    { link: "/work/work-classic-2",name: "PORTFOLIO" },
-    { link: "/blog/stories",name: "NEWS" },
+    { link: "/business",name: "PROJECTS" },
+    { link: "/blog/stories",name: "STORIES" },
+    { link: "/service",name: "SERVICE" },
     { link: "/about-us",name: "ABOUT" },
     { link: "/contact",name: "CONTACT" },
 ];

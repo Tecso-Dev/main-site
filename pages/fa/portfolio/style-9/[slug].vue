@@ -8,7 +8,7 @@ import ParallaxImageTwo from "@/components/images/ParallaxImageTwo.vue";
 import ImagePopup from "@/components/images/ImagePopup.vue";
 import BoxInfoFull from "@/components/box-info/BoxInfoFull.vue";
 import ParagraphBox from "@/components/string/ParagraphBox.vue";
-import NextProject from "@/components/next/NextProject.vue";
+import NextProject from "~/components/next/NextProjectFa.vue";
 definePageMeta({ documentDriven: false });
 const { slug } = useRoute().params
 const item = await data_Portf.find(item => item.slug === slug)
@@ -44,7 +44,7 @@ definePageMeta({
 <template>
 
     <Head>
-        <Title>Tecso AI Services</Title>
+        <Title>سرویس هوش مصنوعی تسکو</Title>
     </Head>
 
     <Layout name="fa-default">

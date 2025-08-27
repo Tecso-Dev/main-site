@@ -84,9 +84,7 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								We envision a future where creativity, expertise, and innovation come together to shape inspiring spaces and sustainable developments.
 							</p>
 						</template>
 					</AccorItem>
@@ -113,9 +111,7 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								We aim to provide clear consulting, execute projects with quality and efficiency and build lasting partnerships based on trust.
 							</p>
 						</template>
 					</AccorItem>
@@ -149,9 +145,7 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								To blend expertise, creativity, and integrity in delivering architectural, and investment solutions that turn ideas into lasting value for our clients.
 							</p>
 						</template>
 					</AccorItem>
@@ -198,7 +192,7 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
 		<!-- ========== End Portfolio ============== -->
 
 		<!-- ========== Play Video ================= -->
-		<SectionVideo imageSrc="images/about-4.webp" btnName="PLAY" videoLink="https://vimeo.com/175353205" />
+		<SectionVideo imageSrc="images\portfolio\project4\038.webp" btnName="PLAY" videoLink="https://vimeo.com/175353205" />
 		<!-- ========== End Play Video ============= -->
 
 		<!-- ========== testimonials =============== -->

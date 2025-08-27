@@ -1,26 +1,26 @@
 [
-    {
-        "id": 1,
-        "name": "مشاوره برند"
-    },
-    {
-        "id": 2,
-        "name": "مدیریت بازاریابی"
-    },
-    {
-        "id": 3,
-        "name": "بینش مشتری"
-    },
-    {
-        "id": 4,
-        "name": "مشاوره برند"
-    },
-    {
-        "id": 5,
-        "name": "مدیریت بازاریابی"
-    },
-    {
-        "id": 6,
-        "name": "بینش مشتری"
-    }
+  {
+    "id": 1,
+    "name": "Brand Consulting"
+  },
+  {
+    "id": 2,
+    "name": "Marketing Management"
+  },
+  {
+    "id": 3,
+    "name": "Customer Insights"
+  },
+  {
+    "id": 4,
+    "name": "Brand Consulting"
+  },
+  {
+    "id": 5,
+    "name": "Marketing Management"
+  },
+  {
+    "id": 6,
+    "name": "Customer Insights"
+  }
 ]

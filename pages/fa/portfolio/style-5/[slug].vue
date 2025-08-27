@@ -5,7 +5,7 @@ import data_Portf from "@/api/fa/portfolio/portfolio.json";
 import InfoProject from "@/components/portfolio/info-project/InfoProject.vue";
 import InfoProjectItem from "@/components/portfolio/info-project/InfoProjectItem.vue";
 import ParallaxImage from "@/components/images/ParallaxImage.vue";
-import NextProject from "@/components/next/NextProject.vue";
+import NextProject from "~/components/next/NextProject.vue";
 definePageMeta({ documentDriven: false });
 const { slug } = useRoute().params
 const item = await data_Portf.find(item => item.slug === slug)
@@ -66,7 +66,7 @@ definePageMeta({
         <!-- ========== End Parallax Image With Popup  ========== -->
 
         <!-- ========== Next Project  ========== -->
-        <NextProject :next="nextProject(item.id, data_Portf)" />
+        <NextProjectFa :next="nextProject(item.id, data_Portf)" />
         <!-- ========== End Next Project  ========== -->
     </Layout>
 </template>

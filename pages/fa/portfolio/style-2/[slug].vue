@@ -13,7 +13,7 @@ import BoxInfoFull from "@/components/box-info/BoxInfoFull.vue";
 import BoxInfoList from "@/components/box-info/BoxInfoList.vue";
 import BoxInfoItem from "@/components/box-info/BoxInfoItem.vue";
 import ImagesSwiper from "@/components/portfolio/images-swiper/ImagesSwiper.vue";
-import NextProject from "@/components/next/NextProject.vue";
+import NextProjectFa from '~/components/next/NextProjectFa.vue';
 definePageMeta({ documentDriven: false });
 const { slug } = useRoute().params
 const item = await data_Portf.find(item => item.slug === slug)
@@ -131,7 +131,7 @@ onBeforeUnmount(() => Fancybox.destroy());
         <!-- ========== End Portfolio ========== -->
 
         <!-- ========== Next Project  ========== -->
-        <NextProject light :next="nextProject(item.id, data_Portf)" />
+        <NextProjectFa light :next="nextProject(item.id, data_Portf)" />
         <!-- ========== End Next Project  ========== -->
     </Layout>
 </template>

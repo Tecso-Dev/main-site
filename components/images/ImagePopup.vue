@@ -9,7 +9,7 @@ const props = defineProps({imageList: Array,caption: String,fancybox: String,mas
 			<div class="p-relative img-box-parallax before-z-index has-popup" v-for="(item, index) in props.imageList"
 				:key="index">
 				<ClientOnly>
-				<div class="effect-popup before-z-index h-100" :data-src="item.src" data-caption="Caption #2"
+				<div class="effect-popup before-z-index h-100" :data-src="`/${item.src}`" :data-caption="item.name"
 					data-fancybox="_1" data-cursor="open" data-dsn-overlay="0">
 					<NuxtImg format="webp" :src="item.src" :alt="item.name" />
 				</div>

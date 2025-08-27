@@ -30,14 +30,13 @@ const props = defineProps({ data: Object,btnScrollTo: String,linkCircleTo: Strin
 								</h1>
 							</div>
 							<p class="subtitle-meta metas p-relative mt-10">
-								<b>Photographer : </b> {{ props.data.Photographer }}
+								<b>عکاس : </b> {{ props.data.Photographer }}
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<LinkCircleFa v-if="props.linkCircleTo" :to="props.linkCircleTo" blank />
 		<LinkScrollDown v-if="props.btnScrollTo" :goToEl="props.btnScrollTo" />
 	</header>
 </template>

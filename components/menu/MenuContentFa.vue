@@ -2,21 +2,22 @@
 	<div class="container-content d-flex flex-column justify-content-center">
 		<div class="nav__info">
 			<div class="nav-content">
-				<h5 class="sm-title-block mb-10">استودیو</h5>
+				<h5 class="sm-title-block mb-10">دفتر مرکزی</h5>
 				<p>
 					آذربایجان غربی <br />
-					ارومیه
+					ارومیه <br>
+					خیابان براعتی - ساختمان اساتید - پلاک 6
 				</p>
 			</div>
 			<div class="nav-content mt-30">
 				<h5 class="sm-title-block mb-10">تماس با ما</h5>
 				<p class="links over-hidden mb-1">
-					<a class="link-hover" href="tel:+00 (2)012 3321">
-						+00 (2)012 3321
-					</a>
+						<NuxtLink to="tel:+989058432452">+98 905 843 2452</NuxtLink><br>
+						<NuxtLink to="tel:+989199891447">+98 919 989 1447</NuxtLink><br>
+						<NuxtLink to="tel:+989927461899">+98 992 746 1899</NuxtLink>
 				</p>
 				<p class="links over-hidden">
-					<a class="link-hover" href="mailto:info@dsngrid.com">info@dsngrid.com</a>
+					<a class="link-hover" href="mailto:info@Tecso.team">info@Tecso.team</a>
 				</p>
 			</div>
 		</div>
