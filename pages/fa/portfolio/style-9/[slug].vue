@@ -44,7 +44,7 @@ definePageMeta({
 <template>
 
     <Head>
-        <Title>سرویس هوش مصنوعی تسکو</Title>
+        <Title>سرویس هوش مصنوعی تکسو</Title>
     </Head>
 
     <Layout name="fa-default">

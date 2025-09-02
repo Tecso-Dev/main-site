@@ -44,7 +44,7 @@ definePageMeta({
         <!-- ========== End Contact  =============== -->
 
         <!-- ========== Map  ======================= -->
-        <DsnMap mapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg" :zoom="15" height="80vh"
+        <DsnMap mapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg" :zoom="16" height="80vh"
             :defaultCenter="{lat: 37.530920, lng:  45.080904 }" />
         <!-- ========== End Map  =================== -->
 

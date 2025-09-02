@@ -1,26 +1,22 @@
 [
   {
     "id": 1,
-    "name": "Brand Consulting"
+    "name": "IT Management Service"
   },
   {
     "id": 2,
-    "name": "Marketing Management"
+    "name": "Data Tracking Security"
   },
   {
     "id": 3,
-    "name": "Customer Insights"
+    "name": "Web & Mobile App Development"
   },
   {
     "id": 4,
-    "name": "Brand Consulting"
+    "name": "UI/UX & Branding Identity"
   },
   {
     "id": 5,
-    "name": "Marketing Management"
-  },
-  {
-    "id": 6,
-    "name": "Customer Insights"
+    "name": "Digital Marketing Services"
   }
 ]

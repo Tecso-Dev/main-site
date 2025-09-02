@@ -36,10 +36,9 @@
 
 <script setup>
 const socialData = [
-	{ link: "#0",name: "Dribbble." },
-	{ link: "#0",name: "Behance." },
-	{ link: "#0",name: "Linkedin." },
-	{ link: "#0",name: "Twitter." },
+	{ link: "#0",name: "اینستاگرام" },
+	{ link: "https://github.com/Tecso-Dev",name: "گیت هاب" },
+	{ link: "#0",name: "لینکدین" },
 ];
 </script>
 

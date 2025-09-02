@@ -37,7 +37,7 @@ definePageMeta({
 
         <!-- ========== About Section ================ -->
         <AboutServices :data="data_Serve" imageSrc="/images/portfolio/project6/022.webp">
-            <template v-slot:title>بریم که <b>سرویس هامون رو</b> بررسی کنیم</template>
+            <template v-slot:title>سرویس هایی که ارائه میکنیم</template>
             <template v-slot:smallBoxTitle>بهترین شیوه‌ها از متخصصان صنعت</template>
             <template v-slot:smallBoxDescription>
                 <p>
@@ -82,9 +82,9 @@ definePageMeta({
         <!-- ========== About According ============== -->
         <about-according style="direction:rtl" :data="data_ServA.slice(0, 3)">
             <template v-slot:title>
-                <SectionTitlePin title="ما از سال ۲۰۰۸ مشغول انجام پروژه‌ها بوده‌ایم.">
+                <SectionTitlePin title="ما از سال 2020 مشغول انجام پروژه‌ها بوده‌ایم.">
                     <p class="max-w570 mt-20">
-                        دی‌اس‌ان گرید که در سال ۲۰۰۰ تأسیس شد، به یکی از بهترین آژانس‌های دیجیتال در تم‌فارست تبدیل شده است. با پول آبی به کار خود ادامه دهید، اما به تولید انبوه برسید.
+                        TECSO - یک شرکت IT نوآورانه مستقر در ایران است که در ارائه راه حل های فناوری هوشمند پیشرفته تخصص دارد. TECSO با یک چشم انداز برای توانمندسازی مشاغل و افراد از طریق سیستم عامل های دیجیتال پیشرفته ، تخصص در توسعه نرم افزار ، امنیت سایبری و طراحی کاربر محور را برای پرداختن به چالش های مدرن ترکیب می کند
                     </p>
                 </SectionTitlePin>
             </template>
@@ -130,5 +130,6 @@ definePageMeta({
         <!-- ========== End Footer =================== -->
     </Layout>
 </template>
+
 
 

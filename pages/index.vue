@@ -160,25 +160,26 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 					</AccorItem>
 				</Accordion>
 			</template>
-			<template v-slot:boxRightTitle>Hello we, are Dsn Grid</template>
+			<template v-slot:boxRightTitle>Hello we, are Tecso</template>
 			<template v-slot:boxRightDescrption>
-				Founded in 2000, Dsn Grid has become one of the best Digital Agency in
-				Themeforest. Blue money going forward, but deploy to production.
-				First-order optimal strategies build on a culture of contribution and
-				inclusion so those options
+				TECSO - is an innovative IT company based in Iran, specializing in
+				delivering cutting-edge smart technology solutions. Established
+				with a vision to empower businesses and individuals through
+				advanced digital platforms, TECSO combines expertise in software
+				development, cybersecurity, and user-centric design to address
+				modern challenges
 			</template>
-			<template v-slot:boxRightSmTitle>SALVADOR DALI</template>
-			<template v-slot:boxRightSmTitleSm>Digital Artisit</template>
-			<template v-slot:boxRightnumber>25</template>
+			<template v-slot:boxRightSmTitle>Smart Technology Solutions</template>
+			<template v-slot:boxRightnumber>5</template>
 			<template v-slot:boxRightP>YEARS OF <br />DIGITAL EXPERIENCE</template>
 		</AboutThree>
 		<!-- ========== End About Section ========== -->
 
 		<!-- ========== About Section One ========== -->
 		<AboutOne class="section-padding background-section" bgMask="background-main"
-			imageOneSrc="images/about-1.webp" imageTwoSrc="images/about-2.webp">
+			imageOneSrc="/images/portfolio/project8/5.webp" imageTwoSrc="/images/portfolio/project7/7.webp">
 			<template v-slot:moveTitle>WE ARE</template>
-			<template v-slot:centerTitle>BLACK DSN</template>
+			<template v-slot:centerTitle>Tecso</template>
 			<template v-slot:lastTitle>AGENCY</template>
 			<template v-slot:description>
 				We build and activate brands through cultural insight, strategic vision,
@@ -195,7 +196,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 			serviceInnerClass="border-style" iconsize="80px" masonry :center="false" haveButton>
 			<template v-slot:title>
 				<SectionTitleGrid grid btnBackground="background-section" beforeStyle="circle-before"
-					subTitle="advantages" title="Let’s Check <b>Our Services</b>" linkTo="/service"
+					subTitle="SERVICES" title="Let’s Check <b>Our Services</b>" linkTo="/service"
 					linkName="VIEW ALL SERVICES" />
 			</template>
 		</ServiceStyle>
@@ -250,7 +251,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 			:tablet="{ slidesPerView: 2 }" :mobile="{ slidesPerView: 1 }" grabCursor :centeredSlides="false"
 			spaceBetween="30" loop :speed="1200">
 			<template v-slot:title>
-				<SectionTitleGrid grid btnBackground="background-main" beforeStyle="circle-before" subTitle="advantages"
+				<SectionTitleGrid grid btnBackground="background-main" beforeStyle="circle-before" subTitle="people"
 					title="What People <b>ARE <br>SAYING</b>" linkTo="/contact" linkName="GET STARTED NOW" />
 			</template>
 		</Testimonials>
@@ -262,8 +263,8 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 			:tablet="{ slidesPerView: 2, spaceBetween: 30 }" :mobile="{ slidesPerView: 1, spaceBetween: 30 }">
 			<template v-slot:title>
 				<SectionTitleGrid grid class="container" btnBackground="background-section" beforeStyle="circle-before"
-					subTitle="advantages" title="What People <b>ARE <br>SAYING</b>" linkTo="/blog/stories"
-					linkName="GET STARTED NOW" />
+					subTitle="projects" title="Our new projects" linkTo="/projects"
+					linkName="SEE MORE PROJECTS" />
 			</template>
 		</BlogSwiper>
 		<!-- ========== End Stories ========== -->

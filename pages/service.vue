@@ -81,10 +81,9 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
         <!-- ========== About According ============== -->
         <about-according :data="data_ServA.slice(0, 3)">
             <template v-slot:title>
-                <SectionTitlePin title="We have been doing projects <b>since 2008.</b>">
+                <SectionTitlePin title="We have been doing projects <b>since 2020.</b>">
                     <p class="max-w570 mt-20">
-                        Founded in 2000, Dsn Grid has become one of the best Digital Agency in
-                        ThemeForest. Blue money going forward, but deploy to production.
+                        TECSO - is an innovative IT company based in Iran, specializing in delivering cutting-edge smart technology solutions. Established with a vision to empower businesses and individuals through advanced digital platforms, TECSO combines expertise in software development, cybersecurity, and user-centric design to address modern challenges
                     </p>
                 </SectionTitlePin>
             </template>

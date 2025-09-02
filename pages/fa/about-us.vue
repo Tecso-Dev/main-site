@@ -35,7 +35,7 @@ definePageMeta({
         <!-- ========== End Header Normal ======== -->
 
         <!-- ========== About Section ============ -->
-        <AboutSection id="about" imageSrc="images/about-5.webp">
+        <AboutSection id="about" imageSrc="/images/portfolio/project7/2.webp">
             <template v-slot:title>به میلیون ها نفر کمک کنید تا <br />پروژه های خلاقانه خود را به واقعیت تبدیل کنند</template>
             <template v-slot:string>در هسته ما ، ما معتقدیم که هر ایده سزاوار فرصتی برای رشد و تأثیرگذاری است. مأموریت ما این است که با ارائه ابزارها ، تخصص ها و پشتیبانی مورد نیاز خود برای زنده کردن پروژه های خلاقانه خود ، میلیون ها نفر از افراد ، کارآفرینان و مشاغل را توانمند کنیم. این که آیا در حال ساخت محصولات دیجیتالی نوآورانه ، طراحی تجربیات کاربر پسند یا توسعه راه حل های قدرتمند وب است ، ما اختصاص داده ایم که تخیل را به واقعیت تبدیل کنیم و به رویاها کمک کنیم تا در دنیای مدرن شکل بگیرد.
             </template>
@@ -46,14 +46,14 @@ definePageMeta({
         <ServiceStyle :data="data_Serve.slice(0, 6)" counter :masonry="false" center
             serviceInnerClass="border-style" iconsize="80px" :haveButton="false" fadeUp>
             <template v-slot:title>
-                <SectionTitle subTitle="مزایا" title="بریم که خدمات ما را بررسی کنیم" center
+                <SectionTitle subTitle="خدمات" title="بریم که خدمات ما را بررسی کنیم" center
                     :beforeStyle="pageStyle.titleBeforeStyle" />
             </template>
         </ServiceStyle>
         <!-- ========== End Service ============== -->
 
         <!-- ========== Team ===================== -->
-        <Team :data="data_Team.slice(0, 3)" class="dsn-right-container" grid="grid-md-3 grid-sm-2">
+        <Team :data="data_Team.slice(0, 4)" class="dsn-center-container" grid="grid-md-3 grid-sm-2">
             <template v-slot:title>
                 <SectionTitle subTitle="تیم ما" title="بهترین تیم تاریخ!"
                     :beforeStyle="pageStyle.titleBeforeStyle" />

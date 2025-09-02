@@ -3,6 +3,7 @@ import data_blogs from "@/api/fa/blog/blog.json";
 import BlogList from "@/components/blog/BlogList.vue"
 import DsnFooterFa from '@/components/footer/DsnFooterFa.vue';
 import BlogListFa from "~/components/blog/BlogListFa.vue";
+import ProjectsListFa from "~/components/blog/ProjectsListFa.vue";
 
 definePageMeta({
   layout: 'fa-default'
@@ -12,16 +13,16 @@ definePageMeta({
 <template>
 
     <Head>
-        <Title>داستان ها</Title>
+        <Title>پروژه ها</Title>
     </Head>
 
     <Layout bodyStyle="bg-dots" name="fa-defalut">
         <!-- ========== Header ========== -->
-        <HeaderHalf title="داستان های ما" :metas="['اخبار', 'ایده ها']" btnScrollTo="list" />
+        <HeaderHalf title="پروژه های ما" :metas="['پروژه ها', 'ایده ها']" btnScrollTo="list" />
         <!-- ========== End Header ========== -->
 
         <!-- ========== Stories ========== -->
-        <BlogListFa id="list" :data="data_blogs" />
+        <ProjectsListFa id="list" :data="data_blogs" />
         <!-- ========== End Stories ========== -->
 
         <!-- ========== Footer =================== -->

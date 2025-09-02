@@ -87,11 +87,7 @@ onBeforeUnmount(() => Fancybox.destroy());
         <!-- ========== End Info Project  ========== -->
 
         <!-- ========== video  ========== -->
-        <ViewVideo
-            class="scale"
-            :src="item.video[0].src"
-            :poster="item.images[1].src"
-        />
+
         <!-- ========== End video  ========== -->
 
         <!-- ========== Info  ========== -->

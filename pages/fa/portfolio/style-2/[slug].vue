@@ -77,6 +77,10 @@ onMounted(() => {
 })
 onUpdated(() => Fancybox.close())
 onBeforeUnmount(() => Fancybox.destroy());
+
+definePageMeta({
+  layout: 'fa-default'
+});
 </script>
 
 <template>
@@ -85,7 +89,7 @@ onBeforeUnmount(() => Fancybox.destroy());
         <Title>{{ item.title }}</Title>
     </Head>
 
-    <Layout>
+    <Layout name="fa-default">
         <!-- ========== Header  ========== -->
         <HeaderRightImageFa :data="item" btnScrollTo="info" :linkCircleTo="item.autherLink" />
         <!-- ========== End Header  ========== -->

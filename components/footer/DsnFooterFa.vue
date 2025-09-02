@@ -9,25 +9,19 @@ const footer = ref(null);
 const footerContent = ref(null);
 const socialData = [
     {
-        name: "Fb",
-        link: "",
-        type: "fab",
-        iconName: "facebook-f",
-    },
-    {
-        name: "Tw",
-        link: "",
-        type: "fab",
-        iconName: "twitter",
-    },
-    {
-        name: "In",
+        name: "Linkedin",
         link: "",
         type: "fab",
         iconName: "linkedin-in",
     },
     {
-        name: "Ins",
+        name: "Github",
+        link: "https://github.com/Tecso-Dev",
+        type: "fab",
+        iconName: "github",
+    },
+    {
+        name: "Instagram",
         link: "",
         type: "fab",
         iconName: "instagram",
@@ -35,7 +29,7 @@ const socialData = [
 ];
 const footerLinks = [
     { link: "/fa",name: "صفحه اصلی" },
-    { link: "/fa/business",name: "پروژه ها" },
+    { link: "/fa/projects",name: "پروژه ها" },
     { link: "/fa/service",name: "سرویس ها" },
     { link: "/fa/blog/stories",name: "داستان ها" },
     { link: "/fa/about-us",name: "درباره ما" },
@@ -108,8 +102,9 @@ onMounted(() => {
                         </h4>
                         <div class="col-address">
                             <p>
+                                ایران <br>
                                 آذربایجان غربی - ارومیه<br />
-                                خیابان براعتی - ساختمان اساتید - پلاک 6<br />ایران
+                                خیابان براعتی - ساختمان اساتید - پلاک 6
                             </p>
                         </div>
                     </div>

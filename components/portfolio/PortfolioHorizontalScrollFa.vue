@@ -51,13 +51,13 @@ onMounted(() => {
 </script>
 
 <template>
-	<div class="p-relative pb-section over-hidden box-shadow-image box-image-transform dsn-style-cards ">
+	<div  id="port-horz" class="p-relative pb-section over-hidden box-shadow-image box-image-transform dsn-style-cards ">
 		<div class="root-posts">
 			<div ref="parallaxAnimate"
 				class="dsn-grid-layout dsn-grid dsn-posts dsn-post-type-cards use-horizontal-scroll box-image-normal">
 				<article class="dsn-item-post start-section grid-item">
-					<h2 class="dsn-animate-up letter-stroke">کار</h2>
-					<h2 class="dsn-animate-down letter-stroke">ما</h2>
+					<h2 class="dsn-animate-up letter-stroke">OUR</h2>
+					<h2 class="dsn-animate-down letter-stroke">WORK</h2>
 				</article>
 				<article class="dsn-item-post grid-item over-hidden box-hover-image swiper-slide"
 					v-for="(item, index) in props.data" :key="index">
@@ -80,7 +80,7 @@ onMounted(() => {
 										{{ item.title }}
 									</NuxtLink>
 								</h2>
-								<p class="section_description mt-15 max-w570 ">
+								<p style="direction:rtl; text-align:left" class="section_description mt-15 max-w570 ">
 									{{ item.description }}
 								</p>
 								<LinkCircleArrow :linkTo="`${item.link}/${item.slug}`" />
@@ -89,8 +89,8 @@ onMounted(() => {
 					</div>
 				</article>
 				<article class="dsn-item-post end-section grid-item">
-					<h2 class="dsn-animate-up letter-stroke">طراحی های</h2>
-					<h2 class="dsn-animate-down letter-stroke">جذاب</h2>
+					<h2 class="dsn-animate-up letter-stroke">AWESOME</h2>
+					<h2 class="dsn-animate-down letter-stroke">DESIGNS</h2>
 				</article>
 			</div>
 		</div>

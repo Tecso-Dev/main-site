@@ -92,11 +92,6 @@ definePageMeta({
         <!-- ========== End Info Project  ========== -->
 
         <!-- ========== video  ========== -->
-        <ViewVideoFa
-            class="scale"
-            :src="item.video[0].src"
-            :poster="item.images[1].src"
-        />
         <!-- ========== End video  ========== -->
 
         <!-- ========== Info  ========== -->

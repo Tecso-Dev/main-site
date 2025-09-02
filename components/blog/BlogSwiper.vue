@@ -1,6 +1,7 @@
 <script setup>
 import SwiperPagination from "@/components/swiper-pagination/SwiperPagination.vue";
 import PostItem from "@/components/blog/PostItem.vue";
+import ProjectItem from "./ProjectItem.vue";
 const props = defineProps({
 	data: Array,
 	setStyle: { type: String, default: "normal" },
@@ -110,7 +111,7 @@ onMounted(() => {
 				<div :class="itemStyle().div3">
 					<div class="has-parallax-image dsn-swiper p-relative">
 						<swiper-container ref="blogSlider" init="false">
-							<PostItem :data="props.data" :linkCircle="itemStyle().linkCircle" />
+							<ProjectItem :data="props.data" :linkCircle="itemStyle().linkCircle" />
 						</swiper-container>
 
 						<SwiperPagination :prev="props.allowPrevButton" :next="props.allowNextButton"

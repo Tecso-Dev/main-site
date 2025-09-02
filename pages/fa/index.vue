@@ -22,7 +22,7 @@ import Testimonials from "@/components/testimonials/Testimonials.vue";
 // import BrandOne from "@/components/brand/BrandOne.vue";
 import Accordion from "@/components/accordion/Accordion.vue";
 import AccorItem from "@/components/accordion/AccordionItem.vue";
-import AboutThree from "@/components/about/AboutThree.vue";
+import AboutThreeFa from "@/components/about/AboutThreeFa.vue";
 import BrandTwo from "@/components/brand/BrandTwo.vue";
 import PortfolioHorizontalScroll from "~/components/portfolio/PortfolioHorizontalScroll.vue";
 import DsnFooterFa from "~/components/footer/DsnFooterFa.vue";
@@ -52,9 +52,9 @@ definePageMeta({
 		<!-- ========== End Slider Parallax ========== -->
 
 		<!-- ========== About Section ============== -->
-		<AboutThree>
+		<AboutThreeFa>
 			<template v-slot:boxLeftTitle>
-				<SectionTitle subTitle="درباره ما" title="ما کیستیم؟" beforeStyle="square-before" :spaceDown="false" />
+				<SectionTitle subTitle="درباره ما" title="ما کیستیم؟" beforeStyle="square-after" :spaceDown="false" />
 			</template>
 			<template v-slot:boxLeftContain>
 				<Accordion>
@@ -102,7 +102,7 @@ definePageMeta({
 							</p>
 						</template>
 					</AccorItem>
-					<AccorItem title="اهداف ما">
+					<AccorItem title=" اهداف ما ">
 						<template v-slot:question>
 							<span class="dsn-icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -165,23 +165,21 @@ definePageMeta({
 					</AccorItem>
 				</Accordion>
 			</template>
-			<template v-slot:boxRightTitle>سلام ما، دی‌اس‌ان گرید هستیم</template>
+			<template v-slot:boxRightTitle>سلام ما، تکسو هستیم</template>
 			<template v-slot:boxRightDescrption>
-				Dsn Grid که در سال ۲۰۰۰ تأسیس شد، به یکی از بهترین آژانس‌های دیجیتال در Themeforest تبدیل شده است. پول آبی به جلو می‌رود، اما به تولید اختصاص داده می‌شود.
-استراتژی‌های بهینه مرتبه اول بر اساس فرهنگ مشارکت و شمول بنا  بنابراین این 
+				TECSO - یک شرکت IT نوآورانه مستقر در ایران است که در ارائه راه حل های فناوری هوشمند پیشرفته تخصص دارد. TECSO با یک چشم انداز برای توانمندسازی مشاغل و افراد از طریق سیستم عامل های دیجیتال پیشرفته ، تخصص در توسعه نرم افزار ، امنیت سایبری و طراحی کاربر محور را برای پرداختن به چالش های مدرن ترکیب می کند
 			</template>
-			<template v-slot:boxRightSmTitle>سالوادور دالی</template>
-			<template v-slot:boxRightSmTitleSm>دیجیتال آرتیست</template>
-			<template v-slot:boxRightnumber>25</template>
+			<template v-slot:boxRightSmTitle>راه حل های فناوری هوشمند</template>
+			<template v-slot:boxRightnumber>5</template>
 			<template v-slot:boxRightP>سال<br />تجربه دیجیتال</template>
-		</AboutThree>
+		</AboutThreeFa>
 		<!-- ========== End About Section ========== -->
 
 		<!-- ========== About Section One ========== -->
 		<AboutOne id="about-index" class="section-padding background-section" bgMask="background-main"
-			imageOneSrc="images/about-1.webp" imageTwoSrc="images/about-2.webp">
+			imageOneSrc="/images/portfolio/project8/5.webp" imageTwoSrc="/images/portfolio/project7/7.webp">
 			<template v-slot:moveTitle>WE ARE</template>
-			<template v-slot:centerTitle>BLACK DSN</template>
+			<template v-slot:centerTitle>Tecso</template>
 			<template v-slot:lastTitle>AGENCY</template>
 			<template v-slot:description>
 				ما برندها را از طریق بینش فرهنگی، چشم‌انداز استراتژیک و قدرت احساسات در هر عنصر بیان آن، می‌سازیم و فعال می‌کنیم.
@@ -197,7 +195,7 @@ definePageMeta({
 			serviceInnerClass="border-style" iconsize="80px" masonry :center="false" haveButton>
 			<template v-slot:title>
 				<SectionTitleGridFa grid btnBackground="background-section" beforeStyle="circle-after"
-					subTitle="مزایا" title="بیایید <b>خدمات ما</b> را بررسی کنیم" linkTo="/fa/service"
+					subTitle="خدمات" title="بیایید <b>خدمات ما</b> را بررسی کنیم" linkTo="/fa/service"
 					linkName="مشاهده تمامی خدمات" />
 			</template>
 		</ServiceStyleFa>
@@ -223,7 +221,7 @@ definePageMeta({
 		<!-- ========== End About Section One ========== -->
 
 		<!-- ========== Portfolio ========== -->
-		<PortfolioHorizontalScroll :data="data_Portf" />
+		<PortfolioHorizontalScrollFa :data="data_Portf" />
 		<!-- ========== End Portfolio ========== -->
 
 		<!-- ========== background Box Image ========== -->
@@ -251,8 +249,8 @@ definePageMeta({
 			:tablet="{ slidesPerView: 2 }" :mobile="{ slidesPerView: 1 }" grabCursor :centeredSlides="false"
 			spaceBetween="30" loop :speed="1200">
 			<template v-slot:title>
-				<SectionTitleGridFa grid btnBackground="background-main" beforeStyle="circle-after" subTitle="مزایا"
-					title="چیزی که افراد <br><b>میگویند</b>" linkTo="fa/contact" linkName="همین الان شروع کنید" />
+				<SectionTitleGridFa grid btnBackground="background-main" beforeStyle="circle-after" subTitle="افراد"
+					title="چیزی که افراد <br><b>میگویند</b>" linkTo="/fa/contact" linkName="همین الان شروع کنید" />
 			</template>
 		</Testimonials>
 		<!-- ========== End testimonials ========== -->
@@ -263,8 +261,8 @@ definePageMeta({
 			:tablet="{ slidesPerView: 2, spaceBetween: 30 }" :mobile="{ slidesPerView: 1, spaceBetween: 30 }">
 			<template v-slot:title>
 				<SectionTitleGridFa grid class="container" btnBackground="background-section" beforeStyle="circle-after"
-					subTitle="مزایا" title="چیزی که افراد <br><b>میگویند</b>" linkTo="fa/blog/stories"
-					linkName="همین الان شروع کن" />
+					subTitle="پروژه ها" title="پروژه های جدید ما" linkTo="/fa/projects"
+					linkName="مشاهده پروژه های بیشتر" />
 			</template>
 		</BlogSwiper>
 		<!-- ========== End Stories ========== -->
@@ -278,3 +276,14 @@ definePageMeta({
 		<!-- ========== End Footer ========== -->
 	</Layout>
 </template>
+
+<style scoped>
+.dsn-icon{
+	margin-left: 7px;
+}
+
+.title-block{
+	border-left: none;
+	border-right: 1px solid var(--border-color) !important;
+}
+</style>
