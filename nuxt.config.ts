@@ -68,8 +68,8 @@ export default defineNuxtConfig({
 		minify: true,
 		compressPublicAssets: true,
 		prerender: {
-			crawlLinks: false,  // Disable automatic crawling to avoid issues
-			failOnError: false  // Don't fail on prerender errors
+			failOnError: false,  // Don't fail the build on prerender errors
+			crawlLinks: false    // Disable automatic crawling to prevent issues
 		},
 		experimental: {
 			wasm: true
@@ -87,6 +87,9 @@ export default defineNuxtConfig({
 		'/main-demo': { prerender: true },
 		'/business': { prerender: true },
 		'/architecture': { prerender: true },
+		'/photographer': { prerender: true },
+		'/personal': { prerender: true },
+		'/resume': { prerender: true },
 		'/metro-portfolio-1': { prerender: true },
 		'/metro-portfolio-2': { prerender: true },
 		
@@ -94,6 +97,7 @@ export default defineNuxtConfig({
 		"/blog/**": { prerender: false, ssr: true },
 		"/work/category/**": { prerender: false, ssr: true },
 		"/portfolio/**": { prerender: false, ssr: true },
+		"/resume/**": { prerender: false, ssr: true },
 		"/slider/**": { prerender: false, ssr: true },
 		"/carousel/**": { prerender: false, ssr: true },
 		
@@ -104,6 +108,12 @@ export default defineNuxtConfig({
 		"/business?mode=light": { prerender: true },
 		"/architecture?mode=dark": { prerender: true },
 		"/architecture?mode=light": { prerender: true },
+		"/photographer?mode=dark": { prerender: true },
+		"/photographer?mode=light": { prerender: true },
+		"/personal?mode=dark": { prerender: true },
+		"/personal?mode=light": { prerender: true },
+		"/resume?mode=dark": { prerender: true },
+		"/resume?mode=light": { prerender: true },
 		"/metro-portfolio-1?mode=dark": { prerender: true },
 		"/metro-portfolio-1?mode=light": { prerender: true },
 		"/metro-portfolio-2?mode=dark": { prerender: true },
@@ -134,31 +144,8 @@ export default defineNuxtConfig({
 		},
 		build: {
 			rollupOptions: {
-				output: {
-					chunkFileNames: '_nuxt/[name].[hash].js',
-					entryFileNames: '_nuxt/[name].[hash].js',
-					assetFileNames: '_nuxt/[name].[hash].[ext]',
-					manualChunks: (id) => {
-						if (id.includes('node_modules')) {
-							// Group large libraries together
-							if (id.includes('swiper')) {
-								return 'vendor-swiper';
-							}
-							if (id.includes('isotope-layout')) {
-								return 'vendor-isotope';
-							}
-							if (id.includes('@fancyapps/ui') || id.includes('splitting')) {
-								return 'vendor-ui';
-							}
-							// Keep other vendor libraries in the main chunk for now
-							return 'vendor';
-						}
-					}
-				}
-			},
-			target: 'es2018',
-			cssCodeSplit: true,
-			sourcemap: false
+				// Remove manual chunks that are causing issues with external modules
+			}
 		}
 	},
 	build: {
