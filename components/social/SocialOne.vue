@@ -1,8 +1,7 @@
 <script setup>
 const socialData = [
-    { link: "",iconType: 'fab',icon: 'facebook-f',name: "Fb" },
-    { link: "",iconType: 'fab',icon: 'instagram',name: "In" },
-    { link: "",iconType: 'fab',icon: 'twitter',name: "Tw" },
+    { link: "",iconType: 'fab',icon: 'instagram',name: "Instagram" },
+    { link: "https://github.com/Tecso-Dev",iconType: 'fab',icon: 'github',name: "Github" },
     { link: "",iconType: 'fab',icon: 'linkedin-in',name: "Linkedin" },
 ];
 </script>

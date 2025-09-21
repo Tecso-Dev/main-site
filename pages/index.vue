@@ -93,9 +93,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								We envision a future where creativity, expertise, and innovation come together to shape inspiring spaces and sustainable developments.
 							</p>
 						</template>
 					</AccorItem>
@@ -122,9 +120,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								We aim to provide clear consulting, execute projects with quality and efficiency and build lasting partnerships based on trust.
 							</p>
 						</template>
 					</AccorItem>
@@ -158,33 +154,32 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 						</template>
 						<template v-slot:answer>
 							<p>
-								Cepteur sint occaecat cupidatat proident, taken possession
-								of my entire soul, like these sweet mornings of spring
-								which I enjoy with my whole.
+								To blend expertise, creativity, and integrity in delivering architectural, and investment solutions that turn ideas into lasting value for our clients.
 							</p>
 						</template>
 					</AccorItem>
 				</Accordion>
 			</template>
-			<template v-slot:boxRightTitle>Hello we, are Dsn Grid</template>
+			<template v-slot:boxRightTitle>Hello we, are Tecso</template>
 			<template v-slot:boxRightDescrption>
-				Founded in 2000, Dsn Grid has become one of the best Digital Agency in
-				Themeforest. Blue money going forward, but deploy to production.
-				First-order optimal strategies build on a culture of contribution and
-				inclusion so those options
+				TECSO - is an innovative IT company based in Iran, specializing in
+				delivering cutting-edge smart technology solutions. Established
+				with a vision to empower businesses and individuals through
+				advanced digital platforms, TECSO combines expertise in software
+				development, cybersecurity, and user-centric design to address
+				modern challenges
 			</template>
-			<template v-slot:boxRightSmTitle>SALVADOR DALI</template>
-			<template v-slot:boxRightSmTitleSm>Digital Artisit</template>
-			<template v-slot:boxRightnumber>25</template>
+			<template v-slot:boxRightSmTitle>Smart Technology Solutions</template>
+			<template v-slot:boxRightnumber>5</template>
 			<template v-slot:boxRightP>YEARS OF <br />DIGITAL EXPERIENCE</template>
 		</AboutThree>
 		<!-- ========== End About Section ========== -->
 
 		<!-- ========== About Section One ========== -->
 		<AboutOne class="section-padding background-section" bgMask="background-main"
-			imageOneSrc="images/about-1.webp" imageTwoSrc="images/about-2.webp">
+			imageOneSrc="/images/portfolio/project8/5.webp" imageTwoSrc="/images/portfolio/project7/7.webp">
 			<template v-slot:moveTitle>WE ARE</template>
-			<template v-slot:centerTitle>BLACK DSN</template>
+			<template v-slot:centerTitle>Tecso</template>
 			<template v-slot:lastTitle>AGENCY</template>
 			<template v-slot:description>
 				We build and activate brands through cultural insight, strategic vision,
@@ -201,24 +196,22 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 			serviceInnerClass="border-style" iconsize="80px" masonry :center="false" haveButton>
 			<template v-slot:title>
 				<SectionTitleGrid grid btnBackground="background-section" beforeStyle="circle-before"
-					subTitle="advantages" title="Let’s Check <b>Our Services</b>" linkTo="/service"
+					subTitle="SERVICES" title="Let’s Check <b>Our Services</b>" linkTo="/service"
 					linkName="VIEW ALL SERVICES" />
 			</template>
 		</ServiceStyle>
 		<!-- ========== End Service ========== -->
 
 		<!-- ========== About Section One ========== -->
-		<BoxInfo imageSrc="images/about-3.jpg">
+		<BoxInfo imageSrc="images/portfolio/project6/023.webp">
 			<template v-slot:title>
 				<SectionTitle subTitle="TECHNOLOGY" title="How is your <br>visual <b>identity?</b>"
 					beforeStyle="circle-before" :spaceDown="false" />
 			</template>
 			<template v-slot:string>
-				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt mollit laborum. Sed ut perspiciatis unde omnis iste natus sit .
+				A strong visual identity starts with a beautiful and intuitive design that captures attention and communicates your brand effectively. 
 				<span class="d-block mt-10"></span>
-				Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-				deserunt
+				By combining precision, attention to detail, and flexible solutions, we help your brand stand out and leave a lasting impression.
 			</template>
 			<BoxInfoList>
 				<BoxInfoItem v-for="(item,index) in data_InBox" :key="index" :item="item.text" />
@@ -233,7 +226,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 		<!-- ========== End Portfolio ========== -->
 
 		<!-- ========== background Box Image ========== -->
-		<BoxImage imageSrc="images/about-4.jpg">
+		<BoxImage imageSrc="images\portfolio\project7\3.webp">
 			<h3 class="title-h2">
 				Need help with professional <br />photography?
 				<b>Let's work together!</b>
@@ -258,7 +251,7 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 			:tablet="{ slidesPerView: 2 }" :mobile="{ slidesPerView: 1 }" grabCursor :centeredSlides="false"
 			spaceBetween="30" loop :speed="1200">
 			<template v-slot:title>
-				<SectionTitleGrid grid btnBackground="background-main" beforeStyle="circle-before" subTitle="advantages"
+				<SectionTitleGrid grid btnBackground="background-main" beforeStyle="circle-before" subTitle="people"
 					title="What People <b>ARE <br>SAYING</b>" linkTo="/contact" linkName="GET STARTED NOW" />
 			</template>
 		</Testimonials>
@@ -270,8 +263,8 @@ import BrandTwo from "@/components/brand/BrandTwo.vue";
 			:tablet="{ slidesPerView: 2, spaceBetween: 30 }" :mobile="{ slidesPerView: 1, spaceBetween: 30 }">
 			<template v-slot:title>
 				<SectionTitleGrid grid class="container" btnBackground="background-section" beforeStyle="circle-before"
-					subTitle="advantages" title="What People <b>ARE <br>SAYING</b>" linkTo="/blog/stories"
-					linkName="GET STARTED NOW" />
+					subTitle="projects" title="Our new projects" linkTo="/projects"
+					linkName="SEE MORE PROJECTS" />
 			</template>
 		</BlogSwiper>
 		<!-- ========== End Stories ========== -->

@@ -5,6 +5,7 @@ const props = defineProps({
 	bgMask: String,
 	smTitleBlock: Boolean
 });
+
 </script>
 
 <template>

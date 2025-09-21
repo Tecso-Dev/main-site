@@ -8,8 +8,8 @@ import ParallaxImageTwo from "@/components/images/ParallaxImageTwo.vue";
 import ImagePopup from "@/components/images/ImagePopup.vue";
 import BoxInfoFull from "@/components/box-info/BoxInfoFull.vue";
 import ParagraphBox from "@/components/string/ParagraphBox.vue";
-import NextProject from "@/components/next/NextProject.vue";
 import ViewVideoFa from "@/components/images/ViewVideoFa.vue";
+import NextProjectFa from "~/components/next/NextProjectFa.vue";
 
 definePageMeta({ documentDriven: false });
 const { slug } = useRoute().params
@@ -46,12 +46,12 @@ definePageMeta({
 <template>
 
     <Head>
-        <Title>Tecso Platform Development</Title>
+        <Title>توسعه پلتفرم</Title>
     </Head>
 
     <Layout name="fa-default">
         <!-- ========== Header  ========== -->
-        <HeaderFull :data="item" boxShadow btnScrollTo="info" :linkCircleTo="item.autherLink" />
+        <HeaderFullFa :data="item" boxShadow btnScrollTo="info" :linkCircleTo="item.autherLink" />
         <!-- ========== End Header  ========== -->
 
         <!-- ========== Info Project  ========== -->
@@ -102,7 +102,7 @@ definePageMeta({
         <!-- ========== End Paragraph  ========== -->
 
         <!-- ========== Next Project  ========== -->
-        <NextProject light :next="nextProject(item.id, data_Portf)" />
+        <NextProjectFa light :next="nextProject(item.id, data_Portf)" />
         <!-- ========== End Next Project  ========== -->
     </Layout>
 </template>

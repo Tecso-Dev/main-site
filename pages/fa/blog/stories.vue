@@ -15,7 +15,7 @@ definePageMeta({
         <Title>داستان ها</Title>
     </Head>
 
-    <NuxtLayout bodyStyle="bg-dots" name="fa-defalut">
+    <Layout bodyStyle="bg-dots" name="fa-defalut">
         <!-- ========== Header ========== -->
         <HeaderHalf title="داستان های ما" :metas="['اخبار', 'ایده ها']" btnScrollTo="list" />
         <!-- ========== End Header ========== -->
@@ -27,5 +27,5 @@ definePageMeta({
         <!-- ========== Footer =================== -->
         <DsnFooterFa light animate />
         <!-- ========== End Footer =============== -->
-    </NuxtLayout>
+    </Layout>
 </template>

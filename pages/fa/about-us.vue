@@ -8,7 +8,7 @@ import LinkAngle from "@/components/links/LinkAngle.vue"
 import SectionTitle from "@/components/title/SectionTitle.vue";
 import ServiceStyle from "@/components/services/ServiceStyle.vue";
 import DsnFooterFa from "~/components/footer/DsnFooterFa.vue";
-const pageStyle = { titleBeforeStyle: "circle-before", };
+const pageStyle = { titleBeforeStyle: "circle-after", };
 
 definePageMeta({
   layout: 'fa-default'
@@ -35,9 +35,9 @@ definePageMeta({
         <!-- ========== End Header Normal ======== -->
 
         <!-- ========== About Section ============ -->
-        <AboutSection id="about" imageSrc="images/about-5.webp">
+        <AboutSection id="about" imageSrc="/images/portfolio/project7/2.webp">
             <template v-slot:title>به میلیون ها نفر کمک کنید تا <br />پروژه های خلاقانه خود را به واقعیت تبدیل کنند</template>
-            <template v-slot:string>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+            <template v-slot:string>در هسته ما ، ما معتقدیم که هر ایده سزاوار فرصتی برای رشد و تأثیرگذاری است. مأموریت ما این است که با ارائه ابزارها ، تخصص ها و پشتیبانی مورد نیاز خود برای زنده کردن پروژه های خلاقانه خود ، میلیون ها نفر از افراد ، کارآفرینان و مشاغل را توانمند کنیم. این که آیا در حال ساخت محصولات دیجیتالی نوآورانه ، طراحی تجربیات کاربر پسند یا توسعه راه حل های قدرتمند وب است ، ما اختصاص داده ایم که تخیل را به واقعیت تبدیل کنیم و به رویاها کمک کنیم تا در دنیای مدرن شکل بگیرد.
             </template>
         </AboutSection>
         <!-- ========== End About Section ======== -->
@@ -46,14 +46,14 @@ definePageMeta({
         <ServiceStyle :data="data_Serve.slice(0, 6)" counter :masonry="false" center
             serviceInnerClass="border-style" iconsize="80px" :haveButton="false" fadeUp>
             <template v-slot:title>
-                <SectionTitle subTitle="مزایا" title="بریم که خدمات ما را بررسی کنیم" center
+                <SectionTitle subTitle="خدمات" title="بریم که خدمات ما را بررسی کنیم" center
                     :beforeStyle="pageStyle.titleBeforeStyle" />
             </template>
         </ServiceStyle>
         <!-- ========== End Service ============== -->
 
         <!-- ========== Team ===================== -->
-        <Team :data="data_Team.slice(0, 3)" class="dsn-right-container" grid="grid-md-3 grid-sm-2">
+        <Team :data="data_Team.slice(0, 4)" class="dsn-center-container" grid="grid-md-3 grid-sm-2">
             <template v-slot:title>
                 <SectionTitle subTitle="تیم ما" title="بهترین تیم تاریخ!"
                     :beforeStyle="pageStyle.titleBeforeStyle" />

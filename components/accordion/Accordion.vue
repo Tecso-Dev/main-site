@@ -155,6 +155,7 @@ onUnmounted(() => {
 		border-radius: 50%;
 		text-align: center;
 		margin-right: 15px;
+		margin-left: 7px;
 		font-size: 14px;
 
 		.background-theme & {

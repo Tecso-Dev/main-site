@@ -34,7 +34,7 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
         <!-- ========== End Header Normal ============ -->
 
         <!-- ========== About Section ================ -->
-        <AboutServices :data="data_Serve" imageSrc="images/portfolio/project6/2.gif">
+        <AboutServices :data="data_Serve" imageSrc="images/portfolio/project6/022.webp">
             <template v-slot:title>Let’s Check <b>Our Services</b></template>
             <template v-slot:smallBoxTitle>Best Practices from Industry Experts</template>
             <template v-slot:smallBoxDescription>
@@ -52,31 +52,25 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
                 <div class="d-grid grid-md-2" data-dsn-gap="30px 60px">
                     <div class="left">
                         <h5 class="title-h2 body-font text-upper">
-                            We provide you with the best service<b>in the market</b>
+                            We provide you with the best service<b> in the market</b>
                         </h5>
                         <p class="mt-20">
-                            There are many variations of passages of Lorem Ipsum
-                            available, but the majority have suffered alteration, by
-                            injected humour. words
+                            We provide you with the best service in the market, combining expertise, reliability, and innovation
                         </p>
                     </div>
                     <div class="right align-self-end">
                         <p>
-                            There are many variations of passages of Lorem Ipsum
-                            available, but the majority have suffered alteration, Injected
-                            humour words web page editors now use as their.
+                            Our team is dedicated to understanding your needs and delivering solutions that exceed expectations.
                         </p>
                         <p class="mt-20">
-                            Default and a search for will uncover many web sites still in
-                            their infancy.suffered alteration, by injected humour words
-                            web page.
+                            With a focus on quality and client satisfaction, we ensure every project is handled with excellence and care.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="p-relative box-img">
-                <div class="p-relative container d-grid grid-1-half mt-50 z-index-2">                    <NuxtImg format="webp" src="images/s1.webp" alt="" />
-                    <NuxtImg format="webp" class="d-sm-none" src="images/s2.webp" alt="" />
+                <div class="p-relative container d-grid grid-1-half mt-50 z-index-2">                    <NuxtImg format="webp" src="images/portfolio/project6/024.webp" alt="" />
+                    <NuxtImg format="webp" class="d-sm-none" src="images/portfolio/project6/025.webp" alt="" />
                 </div>
 
                 <div class="dsn-bg-mask background-main h-50 bottom-0 z-index-1"></div>
@@ -87,10 +81,9 @@ import DsnFooter from "@/components/footer/DsnFooter.vue";
         <!-- ========== About According ============== -->
         <about-according :data="data_ServA.slice(0, 3)">
             <template v-slot:title>
-                <SectionTitlePin title="We have been doing projects <b>since 2008.</b>">
+                <SectionTitlePin title="We have been doing projects <b>since 2020.</b>">
                     <p class="max-w570 mt-20">
-                        Founded in 2000, Dsn Grid has become one of the best Digital Agency in
-                        ThemeForest. Blue money going forward, but deploy to production.
+                        TECSO - is an innovative IT company based in Iran, specializing in delivering cutting-edge smart technology solutions. Established with a vision to empower businesses and individuals through advanced digital platforms, TECSO combines expertise in software development, cybersecurity, and user-centric design to address modern challenges
                     </p>
                 </SectionTitlePin>
             </template>

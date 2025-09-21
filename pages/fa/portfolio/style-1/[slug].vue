@@ -9,7 +9,6 @@ import ViewVideo from "@/components/images/ViewVideo.vue";
 import ImagePopup from "@/components/images/ImagePopup.vue";
 import BoxInfoRight from "@/components/box-info/BoxInfoRight.vue";
 import ParagraphBox from "@/components/string/ParagraphBox.vue";
-import NextProject from "@/components/next/NextProject.vue";
 definePageMeta({ documentDriven: false });
 const { slug } = useRoute().params;
 const item = await data_Portf.find((item) => item.slug === slug);
@@ -123,7 +122,7 @@ definePageMeta({
         <!-- ========== End Paragraph  ========== -->
 
         <!-- ========== Next Project  ========== -->
-        <NextProject light :next="nextProject(item.id, data_Portf)" />
+        <NextProjectFa light :next="nextProject(item.id, data_Portf)" />
         <!-- ========== End Next Project  ========== -->
     </Layout>
 </template>

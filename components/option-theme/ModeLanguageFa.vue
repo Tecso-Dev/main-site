@@ -1,10 +1,11 @@
 <script setup>
 
 const changeLanguage = () => {
-	let url = window.location.href;
-	const newUrl = url.replace("3000/fa", "3000");
-	window.location.replace(newUrl);
+  const url = new URL(window.location.href);
+  url.pathname = url.pathname.replace("/fa", "");
+  window.location.replace(url.toString());
 };
+
 </script>
 
 <template>

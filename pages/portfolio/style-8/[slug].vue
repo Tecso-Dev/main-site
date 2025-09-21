@@ -12,7 +12,7 @@ import BoxInfoFull from "@/components/box-info/BoxInfoFull.vue";
 import BoxInfoList from "@/components/box-info/BoxInfoList.vue";
 import BoxInfoItem from "@/components/box-info/BoxInfoItem.vue";
 import ImagesSwiper from "@/components/portfolio/images-swiper/ImagesSwiper.vue";
-import NextProject from "@/components/next/NextProject.vue";
+import NextProject from "~/components/next/NextProject.vue";
 definePageMeta({ documentDriven: false });
 const { slug } = useRoute().params
 const item = await data_Portf.find(item => item.slug === slug)
@@ -83,7 +83,7 @@ onBeforeUnmount(() => Fancybox.destroy());
 
         <!-- ========== Portfolio ========== -->
         <ImagesSwiper :data="item.images.slice(5, 9)"
-            class="dsn-container dsn-right-container over-hidden background-section section-padding section-margin dsn-swiper"
+            class="dsn-container over-hidden background-section section-padding section-margin dsn-swiper"
             Pagination grabCursor loop parallax :centeredSlides="false"
             :desktop="{ slidesPerView: 2.5, spaceBetween: 30, centeredSlides: false }"
             :tablet="{ spaceBetween: 30, slidesPerView: 2, centeredSlides: false }"

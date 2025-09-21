@@ -1,9 +1,9 @@
 [
     {
         "id": 1,
-        "name": "علی علیپور",
-        "job": "طراح وب",
-        "imageSrc": "images/team/3.webp",
+        "name": "سبحان عظیم زاده",
+        "job": "بنیان گذار، توسعه دهنده Vue.js و استراتژیست",
+        "imageSrc": "images/team/sobhan.webp",
         "social": [
             {
                 "name": "Facebook",
@@ -27,9 +27,9 @@
     },
     {
         "id": 2,
-        "name": "امین امینی",
-        "job": "بنیان گذار",
-        "imageSrc": "images/team/2.webp",
+        "name": "اشکان ملکی",
+        "job": "طراح و متخصص UI/UX",
+        "imageSrc": "images/team/ashkan.webp",
         "social": [
             {
                 "name": "Facebook",
@@ -53,9 +53,9 @@
     },
     {
         "id": 3,
-        "name": "احمد احمدی",
-        "job": "مهندس",
-        "imageSrc": "images/team/1.webp",
+        "name": "سجاد منافی",
+        "job": "توسعه دهنده گولنگ و سر تیم بک اند",
+        "imageSrc": "images/team/sajjad.webp",
         "social": [
             {
                 "name": "Facebook",
@@ -79,9 +79,9 @@
     },
     {
         "id": 4,
-        "name": "زهرا اسلامی",
-        "job": "مهندس",
-        "imageSrc": "images/p-1.webp",
+        "name": "امیررضا نوروزی",
+        "job": "برنامه نویس فرانت اند و توسعه دهنده Nuxt.js",
+        "imageSrc": "images/team/amirreza.webp",
         "social": [
             {
                 "name": "Facebook",

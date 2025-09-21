@@ -29,21 +29,23 @@ definePageMeta({
         <ContactFormFa>
             <template v-slot:form_title>اگر سوالی دارید لطفا با ما تماس بگیرید </template>
             <template v-slot:address_title>دفتر مرکزی:</template>
-            <template v-slot:address>آذربایجان غربی<br>ارومیه</template>
+            <template v-slot:address>آذربایجان غربی<br>ارومیه<br> خیابان براعتی، ساختمان اساتید، پلاک 6</template>
             <template v-slot:phones_title>تلفن:</template>
             <template v-slot:phones>
-                <NuxtLink to="tel:+1850344066">+1 (850) 344 066</NuxtLink>
+                <NuxtLink to="tel:+989058432452">+98 905 843 2452</NuxtLink><br>
+                <NuxtLink to="tel:+989199891447">+98 919 989 1447</NuxtLink><br>
+                <NuxtLink to="tel:+989927461899">+98 992 746 1899</NuxtLink>
             </template>
             <template v-slot:email_title>برای ما بنویسید:</template>
             <template v-slot:email>
-                <NuxtLink to="mailto:info@dsngrid.com">info@dsngrid.com</NuxtLink>
+                <NuxtLink to="mailto: info@Tecso.team"> info@Tecso.team</NuxtLink>
             </template>
         </ContactFormFa>
         <!-- ========== End Contact  =============== -->
 
         <!-- ========== Map  ======================= -->
-        <DsnMap mapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg" :zoom="10" height="80vh"
-            :defaultCenter="{ lat: 30.0489206, lng: 31.258553 }" />
+        <DsnMap mapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg" :zoom="16" height="80vh"
+            :defaultCenter="{lat: 37.530920, lng:  45.080904 }" />
         <!-- ========== End Map  =================== -->
 
         <!-- ========== Footer ===================== -->

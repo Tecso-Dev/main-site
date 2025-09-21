@@ -3,7 +3,7 @@ import { Back,gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Animate } from "@/hooks/pluginanimations.js";
 import LinkScrollDown from "@/components/links/LinkScrollDown.vue";
-import LinkDefualt from "@/components/links/LinkDefualt.vue";
+import LinkDefualtFa from "@/components/links/LinkDefualtFa.vue";
 const props = defineProps({ data: Object,btnScrollTo: String,});
 const ahWords = ref(null);
 
@@ -56,17 +56,18 @@ onMounted(() => {
 							</h5>
 							<div id="hero_title" class="mt-20">
 								<h1 ref="headline" class="ah-headline title clip is-full-width">
-									<span> I'm </span>
+									<span> من </span>
 									<span ref="ahWords" class="ah-words-wrapper">
 										<b>{{ props.data.name }}</b>
 										<b v-for="(item,index) in props.data.job">{{ item }}</b>
 									</span>
+									<span> هستم </span>
 								</h1>
 							</div>
 							<p class="title-block mt-20 max-w570">
 								{{ props.data.about[0] }}
 							</p>
-							<LinkDefualt linkClass="background-section" :iconAwesome="['fas','play']" popup
+							<LinkDefualtFa linkClass="background-section" :iconAwesome="['fas','play']" popup
 								linkName="پخش ویدیو" :linkTo="props.data.video[0].src" parallax />
 						</div>
 					</div>

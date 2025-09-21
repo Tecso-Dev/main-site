@@ -33,13 +33,9 @@ const pageStyle = { titleBeforeStyle: "circle-before", };
         <!-- ========== End Header Normal ======== -->
 
         <!-- ========== About Section ============ -->
-        <AboutSection id="about" imageSrc="images/about-5.webp">
+        <AboutSection id="about" imageSrc="/images/portfolio/project7/2.webp">
             <template v-slot:title>Help Millions To Bring <br />There Creative Projects To Life</template>
-            <template v-slot:string>e were thoughtful about presenting these in a way where we could also
-                tell the story of the individual.. It is a long established fact that a
-                reader will be distracted by the readable content of a page when looking
-                at its layout. The point of using Lorem Ipsum is that it has a
-                more-or-less normal distribution of letters.
+            <template v-slot:string>At our core, we believe that every idea deserves the chance to grow and make an impact. Our mission is to empower millions of individuals, entrepreneurs, and businesses by providing the tools, expertise, and support they need to bring their creative projects to life. Whether it’s building innovative digital products, designing user-friendly experiences, or developing powerful web solutions, we are dedicated to turning imagination into reality and helping dreams take shape in the modern world.
             </template>
         </AboutSection>
         <!-- ========== End About Section ======== -->
@@ -55,7 +51,7 @@ const pageStyle = { titleBeforeStyle: "circle-before", };
         <!-- ========== End Service ============== -->
 
         <!-- ========== Team ===================== -->
-        <Team :data="data_Team.slice(0, 3)" class="dsn-right-container" grid="grid-md-3 grid-sm-2">
+        <Team :data="data_Team.slice(0, 4)" class="dsn-center-container" grid="grid-md-3 grid-sm-2">
             <template v-slot:title>
                 <SectionTitle subTitle="Our Team" title="The best team ever!"
                     :beforeStyle="pageStyle.titleBeforeStyle" />

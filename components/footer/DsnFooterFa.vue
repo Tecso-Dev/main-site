@@ -1,32 +1,27 @@
 <script setup>
 import { Animate } from "@/hooks/pluginanimations.js";
 import SiteLogo from "@/components/logo/SiteLogo.vue";
-import LinkDefualt from "@/components/links/LinkDefualt.vue";
+import LinkDefualtFa from "@/components/links/LinkDefualtFa.vue";
 import SvgSeparator from "@/components/svg/SvgSeparator.vue";
+import SiteLogoFa from "../logo/SiteLogoFa.vue";
 const props = defineProps({ light: Boolean,animate: Boolean,animateContent: { type: Boolean,default: true },containerContent: Boolean,});
 const footer = ref(null);
 const footerContent = ref(null);
 const socialData = [
     {
-        name: "Fb",
-        link: "",
-        type: "fab",
-        iconName: "facebook-f",
-    },
-    {
-        name: "Tw",
-        link: "",
-        type: "fab",
-        iconName: "twitter",
-    },
-    {
-        name: "In",
+        name: "Linkedin",
         link: "",
         type: "fab",
         iconName: "linkedin-in",
     },
     {
-        name: "Ins",
+        name: "Github",
+        link: "https://github.com/Tecso-Dev",
+        type: "fab",
+        iconName: "github",
+    },
+    {
+        name: "Instagram",
         link: "",
         type: "fab",
         iconName: "instagram",
@@ -34,8 +29,9 @@ const socialData = [
 ];
 const footerLinks = [
     { link: "/fa",name: "صفحه اصلی" },
-    { link: "/fa/work/work-classic-2",name: "نمونه کارها" },
-    { link: "/fa/blog/stories",name: "اخبار" },
+    { link: "/fa/projects",name: "پروژه ها" },
+    { link: "/fa/service",name: "سرویس ها" },
+    { link: "/fa/blog/stories",name: "داستان ها" },
     { link: "/fa/about-us",name: "درباره ما" },
     { link: "/fa/contact",name: "تماس با ما" },
 ];
@@ -59,15 +55,15 @@ onMounted(() => {
                     بیایید با هم چیزی
                     <span class="d-block"><b><i>شگفت انگیز </i></b>بسازیم</span>
                 </h2>
-                <LinkDefualt class="justify-content-center mt-30"
+                <LinkDefualtFa class="justify-content-center mt-30"
                     :linkClass="props.light ? 'background-main' : 'background-section'"
-                    :iconAwesome="['fas','angle-right']" popup linkName="شروع پروژه" linkTo="fa/contact" parallax />
+                    :iconAwesome="['fas','angle-left']" popup linkName="شروع پروژه" linkTo="/fa/contact" parallax />
             </div>
             <div class="dsn-container pt-60">
                 <div class="d-grid grid-lg-4 grid-md-2">
                     <div class="grid-col-1">
                         <div class="dsn-logo main-logo">
-                            <SiteLogo height="undefined" width="undefined" />
+                            <SiteLogoFa height="undefined" width="undefined" />
                         </div>
                         <SocialGroup class="mt-20 dsn-icon-heading-color" :data="socialData" />
                     </div>
@@ -106,8 +102,9 @@ onMounted(() => {
                         </h4>
                         <div class="col-address">
                             <p>
+                                ایران <br>
                                 آذربایجان غربی - ارومیه<br />
-                                خیابان براعتی - ساختمان اساتید - پلاک 6<br />ایران
+                                خیابان براعتی - ساختمان اساتید - پلاک 6
                             </p>
                         </div>
                     </div>

@@ -2,17 +2,17 @@
 
 import data_InBox from "@/api/fa/box-info/box-info.json";
 import data_Portf from "@/api/fa/portfolio/portfolio.json";
-import data_blogs from "@/api/blog/blog.json";
+import data_blogs from "@/api/fa/blog/blog.json";
 import data_Serve from "@/api/fa/services/service.json";
 import data_IServ from "@/api/services/service-icon.json";
-import data_Teste from "@/api/testimonials/testimonials.json";
+import data_Teste from "@/api/fa/testimonials/testimonials.json";
 import data_Brand from "@/api/brands/brand-one.json";
 import SectionTitle from "@/components/title/SectionTitle.vue";
-import SectionTitleGrid from "@/components/title/SectionTitleGrid.vue";
-import LinkDefualt from "@/components/links/LinkDefualt.vue";
+import SectionTitleGridFa from "@/components/title/SectionTitleGridFa.vue";
+import LinkDefualtFa from "@/components/links/LinkDefualtFa.vue";
 import LinkAngle from "@/components/links/LinkAngle.vue";
 import ServiceIcon from "@/components/services/ServiceIcon.vue";
-import ServiceStyleFa from "~/components/services/ServiceStyle-fa.vue";
+import ServiceStyleFa from "~/components/services/ServiceStyleFa.vue";
 import BoxImage from "@/components/box-image/BoxImage.vue";
 import BoxInfo from "@/components/box-info/BoxInfo.vue";
 import BoxInfoList from "@/components/box-info/BoxInfoList.vue";
@@ -22,7 +22,7 @@ import Testimonials from "@/components/testimonials/Testimonials.vue";
 // import BrandOne from "@/components/brand/BrandOne.vue";
 import Accordion from "@/components/accordion/Accordion.vue";
 import AccorItem from "@/components/accordion/AccordionItem.vue";
-import AboutThree from "@/components/about/AboutThree.vue";
+import AboutThreeFa from "@/components/about/AboutThreeFa.vue";
 import BrandTwo from "@/components/brand/BrandTwo.vue";
 import PortfolioHorizontalScroll from "~/components/portfolio/PortfolioHorizontalScroll.vue";
 import DsnFooterFa from "~/components/footer/DsnFooterFa.vue";
@@ -52,9 +52,9 @@ definePageMeta({
 		<!-- ========== End Slider Parallax ========== -->
 
 		<!-- ========== About Section ============== -->
-		<AboutThree>
+		<AboutThreeFa>
 			<template v-slot:boxLeftTitle>
-				<SectionTitle subTitle="درباره ما" title="ما کیستیم؟" beforeStyle="square-before" :spaceDown="false" />
+				<SectionTitle subTitle="درباره ما" title="ما کیستیم؟" beforeStyle="square-after" :spaceDown="false" />
 			</template>
 			<template v-slot:boxLeftContain>
 				<Accordion>
@@ -98,11 +98,11 @@ definePageMeta({
 						</template>
 						<template v-slot:answer>
 							<p>
-								لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+								ما آینده ای را پیش بینی می کنیم که خلاقیت ، تخصص و نوآوری برای شکل دادن به فضاهای الهام بخش و تحولات پایدار جمع می شود.
 							</p>
 						</template>
 					</AccorItem>
-					<AccorItem title="اهداف ما">
+					<AccorItem title=" اهداف ما ">
 						<template v-slot:question>
 							<span class="dsn-icon">
 								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -125,7 +125,7 @@ definePageMeta({
 						</template>
 						<template v-slot:answer>
 							<p>
-								لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+								هدف ما ارائه مشاوره واضح ، اجرای پروژه ها با کیفیت و کارآیی و ایجاد مشارکتهای ماندگار بر اساس اعتماد است.
 							</p>
 						</template>
 					</AccorItem>
@@ -159,35 +159,33 @@ definePageMeta({
 						</template>
 						<template v-slot:answer>
 							<p>
-								لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+								برای آمیختن تخصص ، خلاقیت و یکپارچگی در ارائه راه حل های معماری و سرمایه گذاری که ایده ها را به ارزش ماندگار برای مشتریان تبدیل می کند.
 							</p>
 						</template>
 					</AccorItem>
 				</Accordion>
 			</template>
-			<template v-slot:boxRightTitle>سلام ما، دی‌اس‌ان گرید هستیم</template>
+			<template v-slot:boxRightTitle>سلام ما، تکسو هستیم</template>
 			<template v-slot:boxRightDescrption>
-				Dsn Grid که در سال ۲۰۰۰ تأسیس شد، به یکی از بهترین آژانس‌های دیجیتال در Themeforest تبدیل شده است. پول آبی به جلو می‌رود، اما به تولید اختصاص داده می‌شود.
-استراتژی‌های بهینه مرتبه اول بر اساس فرهنگ مشارکت و شمول بنا  بنابراین این 
+				TECSO - یک شرکت IT نوآورانه مستقر در ایران است که در ارائه راه حل های فناوری هوشمند پیشرفته تخصص دارد. TECSO با یک چشم انداز برای توانمندسازی مشاغل و افراد از طریق سیستم عامل های دیجیتال پیشرفته ، تخصص در توسعه نرم افزار ، امنیت سایبری و طراحی کاربر محور را برای پرداختن به چالش های مدرن ترکیب می کند
 			</template>
-			<template v-slot:boxRightSmTitle>سالوادور دالی</template>
-			<template v-slot:boxRightSmTitleSm>دیجیتال آرتیست</template>
-			<template v-slot:boxRightnumber>25</template>
+			<template v-slot:boxRightSmTitle>راه حل های فناوری هوشمند</template>
+			<template v-slot:boxRightnumber>5</template>
 			<template v-slot:boxRightP>سال<br />تجربه دیجیتال</template>
-		</AboutThree>
+		</AboutThreeFa>
 		<!-- ========== End About Section ========== -->
 
 		<!-- ========== About Section One ========== -->
 		<AboutOne id="about-index" class="section-padding background-section" bgMask="background-main"
-			imageOneSrc="images/about-1.webp" imageTwoSrc="images/about-2.webp">
+			imageOneSrc="/images/portfolio/project8/5.webp" imageTwoSrc="/images/portfolio/project7/7.webp">
 			<template v-slot:moveTitle>WE ARE</template>
-			<template v-slot:centerTitle>BLACK DSN</template>
+			<template v-slot:centerTitle>Tecso</template>
 			<template v-slot:lastTitle>AGENCY</template>
 			<template v-slot:description>
 				ما برندها را از طریق بینش فرهنگی، چشم‌انداز استراتژیک و قدرت احساسات در هر عنصر بیان آن، می‌سازیم و فعال می‌کنیم.
 			</template>
 			<template v-slot:button>
-				<LinkAngle classColor="main" linkName="درباره ما" linkTo="fa/about-us" />
+				<LinkAngle classColor="main" linkName="درباره ما" linkTo="/fa/about-us" />
 			</template>
 		</AboutOne>
 		<!-- ========== About Section One ========== -->
@@ -196,38 +194,38 @@ definePageMeta({
 		<ServiceStyleFa :data="data_Serve.slice(0,3)" fadeUp counter titleClass="border-bottom pb-20 mb-20"
 			serviceInnerClass="border-style" iconsize="80px" masonry :center="false" haveButton>
 			<template v-slot:title>
-				<SectionTitleGrid grid btnBackground="background-section" beforeStyle="circle-before"
-					subTitle="مزایا" title="بیایید <b>خدمات ما</b> را بررسی کنیم" linkTo="fa/service"
+				<SectionTitleGridFa grid btnBackground="background-section" beforeStyle="circle-after"
+					subTitle="خدمات" title="بیایید <b>خدمات ما</b> را بررسی کنیم" linkTo="/fa/service"
 					linkName="مشاهده تمامی خدمات" />
 			</template>
 		</ServiceStyleFa>
 		<!-- ========== End Service ========== -->
 
 		<!-- ========== About Section One ========== -->
-		<BoxInfo imageSrc="images/about-3.jpg">
+		<BoxInfo imageSrc="images/portfolio/project6/023.webp">
 			<template v-slot:title>
 				<SectionTitle subTitle="تکنولوژی" title="هویت بصری شما چگونه است؟"
-					beforeStyle="circle-before" :spaceDown="false" />
+					beforeStyle="circle-after" :spaceDown="false" />
 			</template>
 			<template v-slot:string>
-				لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+				یک هویت بصری قوی با یک طراحی زیبا و بصری شروع می شود که توجه را به خود جلب می کند و برند شما را به طور مؤثر ارتباط می دهد.
 				<span class="d-block mt-10"></span>
-لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+				ب	ا ترکیب دقت ، توجه به جزئیات و راه حل های انعطاف پذیر ، ما به برند شما کمک می کنیم تا از هم جدا شود و جلوه ای ماندگار به جا بگذارد.
 			</template>
 			<BoxInfoList>
 				<BoxInfoItem v-for="(item,index) in data_InBox" :key="index" :item="item.text" />
 			</BoxInfoList>
-			<LinkDefualt linkClass="background-main" :iconAwesome="['fas','angle-right']" popup linkName="بیشتر بدانید"
-				linkTo="fa/portfolio/style-6/platform-development" parallax />
+			<LinkDefualtFa linkClass="background-main" :iconAwesome="['fas','angle-left']" popup linkName="بیشتر بدانید"
+				linkTo="/fa/portfolio/style-6/platform-development" parallax />
 		</BoxInfo>
 		<!-- ========== End About Section One ========== -->
 
 		<!-- ========== Portfolio ========== -->
-		<PortfolioHorizontalScroll :data="data_Portf" />
+		<PortfolioHorizontalScrollFa :data="data_Portf" />
 		<!-- ========== End Portfolio ========== -->
 
 		<!-- ========== background Box Image ========== -->
-		<BoxImage imageSrc="images/about-4.jpg">
+		<BoxImage imageSrc="images\portfolio\project7\3.webp">
 			<h3 class="title-h2">
 				برای عکاسی حرفه‌ای به کمک نیاز دارید؟ <br />
 <b>بیایید با هم همکاری کنیم!</b>
@@ -240,31 +238,31 @@ definePageMeta({
 				<span class="mb-10 d-block"></span>
 در عین حال، سبک من کاملاً مختص خودم است - ساده، با اشکال تمیز و راه‌حل‌های مدرن برای صرفه‌جویی در فضا.
 			</p>
-			<LinkDefualt linkClass="background-section" :iconAwesome="['far','envelope-open']" popup
-				linkName="با ما در تماس باشید" linkTo="fa/contact" parallax />
+			<LinkDefualtFa linkClass="background-section" :iconAwesome="['far','envelope-open']" popup
+				linkName="با ما در تماس باشید" linkTo="/fa/contact" parallax />
 		</BoxImage>
 		<!-- ========== End background Box Image ========== -->
 
 		<!-- ========== testimonials ========== -->
-		<Testimonials :data="data_Teste" :stringLine="1" haveOverlayBG Pagination
+		<Testimonials style="direction:rtl" :data="data_Teste" :stringLine="1" haveOverlayBG Pagination
 			className="section-padding background-section" slideClass="border-style" :desktop="{ slidesPerView: 2 }"
 			:tablet="{ slidesPerView: 2 }" :mobile="{ slidesPerView: 1 }" grabCursor :centeredSlides="false"
 			spaceBetween="30" loop :speed="1200">
 			<template v-slot:title>
-				<SectionTitleGrid grid btnBackground="background-main" beforeStyle="circle-before" subTitle="مزایا"
-					title="چیزی که افراد <br><b>میگویند</b>" linkTo="fa/contact" linkName="همین الان شروع کنید" />
+				<SectionTitleGridFa grid btnBackground="background-main" beforeStyle="circle-after" subTitle="افراد"
+					title="چیزی که افراد <br><b>میگویند</b>" linkTo="/fa/contact" linkName="همین الان شروع کنید" />
 			</template>
 		</Testimonials>
 		<!-- ========== End testimonials ========== -->
 
 		<!-- ========== Stories ========== -->
-		<BlogSwiper setStyle="normal" :data="data_blogs" haveOverlayBG allowPrevButton allowNextButton allowPagination
+		<BlogSwiper style="direction:rtl" setStyle="normal" :data="data_blogs" haveOverlayBG allowPrevButton allowNextButton allowPagination
 			grabCursor parallax loop :speed="1200" :desktop="{ slidesPerView: 2.5, spaceBetween: 30 }"
 			:tablet="{ slidesPerView: 2, spaceBetween: 30 }" :mobile="{ slidesPerView: 1, spaceBetween: 30 }">
 			<template v-slot:title>
-				<SectionTitleGrid grid class="container" btnBackground="background-section" beforeStyle="circle-before"
-					subTitle="مزایا" title="چیزی که افراد <br><b>میگویند</b>" linkTo="fa/blog/stories"
-					linkName="همین الان شروع کن" />
+				<SectionTitleGridFa grid class="container" btnBackground="background-section" beforeStyle="circle-after"
+					subTitle="پروژه ها" title="پروژه های جدید ما" linkTo="/fa/projects"
+					linkName="مشاهده پروژه های بیشتر" />
 			</template>
 		</BlogSwiper>
 		<!-- ========== End Stories ========== -->
@@ -278,3 +276,14 @@ definePageMeta({
 		<!-- ========== End Footer ========== -->
 	</Layout>
 </template>
+
+<style scoped>
+.dsn-icon{
+	margin-left: 7px;
+}
+
+.title-block{
+	border-left: none;
+	border-right: 1px solid var(--border-color) !important;
+}
+</style>

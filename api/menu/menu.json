@@ -1,26 +1,26 @@
 [
     {
-        "name": "خانه",
+        "name": "Home",
         "href": "/"
     },
     {
-        "name": "پروژه‌ها",
-        "href": "/business"
+        "name": "Projects",
+        "href": "/projects"
     },
     {
-        "name": "خدمات",
+        "name": "Services",
         "href": "/service"
     },
     {
-        "name": "وبلاگ",
+        "name": "Stories",
         "href": "/blog/stories"
     },
     {
-        "name": "درباره ما",
+        "name": "About Us",
         "href": "/about-us"
     },
     {
-        "name": "تماس با ما",
+        "name": "Contact Us",
         "href": "/contact"
     }
 ]

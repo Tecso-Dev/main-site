@@ -1,42 +1,42 @@
 [
-    {
-        "id": 1,
-        "name": "گروه گرافیک MTL",
-        "job": "طراح گرافیک",
-        "string": [
-            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند.",
-            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند. همچنین آنها پشتیبانی سریعی ارائه می‌دهند. بابت این قالب زیبا بسیار سپاسگزارم."
-        ],
-        "imageSrc": "images/team/1.webp"
-    },
-    {
-        "id": 2,
-        "name": "جرمی اسمیت",
-        "job": "مدیر استودیو خلاق",
-        "string": [
-            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند.",
-            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند. همچنین آنها پشتیبانی سریعی ارائه می‌دهند. بابت این قالب زیبا بسیار سپاسگزارم."
-        ],
-        "imageSrc": "images/team/2.webp"
-    },
-    {
-        "id": 3,
-        "name": "آنجلو واکینگ",
-        "job": "سرپرست توسعه‌دهندگان",
-        "string": [
-            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند.",
-            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند. همچنین آنها پشتیبانی سریعی ارائه می‌دهند. بابت این قالب زیبا بسیار سپاسگزارم."
-        ],
-        "imageSrc": "images/team/3.webp"
-    },
-    {
-        "id": 4,
-        "name": "بیل گاردنر",
-        "job": "طراح وب",
-        "string": [
-            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند.",
-            "این قالب عالی است و طراح آن بسیار کمک‌کننده است. من چند سوال درباره خرید داشتم و ایشان در تمام موارد به من کمک کردند. همچنین آنها پشتیبانی سریعی ارائه می‌دهند. بابت این قالب زیبا بسیار سپاسگزارم."
-        ],
-        "imageSrc": "images/team/4.webp"
-    }
+  {
+    "id": 1,
+    "name": "MTL Graphics Group",
+    "job": "Graphic Designer",
+    "string": [
+      "Working with this team was an absolute pleasure. Their expertise and support made our project seamless and enjoyable.",
+      "They truly go above and beyond, delivering creative solutions and quick support. I highly recommend them to anyone looking to bring their ideas to life."
+    ],
+    "imageSrc": "images/team/1.webp"
+  },
+  {
+    "id": 2,
+    "name": "Jeremy Smith",
+    "job": "Creative Studio Manager",
+    "string": [
+      "The team exceeded all our expectations. Their professionalism and creativity helped our project shine.",
+      "From start to finish, their guidance and attention to detail were outstanding. I’m very impressed with their work and support."
+    ],
+    "imageSrc": "images/team/2.webp"
+  },
+  {
+    "id": 3,
+    "name": "Angelo Walking",
+    "job": "Lead Developer",
+    "string": [
+      "Exceptional team with a clear vision. They made complex tasks look effortless and delivered high-quality results.",
+      "Their expertise and proactive communication made the development process smooth and efficient. I would gladly collaborate with them again."
+    ],
+    "imageSrc": "images/team/3.webp"
+  },
+  {
+    "id": 4,
+    "name": "Bill Gardner",
+    "job": "Web Designer",
+    "string": [
+      "I’m thrilled with the results! Their creativity and problem-solving skills transformed our ideas into reality.",
+      "Highly professional and reliable, they ensured every detail was perfect. Working with them was an excellent experience."
+    ],
+    "imageSrc": "images/team/4.webp"
+  }
 ]

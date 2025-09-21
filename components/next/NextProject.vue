@@ -1,5 +1,5 @@
 <script setup>
-import data_Portf from "@/api/fa/portfolio/portfolio.json";
+import data_Portf from "@/api/portfolio/portfolio.json";
 import SvgSeparator from "@/components/svg/SvgSeparator.vue";
 const props = defineProps({ next: Number,light: Boolean,});
 const item = data_Portf.find((item) => item.id === Number(props.next));
@@ -41,7 +41,6 @@ const item = data_Portf.find((item) => item.id === Number(props.next));
 
 <style lang="scss">
 .next-project {
-	font-family: 'Vazirmatn';
 	position: relative;
 	height: 100vh;
 	overflow: hidden;

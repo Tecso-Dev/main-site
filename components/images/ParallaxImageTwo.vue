@@ -7,7 +7,7 @@ const props = defineProps({ src: String, caption: String, animate: String, fancy
 	<div class="p-relative mb-section">
 		<div class="dsn-bg-mask h-50 top-0 background-section"></div>
 		<div class="dsn-container over-hidden">
-			<div class="img-box-parallax h-v-80" :data-src="props.src" :data-caption="props.caption"
+			<div class="img-box-parallax h-v-80" :data-src="`/${props.src}`" :data-caption="props.caption"
 				:data-fancybox="props.fancybox ? props.fancybox : null" data-cursor="open"
 				:data-dsn-animate="props.animate ? props.animate : imgParallax">
 				<NuxtImg format="webp" class="cover-bg-img has-direction" :src="props.src" alt="img" />

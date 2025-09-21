@@ -3,7 +3,7 @@ import { nextProject } from "@/hooks/plugin.js"
 import { Fancybox } from "@fancyapps/ui";
 import data_Portf from "@/api/portfolio/portfolio.json";
 import ParallaxImage from "@/components/images/ParallaxImage.vue";
-import NextProject from "@/components/next/NextProject.vue";
+import NextProject from "~/components/next/NextProject.vue";
 definePageMeta({ documentDriven: false });
 const { slug } = useRoute().params
 const item = await data_Portf.find(item => item.slug === slug)

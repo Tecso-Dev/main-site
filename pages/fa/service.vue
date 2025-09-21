@@ -24,7 +24,7 @@ definePageMeta({
 
     <Layout bodyStyle="bg-dots" name="fa-default">
         <!-- ========== Header Normal ================ -->
-        <HeaderNormal contentClass="container" subTitle="خدمات ما">
+        <HeaderNormalFa style="direction:rtl" contentClass="container" subTitle="خدمات ما">
             <template v-slot:title>
                 ما محصولات دیجیتال زیبایی را <br /> برای ما ارائه می دهیم.
             </template>
@@ -32,46 +32,46 @@ definePageMeta({
                 اگر به دنبال آژانسی هستید که به شما در ایجاد حضوری چشمگیر در فضای آنلاین کمک کند، به جای درستی آمده‌اید. ما می‌توانیم به شما کمک کنیم تا کسب و کارتان را به سطح بالاتری ببرید.
             </template>
             <LinkAngle linkName="همین حالا شروع کن" linkTo="/fa/contact" />
-        </HeaderNormal>
+        </HeaderNormalFa>
         <!-- ========== End Header Normal ============ -->
 
         <!-- ========== About Section ================ -->
-        <AboutServices :data="data_Serve" imageSrc="images/portfolio/project6/2.gif">
-            <template v-slot:title>بریم که <b>سرویس هامون رو</b> بررسی کنیم</template>
+        <AboutServices :data="data_Serve" imageSrc="/images/portfolio/project6/022.webp">
+            <template v-slot:title>سرویس هایی که ارائه میکنیم</template>
             <template v-slot:smallBoxTitle>بهترین شیوه‌ها از متخصصان صنعت</template>
             <template v-slot:smallBoxDescription>
                 <p>
-ما فرهنگی را طراحی کرده‌ایم که به متصدیان ما اجازه می‌دهد تا با مشتریان ما هماهنگ شوند و آنها را به ارمغان بیاورند.   
+ما فرهنگی را طراحی کرده‌ایم که به متصدیان ما اجازه می‌دهد تا با مشتریان ما هماهنگ شوند و آنها را به ارمغان بیاورند        .   
                 </p>
             </template>
         </AboutServices>
         <!-- ========== End About Section ============ -->
 
         <!-- ========== Info Service ================= -->
-        <div class="pt-section mb-section background-section">
+        <div style="direction:rtl" class="pt-section mb-section background-section">
             <div class="container">
                 <div class="d-grid grid-md-2" data-dsn-gap="30px 60px">
                     <div class="left">
                         <h5 class="title-h2 body-font text-upper">
-                            ما بهترین خدمات<b>بازار</b> را به شما ارائه می‌دهیم
+                            ما بهترین خدمات <b>بازار </b> را به شما ارائه می‌دهیم
                         </h5>
                         <p class="mt-20">
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است  
+                            ما بهترین خدمات را در بازار به شما ارائه می دهیم ، تخصص ، قابلیت اطمینان و نوآوری را در اختیار شما قرار می دهیم
                         </p>
                     </div>
                     <div class="right align-self-end">
                         <p>
-                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                            تیم ما به درک نیازهای شما و ارائه راه حل هایی که فراتر از انتظارات است ، اختصاص داده است.
                         </p>
                         <p class="mt-20">
-                            پیش‌فرض و جستجویی برای [عبارت]، وب‌سایت‌های بسیاری را که هنوز در مراحل ابتدایی خود هستند، آشکار خواهد کرد. [عبارت] صفحه وب، با تزریق کلمات طنز، دچار تغییر شده است.
+                            با تمرکز بر کیفیت و رضایت مشتری ، ما اطمینان می دهیم که هر پروژه با تعالی و مراقبت انجام می شود.
                         </p>
                     </div>
                 </div>
             </div>
             <div class="p-relative box-img">
-                <div class="p-relative container d-grid grid-1-half mt-50 z-index-2">                    <NuxtImg format="webp" src="images/s1.webp" alt="" />
-                    <NuxtImg format="webp" class="d-sm-none" src="images/s2.webp" alt="" />
+                <div class="p-relative container d-grid grid-1-half mt-50 z-index-2">                    <NuxtImg format="webp" src="images/portfolio/project6/024.webp" alt="" />
+                    <NuxtImg format="webp" class="d-sm-none" src="images/portfolio/project6/025.webp" alt="" />
                 </div>
 
                 <div class="dsn-bg-mask background-main h-50 bottom-0 z-index-1"></div>
@@ -80,11 +80,11 @@ definePageMeta({
         <!-- ========== End Info Service ============= -->
 
         <!-- ========== About According ============== -->
-        <about-according :data="data_ServA.slice(0, 3)">
+        <about-according style="direction:rtl" :data="data_ServA.slice(0, 3)">
             <template v-slot:title>
-                <SectionTitlePin title="ما از سال ۲۰۰۸ مشغول انجام پروژه‌ها بوده‌ایم.">
+                <SectionTitlePin title="ما از سال 2020 مشغول انجام پروژه‌ها بوده‌ایم.">
                     <p class="max-w570 mt-20">
-                        دی‌اس‌ان گرید که در سال ۲۰۰۰ تأسیس شد، به یکی از بهترین آژانس‌های دیجیتال در تم‌فارست تبدیل شده است. با پول آبی به کار خود ادامه دهید، اما به تولید انبوه برسید.
+                        TECSO - یک شرکت IT نوآورانه مستقر در ایران است که در ارائه راه حل های فناوری هوشمند پیشرفته تخصص دارد. TECSO با یک چشم انداز برای توانمندسازی مشاغل و افراد از طریق سیستم عامل های دیجیتال پیشرفته ، تخصص در توسعه نرم افزار ، امنیت سایبری و طراحی کاربر محور را برای پرداختن به چالش های مدرن ترکیب می کند
                     </p>
                 </SectionTitlePin>
             </template>
@@ -130,5 +130,6 @@ definePageMeta({
         <!-- ========== End Footer =================== -->
     </Layout>
 </template>
+
 
 

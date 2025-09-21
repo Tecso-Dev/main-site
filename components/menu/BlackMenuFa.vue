@@ -1,23 +1,23 @@
 <template>
 		<NavbarFa :hamburger="props.hamburger">
-			<SiteLogo :click="handleClickCloseMenu" />
-			<Collapse>
+			<SiteLogoFa :click="handleClickCloseMenu" />
+			<CollapseFa>
 				<ul id="dsn-primary-list" class="primary-nav h2">
 					<Links />
 				</ul>
 				<MenuContentFa class="section-margin" />
-			</Collapse>
+			</CollapseFa>
 		</NavbarFa>
 </template>
 
 <script setup>
 	import data_MENU from "@/api/fa/menu/menu.json";
 	import NavbarFa from "@/components/menu/nav/NavbarFa.vue";
-	import SiteLogo from "@/components/logo/SiteLogo.vue";
-	import Collapse from "@/components/menu/nav/contain/Collapse.vue";
+	import CollapseFa from "@/components/menu/nav/contain/CollapseFa.vue";
 	import Dropdown from "@/components/menu/nav/contain/Dropdown.vue";
 	import ItemLink from "@/components/menu/nav/contain/ItemLink.vue";
 	import MenuContentFa from "@/components/menu/MenuContentFa.vue";
+import SiteLogoFa from "../logo/SiteLogoFa.vue";
 
 	const Links = () => { const xx = []; data_MENU.forEach((item) => { if
 	(item.dropdownMenu) { const list2 = []; item.dropdownMenu.forEach((item2) => {

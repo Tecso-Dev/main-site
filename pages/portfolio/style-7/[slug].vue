@@ -9,7 +9,7 @@ import ViewVideo from "@/components/images/ViewVideo.vue";
 import ImagePopup from "@/components/images/ImagePopup.vue";
 import BoxInfoRight from "@/components/box-info/BoxInfoRight.vue";
 import ParagraphBox from "@/components/string/ParagraphBox.vue";
-import NextProject from "@/components/next/NextProject.vue";
+import NextProject from "~/components/next/NextProject.vue";
 definePageMeta({ documentDriven: false });
 const { slug } = useRoute().params;
 const item = await data_Portf.find((item) => item.slug === slug);
@@ -87,11 +87,7 @@ onBeforeUnmount(() => Fancybox.destroy());
         <!-- ========== End Info Project  ========== -->
 
         <!-- ========== video  ========== -->
-        <ViewVideo
-            class="scale"
-            :src="item.video[0].src"
-            :poster="item.images[1].src"
-        />
+
         <!-- ========== End video  ========== -->
 
         <!-- ========== Info  ========== -->

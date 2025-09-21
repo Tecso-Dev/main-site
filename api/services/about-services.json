@@ -1,26 +1,22 @@
 [
-    {
-        "id": 1,
-        "name": "مشاوره برند"
-    },
-    {
-        "id": 2,
-        "name": "مدیریت بازاریابی"
-    },
-    {
-        "id": 3,
-        "name": "بینش مشتری"
-    },
-    {
-        "id": 4,
-        "name": "مشاوره برند"
-    },
-    {
-        "id": 5,
-        "name": "مدیریت بازاریابی"
-    },
-    {
-        "id": 6,
-        "name": "بینش مشتری"
-    }
+  {
+    "id": 1,
+    "name": "IT Management Service"
+  },
+  {
+    "id": 2,
+    "name": "Data Tracking Security"
+  },
+  {
+    "id": 3,
+    "name": "Web & Mobile App Development"
+  },
+  {
+    "id": 4,
+    "name": "UI/UX & Branding Identity"
+  },
+  {
+    "id": 5,
+    "name": "Digital Marketing Services"
+  }
 ]

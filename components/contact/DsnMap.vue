@@ -20,7 +20,7 @@ onMounted(() => {
 			zoom: props.zoom,
 		});
 		const beachFlagImg = document.createElement("img");
-		beachFlagImg.src = "images/map-marker.png";
+		beachFlagImg.src = "/images/map-marker.png";
 		const marker = new AdvancedMarkerElement({
 			map,
 			position: { lat: props.defaultCenter.lat, lng: props.defaultCenter.lng },

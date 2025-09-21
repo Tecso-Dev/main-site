@@ -1,17 +1,17 @@
 [
-    {
-        "id": 1,
-        "title": "چشم‌انداز ما",
-        "description": "ما با تجربه و تخصص در زمینه طراحی و توسعه، به دنبال ارائه بهترین راه‌حل‌ها برای مشتریان خود هستیم تا بتوانیم به اهداف کسب و کار آنها کمک کنیم."
-    },
-    {
-        "id": 2,
-        "title": "اهداف ما",
-        "description": "هدف ما ارائه خدمات با کیفیت و حرفه‌ای در زمینه طراحی و توسعه وب است. ما به دنبال ایجاد راه‌حل‌های خلاقانه و نوآورانه برای مشتریان خود هستیم."
-    },
-    {
-        "id": 3,
-        "title": "ماموریت ما",
-        "description": "ماموریت ما کمک به کسب و کارها برای رشد و توسعه در دنیای دیجیتال است. ما با ارائه راه‌حل‌های مناسب و کارآمد، به موفقیت مشتریان خود کمک می‌کنیم."
-    }
+  {
+    "id": 1,
+    "title": "Our Vision",
+    "description": "With experience and expertise in design and development, we aim to provide the best solutions for our clients to help them achieve their business goals."
+  },
+  {
+    "id": 2,
+    "title": "Our Goals",
+    "description": "Our goal is to deliver high-quality and professional services in web design and development. We strive to create creative and innovative solutions for our clients."
+  },
+  {
+    "id": 3,
+    "title": "Our Mission",
+    "description": "Our mission is to help businesses grow and succeed in the digital world. By providing effective and efficient solutions, we support our clients in achieving success."
+  }
 ]

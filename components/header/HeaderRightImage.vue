@@ -37,7 +37,6 @@ const props = defineProps({ data: Object,btnScrollTo: String,linkCircleTo: Strin
 				</div>
 			</div>
 		</div>
-		<LinkCircle v-if="props.linkCircleTo" :to="props.linkCircleTo" blank />
 		<LinkScrollDown v-if="props.btnScrollTo" :goToEl="props.btnScrollTo" />
 	</header>
 </template>

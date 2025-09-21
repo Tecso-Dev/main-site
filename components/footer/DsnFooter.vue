@@ -8,25 +8,19 @@ const footer = ref(null);
 const footerContent = ref(null);
 const socialData = [
     {
-        name: "Fb",
-        link: "",
-        type: "fab",
-        iconName: "facebook-f",
-    },
-    {
-        name: "Tw",
-        link: "",
-        type: "fab",
-        iconName: "twitter",
-    },
-    {
-        name: "In",
+        name: "Linkedin",
         link: "",
         type: "fab",
         iconName: "linkedin-in",
     },
     {
-        name: "Ins",
+        name: "Github",
+        link: "https://github.com/Tecso-Dev",
+        type: "fab",
+        iconName: "github",
+    },
+    {
+        name: "Intagram",
         link: "",
         type: "fab",
         iconName: "instagram",
@@ -34,8 +28,9 @@ const socialData = [
 ];
 const footerLinks = [
     { link: "/",name: "HOME" },
-    { link: "/work/work-classic-2",name: "PORTFOLIO" },
-    { link: "/blog/stories",name: "NEWS" },
+    { link: "/projects",name: "PROJECTS" },
+    { link: "/blog/stories",name: "STORIES" },
+    { link: "/service",name: "SERVICE" },
     { link: "/about-us",name: "ABOUT" },
     { link: "/contact",name: "CONTACT" },
 ];
@@ -106,8 +101,9 @@ onMounted(() => {
                         </h4>
                         <div class="col-address">
                             <p>
+                                Iran <br>
                                 West Azarbayjan - Urmia<br />
-                                Bra'ati Street - Asatid Building - P 6<br />Iran
+                                Bra'ati Street - Asatid Building - P 6
                             </p>
                         </div>
                     </div>

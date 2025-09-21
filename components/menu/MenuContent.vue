@@ -2,21 +2,21 @@
 	<div class="container-content d-flex flex-column justify-content-center">
 		<div class="nav__info">
 			<div class="nav-content">
-				<h5 class="sm-title-block mb-10">Studio</h5>
+				<h5 class="sm-title-block mb-10">Head Office</h5>
 				<p>
-					26-30 New Damietta <br />
-					El-Mahalla El-Kubra, SK1 66LM
+					West Azarbayjan - Urmia <br> Bra'ati Street - Asatid Building - P 6 <br> Iran 
 				</p>
 			</div>
 			<div class="nav-content mt-30">
 				<h5 class="sm-title-block mb-10">Contact</h5>
 				<p class="links over-hidden mb-1">
-					<a class="link-hover" href="tel:+00 (2)012 3321">
-						+00 (2)012 3321
-					</a>
+						<NuxtLink to="tel:+989058432452">+98 905 843 2452</NuxtLink><br>
+						<NuxtLink to="tel:+989199891447">+98 919 989 1447</NuxtLink><br>
+						<NuxtLink to="tel:+989927461899">+98 992 746 1899</NuxtLink>
+
 				</p>
 				<p class="links over-hidden">
-					<a class="link-hover" href="mailto:info@dsngrid.com">info@dsngrid.com</a>
+					<a class="link-hover" href="mailto:info@Tecso.team">info@Tecso.team</a>
 				</p>
 			</div>
 		</div>
@@ -35,10 +35,9 @@
 
 <script setup>
 const socialData = [
-	{ link: "#0",name: "Dribbble." },
-	{ link: "#0",name: "Behance." },
-	{ link: "#0",name: "Linkedin." },
-	{ link: "#0",name: "Twitter." },
+	{ link: "#0",name: "Instagram" },
+	{ link: "https://github.com/Tecso-Dev",name: "Github" },
+	{ link: "#0",name: "Linkedin" },
 ];
 </script>
 

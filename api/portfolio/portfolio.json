@@ -570,12 +570,12 @@
             "name": "Cybersecurity Dashboard"
         },
         {
-            "src": "images/portfolio/project1/058.webp",
-            "name": "Network Security Framework"
-        },
-        {
             "src": "images/portfolio/project1/059.webp",
             "name": "Data Protection Interface"
+        },
+        {
+            "src": "images/portfolio/project1/058.webp",
+            "name": "Network Security Framework"
         }
     ],
     "video": [
@@ -608,21 +608,20 @@
     {
         "id": 7,
         "categories": [
-            "Creative",
-            "Photography"
+            "Education"
         ],
-        "title": "Discover",
+        "title": "Education",
         "subtitle": "",
         "description": "our team wanna teach programming to students.",
         "link": "/portfolio/style-2",
         "linkName": "View Case",
-        "slug": "visionaid",
+        "slug": "education",
         "Photographer": "Tecso Team",
         "autherLink": "https://www.behance.net/gallery/142440825/VisionAid?tracking_source=for_you_feed_recommended",
         "infoProject": [
             {
                 "title": "Service",
-                "description": "Photographer"
+                "description": "Teaching"
             },
             {
                 "title": "Industry",
@@ -641,10 +640,10 @@
                 ]
             },
             {
-                "title": "HOW IS YOUR VISUAL <b> IDENTITY?</b>",
+                "title": "Do you want to learn <b>programming</b>?",
                 "text": [
-                    "we give fashion forward men, quick access to the finest, premium-quality, designer clothes for men. Not only that, our online selection is comprised of versatile.",
-                    "CMF designs were an essential part of the process. Material variations make sure your VisionAid™ matches your unique personal style."
+                    "Programming is not just a technical skill; it is a powerful tool for building a digital future. If you are looking to create mobile apps, design professional websites, or even build engaging games, learning to code is your first step.",
+                    "We've paved the way for you with courses, hands-on projects, and Persian-language resources. It doesn't matter if you are a beginner or have some experience—with the right guidance, you can become a professional developer."
                 ]
             },
             {
@@ -661,15 +660,19 @@
             },
             {
                 "src": "images/portfolio/project7/2.webp",
-                "name": "Caption #02"
+                "name": "Creative Design"
             },
             {
-                "src": "images/portfolio/project7/3.webp",
-                "name": "Caption #03"
+                "src": "images/portfolio/project7/6.webp",
+                "name": "Teaching Programming"
             },
             {
                 "src": "images/portfolio/project7/4.webp",
-                "name": "Caption #04"
+                "name": "Idea Concept"
+            },
+            {
+                "src": "images/portfolio/project7/7.webp",
+                "name": "Code Writting"
             }
         ],
         "video": [
@@ -679,13 +682,13 @@
         ],
         "textLines": [
             {
-                "text": "Beautiful and easy to understand UI"
+                "text": "Learning coding from scratch"
             },
             {
-                "text": "Theme advantages are pixel perfect design"
+                "text": "General computer skills acquisition"
             },
             {
-                "text": "Present your services with flexible"
+                "text": "Entering the job market"
             }
         ],
         "metas": []
@@ -693,12 +696,11 @@
     {
         "id": 8,
         "categories": [
-            "Creative",
-            "Photography"
+            "Development"
         ],
-        "title": "Mobile",
+        "title": "Mobile Development",
         "subtitle": "",
-        "description": "mobile hardware and software repairing and etc.",
+        "description": "mobile hardware and software development and repairing and etc.",
         "link": "/portfolio/style-7",
         "linkName": "View Case",
         "slug": "mobile",
@@ -707,7 +709,7 @@
         "infoProject": [
             {
                 "title": "Service",
-                "description": "Photographer"
+                "description": "Mobile Development"
             },
             {
                 "title": "Industry",
@@ -722,7 +724,7 @@
             {
                 "title": "ABOUT THE PROJECT",
                 "text": [
-                    "ddddddd was tasked with creating a pair of electronic glasses that can help legally-blind and low-vision people see again. We're helping people with Wet & Dry Macular Degeneration, Diabetic and Non-Diabetic Retinopathy, Glaucoma, Optic-Nerve-Atrophy."
+                   "In this project, the Tecso team was responsible for designing and developing a complete mobile ecosystem, including smart hardware devices and proprietary software development for Android and iOS platforms. Our goal was to provide innovative solutions to improve the experience, increase productivity, and meet the needs of specific users in various fields, including health, education, and e-commerce."
                 ]
             },
             {
@@ -733,9 +735,9 @@
                 ]
             },
             {
-                "title": "Patents Pending.",
+                "title": "Android Programming",
                 "text": [
-                    "We designed VisionAid™ as a modular system. This enables the release of new SmartFrame™ and new DigitalLens™ styles in the future that can be purchased to improve the style or functionality of your device."
+                   "In this project, we designed an Android application with a modular architecture that allows for the addition of new features such as SmartFrame™ in future releases. This flexible structure allows users to customize the look and feel of the application to suit their needs. Our goal was to provide a seamless, customizable experience that is compatible with a variety of Android devices."
                 ]
             }
         ],
@@ -746,15 +748,15 @@
             },
             {
                 "src": "images/portfolio/project8/2.webp",
-                "name": "Caption #02"
+                "name": "Android"
             },
             {
                 "src": "images/portfolio/project8/3.webp",
-                "name": "Caption #03"
+                "name": "SmartPhone"
             },
             {
                 "src": "images/portfolio/project8/4.webp",
-                "name": "Caption #04"
+                "name": "Blue Eye Cyber "
             }
         ],
         "video": [

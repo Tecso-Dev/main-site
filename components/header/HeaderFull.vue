@@ -42,7 +42,7 @@ onMounted(() => {
 							</div>
 							<ul class="subtitle-meta metas p-relative mt-10 heading-color">
 								<li class="mb-10" v-for="(meta,index) in props.data.metas" :key="index">
-									<b>{{ meta[0] }}</b> : {{ meta[1] }}
+									<b>{{ meta.name }}</b> : {{ meta.content }}
 								</li>
 							</ul>
 						</div>
@@ -50,7 +50,6 @@ onMounted(() => {
 				</div>
 			</div>
 		</div>
-		<LinkCircle v-if="props.linkCircleTo" :to="props.linkCircleTo" blank />
 		<LinkScrollDown v-if="props.btnScrollTo" :goToEl="props.btnScrollTo" />
 	</header>
 </template>
