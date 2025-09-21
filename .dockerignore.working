@@ -1,0 +1,21 @@
+# Exclude node modules
+node_modules
+
+# Exclude build artifacts (but allow .output/public for static deployment)
+.nuxt
+
+# Exclude git related files
+.git
+.gitignore
+
+# Exclude development files
+.vscode
+.idea
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Exclude Docker files
+Dockerfile
+docker-compose.yml

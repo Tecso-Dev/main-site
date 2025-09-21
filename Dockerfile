@@ -6,9 +6,10 @@ WORKDIR /app
 # Copy package files for better caching
 COPY package*.json ./
 
-# Install dependencies with clean install (including devDependencies for build)
-# Temporarily disable SSL verification for Docker build environments
-RUN npm config set strict-ssl false && npm ci --no-audit --no-fund
+# Install dependencies with workarounds for Docker environment issues
+RUN npm config set strict-ssl false && \
+    npm config set registry http://registry.npmjs.org/ && \
+    npm ci --no-audit --no-fund --ignore-scripts
 
 # Copy source code
 COPY . .

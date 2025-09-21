@@ -76,51 +76,52 @@ bun run preview
 
 The application now includes optimized Docker support for production deployment:
 
-### Quick Start
-
-Build and run with Docker:
-
+### Method 1: Build in Docker (Full Build)
 ```bash
-# Build the Docker image
+# Build the Docker image (builds inside container)
 docker build -t tecso-team .
 
 # Run the container
-docker run -p 3000:3000 tecso-team
+docker run -p 3000:80 tecso-team
 ```
 
-### Docker Commands
+### Method 2: Static Deployment (Recommended)
+For faster deployment using pre-built static files:
 
 ```bash
-# Build image
-npm run docker:build
+# First, build the static files locally
+npm run generate
 
-# Run container (maps to port 80)
-npm run docker:run
+# Build the Docker image using static files
+docker build -f Dockerfile.static -t tecso-team-static .
 
-# Run with docker-compose
-npm run docker:compose
+# Run the container
+docker run -p 3000:80 tecso-team-static
 ```
 
 ### Performance Optimizations
 
 The Docker configuration includes several optimizations for better loading performance:
 
-1. **Multi-stage build** - Separates build dependencies from runtime
-2. **SSR Mode** - Server-side rendering for faster initial page loads
-3. **Optimized chunking** - Better code splitting for faster loading
-4. **Compressed assets** - Reduced bundle sizes
-5. **Image optimization** - WebP format with quality optimization
-
-### Health Checks
-
-The Docker container includes health checks that verify the application is responding correctly.
+1. **Static Generation** - Pre-builds all pages for fastest serving
+2. **Nginx Optimizations** - Gzip compression, caching headers, and performance tuning
+3. **Security Headers** - X-Frame-Options, CSP, and other security measures
+4. **Health Checks** - Automatic container health monitoring
 
 ### Environment Variables
 
 The application supports the following environment variables:
 
 - `NODE_ENV=production` - Sets production mode
-- `NUXT_HOST=0.0.0.0` - Binds to all interfaces
+- `NUXT_HOST=0.0.0.0` - Binds to all interfaces  
 - `NUXT_PORT=3000` - Sets the port (default: 3000)
+
+### Troubleshooting
+
+If you encounter build issues:
+
+1. **SSL Certificate Issues**: The Dockerfile includes workarounds for Docker environments
+2. **Missing Dependencies**: Use the static deployment method if build dependencies fail
+3. **Performance Issues**: The static method provides the best performance for production
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
