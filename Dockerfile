@@ -3,33 +3,39 @@ FROM node:20-alpine AS build
 # Set working directory
 WORKDIR /app
 
-# Copy package.json and package-lock.json
+# Copy package files for better caching
 COPY package*.json ./
 
-# Install dependencies
-RUN npm ci
+# Install dependencies with clean install
+RUN npm ci --only=production --no-audit --no-fund
 
-# Copy the rest of the application
+# Copy source code
 COPY . .
 
 # Build the application
-RUN npm run build
+RUN npm run generate
 
-# Production stage
-FROM node:20-alpine AS production
+# Production stage - use nginx for static serving
+FROM nginx:alpine AS production
 
-# Set working directory
-WORKDIR /app
+# Install compression and optimization tools
+RUN apk add --no-cache gzip brotli
 
-# Set environment to production
-ENV NODE_ENV=production
+# Copy built static files
+COPY --from=build /app/dist /usr/share/nginx/html
 
-# Copy built artifacts from build stage
-COPY --from=build /app/.output /app/.output
-COPY --from=build /app/public /app/public
+# Copy nginx configuration
+COPY nginx.conf /etc/nginx/nginx.conf
 
-# Expose the port the app runs on
-EXPOSE 3000
+# Create directories for logs
+RUN mkdir -p /var/log/nginx
 
-# Command to run the application
-CMD ["node", ".output/server/index.mjs"]
+# Expose port
+EXPOSE 80
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+  CMD wget --no-verbose --tries=1 --spider http://localhost/ || exit 1
+
+# Start nginx
+CMD ["nginx", "-g", "daemon off;"]

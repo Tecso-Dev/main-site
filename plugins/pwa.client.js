@@ -1,0 +1,14 @@
+// Register service worker for PWA functionality
+export default defineNuxtPlugin(() => {
+  if ('serviceWorker' in navigator && process.client) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js')
+        .then((registration) => {
+          console.log('SW registered: ', registration)
+        })
+        .catch((registrationError) => {
+          console.log('SW registration failed: ', registrationError)
+        })
+    })
+  }
+})

@@ -4,10 +4,18 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
+    "build:analyze": "ANALYZE=true nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lighthouse": "lighthouse https://tecso.team --output html --output-path ./lighthouse-report.html",
+    "lighthouse:mobile": "lighthouse https://tecso.team --output html --output-path ./lighthouse-mobile-report.html --preset=mobile",
+    "bundle-analyzer": "npx webpack-bundle-analyzer .nuxt/dist/client --port 8888",
+    "performance:audit": "npm run lighthouse && npm run bundle-analyzer",
+    "docker:build": "docker build -t tecso-team .",
+    "docker:run": "docker run -p 80:80 tecso-team",
+    "docker:compose": "docker-compose up -d"
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.33",
@@ -29,12 +37,15 @@
     "smooth-scrollbar": "^8.8.4",
     "splitting": "^1.0.6",
     "swiper": "^11.0.7",
+    "update": "^0.7.4",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@nuxt/image": "^1.7.0",
     "@vue/compiler-sfc": "^3.4.21",
-    "sass": "^1.71.1"
+    "sass": "^1.71.1",
+    "webpack-bundle-analyzer": "^4.9.0",
+    "lighthouse": "^10.4.0"
   }
 }

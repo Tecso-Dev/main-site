@@ -36,57 +36,84 @@ export default defineNuxtConfig({
 			],
 			link: [
 				{ rel: 'icon', type: 'image/x-icon', href: '/images/logo-32x32.png' },
-				{ rel: 'canonical', href: 'https://tecso.team' }
-			],
-			script: [
-				{ src: '/js/threejs.min.js', body: true, async: true, defer: true }
+				{ rel: 'canonical', href: 'https://tecso.team' },
+				{ rel: 'manifest', href: '/manifest.json' }
 			],
 		}
 	},
-	privateRuntimeConfig: { apiSecret: process.env.API_SECRET },
+	runtimeConfig: {
+		apiSecret: process.env.API_SECRET,
+		public: {}
+	},
 	image: {
 		// provider: 'netlify',
-		domains: [process.env.FRONTENDURL],
-		formats: ['image/webp']
+		domains: process.env.FRONTENDURL ? [process.env.FRONTENDURL] : [],
+		formats: ['image/webp', 'image/avif'],
+		quality: 80,
+		loading: 'lazy',
+		responsive: {
+			modifiers: {
+				format: 'webp',
+				quality: 80
+			}
+		}
 	},
 	experimental: {
-		payloadExtraction: false
+		payloadExtraction: false,
+		viewTransition: true
 	},
 	nitro: {
 		inlineDynamicImports: true,
 		// preset: 'netlify_edge'
+		minify: true,
+		compressPublicAssets: true,
+		experimental: {
+			wasm: true
+		}
 	},
 	router: {
 		options: { scrollBehaviorType: 'smooth' },
 	},
 	routeRules: {
+		// Prerender static pages for better performance
 		'/': { prerender: true },
-		"/blog/**": { prerender: false },
-		"/work/category/**": { prerender: false },
-		"/main-demo?mode=dark": { prerender: false },
-		"/main-demo?mode=light": { prerender: false },
-		"/business?mode=dark": { prerender: false },
-		"/business?mode=light": { prerender: false },
-		"/architecture?mode=dark": { prerender: false },
-		"/architecture?mode=light": { prerender: false },
-		"/photographer?mode=dark": { prerender: false },
-		"/photographer?mode=light": { prerender: false },
-		"/personal?mode=dark": { prerender: false },
-		"/personal?mode=light": { prerender: false },
-		"/resume?mode=dark": { prerender: false },
-		"/resume?mode=light": { prerender: false },
-		"/resume/**": { prerender: false },
-		"/metro-portfolio-1?mode=dark": { prerender: false },
-		"/metro-portfolio-1?mode=light": { prerender: false },
-		"/metro-portfolio-2?mode=dark": { prerender: false },
-		"/metro-portfolio-2?mode=light": { prerender: false },
-		"/portfolio/**": { prerender: false },
-		"/slider/**": { prerender: false },
-		"/carousel/**": { prerender: false },
-		"": { prerender: false },
-		"": { prerender: false },
-		"": { prerender: false },
-
+		'/about-us': { prerender: true },
+		'/service': { prerender: true },
+		'/contact': { prerender: true },
+		'/main-demo': { prerender: true },
+		'/business': { prerender: true },
+		'/architecture': { prerender: true },
+		'/photographer': { prerender: true },
+		'/personal': { prerender: true },
+		'/resume': { prerender: true },
+		'/metro-portfolio-1': { prerender: true },
+		'/metro-portfolio-2': { prerender: true },
+		
+		// Dynamic content that requires SSR
+		"/blog/**": { prerender: false, ssr: true },
+		"/work/category/**": { prerender: false, ssr: true },
+		"/portfolio/**": { prerender: false, ssr: true },
+		"/resume/**": { prerender: false, ssr: true },
+		"/slider/**": { prerender: false, ssr: true },
+		"/carousel/**": { prerender: false, ssr: true },
+		
+		// Theme variants can be prerendered
+		"/main-demo?mode=dark": { prerender: true },
+		"/main-demo?mode=light": { prerender: true },
+		"/business?mode=dark": { prerender: true },
+		"/business?mode=light": { prerender: true },
+		"/architecture?mode=dark": { prerender: true },
+		"/architecture?mode=light": { prerender: true },
+		"/photographer?mode=dark": { prerender: true },
+		"/photographer?mode=light": { prerender: true },
+		"/personal?mode=dark": { prerender: true },
+		"/personal?mode=light": { prerender: true },
+		"/resume?mode=dark": { prerender: true },
+		"/resume?mode=light": { prerender: true },
+		"/metro-portfolio-1?mode=dark": { prerender: true },
+		"/metro-portfolio-1?mode=light": { prerender: true },
+		"/metro-portfolio-2?mode=dark": { prerender: true },
+		"/metro-portfolio-2?mode=light": { prerender: true }
 	},
 	ssr: true,
 	css: [
@@ -109,6 +136,18 @@ export default defineNuxtConfig({
 				"flickr-justified-gallery",
 				"@googlemaps/js-api-loader",
 			]
+		},
+		build: {
+			rollupOptions: {
+				output: {
+					manualChunks: {
+						'vendor-gsap': ['gsap'],
+						'vendor-swiper': ['swiper'],
+						'vendor-isotope': ['isotope-layout'],
+						'vendor-ui': ['@fancyapps/ui', 'splitting']
+					}
+				}
+			}
 		}
 	},
 	build: {
@@ -118,6 +157,7 @@ export default defineNuxtConfig({
 			'@fortawesome/free-solid-svg-icons',
 			'@fortawesome/free-brands-svg-icons',
 		],
+		analyze: process.env.NODE_ENV === 'production'
 	},
 	compatibilityDate: '2024-08-17',
 })
