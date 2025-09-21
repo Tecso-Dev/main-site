@@ -3,39 +3,41 @@ FROM node:20-alpine AS build
 # Set working directory
 WORKDIR /app
 
+# Install build dependencies
+RUN apk add --no-cache git python3 make g++
+
 # Copy package files for better caching
 COPY package*.json ./
 
-# Install dependencies with clean install
-RUN npm ci --only=production --no-audit --no-fund
+# Install all dependencies (including devDependencies for build)
+RUN npm ci --no-audit --no-fund
 
 # Copy source code
 COPY . .
 
 # Build the application
-RUN npm run generate
+RUN npm run build
 
-# Production stage - use nginx for static serving
-FROM nginx:alpine AS production
+# Production stage - use the built output
+FROM node:20-alpine AS production
 
-# Install compression and optimization tools
-RUN apk add --no-cache gzip brotli
+# Set working directory
+WORKDIR /app
 
-# Copy built static files
-COPY --from=build /app/dist /usr/share/nginx/html
+# Set environment to production
+ENV NODE_ENV=production
+ENV NUXT_HOST=0.0.0.0
+ENV NUXT_PORT=3000
 
-# Copy nginx configuration
-COPY nginx.conf /etc/nginx/nginx.conf
-
-# Create directories for logs
-RUN mkdir -p /var/log/nginx
+# Copy built artifacts from build stage
+COPY --from=build /app/.output /app/.output
 
 # Expose port
-EXPOSE 80
+EXPOSE 3000
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD wget --no-verbose --tries=1 --spider http://localhost/ || exit 1
+  CMD wget --no-verbose --tries=1 --spider http://localhost:3000/ || exit 1
 
-# Start nginx
-CMD ["nginx", "-g", "daemon off;"]
+# Command to run the application
+CMD ["node", ".output/server/index.mjs"]

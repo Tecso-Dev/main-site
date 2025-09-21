@@ -25,6 +25,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/vue-fontawesome": "^3.0.6",
     "@googlemaps/js-api-loader": "^1.16.6",
+    "@nuxt/image": "^1.7.0",
     "@nuxtjs/device": "^3.1.1",
     "core-js": "^3.36.0",
     "flickr-justified-gallery": "^2.2.0",
@@ -33,6 +34,7 @@
     "isotope-layout": "^3.0.6",
     "nuxt": "^3.10.3",
     "nuxt-swiper": "^1.2.2",
+    "sass": "^1.71.1",
     "sass-loader": "^14.1.1",
     "smooth-scrollbar": "^8.8.4",
     "splitting": "^1.0.6",
@@ -42,9 +44,7 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
-    "@nuxt/image": "^1.7.0",
     "@vue/compiler-sfc": "^3.4.21",
-    "sass": "^1.71.1",
     "webpack-bundle-analyzer": "^4.9.0",
     "lighthouse": "^10.4.0"
   }
