@@ -19,9 +19,6 @@ RUN npm run generate
 # Production stage - use nginx for static serving
 FROM nginx:alpine AS production
 
-# Install compression and optimization tools
-RUN apk add --no-cache gzip brotli
-
 # Copy built static files
 COPY --from=build /app/dist /usr/share/nginx/html
 

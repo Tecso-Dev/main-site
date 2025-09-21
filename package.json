@@ -31,6 +31,7 @@
     "flickr-justified-gallery": "^2.2.0",
     "fullpage.js": "^4.0.20",
     "gsap": "^3.12.5",
+    "ipx": "^2.1.0",
     "isotope-layout": "^3.0.6",
     "nuxt": "^3.10.3",
     "nuxt-swiper": "^1.2.2",
