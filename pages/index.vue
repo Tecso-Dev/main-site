@@ -1,5 +1,4 @@
 <script setup>
-
 import data_InBox from "@/api/box-info/box-info.json";
 import data_Portf from "@/api/portfolio/portfolio.json";
 import data_blogs from "@/api/blog/blog.json";
@@ -25,12 +24,50 @@ import Accordion from "@/components/accordion/Accordion.vue";
 import AccorItem from "@/components/accordion/AccordionItem.vue";
 import AboutThree from "@/components/about/AboutThree.vue";
 import BrandTwo from "@/components/brand/BrandTwo.vue";
+import StructuredData from "@/components/seo/StructuredData.vue";
+import SeoHead from "@/components/seo/SeoHead.vue";
+import GeoSeo from "@/components/seo/GeoSeo.vue";
+import GoogleMyBusiness from "@/components/seo/GoogleMyBusiness.vue";
+
+// SEO Configuration
+useSeoMeta({
+  title: 'Tecso Team - Leading Iranian Digital Agency & Software Development Company',
+  ogTitle: 'Tecso Team - Leading Iranian Digital Agency & Software Development Company',
+  description: 'Leading Iranian IT company founded by expert developers Sobhan Azimzadeh (CEO/Vue.js), Ashkan Maleki (UI/UX), and Sajjad Manafi (GoLang). Specializing in Platform Development, AI Software, Cybersecurity, and Digital Solutions for Iran, Iraq, Turkey, Azerbaijan.',
+  ogDescription: 'Leading Iranian IT company founded by expert developers Sobhan Azimzadeh (CEO/Vue.js), Ashkan Maleki (UI/UX), and Sajjad Manafi (GoLang). Specializing in Platform Development, AI Software, Cybersecurity, and Digital Solutions for Iran, Iraq, Turkey, Azerbaijan.',
+  keywords: 'Tecso Team, Iran IT company, Sobhan Azimzadeh CEO, Ashkan Maleki UI/UX Designer, Sajjad Manafi GoLang Developer, Platform Development, Vue.js Developer, AI Software Programming, Cybersecurity, Mobile Development, Digital Marketing Iran, Tehran IT services, Middle East software development, Iranian tech company',
+  ogImage: '/images/og-tecso-team-home.webp',
+  twitterImage: '/images/twitter-tecso-team-home.webp',
+  twitterCard: 'summary_large_image',
+  author: 'Tecso Team - Sobhan Azimzadeh, Ashkan Maleki, Sajjad Manafi',
+  publisher: 'Tecso Team',
+  robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'
+});
+
+// Breadcrumb data for structured data
+const breadcrumbs = [
+  {
+    "@type": "ListItem",
+    "position": 1,
+    "name": "Home",
+    "item": "https://tecso.team/"
+  }
+];
 </script>
 
 <template>
+	<!-- SEO Components -->
+	<SeoHead 
+		:title="'Tecso Team - Leading Iranian Digital Agency & Software Development Company'"
+		:description="'Leading Iranian IT company founded by expert developers Sobhan Azimzadeh (CEO/Vue.js), Ashkan Maleki (UI/UX), and Sajjad Manafi (GoLang). Specializing in Platform Development, AI Software, Cybersecurity, and Digital Solutions.'"
+		:keywords="'Tecso Team, Iran IT company, Sobhan Azimzadeh, Ashkan Maleki, Sajjad Manafi, Platform Development, Vue.js Developer, GoLang Developer, AI Software, Cybersecurity, Mobile Development'"
+	/>
+	<StructuredData :breadcrumbs="breadcrumbs" />
+	<GeoSeo />
+	<GoogleMyBusiness />
 
 	<Head>
-		<Title>Tecso.Team</Title>
+		<Title>Tecso Team - Leading Iranian Digital Agency & Software Development Company</Title>
 	</Head>
 
 	<Layout>

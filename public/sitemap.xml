@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+        http://www.google.com/geo/schemas/sitemap/1.0
+        http://www.google.com/geo/schemas/sitemap/1.0/geo.xsd">
+
+<!-- Homepage - Highest Priority with GEO data -->
+<url>
+    <loc>https://tecso.team/</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <geo:geo>
+        <geo:format>kml</geo:format>
+    </geo:geo>
+</url>
+
+<!-- Main English Pages with Business Location -->
+<url>
+    <loc>https://tecso.team/about-us</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <geo:geo>
+        <geo:format>kml</geo:format>
+    </geo:geo>
+</url>
+
+<url>
+    <loc>https://tecso.team/service</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <geo:geo>
+        <geo:format>kml</geo:format>
+    </geo:geo>
+</url>
+
+<url>
+    <loc>https://tecso.team/contact</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <geo:geo>
+        <geo:format>kml</geo:format>
+    </geo:geo>
+</url>
+
+<url>
+    <loc>https://tecso.team/portfolio</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+</url>
+
+<url>
+    <loc>https://tecso.team/blog</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<!-- Farsi Pages - Iran Market Focus -->
+<url>
+    <loc>https://tecso.team/fa/</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <geo:geo>
+        <geo:format>kml</geo:format>
+    </geo:geo>
+</url>
+
+<url>
+    <loc>https://tecso.team/fa/about-us</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://tecso.team/fa/service</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+</url>
+
+<url>
+    <loc>https://tecso.team/fa/contact</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<!-- Regional Market Pages -->
+<url>
+    <loc>https://tecso.team/ar/</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://tecso.team/tr/</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://tecso.team/az/</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<!-- Portfolio Projects -->
+<url>
+    <loc>https://tecso.team/work/work-card-1</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://tecso.team/work/work-card-2</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://tecso.team/work/work-classic-1</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://tecso.team/work/work-classic-2</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://tecso.team/work/work-list-1</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://tecso.team/work/work-list-2</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://tecso.team/metro-portfolio-1</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+<url>
+    <loc>https://tecso.team/metro-portfolio-2</loc>
+    <lastmod>2025-09-22T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+</url>
+
+</urlset>

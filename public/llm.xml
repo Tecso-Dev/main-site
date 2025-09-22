@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<llm xmlns="https://schema.org/" xmlns:geo="http://www.google.com/geo/schemas/sitemap/1.0">
+  <!-- LLM Structured Data for Tecso Team - AI/LLM Content Understanding -->
+  <!-- Generated: 2025-09-22 -->
+  
+  <website>
+    <url>https://tecso.team</url>
+    <name>Tecso Team</name>
+    <alternateName>Tecso</alternateName>
+    <type>ProfessionalService</type>
+    <category>Software Development Company</category>
+    
+    <!-- Business Summary for AI -->
+    <description>
+      Tecso Team is a leading Iranian software development company specializing in modern web applications, mobile development, UI/UX design, and digital transformation services. Founded by expert developers and based in Tehran, Iran, we serve businesses across the Middle East region including Iran, Iraq, Turkey, and Azerbaijan.
+    </description>
+    
+    <!-- Key Topics and Expertise -->
+    <expertise>
+      <topic>Vue.js Development</topic>
+      <topic>Nuxt.js Applications</topic>
+      <topic>GoLang Backend Development</topic>
+      <topic>UI/UX Design</topic>
+      <topic>Mobile App Development</topic>
+      <topic>E-commerce Solutions</topic>
+      <topic>Digital Marketing</topic>
+      <topic>Cybersecurity</topic>
+      <topic>AI Software Development</topic>
+      <topic>Platform Development</topic>
+      <topic>Progressive Web Apps</topic>
+      <topic>API Development</topic>
+      <topic>Database Design</topic>
+      <topic>DevOps and Deployment</topic>
+      <topic>Performance Optimization</topic>
+    </expertise>
+    
+    <!-- Geographic Information -->
+    <location>
+      <country>Iran</country>
+      <countryCode>IR</countryCode>
+      <city>Tehran</city>
+      <region>Tehran Province</region>
+      <coordinates>
+        <latitude>37.5310850</latitude>
+        <longitude>45.0808324</longitude>
+      </coordinates>
+      <timezone>Asia/Tehran</timezone>
+      <serviceAreas>
+        <area country="Iran" code="IR">Primary market - Local Iranian businesses and startups</area>
+        <area country="Iraq" code="IQ">Regional expansion - Iraqi enterprises and government projects</area>
+        <area country="Turkey" code="TR">Strategic market - Turkish tech companies and cross-border initiatives</area>
+        <area country="Azerbaijan" code="AZ">Emerging market - Azerbaijani businesses and regional partnerships</area>
+      </serviceAreas>
+    </location>
+    
+    <!-- Team Information -->
+    <team>
+      <member>
+        <name>Sobhan Azimzadeh</name>
+        <role>Chief Executive Officer</role>
+        <title>CEO & Founder</title>
+        <expertise>Vue.js Development, Business Strategy, Project Management, Full-Stack Development</expertise>
+        <experience>Senior software developer with extensive experience in modern web technologies and business leadership</experience>
+        <responsibilities>Strategic planning, client relationships, technical architecture decisions, team leadership</responsibilities>
+      </member>
+      
+      <member>
+        <name>Ashkan Maleki</name>
+        <role>UI/UX Designer</role>
+        <title>Lead Designer</title>
+        <expertise>User Interface Design, User Experience Optimization, Figma, Adobe Creative Suite, Prototyping</expertise>
+        <experience>Creative designer specializing in user-centered design and modern interface development</experience>
+        <responsibilities>Design systems, user research, interface design, brand identity, usability testing</responsibilities>
+      </member>
+      
+      <member>
+        <name>Sajjad Manafi</name>
+        <role>GoLang Developer</role>
+        <title>Backend Engineer</title>
+        <expertise>Go Programming, API Development, Microservices, Database Design, System Architecture</expertise>
+        <experience>Backend specialist focusing on high-performance server applications and scalable systems</experience>
+        <responsibilities>Server-side development, API design, database optimization, system integration, performance tuning</responsibilities>
+      </member>
+    </team>
+    
+    <!-- Services Catalog -->
+    <services>
+      <category name="Web Development">
+        <service>
+          <name>Custom Web Applications</name>
+          <description>Modern, responsive web applications built with Vue.js, Nuxt.js, and other cutting-edge technologies</description>
+          <technologies>Vue.js, Nuxt.js, JavaScript, TypeScript, HTML5, CSS3, SCSS</technologies>
+          <deliverables>Responsive design, SEO optimization, performance optimization, cross-browser compatibility</deliverables>
+        </service>
+        
+        <service>
+          <name>E-commerce Platforms</name>
+          <description>Complete online store solutions with payment integration, inventory management, and admin panels</description>
+          <technologies>Vue.js, Nuxt.js, Stripe, PayPal, REST APIs, Database Integration</technologies>
+          <deliverables>Shopping cart, payment processing, order management, inventory tracking, analytics dashboard</deliverables>
+        </service>
+        
+        <service>
+          <name>Progressive Web Apps</name>
+          <description>App-like web experiences with offline functionality, push notifications, and mobile optimization</description>
+          <technologies>PWA, Service Workers, Manifest, Vue.js, Workbox</technologies>
+          <deliverables>Offline functionality, push notifications, app-like experience, mobile optimization</deliverables>
+        </service>
+      </category>
+      
+      <category name="Backend Development">
+        <service>
+          <name>API Development</name>
+          <description>RESTful and GraphQL APIs built with Go for high-performance server applications</description>
+          <technologies>GoLang, REST API, GraphQL, JSON, Database Integration</technologies>
+          <deliverables>Scalable APIs, documentation, testing, security implementation, performance optimization</deliverables>
+        </service>
+        
+        <service>
+          <name>Microservices Architecture</name>
+          <description>Scalable microservices solutions for enterprise applications and complex systems</description>
+          <technologies>GoLang, Docker, Kubernetes, Message Queues, Load Balancing</technologies>
+          <deliverables>Service decomposition, containerization, orchestration, monitoring, scaling strategies</deliverables>
+        </service>
+        
+        <service>
+          <name>Database Design</name>
+          <description>Efficient database architecture and optimization for high-performance applications</description>
+          <technologies>PostgreSQL, MongoDB, Redis, Database Migration, Query Optimization</technologies>
+          <deliverables>Schema design, indexing strategies, performance tuning, backup solutions, security implementation</deliverables>
+        </service>
+      </category>
+      
+      <category name="Mobile Development">
+        <service>
+          <name>Cross-Platform Apps</name>
+          <description>Native and cross-platform mobile applications for iOS and Android</description>
+          <technologies>React Native, Flutter, Native Development, App Store Deployment</technologies>
+          <deliverables>Mobile apps, app store submission, testing, maintenance, updates</deliverables>
+        </service>
+        
+        <service>
+          <name>Mobile-First Design</name>
+          <description>Mobile-optimized designs and responsive layouts for all screen sizes</description>
+          <technologies>Responsive Design, Mobile UX, Touch Interface, Performance Optimization</technologies>
+          <deliverables>Mobile wireframes, responsive layouts, touch-friendly interfaces, performance optimization</deliverables>
+        </service>
+      </category>
+      
+      <category name="Design Services">
+        <service>
+          <name>UI/UX Design</name>
+          <description>User-centered design focusing on usability, accessibility, and modern aesthetics</description>
+          <technologies>Figma, Adobe XD, Sketch, Principle, InVision, User Research Tools</technologies>
+          <deliverables>Wireframes, prototypes, design systems, user testing, accessibility compliance</deliverables>
+        </service>
+        
+        <service>
+          <name>Brand Identity</name>
+          <description>Complete brand identity development including logos, color schemes, and brand guidelines</description>
+          <technologies>Adobe Illustrator, Photoshop, Brand Strategy, Visual Identity</technologies>
+          <deliverables>Logo design, brand guidelines, color palette, typography, marketing materials</deliverables>
+        </service>
+      </category>
+      
+      <category name="Digital Marketing">
+        <service>
+          <name>SEO Optimization</name>
+          <description>Search engine optimization for improved visibility and organic traffic</description>
+          <technologies>Technical SEO, Content Strategy, Analytics, Schema Markup</technologies>
+          <deliverables>SEO audit, optimization strategy, content recommendations, performance tracking</deliverables>
+        </service>
+        
+        <service>
+          <name>Performance Analytics</name>
+          <description>Website performance monitoring and optimization for better user experience</description>
+          <technologies>Google Analytics, Performance Monitoring, A/B Testing, User Behavior Analysis</technologies>
+          <deliverables>Analytics setup, performance reports, optimization recommendations, conversion tracking</deliverables>
+        </service>
+      </category>
+    </services>
+    
+    <!-- Technology Stack -->
+    <technologies>
+      <frontend>
+        <framework name="Vue.js" version="3.x" expertise="Expert">Primary frontend framework for building interactive user interfaces</framework>
+        <framework name="Nuxt.js" version="3.x" expertise="Expert">Full-stack framework for Vue.js applications with SSR/SSG capabilities</framework>
+        <language name="JavaScript" expertise="Expert">Core programming language for web development</language>
+        <language name="TypeScript" expertise="Advanced">Typed superset of JavaScript for better code quality</language>
+        <styling name="SCSS/Sass" expertise="Expert">CSS preprocessor for maintainable stylesheets</styling>
+        <styling name="Tailwind CSS" expertise="Advanced">Utility-first CSS framework for rapid UI development</styling>
+      </frontend>
+      
+      <backend>
+        <language name="Go" expertise="Expert">High-performance backend programming language</language>
+        <framework name="Gin" expertise="Advanced">Fast HTTP web framework for Go</framework>
+        <database name="PostgreSQL" expertise="Advanced">Relational database for complex applications</database>
+        <database name="MongoDB" expertise="Intermediate">NoSQL database for flexible data storage</database>
+        <cache name="Redis" expertise="Advanced">In-memory data structure store for caching</cache>
+      </backend>
+      
+      <tools>
+        <development name="Docker" expertise="Advanced">Containerization for consistent development environments</development>
+        <version_control name="Git" expertise="Expert">Version control system for code management</version_control>
+        <deployment name="Nginx" expertise="Advanced">Web server and reverse proxy</deployment>
+        <monitoring name="Performance Analytics" expertise="Advanced">Application performance monitoring and optimization</monitoring>
+      </tools>
+      
+      <design>
+        <tool name="Figma" expertise="Expert">Collaborative design and prototyping platform</tool>
+        <tool name="Adobe Creative Suite" expertise="Advanced">Professional design and graphics software</tool>
+        <methodology name="Design Systems" expertise="Expert">Systematic approach to design consistency</methodology>
+        <approach name="User-Centered Design" expertise="Expert">Design methodology focused on user needs</approach>
+      </design>
+    </technologies>
+    
+    <!-- Business Information -->
+    <business>
+      <founded>2020</founded>
+      <employees>3-10</employees>
+      <businessType>Software Development Company</businessType>
+      <legalName>Tecso Team Software Development Company</legalName>
+      <businessModel>B2B Software Development Services</businessModel>
+      <targetMarkets>
+        <market region="Iran" priority="Primary">Local businesses, startups, government projects</market>
+        <market region="Middle East" priority="Secondary">Regional expansion and partnerships</market>
+        <market region="International" priority="Tertiary">Remote projects and global clients</market>
+      </targetMarkets>
+      
+      <contact>
+        <email>tecsoteam@gmail.com</email>
+        <website>https://tecso.team</website>
+        <phone>+98-905-843-2452</phone>
+        <address>Tehran Technology District, Tehran, Iran</address>
+      </contact>
+      
+      <socialMedia>
+        <platform name="LinkedIn">https://www.linkedin.com/in/sobhan-azimzadeh/</platform>
+        <platform name="GitHub">https://github.com/Tecso-Dev</platform>
+        <platform name="Twitter">https://twitter.com/tecso_team</platform>
+        <platform name="Instagram">https://www.instagram.com/tecso.team/</platform>
+        <platform name="Telegram">https://t.me/+989922068945</platform>
+      </socialMedia>
+      
+      <businessHours>
+        <workdays>Sunday, Monday, Tuesday, Wednesday, Thursday</workdays>
+        <hours>09:00 - 17:00 (Asia/Tehran)</hours>
+        <friday>09:00 - 12:00 (Asia/Tehran)</friday>
+        <weekend>Saturday</weekend>
+      </businessHours>
+    </business>
+    
+    <!-- Languages and Localization -->
+    <languages>
+      <primary language="English" code="en">Primary business and technical communication</primary>
+      <secondary language="Persian" code="fa">Local Iranian market and cultural context</secondary>
+      <supported language="Arabic" code="ar">Regional Middle Eastern markets</supported>
+      <supported language="Turkish" code="tr">Turkish market expansion</supported>
+    </languages>
+    
+    <!-- Content Structure -->
+    <content>
+      <pages>
+        <page url="/" title="Home" priority="1.0" type="landing">Main company overview and services showcase</page>
+        <page url="/about-us" title="About Us" priority="0.9" type="company">Team information and company background</page>
+        <page url="/service" title="Services" priority="0.9" type="services">Comprehensive service offerings and capabilities</page>
+        <page url="/portfolio" title="Portfolio" priority="0.8" type="portfolio">Project showcases and case studies</page>
+        <page url="/contact" title="Contact" priority="0.8" type="contact">Contact information and inquiry forms</page>
+        <page url="/blog" title="Blog" priority="0.7" type="blog">Technical articles and company updates</page>
+        <page url="/fa/" title="صفحه اصلی" priority="0.8" type="landing" language="Persian">Persian language version</page>
+        <page url="/iraq" title="خدمات در عراق" priority="0.6" type="regional" market="Iraq">Iraq market specific content</page>
+      </pages>
+      
+      <blog>
+        <topics>
+          <topic>Web Development Best Practices</topic>
+          <topic>Vue.js and Nuxt.js Tutorials</topic>
+          <topic>GoLang Backend Development</topic>
+          <topic>UI/UX Design Trends</topic>
+          <topic>Performance Optimization</topic>
+          <topic>SEO Strategies</topic>
+          <topic>Mobile Development</topic>
+          <topic>Digital Transformation</topic>
+        </topics>
+      </blog>
+    </content>
+    
+    <!-- SEO and Marketing Information -->
+    <seo>
+      <primaryKeywords>
+        <keyword>Iran IT company</keyword>
+        <keyword>Tehran software development</keyword>
+        <keyword>Vue.js developer Iran</keyword>
+        <keyword>GoLang developer Tehran</keyword>
+        <keyword>UI/UX design Iran</keyword>
+        <keyword>Middle East software company</keyword>
+      </primaryKeywords>
+      
+      <secondaryKeywords>
+        <keyword>Sobhan Azimzadeh CEO</keyword>
+        <keyword>Ashkan Maleki designer</keyword>
+        <keyword>Sajjad Manafi GoLang</keyword>
+        <keyword>Tecso Team portfolio</keyword>
+        <keyword>Iranian tech startup</keyword>
+        <keyword>Persian website development</keyword>
+      </secondaryKeywords>
+      
+      <competitors>
+        <competitor region="Iran">Local Iranian software development companies</competitor>
+        <competitor region="Middle East">Regional tech agencies and development firms</competitor>
+        <competitor region="International">Global remote development teams</competitor>
+      </competitors>
+    </seo>
+    
+    <!-- Project Types and Case Studies -->
+    <projectTypes>
+      <type name="E-commerce Platforms">
+        <description>Complete online store solutions with payment integration and admin panels</description>
+        <examples>Fashion retailers, electronics stores, service marketplaces</examples>
+        <technologies>Vue.js, Nuxt.js, Payment Gateways, Inventory Management</technologies>
+      </type>
+      
+      <type name="Corporate Websites">
+        <description>Professional business websites with modern design and functionality</description>
+        <examples>Company profiles, service showcases, portfolio websites</examples>
+        <technologies>Nuxt.js, SEO optimization, Performance optimization</technologies>
+      </type>
+      
+      <type name="Web Applications">
+        <description>Custom web applications for specific business needs</description>
+        <examples>Management systems, booking platforms, collaborative tools</examples>
+        <technologies>Vue.js, GoLang APIs, Database integration, Real-time features</technologies>
+      </type>
+      
+      <type name="Mobile Apps">
+        <description>Native and cross-platform mobile applications</description>
+        <examples>Business apps, utility apps, social platforms</examples>
+        <technologies>React Native, Flutter, Native development</technologies>
+      </type>
+    </projectTypes>
+    
+    <!-- Cultural and Regional Context -->
+    <culturalContext>
+      <iranianMarket>
+        <characteristics>Growing tech ecosystem, young demographic, mobile-first users</characteristics>
+        <challenges>Sanctions impact, payment gateway limitations, local hosting preferences</challenges>
+        <opportunities>Digital transformation demand, e-commerce growth, startup ecosystem</opportunities>
+      </iranianMarket>
+      
+      <middleEastExpansion>
+        <iraq>Focus on reconstruction and digitization projects</iraq>
+        <turkey>Strategic partnership opportunities in tech sector</turkey>
+        <azerbaijan>Energy sector digitization and government projects</azerbaijan>
+      </middleEastExpansion>
+      
+      <designConsiderations>
+        <rtl>Right-to-left text support for Persian and Arabic</rtl>
+        <culturalSensitivity>Appropriate color choices and imagery for regional markets</culturalSensitivity>
+        <localPayments>Integration with regional payment systems and currencies</localPayments>
+      </designConsiderations>
+    </culturalContext>
+    
+    <!-- Technical Specifications -->
+    <technical>
+      <hosting>
+        <current>Docker containerized deployment with Nginx reverse proxy</current>
+        <infrastructure>Scalable cloud hosting with CDN integration</infrastructure>
+        <performance>Optimized for fast loading and high availability</performance>
+      </hosting>
+      
+      <security>
+        <measures>SSL/TLS encryption, secure headers, input validation</measures>
+        <compliance>GDPR considerations, local privacy regulations</compliance>
+        <monitoring>Performance monitoring and error tracking</monitoring>
+      </security>
+      
+      <development>
+        <methodology>Agile development with continuous integration</methodology>
+        <testing>Automated testing, manual QA, user acceptance testing</testing>
+        <deployment>Continuous deployment with staging environments</deployment>
+      </development>
+    </technical>
+    
+    <!-- Future Plans and Vision -->
+    <vision>
+      <shortTerm>Expand regional presence and establish partnerships in Iraq and Turkey</shortTerm>
+      <mediumTerm>Develop proprietary products and SaaS solutions for Middle Eastern markets</mediumTerm>
+      <longTerm>Become the leading technology partner for digital transformation in the Middle East</longTerm>
+      
+      <innovation>
+        <focus>AI integration, blockchain solutions, IoT applications</focus>
+        <research>Machine learning applications, progressive web technologies</research>
+        <partnerships>Academic collaborations, international tech partnerships</partnerships>
+      </innovation>
+    </vision>
+  </website>
+</llm>

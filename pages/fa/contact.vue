@@ -45,7 +45,7 @@ definePageMeta({
 
         <!-- ========== Map  ======================= -->
         <DsnMap mapKey="AIzaSyDMyAS2jdzj-vdgBIFaIStYOWJtSlghndg" :zoom="16" height="80vh"
-            :defaultCenter="{lat: 37.530920, lng:  45.080904 }" />
+            :defaultCenter="{lat: 37.5310850, lng: 45.0808324 }" />
         <!-- ========== End Map  =================== -->
 
         <!-- ========== Footer ===================== -->

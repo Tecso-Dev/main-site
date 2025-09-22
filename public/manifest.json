@@ -1,0 +1,87 @@
+{
+  "name": "Tecso Team - Leading Iranian Digital Agency & Software Development",
+  "short_name": "Tecso Team",
+  "description": "Leading Iranian IT company specializing in Platform Development, AI Software, Cybersecurity, and Digital Solutions for Iran, Iraq, Turkey, Azerbaijan",
+  "lang": "en",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "categories": [
+    "business",
+    "productivity", 
+    "technology"
+  ],
+  "icons": [
+    {
+      "src": "/images/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/favicons/android-chrome-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/favicons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshots/desktop-home.webp",
+      "sizes": "1920x1080",
+      "type": "image/webp",
+      "platform": "wide",
+      "label": "Tecso Team Homepage - Desktop"
+    },
+    {
+      "src": "/images/screenshots/mobile-home.webp", 
+      "sizes": "390x844",
+      "type": "image/webp",
+      "platform": "narrow",
+      "label": "Tecso Team Homepage - Mobile"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Our Services",
+      "short_name": "Services",
+      "url": "/service",
+      "icons": [
+        {
+          "src": "/images/shortcuts/services-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact", 
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/images/shortcuts/contact-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "short_name": "Portfolio",
+      "url": "/portfolio", 
+      "icons": [
+        {
+          "src": "/images/shortcuts/portfolio-icon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
