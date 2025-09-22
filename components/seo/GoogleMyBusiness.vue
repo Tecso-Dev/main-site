@@ -1,8 +1,6 @@
 <template>
-  <div>
-    <!-- Google My Business Schema -->
-    <script type="application/ld+json" v-html="googleMyBusinessSchema"></script>
-  </div>
+  <!-- This component has no visual output; it only injects JSON-LD into the document head. -->
+  <div style="display:none" aria-hidden="true"></div>
 </template>
 
 <script setup>
@@ -264,6 +262,18 @@ const googleMyBusinessSchema = computed(() => {
     }
   })
 })
+
+// Inject JSON-LD into <head> using Nuxt's head management
+useHead(() => ({
+  script: [
+    {
+      key: 'gmb-schema',
+      type: 'application/ld+json',
+      // children should be a JSON string
+      children: googleMyBusinessSchema.value
+    }
+  ]
+}))
 </script>
 
 <style scoped>

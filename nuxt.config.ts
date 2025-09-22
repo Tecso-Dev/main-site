@@ -130,12 +130,10 @@ export default defineNuxtConfig({
 				{ name: 'service.currencies', content: 'IRR,USD,EUR' }
 			],
 			link: [
-				// Favicons
+				// Favicons (point to existing assets to avoid 404s)
 				{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-				{ rel: 'icon', type: 'image/png', sizes: '16x16', href: '/images/favicons/favicon-16x16.png' },
-				{ rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/favicons/favicon-32x32.png' },
-				{ rel: 'apple-touch-icon', sizes: '180x180', href: '/images/favicons/apple-touch-icon.png' },
-				{ rel: 'mask-icon', href: '/images/favicons/safari-pinned-tab.svg', color: '#5bbad5' },
+				{ rel: 'icon', type: 'image/png', sizes: '32x32', href: '/images/logo-32x32.png' },
+				{ rel: 'apple-touch-icon', sizes: '180x180', href: '/images/logo-192x192.png' },
 				
 				// SEO and Canonical
 				{ rel: 'canonical', href: 'https://tecso.team' },
@@ -295,6 +293,7 @@ export default defineNuxtConfig({
 		{ src: '@/plugins/fontawesome.js' },
 		{ src: '@/plugins/splitting.client.js' },
 		{ src: '@/plugins/isotope.client.js' },
+		{ src: '@/plugins/gtag.client.ts', mode: 'client' },
 		{ src: '@/plugins/analytics.client.js', mode: 'client' }
 	],
 	vue: { compilerOptions: { isCustomElement: (tag) => /^(swiper|swiper-slide|swiper-container)$/.test(tag) } },

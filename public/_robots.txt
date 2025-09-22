@@ -24,7 +24,6 @@ Allow: /sitemap.xml
 Allow: /manifest.json
 
 # Block sensitive areas
-Disallow: /api/
 Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /private/
@@ -46,29 +45,22 @@ Allow: /js/
 Allow: /css/
 Allow: /fonts/
 
-# Crawl delay (be respectful to servers)
-Crawl-delay: 1
-
 # Specific instructions for major search engines
 # Google
 User-agent: Googlebot
 Allow: /
-Crawl-delay: 1
 
 # Bing
 User-agent: Bingbot
 Allow: /
-Crawl-delay: 1
 
 # Yandex (popular in Middle East region)
 User-agent: YandexBot
 Allow: /
-Crawl-delay: 1
 
 # Baidu (for potential Asian markets)
 User-agent: Baiduspider
 Allow: /
-Crawl-delay: 2
 
 # Yahoo
 User-agent: Slurp
@@ -89,18 +81,3 @@ Disallow: /
 
 # Sitemap locations
 Sitemap: https://tecso.team/sitemap.xml
-
-# Additional important URLs for crawling
-# Main business pages
-# https://tecso.team/
-# https://tecso.team/about-us
-# https://tecso.team/service
-# https://tecso.team/portfolio
-# https://tecso.team/contact
-
-# Regional pages
-# https://tecso.team/fa/
-# https://tecso.team/ar/
-# https://tecso.team/tr/
-# https://tecso.team/az/
-# https://tecso.team/iraq

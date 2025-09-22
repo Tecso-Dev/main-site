@@ -21,6 +21,7 @@
     "@nuxtjs/robots": "^5.5.5",
     "@nuxtjs/sitemap": "^7.4.7",
     "@types/node": "^24.5.2",
+    "caniuse-lite": "^1.0.30001743",
     "core-js": "^3.36.0",
     "flickr-justified-gallery": "^2.2.0",
     "fullpage.js": "^4.0.20",
