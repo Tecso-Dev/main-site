@@ -1,13 +1,48 @@
 {
-  "name": "nuxt-app",
+  "name": "tecso-team-website",
+  "version": "1.0.0",
+  "description": "Official website for Tecso Team - Leading Iranian Digital Agency & Software Development Company",
+  "author": "Tecso Team <tecsoteam@gmail.com>",
   "private": true,
   "type": "module",
+  "keywords": [
+    "nuxt",
+    "vue",
+    "typescript",
+    "digital-agency",
+    "iran",
+    "software-development",
+    "vuejs",
+    "nuxtjs",
+    "ai",
+    "cybersecurity",
+    "mobile-development",
+    "persian",
+    "rtl",
+    "pwa"
+  ],
+  "homepage": "https://tecso.team",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tecso-Dev/main-site.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tecso-Dev/main-site/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "typecheck": "nuxt typecheck"
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.33",

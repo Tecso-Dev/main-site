@@ -1,3 +1,5 @@
+# Tecso Team Website - Git Ignore Rules
+
 # Logs
 logs
 *.log
@@ -78,6 +80,7 @@ web_modules/
 .env.test.local
 .env.production.local
 .env.local
+.env.production
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -90,6 +93,7 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+.output
 
 # Gatsby files
 .cache/
@@ -135,7 +139,76 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
+# Tecso Team Specific
+# API keys and secrets
+config/keys.js
+config/secrets.js
 
-.output
+# Local development files
+.local
+.vercel
+
+# Build artifacts
+build/
+dist/
+.nuxt/
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+tmp/
+temp/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+
+# Certificate files
+*.pem
+*.key
+*.crt
+
+# Docker volumes (if using local development)
+docker-volumes/
+
+# Analytics and tracking files
+google-analytics-key.js
+gtm-key.js
+
+# Test coverage reports
+coverage/
+.nyc_output/
+
+# Storybook build
+storybook-static/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Local SSL certificates
+ssl/
+certs/
+
+# Backup configurations
+*.old
+*.orig

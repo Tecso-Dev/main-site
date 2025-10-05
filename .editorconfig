@@ -1,0 +1,65 @@
+# Tecso Team Website - EditorConfig
+# https://editorconfig.org
+
+# Root
+root = true
+
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 2
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Vue files
+[*.vue]
+indent_size = 2
+
+# JavaScript/TypeScript
+[*.{js,ts,mjs,mts}]
+indent_size = 2
+
+# JSON files
+[*.json]
+indent_size = 2
+
+# SCSS/CSS
+[*.{scss,css}]
+indent_size = 2
+
+# Markdown
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = 80
+
+# YAML
+[*.{yml,yaml}]
+indent_size = 2
+
+# Package.json
+[package.json]
+indent_size = 2
+
+# Docker
+[Dockerfile*]
+indent_style = tab
+
+# Shell scripts
+[*.sh]
+end_of_line = lf
+
+# Windows batch files
+[*.bat]
+end_of_line = crlf
+
+# Git commit messages
+[.git/COMMIT_EDITMSG]
+max_line_length = 72
+
+# Environment files
+[.env*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = false

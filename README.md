@@ -1,204 +1,266 @@
-# Tecso Team Website - Comprehensive SEO Optimization
+# Tecso Team - Iranian Digital Agency & Software Development
 
-This document outlines the comprehensive SEO optimizations implemented for the Tecso Team website based on the analysis of your resume and business information.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Nuxt.js](https://img.shields.io/badge/Nuxt-3.10.3-00DC82.svg)](https://nuxt.com/)
+[![Vue.js](https://img.shields.io/badge/Vue.js-3.4.21-4FC08D.svg)](https://vuejs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6.svg)](https://www.typescriptlang.org/)
 
-## 🎯 **SEO Improvements Overview**
+> Leading Iranian digital agency specializing in modern web development, AI solutions, cybersecurity, and mobile applications. Founded by expert developers serving Iran and Middle East markets.
 
-### 1. **Enhanced Meta Tags & Structured Data**
-- ✅ Comprehensive meta tags with location-based targeting (Iran, Iraq, Turkey, Azerbaijan)
-- ✅ Team member information (Sobhan Azimzadeh, Ashkan Maleki, Sajjad Manafi)
-- ✅ Business contact information and geo-targeting
-- ✅ Open Graph and Twitter Card optimization
-- ✅ JSON-LD structured data for Organization, Website, and Services
+## 🌟 About Tecso Team
 
-### 2. **Technical SEO Enhancements**
-- ✅ Optimized robots.txt with proper crawling directives
-- ✅ Comprehensive sitemap.xml with priority levels
-- ✅ Enhanced PWA manifest with business details
-- ✅ Image optimization with WebP/AVIF formats
-- ✅ Route rules for better indexing control
+Tecso Team is a premier Iranian digital agency headquartered in Urmia, Iran, founded by a team of expert developers led by **Sobhan Azimzadeh** (CEO & Vue.js Developer), **Ashkan Maleki** (COO & UI/UX Designer), and **Sajjad Manafi** (CTO & GoLang Developer). We specialize in cutting-edge technology solutions for businesses across Iran, Iraq, Turkey, and Azerbaijan.
 
-### 3. **Content-Based SEO**
-- ✅ Persian/Farsi language support with hreflang tags
-- ✅ Team member profiles integration
-- ✅ Service specializations highlighting
-- ✅ Geographic market targeting (Middle East region)
+### 🎯 Our Expertise
 
-## 📊 **Key SEO Components Added**
+- **Platform Development** - Vue.js & Nuxt.js scalable web applications
+- **AI Software Programming** - Intelligent business solutions
+- **Cybersecurity Solutions** - Enterprise-grade security implementations
+- **Mobile Development** - Cross-platform applications (Flutter, React Native)
+- **UI/UX Design Excellence** - User-centered design for Middle Eastern markets
+- **Backend Development** - GoLang & modern API architectures
 
-### **Meta Tags Enhancement**
-```typescript
-// Enhanced with team member info and geographic targeting
-title: 'Tecso Team - Leading Iranian Digital Agency & Software Development Company'
-description: 'Leading Iranian IT company founded by expert developers Sobhan Azimzadeh (CEO/Vue.js), Ashkan Maleki (UI/UX), and Sajjad Manafi (GoLang). Specializing in Platform Development, AI Software, Cybersecurity, and Digital Solutions for Iran, Iraq, Turkey, Azerbaijan.'
-keywords: 'Tecso Team, Iran IT company, Sobhan Azimzadeh, Ashkan Maleki, Sajjad Manafi, Platform Development, Vue.js Developer, GoLang Developer, AI Software, Cybersecurity, Mobile Development'
+## 🚀 Quick Start
+
+### Prerequisites
+
+- **Node.js** 18+ (recommended: 20.x)
+- **npm** or **yarn** package manager
+- **Git** for version control
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Tecso-Dev/main-site.git
+   cd main-site
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Environment Setup**
+   ```bash
+   cp .env.example .env
+   # Edit .env with your configuration
+   ```
+
+4. **Development Server**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+   Visit `http://localhost:3000` to view the website.
+
+### Production Build
+
+```bash
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+
+# Generate static site
+npm run generate
 ```
 
-### **Structured Data (JSON-LD)**
-- **Organization Schema**: Complete business information with team members
-- **Website Schema**: Search functionality and publisher information
-- **Service Schema**: Detailed service catalog with area served
-- **BreadcrumbList Schema**: Navigation structure
+## 🐳 Docker Deployment
 
-### **Geographic & Contact SEO**
-```typescript
-// Geo-targeting for Iranian market and neighboring countries
-geo.region: 'IR'
-geo.placename: 'Tehran, Iran'
-geo.position: '37.5310850;45.0808324'
-contact:phone_number: '+98 905 843 2452'
-contact:email: 'tecsoteam@gmail.com'
+### Using Docker Compose
+
+```bash
+# Build and run with Docker Compose
+docker-compose up -d
+
+# Or build and run separately
+docker build -t tecso-team .
+docker run -p 3000:3000 tecso-team
 ```
 
-## 🌍 **Multi-Language SEO Setup**
+## 📁 Project Structure
 
-### **Hreflang Implementation**
-- English (primary): `en` - https://tecso.team/
-- Persian/Farsi: `fa` - https://tecso.team/fa/
-- Default fallback: `x-default` - https://tecso.team/
-
-### **Regional Targeting**
-- Primary: Iran (IR)
-- Secondary: Iraq, Turkey, Azerbaijan
-- Business language support: English, Persian, Arabic, Turkish
-
-## 🔧 **Components Created**
-
-### 1. **StructuredData.vue**
-```vue
-// Comprehensive JSON-LD structured data component
-<StructuredData :breadcrumbs="breadcrumbs" />
+```
+├── api/                    # API data files
+│   ├── blog/              # Blog content (English)
+│   ├── fa/                # Persian/Farsi content
+│   ├── services/          # Service information
+│   └── team/              # Team member data
+├── assets/                # Static assets
+│   ├── fonts/             # Custom fonts (Excon, Ray, Vazirmatn)
+│   ├── images/            # Images and media
+│   └── styles/            # SCSS stylesheets
+├── components/            # Vue components
+│   ├── blog/              # Blog-related components
+│   ├── footer/            # Footer components
+│   ├── header/            # Header components
+│   ├── menu/              # Navigation components
+│   └── sections/          # Page sections
+├── layouts/               # Page layouts
+│   ├── default.vue        # English layout (LTR)
+│   └── Fa/                # Persian layout (RTL)
+├── pages/                 # Page routes
+│   ├── fa/                # Persian pages
+│   ├── blog/              # Blog pages
+│   └── [page].vue         # Dynamic pages
+├── plugins/               # Nuxt plugins
+├── public/                # Public static files
+├── server/                # Server-side code
+├── store/                 # State management
+└── docs/                  # Documentation
 ```
 
-### 2. **SeoHead.vue** 
-```vue
-// Dynamic SEO head management
-<SeoHead 
-  :title="pageTitle"
-  :description="pageDescription"
-  :keywords="pageKeywords"
-/>
-```
+## � Multi-Language Support
 
-### 3. **Analytics Plugin**
-```javascript
-// Enhanced Google Analytics with performance tracking
-plugins/analytics.client.js
-```
+This website supports **English** and **Persian (Farsi)** with full RTL (Right-to-Left) support:
 
-## 📈 **Performance & SEO Metrics**
+- **English**: Default layout with LTR text direction
+- **Persian**: RTL layout with Ray font and Persian typography
+- **SEO Optimized**: Hreflang tags for international SEO
+- **Regional Targeting**: Optimized for Iran, Iraq, Turkey, Azerbaijan
 
-### **Image Optimization**
-- WebP/AVIF format support
-- Responsive images with multiple densities
-- Lazy loading implementation
-- Optimized presets (portfolio, thumbnail, hero, team)
+### Language Routes
 
-### **Page Speed Optimizations**
-- Preconnect to external resources
-- DNS prefetch for external domains
-- Optimized bundle splitting
-- Critical resource prioritization
+- `/` - English homepage
+- `/fa/` - Persian homepage
+- `/blog/[slug]` - English blog posts
+- `/fa/blog/[slug]` - Persian blog posts
 
-## 🎯 **Business-Specific SEO Features**
+## 🎨 Design System
 
-### **Team Member Optimization**
-Based on your resume analysis:
-- **Sobhan Azimzadeh**: CEO, Vue.js Developer, Strategic Leadership
-- **Ashkan Maleki**: COD, UI/UX Designer, Visual Excellence
-- **Sajjad Manafi**: GoLang Developer, Backend Team Lead
+### Themes
+- **Dark Mode** (`v-dark`) - Default professional theme
+- **Light Mode** (`v-light`) - Alternative light theme
+- **Dynamic Switching** - User-controlled theme selection
 
-### **Service Specializations**
-- Platform Development (Vue.js expertise)
-- AI Software Programming
-- Cybersecurity Solutions
-- Mobile Development
-- UI/UX Design Excellence
-- Backend Development (GoLang)
+### Typography
+- **Headings**: Excon font family
+- **Body**: Vazirmatn (English), Ray (Persian)
+- **Code**: Monospace fonts for technical content
 
-### **Market Positioning**
-- Primary market: Iran
-- Expansion markets: Iraq, Turkey, Azerbaijan
-- Technology focus: Modern web technologies, AI, cybersecurity
-- Team expertise: Full-stack development with specialized roles
+### Color Palette
+- **Primary**: Professional dark/light themes
+- **Accent**: Brand-specific colors
+- **Semantic**: Success, warning, error states
 
-## 📱 **PWA & Mobile SEO**
+## 🔧 Technology Stack
 
-### **Progressive Web App Features**
-- Installable app experience
-- Offline functionality preparation
-- Mobile-optimized icons and screenshots
-- App shortcuts for key services
+### Frontend Framework
+- **Nuxt 3** - Vue.js framework with SSR/SSG
+- **Vue 3** - Progressive JavaScript framework
+- **TypeScript** - Type-safe development
 
-### **Mobile Optimization**
-- Responsive design prioritization
-- Touch-friendly interface optimization
-- Fast mobile loading times
-- Mobile-specific structured data
+### UI & Styling
+- **SCSS/SASS** - Advanced CSS preprocessing
+- **FontAwesome** - Icon library
+- **GSAP** - Animation library
+- **Swiper** - Touch sliders and carousels
 
-## 🔍 **Search Engine Optimization Strategy**
+### Performance & SEO
+- **@nuxt/image** - Optimized image handling
+- **@nuxtjs/sitemap** - Automatic sitemap generation
+- **@nuxtjs/robots** - Robots.txt management
+- **PWA Support** - Progressive Web App features
 
-### **Primary Keywords Targeting**
-- "Tecso Team" (brand name)
-- "Iran IT company" (geographic + industry)
-- "Vue.js developer Iran" (specific skill + location)
-- "GoLang developer Tehran" (technology + city)
-- "Digital agency Iran" (service + location)
-- "Platform development Iran" (service + location)
+### Development Tools
+- **ESLint** - Code linting
+- **Prettier** - Code formatting
+- **Docker** - Containerization
+- **Vite** - Fast build tool
 
-### **Long-tail Keywords**
-- "Leading Iranian digital agency software development"
-- "Sobhan Azimzadeh CEO Vue.js developer Tehran" 
-- "AI software programming cybersecurity Iran"
-- "UI/UX design mobile development Middle East"
+## 📊 Features
 
-## 🚀 **Next Steps for Maximum SEO Impact**
+### 🌍 Multi-Language Blog System
+- **6 Comprehensive Articles** in English and Persian
+- **SEO-Optimized Content** with backlinks and keywords
+- **Comment System** with nested replies
+- **Tag-based Navigation** and categorization
 
-### **Immediate Actions** 
-1. Update Google Analytics ID in environment variables
-2. Set up Google Search Console property
-3. Submit sitemap to search engines
-4. Create high-quality team member profile images
-5. Add social media verification meta tags
+### 🎯 Business-Focused Content
+- **Vue.js & Nuxt.js** scalable web applications
+- **AI Integration** in modern business solutions
+- **Cybersecurity Best Practices** for Iranian businesses
+- **Mobile Development Trends** for 2025
+- **UX Design Principles** for Middle Eastern markets
+- **Digital Transformation** strategies
 
-### **Content Strategy**
-1. Create detailed team member profile pages
-2. Develop service-specific landing pages
-3. Add client testimonials with structured data
-4. Create case studies showcasing your projects
-5. Develop Persian/Farsi content for local market
+### 🔍 Advanced SEO
+- **Geo-targeting** for Iran and Middle East
+- **Structured Data** (JSON-LD) for rich snippets
+- **Performance Optimization** with Core Web Vitals
+- **Mobile-First Design** with responsive images
+- **International SEO** with hreflang support
 
-### **Technical Enhancements**
-1. Implement Core Web Vitals monitoring
-2. Add rich snippets for services and reviews
-3. Set up international targeting in Search Console
-4. Monitor regional search performance
-5. Implement local business schema markup
+### 📱 Progressive Web App
+- **Installable** on mobile devices
+- **Offline Support** preparation
+- **Push Notifications** ready
+- **App-like Experience** with native feel
 
-## 📊 **Expected SEO Results**
+## 🤝 Contributing
 
-### **Short-term (1-3 months)**
-- Improved search visibility for brand terms
-- Better local search presence in Iran
-- Enhanced rich snippet appearance
-- Increased click-through rates from search results
+We welcome contributions from the community! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
 
-### **Medium-term (3-6 months)** 
-- Higher rankings for service-related keywords
-- Improved visibility in neighboring markets
-- Better mobile search performance
-- Increased organic traffic from targeted regions
+- **Code Style** and development practices
+- **Pull Request** process
+- **Issue Reporting** guidelines
+- **Documentation** standards
 
-### **Long-term (6-12 months)**
-- Establish domain authority in Iranian tech industry
-- Rank for competitive industry keywords
-- Build international recognition
-- Achieve featured snippets for expertise areas
+### Development Workflow
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/your-feature`
+3. Make your changes and test thoroughly
+4. Commit with clear messages: `git commit -m "Add: feature description"`
+5. Push to your fork: `git push origin feature/your-feature`
+6. Create a Pull Request
+
+## � Code of Conduct
+
+This project follows our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming environment for all contributors and users.
+
+## 📄 License
+
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+
+## 👥 Team
+
+### Leadership
+- **Sobhan Azimzadeh** - CEO & Vue.js Developer
+- **Ashkan Maleki** - COO & UI/UX Designer
+- **Sajjad Manafi** - CTO & GoLang Developer
+
+### Contact Information
+- **Email**: tecsoteam@gmail.com
+- **Phone**: +98 905 843 2452
+- **Location**: Urmia, Iran
+- **Website**: [tecso.team](https://tecso.team)
+
+## 🌟 Acknowledgments
+
+- **Nuxt.js** - The amazing framework powering this site
+- **Vue.js** - Progressive JavaScript framework
+- **Iranian Tech Community** - For inspiration and support
+- **Open Source Community** - For the tools and libraries
+
+## 📊 Project Status
+
+- ✅ **Core Development**: Complete
+- ✅ **Multi-language Support**: Complete
+- ✅ **SEO Optimization**: Complete
+- ✅ **Performance Optimization**: Complete
+- ✅ **PWA Features**: Complete
+- 🔄 **Content Updates**: Ongoing
+- 🔄 **Feature Enhancements**: Planned
 
 ---
 
-**Implementation Status**: ✅ Core SEO foundation complete
-**Next Priority**: Content creation and ongoing optimization
-**Monitoring**: Set up analytics and search console tracking
+**Built with ❤️ by Tecso Team - Leading Iranian Digital Agency**
 
-This comprehensive SEO implementation positions Tecso Team for maximum search visibility while highlighting your team's expertise and geographic market focus.
+*Transforming ideas into digital reality across Iran and the Middle East*
