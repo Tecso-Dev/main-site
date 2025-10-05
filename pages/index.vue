@@ -1,4 +1,22 @@
 <script setup>
+// SEO Meta Tags with Canonical URL
+useSeoMeta({
+  title: 'Tecso Team - Leading Iranian IT Company & Digital Agency',
+  description: 'Tecso Team - Leading Iranian IT company. Platform Development, AI Software, Cybersecurity & Mobile solutions. Expert Vue.js, GoLang developers.',
+  ogTitle: 'Tecso Team - Leading Iranian IT Company & Digital Agency',
+  ogDescription: 'Tecso Team - Leading Iranian IT company. Platform Development, AI Software, Cybersecurity & Mobile solutions. Expert Vue.js, GoLang developers.',
+  ogImage: '/images/og-tecso-team.webp',
+  twitterTitle: 'Tecso Team - Leading Iranian IT Company & Digital Agency',
+  twitterDescription: 'Tecso Team - Leading Iranian IT company. Platform Development, AI Software, Cybersecurity & Mobile solutions. Expert Vue.js, GoLang developers.'
+});
+
+// Canonical URL
+useHead({
+  link: [
+    { rel: 'canonical', href: 'https://tecso.team/' }
+  ]
+});
+
 import data_InBox from "@/api/box-info/box-info.json";
 import data_Portf from "@/api/portfolio/portfolio.json";
 import data_blogs from "@/api/blog/blog.json";

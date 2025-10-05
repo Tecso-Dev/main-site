@@ -36,7 +36,7 @@ const props = defineProps({
   },
   description: {
     type: String,
-    default: 'Leading Iranian IT company specializing in Platform Development, AI Software, Cybersecurity, and Digital Solutions for Iran, Iraq, Turkey, and Azerbaijan markets.'
+    default: 'Tecso Team - Leading Iranian IT company. Platform Development, AI Software, Cybersecurity & Mobile solutions. Expert Vue.js, GoLang developers.'
   },
   keywords: {
     type: String,

@@ -1,5 +1,25 @@
 <script setup>
 
+// Persian Meta Tags for SEO
+useSeoMeta({
+  title: 'تکسو تیم - شرکت پیشرو ایرانی فناوری اطلاعات و نرم‌افزار',
+  description: 'تکسو تیم - شرکت پیشرو ایرانی فناوری اطلاعات. توسعه پلتفرم، هوش مصنوعی، امنیت سایبری و اپلیکیشن موبایل. متخصصان Vue.js و GoLang',
+  ogTitle: 'تکسو تیم - شرکت پیشرو ایرانی فناوری اطلاعات و نرم‌افزار',
+  ogDescription: 'تکسو تیم - شرکت پیشرو ایرانی فناوری اطلاعات. توسعه پلتفرم، هوش مصنوعی، امنیت سایبری و اپلیکیشن موبایل. متخصصان Vue.js و GoLang',
+  ogImage: '/images/og-tecso-team-fa.webp',
+  twitterTitle: 'تکسو تیم - شرکت پیشرو ایرانی فناوری اطلاعات و نرم‌افزار',
+  twitterDescription: 'تکسو تیم - شرکت پیشرو ایرانی فناوری اطلاعات. توسعه پلتفرم، هوش مصنوعی، امنیت سایبری و اپلیکیشن موبایل. متخصصان Vue.js و GoLang'
+});
+
+// Canonical URL for Persian page
+useHead({
+  link: [
+    { rel: 'canonical', href: 'https://tecso.team/fa/' },
+    { rel: 'alternate', hreflang: 'en', href: 'https://tecso.team/' },
+    { rel: 'alternate', hreflang: 'fa', href: 'https://tecso.team/fa/' }
+  ]
+});
+
 import data_InBox from "@/api/fa/box-info/box-info.json";
 import data_Portf from "@/api/fa/portfolio/portfolio.json";
 import data_blogs from "@/api/fa/blog/blog.json";

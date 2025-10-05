@@ -1,0 +1,39 @@
+# Force HTTPS
+http://tecso.team/* https://tecso.team/:splat 301!
+http://www.tecso.team/* https://tecso.team/:splat 301!
+
+# Force www to non-www (canonical domain)
+https://www.tecso.team/* https://tecso.team/:splat 301!
+
+# Security headers
+/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  Referrer-Policy: strict-origin-when-cross-origin
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.googletagmanager.com *.google-analytics.com; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.gstatic.com; img-src 'self' data: *.google-analytics.com *.googletagmanager.com; connect-src 'self' *.google-analytics.com *.analytics.google.com *.googletagmanager.com;
+
+# Cache headers for static assets
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/_nuxt/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Special handling for main pages
+/ 200
+/fa/ 200
+/about-us 200
+/fa/about-us 200
+/service 200
+/fa/service 200
+/contact 200
+/fa/contact 200
+/portfolio 200
+
+# Fallback for SPA
+/* /index.html 200

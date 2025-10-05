@@ -22,7 +22,7 @@ export default defineNuxtConfig({
 				{ name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
 				{ 
 					name: 'description', 
-					content: 'Tecso Team - Leading Iranian IT company specializing in Platform Development, AI Software, Cybersecurity, Mobile Development, and Digital Marketing. Founded by expert developers Sobhan Azimzadeh (CEO/Vue.js Developer) and team including GoLang specialists serving Iran, Iraq, Turkey, Azerbaijan.' 
+					content: 'Tecso Team - Leading Iranian IT company. Platform Development, AI Software, Cybersecurity & Mobile solutions. Expert Vue.js, GoLang developers.' 
 				},
 				{ 
 					name: 'keywords', 
@@ -58,7 +58,7 @@ export default defineNuxtConfig({
 				{ property: 'og:type', content: 'website' },
 				{ property: 'og:site_name', content: 'Tecso Team' },
 				{ property: 'og:title', content: 'Tecso Team - Leading Iranian Digital Agency & Software Development Company' },
-				{ property: 'og:description', content: 'Professional Iranian IT company founded by expert developers. Specializing in Platform Development, AI Software, Cybersecurity, and Digital Solutions for Iran, Iraq, Turkey, and Azerbaijan markets.' },
+				{ property: 'og:description', content: 'Tecso Team - Leading Iranian IT company. Platform Development, AI Software, Cybersecurity & Mobile solutions. Expert Vue.js, GoLang developers.' },
 				{ property: 'og:image', content: '/images/og-tecso-team.webp' },
 				{ property: 'og:image:alt', content: 'Tecso Team - Iranian Digital Agency Logo' },
 				{ property: 'og:image:width', content: '1200' },
@@ -237,19 +237,85 @@ export default defineNuxtConfig({
 	nitro: {
 		inlineDynamicImports: true,
 		// preset: 'netlify_edge'
+		routeRules: {
+			// Force HTTPS redirects
+			'**': {
+				headers: {
+					'Strict-Transport-Security': 'max-age=31536000; includeSubDomains',
+					'X-Content-Type-Options': 'nosniff',
+					'X-Frame-Options': 'DENY',
+					'X-XSS-Protection': '1; mode=block',
+					'Referrer-Policy': 'strict-origin-when-cross-origin'
+				}
+			}
+		}
 	},
 	router: {
 		options: { scrollBehaviorType: 'smooth' },
 	},
 	routeRules: {
+		// Force canonical domain (www to non-www redirect)
+		// This should be handled at server/CDN level for production
+		
 		// Homepage - High priority, prerendered
-		'/': { prerender: true },
+		'/': { 
+			prerender: true,
+			headers: {
+				'Cache-Control': 'max-age=3600, s-maxage=86400'
+			}
+		},
 		
 		// Important pages - Prerendered with high priority
-		'/about-us': { prerender: true },
-		'/service': { prerender: true },
-		'/contact': { prerender: true },
-		'/portfolio': { prerender: true },
+		'/about-us': { 
+			prerender: true,
+			headers: {
+				'Cache-Control': 'max-age=3600, s-maxage=86400'
+			}
+		},
+		'/service': { 
+			prerender: true,
+			headers: {
+				'Cache-Control': 'max-age=3600, s-maxage=86400'
+			}
+		},
+		'/contact': { 
+			prerender: true,
+			headers: {
+				'Cache-Control': 'max-age=3600, s-maxage=86400'
+			}
+		},
+		'/portfolio': { 
+			prerender: true,
+			headers: {
+				'Cache-Control': 'max-age=3600, s-maxage=86400'
+			}
+		},
+		
+		// Persian pages
+		'/fa/': { 
+			prerender: true,
+			headers: {
+				'Cache-Control': 'max-age=3600, s-maxage=86400'
+			}
+		},
+		'/fa/about-us': { 
+			prerender: true,
+			headers: {
+				'Cache-Control': 'max-age=3600, s-maxage=86400'
+			}
+		},
+		'/fa/service': { 
+			prerender: true,
+			headers: {
+				'Cache-Control': 'max-age=3600, s-maxage=86400'
+			}
+		},
+		'/fa/contact': { 
+			prerender: true,
+			headers: {
+				'Cache-Control': 'max-age=3600, s-maxage=86400'
+			}
+		},
 		
 		// Dynamic content
 		"/blog/**": { prerender: false },
@@ -277,11 +343,6 @@ export default defineNuxtConfig({
 		"/slider/**": { prerender: false },
 		"/carousel/**": { prerender: false },
 		
-		// Farsi pages
-		"/fa/": { prerender: true },
-		"/fa/about-us": { prerender: true },
-		"/fa/service": { prerender: true },
-		"/fa/contact": { prerender: true }
 	},
 	ssr: true,
 	css: [
