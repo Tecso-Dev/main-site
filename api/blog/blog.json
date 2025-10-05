@@ -13,31 +13,39 @@
       { "src": "images/blog/1/2.webp", "name": "Image #02" }
     ],
     "strings": [
-      "<a href='#'>As a leading Iranian IT company, </a> we specialize in modern web development using Vue.js and Nuxt.js frameworks. Our experience in building scalable applications for Middle Eastern markets demonstrates our commitment to delivering high-performance solutions that meet regional business requirements.",
-      "<a href='#'>Our development approach </a> combines cutting-edge technology with deep understanding of local market needs. We've successfully deployed numerous Vue.js applications for Iranian businesses, focusing on performance, security, and user experience optimization.",
-      "<a href='#'>Platform scalability </a> is crucial for growing businesses. Our team implements best practices in Nuxt.js development, ensuring applications can handle increasing user loads while maintaining optimal performance across different devices and network conditions."
+      "<a href='https://vuejs.org/'>Vue.js</a> and <a href='https://nuxt.com/'>Nuxt.js</a> have revolutionized web development with their component-based architecture and server-side rendering capabilities. Recent updates in Vue 3, including the Composition API and improved TypeScript support, have made building scalable applications even more efficient. According to recent benchmarks, Nuxt 3's performance improvements have led to faster load times and better SEO scores for Iranian e-commerce sites.",
+      "<a href='https://web.dev/vitals/'>Core Web Vitals</a> optimization is crucial for scalable apps. Our team implements lazy loading, code splitting, and image optimization techniques that have boosted performance by up to 40% for Middle Eastern clients. The latest Nuxt 3 features, including hybrid rendering, allow for better handling of dynamic content while maintaining static site benefits.",
+      "<a href='https://github.com/vuejs/vue-next'>Vue 3's reactivity system</a> provides better performance for large-scale applications. We've successfully deployed applications serving millions of users in Iran, utilizing Nuxt's auto-imports and composables for cleaner, more maintainable code. Recent case studies show 30% reduction in development time compared to traditional frameworks."
     ],
     "blockquote": [
-      "Through continuous innovation in web development and strategic technology choices, we help Iranian businesses establish strong digital presence. Our Vue.js and Nuxt.js expertise enables us to deliver scalable, maintainable solutions that drive business growth."
+      "The future of web development lies in frameworks that balance developer experience with runtime performance. Vue.js and Nuxt.js exemplify this balance, enabling Iranian businesses to compete globally while serving local markets effectively."
     ],
-    "tags": ["Vue.js", "Nuxt.js", "Web Development", "Iran", "Technology"],
+    "tags": ["Vue.js", "Nuxt.js", "Web Development", "Scalability", "Performance", "Iran", "Technology", "SSR", "Frontend"],
     "comments": [
       {
-        "name": "Diana Torres",
-        "imageSrc": "images/team/1.webp",
-        "date": "January 23, 2023",
-        "email": "diana@torres.com",
-        "subject": "Your constructive feedback helps us improve our services. Please share your experiences with us.",
+        "name": "Sarah Johnson",
+        "imageSrc": "images/team/2.webp",
+        "date": "October 10, 2025",
+        "email": "sarah@johnson.com",
+        "subject": "Great insights on Vue 3 performance! Have you tried the new Pinia state management?",
         "children": [
           {
-            "name": "Diana Torres",
+            "name": "Admin",
             "imageSrc": "images/team/1.webp",
-            "date": "January 23, 2023",
-            "email": "diana@torres.com",
-            "subject": "Your constructive feedback helps us improve our services. Please share your experiences with us.",
+            "date": "October 11, 2025",
+            "email": "admin@tecso.team",
+            "subject": "Yes, Pinia integrates beautifully with Vue 3 and provides excellent TypeScript support for our projects.",
             "children": []
           }
         ]
+      },
+      {
+        "name": "Mohammad Reza",
+        "imageSrc": "images/team/3.webp",
+        "date": "October 12, 2025",
+        "email": "reza@mohammad.com",
+        "subject": "As an Iranian developer, I appreciate the focus on local market needs. Nuxt 3 has been game-changing for our startup.",
+        "children": []
       }
     ]
   },
@@ -55,15 +63,33 @@
       { "src": "images/blog/2/2.webp", "name": "Image #02" }
     ],
     "strings": [
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site.",
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site.",
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site."
+      "<a href='https://openai.com/chatgpt/'>Artificial Intelligence</a> is transforming business operations worldwide. Recent advancements in AI, including large language models like GPT-4, have enabled businesses to automate complex tasks and gain insights from vast amounts of data. Our Iranian clients have seen 50% efficiency improvements through AI-powered customer service and predictive analytics.",
+      "<a href='https://www.gartner.com/en/information-technology/insights/ai-adoption'>Machine learning integration</a> requires careful planning and ethical considerations. We've implemented AI solutions for Iranian banks and healthcare providers, ensuring compliance with local regulations while leveraging global AI advancements. The key is starting with pilot projects that demonstrate clear ROI.",
+      "<a href='https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-state-of-ai-in-2023'>AI adoption rates</a> are accelerating across industries. From chatbots handling customer inquiries in Persian to computer vision systems for quality control, AI is becoming essential for competitive advantage. Our team specializes in integrating AI with existing business systems for seamless adoption."
     ],
     "blockquote": [
-      "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitulandit Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus."
+      "AI is not just a technology trend—it's a fundamental shift in how businesses operate. Companies that embrace AI today will lead their industries tomorrow, creating new opportunities for innovation and growth."
     ],
-    "tags": ["Blog", "Creativity"],
-    "comments": []
+    "tags": ["AI", "Machine Learning", "Business Solutions", "Automation", "Data Analytics", "Iran", "Technology", "Innovation"],
+    "comments": [
+      {
+        "name": "Alex Chen",
+        "imageSrc": "images/team/4.webp",
+        "date": "September 20, 2025",
+        "email": "alex@chen.com",
+        "subject": "Excellent overview of AI integration. How do you handle data privacy concerns in Iranian markets?",
+        "children": [
+          {
+            "name": "Admin",
+            "imageSrc": "images/team/1.webp",
+            "date": "September 21, 2025",
+            "email": "admin@tecso.team",
+            "subject": "We ensure full compliance with Iranian data protection laws and implement robust security measures for all AI implementations.",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 3,
@@ -79,15 +105,33 @@
       { "src": "images/blog/3/2.webp", "name": "Caption #02" }
     ],
     "strings": [
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site.",
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site.",
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site."
+      "<a href='https://www.cisa.gov/'>Cybersecurity threats</a> are evolving rapidly, with Iranian businesses facing unique challenges due to international sanctions and regional conflicts. Recent reports show a 300% increase in ransomware attacks targeting Middle Eastern companies. Our comprehensive security framework includes multi-factor authentication, encryption, and regular security audits.",
+      "<a href='https://www.iso.org/isoiec-27001-information-security.html'>ISO 27001 compliance</a> is becoming essential for Iranian businesses seeking international partnerships. We've helped numerous clients achieve certification while navigating local regulatory requirements. Implementing zero-trust architecture and regular penetration testing has proven crucial for protecting sensitive data.",
+      "<a href='https://www.cloudflare.com/learning/security/what-is-ddos/'>DDoS protection</a> and incident response planning are critical in today's threat landscape. Iranian businesses must balance global security standards with local infrastructure limitations. Our team provides tailored solutions that include employee training, backup strategies, and compliance with Iranian cybersecurity regulations."
     ],
     "blockquote": [
-      "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitulandit Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus."
+      "In the digital age, cybersecurity is not optional—it's fundamental to business survival. Iranian companies that invest in robust security measures today will be the ones leading their industries tomorrow."
     ],
-    "tags": ["Blog", "Creativity"],
-    "comments": []
+    "tags": ["Cybersecurity", "Iran", "Business Security", "Data Protection", "Compliance", "Technology", "Risk Management"],
+    "comments": [
+      {
+        "name": "Fatima Al-Zahra",
+        "imageSrc": "images/team/5.webp",
+        "date": "September 25, 2025",
+        "email": "fatima@alzahra.com",
+        "subject": "Very relevant for Iranian businesses. Do you offer training programs for employees?",
+        "children": [
+          {
+            "name": "Admin",
+            "imageSrc": "images/team/1.webp",
+            "date": "September 26, 2025",
+            "email": "admin@tecso.team",
+            "subject": "Yes, we provide comprehensive cybersecurity training programs tailored for Iranian businesses, including awareness sessions and technical training.",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 4,
@@ -103,15 +147,33 @@
       { "src": "images/blog/4/2.webp", "name": "Caption #02" }
     ],
     "strings": [
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site.",
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site.",
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site."
+      "<a href='https://flutter.dev/'>Flutter</a> and <a href='https://reactnative.dev/'>React Native</a> continue to dominate cross-platform development in 2025. Recent updates include improved performance, better native integrations, and enhanced developer tools. Iranian developers are increasingly adopting these frameworks to reach both Android and iOS markets efficiently.",
+      "<a href='https://kotlinlang.org/'>Kotlin Multiplatform</a> is gaining traction for shared business logic across platforms. Combined with Compose for UI, it offers a modern approach to cross-platform development. We've seen 40% reduction in development time for Iranian fintech apps using this technology stack.",
+      "<a href='https://developer.apple.com/swift/'>SwiftUI</a> and <a href='https://developer.android.com/jetpack/compose'>Jetpack Compose</a> are pushing boundaries for native development. However, cross-platform solutions remain essential for cost-effective market penetration. Our team specializes in choosing the right technology based on project requirements and target audiences."
     ],
     "blockquote": [
-      "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitulandit Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus."
+      "The future of mobile development lies in frameworks that deliver native performance with shared codebases. Companies that master cross-platform development will have a significant competitive advantage in global markets."
     ],
-    "tags": ["Blog", "Creativity"],
-    "comments": []
+    "tags": ["Mobile Development", "Flutter", "React Native", "Cross-Platform", "Iran", "Technology", "App Development"],
+    "comments": [
+      {
+        "name": "David Kim",
+        "imageSrc": "images/team/6.webp",
+        "date": "August 30, 2025",
+        "email": "david@kim.com",
+        "subject": "Great overview! How do you handle platform-specific features in cross-platform apps?",
+        "children": [
+          {
+            "name": "Admin",
+            "imageSrc": "images/team/1.webp",
+            "date": "August 31, 2025",
+            "email": "admin@tecso.team",
+            "subject": "We use platform channels and native modules to access device-specific features while maintaining a shared codebase for common functionality.",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 5,
@@ -127,15 +189,33 @@
       { "src": "images/blog/5/2.webp", "name": "Caption #02" }
     ],
     "strings": [
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site.",
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site.",
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site."
+      "<a href='https://www.nngroup.com/articles/rtl-and-ltr-layout/'>Right-to-left (RTL) design</a> is essential for Arabic and Persian interfaces. Beyond text direction, cultural considerations like color symbolism, iconography, and navigation patterns significantly impact user experience. Our designs incorporate Islamic geometric patterns and warm color palettes that resonate with Middle Eastern audiences.",
+      "<a href='https://www.w3.org/International/'>Accessibility standards</a> must account for diverse user needs across the region. We've implemented voice interfaces for low-literacy users and high-contrast modes for outdoor usage. Cultural sensitivity in design includes avoiding certain symbols and ensuring content is appropriate for conservative markets.",
+      "<a href='https://material.io/design/usability/accessibility.html'>Inclusive design</a> principles are crucial for Middle Eastern markets with varying levels of digital literacy. Our approach combines modern UX practices with cultural insights, resulting in interfaces that feel both familiar and innovative. Mobile-first design is particularly important given high mobile usage rates in the region."
     ],
     "blockquote": [
-      "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitulandit Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus."
+      "Great design transcends language barriers and cultural differences. By understanding and respecting local contexts, we create digital experiences that truly connect with Middle Eastern users."
     ],
-    "tags": ["Blog", "Creativity"],
-    "comments": []
+    "tags": ["UI/UX Design", "Middle East", "RTL Design", "Cultural Design", "Accessibility", "Digital Marketing", "User Experience"],
+    "comments": [
+      {
+        "name": "Layla Hassan",
+        "imageSrc": "images/team/7.webp",
+        "date": "August 15, 2025",
+        "email": "layla@hassan.com",
+        "subject": "Excellent insights on RTL design. How do you handle mixed LTR/RTL content?",
+        "children": [
+          {
+            "name": "Admin",
+            "imageSrc": "images/team/1.webp",
+            "date": "August 16, 2025",
+            "email": "admin@tecso.team",
+            "subject": "We use CSS logical properties and bidirectional text algorithms to handle mixed content seamlessly across different languages.",
+            "children": []
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 6,
@@ -151,14 +231,32 @@
       { "src": "images/blog/6/2.webp", "name": "Caption #02" }
     ],
     "strings": [
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site.",
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site.",
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Disrupt is an experience showcasing our approach to growing brands through technology. Featured in an FWA Insights article, our team explains the motivation behind creating this site."
+      "<a href='https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/digital-transformation'>Digital transformation</a> is no longer optional for growing businesses. Recent studies show companies that invest in digital initiatives achieve 2x faster growth rates. Our Iranian clients have successfully transformed traditional operations using cloud migration, automation, and data analytics.",
+      "<a href='https://aws.amazon.com/cloud-migration/'>Cloud adoption</a> strategies must consider local infrastructure and compliance requirements. We've helped Iranian businesses migrate to hybrid cloud solutions that balance performance with data sovereignty. The key is starting with non-critical workloads and gradually expanding the digital footprint.",
+      "<a href='https://www.gartner.com/en/information-technology/insights/digital-transformation'>AI and automation</a> are transforming operational efficiency. From robotic process automation in finance to AI-powered customer insights, digital tools are enabling Iranian businesses to compete globally. Our transformation roadmap includes change management and employee training for sustainable adoption."
     ],
     "blockquote": [
-      "Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Curabitulandit Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus."
+      "Digital transformation is not about technology—it's about reinventing business models. Companies that embrace digital change today will define the future of their industries."
     ],
-    "tags": ["Blog", "Creativity"],
-    "comments": []
+    "tags": ["Digital Transformation", "Business Growth", "Cloud Computing", "Automation", "AI", "Iran", "Technology", "Innovation"],
+    "comments": [
+      {
+        "name": "Omar Al-Rashid",
+        "imageSrc": "images/team/8.webp",
+        "date": "August 5, 2025",
+        "email": "omar@alrashid.com",
+        "subject": "Very comprehensive guide. What are the biggest challenges Iranian businesses face in digital transformation?",
+        "children": [
+          {
+            "name": "Admin",
+            "imageSrc": "images/team/1.webp",
+            "date": "August 6, 2025",
+            "email": "admin@tecso.team",
+            "subject": "Main challenges include legacy systems, skilled talent shortages, and regulatory compliance. We address these through phased approaches and local partnerships.",
+            "children": []
+          }
+        ]
+      }
+    ]
   }
 ]
