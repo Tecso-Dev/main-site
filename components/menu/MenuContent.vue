@@ -27,6 +27,12 @@
 					<li v-if="socialData.length > 0" v-for="(item,index) in socialData" :key="index">
 						<a :href="item.link" target="_blank" rel="nofollow noopener noreferrer">{{ item.name }}</a>
 					</li>
+					<li>
+						<!-- Language Switch: appends ?lang=en or ?lang=fa to normalize with middleware -->
+						<NuxtLink :to="{ path: $route.path.startsWith('/fa') ? $route.path.replace(/^\/fa(\/|$)/,'/') : $route.path, query: { ...$route.query, lang: 'en' } }">English</NuxtLink>
+						<span class="mx-10">/</span>
+						<NuxtLink :to="{ path: $route.path.startsWith('/fa') ? $route.path : ($route.path === '/' ? '/fa/' : `/fa${$route.path}`), query: { ...$route.query, lang: 'fa' } }">فارسی</NuxtLink>
+					</li>
 				</ul>
 			</div>
 		</div>
