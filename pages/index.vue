@@ -148,6 +148,25 @@ useHead(() => ({
 	</Head>
 
 	<Layout>
+		<!-- Hero Section with Proper H1 Structure -->
+		<section class="hero-section py-5" style="position: relative; z-index: 10; background: rgba(0,0,0,0.8); color: white; text-align: center;">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<h1 class="hero-title display-4 mb-4" style="font-weight: bold; line-height: 1.2;">
+							Tecso Team - Leading Iranian IT Company & Software Development Services
+						</h1>
+						<h2 class="hero-subtitle h3 mb-4" style="font-weight: 500; opacity: 0.9;">
+							Platform Development, AI Software, Cybersecurity & Mobile Solutions
+						</h2>
+						<p class="hero-description lead mb-4" style="font-size: 1.1rem; opacity: 0.8;">
+							Expert Vue.js, GoLang developers delivering cutting-edge technology solutions for businesses across Iran, Iraq, Turkey, and Azerbaijan.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<!-- ========== Slider Parallax ========== -->
 			<PortfolioSlider :data="data_Portf" setStyle="padding-parallax-h" contentStyle="center-between"
 			direction="horizontal" hasDescription linkLine :swiperOptions="{

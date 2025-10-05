@@ -261,7 +261,8 @@ export default defineNuxtConfig({
 		'/': { 
 			prerender: true,
 			headers: {
-				'Cache-Control': 'max-age=3600, s-maxage=86400'
+				'Cache-Control': 'max-age=3600, s-maxage=86400',
+				'Link': '</images/logo-light.png>; rel=preload; as=image, </images/og-tecso-team.webp>; rel=preload; as=image, </_nuxt/entry.js>; rel=preload; as=script'
 			}
 		},
 		
@@ -317,6 +318,32 @@ export default defineNuxtConfig({
 			}
 		},
 		
+		// Static assets with long-term caching
+		'/images/**': {
+			headers: {
+				'Cache-Control': 'public, max-age=31536000, immutable',
+				'Vary': 'Accept-Encoding'
+			}
+		},
+		'/_nuxt/**': {
+			headers: {
+				'Cache-Control': 'public, max-age=31536000, immutable',
+				'Vary': 'Accept-Encoding'
+			}
+		},
+		'/js/**': {
+			headers: {
+				'Cache-Control': 'public, max-age=31536000, immutable',
+				'Vary': 'Accept-Encoding'
+			}
+		},
+		'/css/**': {
+			headers: {
+				'Cache-Control': 'public, max-age=31536000, immutable',
+				'Vary': 'Accept-Encoding'
+			}
+		},
+		
 		// Dynamic content
 		"/blog/**": { prerender: false },
 		"/work/category/**": { prerender: false },
@@ -346,16 +373,17 @@ export default defineNuxtConfig({
 	},
 	ssr: true,
 	css: [
-		'@fortawesome/fontawesome-svg-core/styles.css',
-		'@fancyapps/ui/dist/fancybox/fancybox.css',
+		// Main styles that include variables first
 		'@/assets/styles/style.scss'
 	],
 	plugins: [
 		{ src: '@/plugins/fontawesome.js' },
-		{ src: '@/plugins/splitting.client.js' },
-		{ src: '@/plugins/isotope.client.js' },
+		{ src: '@/plugins/splitting.client.js', mode: 'client' },
+		{ src: '@/plugins/isotope.client.js', mode: 'client' },
 		{ src: '@/plugins/gtag.client.ts', mode: 'client' },
-		{ src: '@/plugins/analytics.client.js', mode: 'client' }
+		{ src: '@/plugins/analytics.client.js', mode: 'client' },
+		{ src: '@/plugins/performance-optimization.client.ts', mode: 'client' },
+		{ src: '@/plugins/google-analytics.client.ts', mode: 'client' }
 	],
 	vue: { compilerOptions: { isCustomElement: (tag) => /^(swiper|swiper-slide|swiper-container)$/.test(tag) } },
 	vite: {
