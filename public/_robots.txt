@@ -1,83 +1,66 @@
-# Robots.txt for Tecso Team - Enhanced GEO Targeting
-# https://tecso.team/robots.txt
+# Tecso Team - Iranian IT Company
+# https://tecso.team/
 
-# Allow all search engines to crawl our site
 User-agent: *
 Allow: /
 
-# Priority crawling for main content
+# High priority pages
 Allow: /about-us
 Allow: /service
-Allow: /portfolio
 Allow: /contact
-Allow: /blog
+Allow: /portfolio
+Allow: /projects
 
-# Regional content crawling
+# Farsi language pages
 Allow: /fa/
-Allow: /ar/
-Allow: /tr/
-Allow: /az/
-Allow: /iraq
+Allow: /fa/about-us
+Allow: /fa/service
+Allow: /fa/contact
 
-# Important files for SEO
-Allow: /sitemap.xml
-Allow: /manifest.json
+# Service portfolio pages
+Allow: /portfolio/style-6/platform-development
+Allow: /portfolio/style-5/graphic-design
+Allow: /portfolio/style-4/business-analyses
+Allow: /portfolio/style-8/seo-services
+Allow: /portfolio/style-9/ai-services
+Allow: /portfolio/style-10/infrastructure-security
+Allow: /portfolio/style-2/education
+Allow: /portfolio/style-7/mobile
 
-# Block sensitive areas
-Disallow: /admin/
-Disallow: /dashboard/
-Disallow: /private/
-Disallow: /*.json$
-Disallow: /server/
+# Block demo and mode-specific pages
+Disallow: /main-demo
+Disallow: /business?mode=
+Disallow: /architecture?mode=
+Disallow: /photographer?mode=
+Disallow: /personal?mode=
+Disallow: /resume?mode=
+Disallow: /metro-portfolio-1?mode=
+Disallow: /metro-portfolio-2?mode=
+Disallow: /slider/
+Disallow: /carousel/
 
-# Block development and build files
-Disallow: /node_modules/
-Disallow: /.nuxt/
-Disallow: /dist/
-Disallow: /.git/
-Disallow: /.env
+# Block admin and development files
+Disallow: /admin
+Disallow: /.nuxt
+Disallow: /node_modules
+Disallow: /.git
 
-# Allow CSS, JS, and media files for better indexing
-Allow: /assets/
+# Allow crawling of important assets
 Allow: /images/
-Allow: /_nuxt/
 Allow: /js/
 Allow: /css/
-Allow: /fonts/
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.webp
+Allow: /*.svg
+Allow: /*.gif
 
-# Specific instructions for major search engines
-# Google
-User-agent: Googlebot
-Allow: /
-
-# Bing
-User-agent: Bingbot
-Allow: /
-
-# Yandex (popular in Middle East region)
-User-agent: YandexBot
-Allow: /
-
-# Baidu (for potential Asian markets)
-User-agent: Baiduspider
-Allow: /
-
-# Yahoo
-User-agent: Slurp
-Allow: /
-
-# Block malicious bots
-User-agent: SemrushBot
-Disallow: /
-
-User-agent: AhrefsBot
-Disallow: /
-
-User-agent: MJ12bot
-Disallow: /
-
-User-agent: DotBot
-Disallow: /
-
-# Sitemap locations
+# Sitemap location
 Sitemap: https://tecso.team/sitemap.xml
+Sitemap: https://tecso.team/api/sitemap.xml
+
+# Host declaration
+Host: tecso.team

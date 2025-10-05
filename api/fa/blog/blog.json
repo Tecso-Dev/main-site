@@ -2,14 +2,15 @@
     {
         "id": 1,
         "categories": [
-            "دسته‌بندی نشده"
+            "فناوری",
+            "توسعه پلتفرم"
         ],
-        "title": "حیات وحش می‌تواند شگفت‌انگیز باشد، دلیلش را ببینید",
-        "description": "با جزئیات کامل و دقیق، مطالب جذاب و خواندنی را در مورد حیات وحش کشف کنید",
-        "date": "۱۲ خرداد ۱۴۰۱",
+        "title": "ساخت اپلیکیشن‌های وب مقیاس‌پذیر با Vue.js و Nuxt.js",
+        "description": "کشف کنید چگونه از Vue.js و Nuxt.js برای ایجاد اپلیکیشن‌های وب با کارایی بالا و مقیاس‌پذیری برای مشتریان ایرانی و خاورمیانه‌ای استفاده می‌کنیم",
+        "date": "۱۰ مهر ۱۴۰۴",
         "link": "/fa/blog/1",
         "linkName": "خواندن مقاله",
-        "slug": "wildlife-could-be-amazing-see-why",
+        "slug": "building-scalable-web-applications-vuejs-nuxtjs",
         "images": [
             {
                 "src": "images/blog/1/1.webp",
@@ -55,14 +56,15 @@
     {
         "id": 2,
         "categories": [
-            "سرمقاله"
+            "هوش مصنوعی",
+            "توسعه نرم‌افزار"
         ],
-        "title": "نکات سریع برای یک عروسی استایل شده موثر",
-        "description": "راهنمای جامع برای برگزاری یک مراسم عروسی زیبا و به یادماندنی",
-        "date": "۲۴ اسفند ۱۴۰۱",
+        "title": "ادغام هوش مصنوعی در راه‌حل‌های تجاری مدرن",
+        "description": "بیاموزید چگونه راه‌حل‌های هوش مصنوعی و یادگیری ماشین را برای بهینه‌سازی فرآیندهای تجاری و بهبود تجربه کاربری پیاده‌سازی می‌کنیم",
+        "date": "۲۴ شهریور ۱۴۰۴",
         "link": "/fa/blog/2",
         "linkName": "خواندن مقاله",
-        "slug": "quick-tips-for-an-effective-styled-wedding",
+        "slug": "ai-integration-modern-business-solutions",
         "images": [
             {
                 "src": "images/blog/2/1.webp",
@@ -90,14 +92,15 @@
     {
         "id": 3,
         "categories": [
-            "دسته‌بندی نشده"
+            "امنیت سایبری",
+            "فناوری"
         ],
-        "title": "هنر روح از عروسی استایل شده لیزی",
-        "description": "نگاهی به زیبایی‌های هنری در مراسم عروسی با سبک خاص",
-        "date": "۱ آبان ۱۴۰۱",
-        "link": "/fa/blog/1",
+        "title": "اصول ضروری امنیت سایبری برای کسب‌وکارهای ایرانی",
+        "description": "راهنمای جامع پیاده‌سازی اقدامات امنیت سایبری قوی برای کسب‌وکارهایی که در ایران و منطقه خاورمیانه فعالیت می‌کنند",
+        "date": "۲۹ شهریور ۱۴۰۴",
+        "link": "/fa/blog/3",
         "linkName": "خواندن مقاله",
-        "slug": "soul-artwork-from-lizzy-styled-wedding",
+        "slug": "essential-cybersecurity-practices-iranian-businesses",
         "images": [
             {
                 "src": "images/blog/3/1.webp",
@@ -125,14 +128,15 @@
     {
         "id": 4,
         "categories": [
-            "دسته‌بندی نشده"
+            "توسعه موبایل",
+            "فناوری"
         ],
-        "title": "حیات وحش می‌تواند شگفت‌انگیز باشد، دلیلش را ببینید",
-        "description": "با جزئیات کامل و دقیق، مطالب جذاب و خواندنی را در مورد حیات وحش کشف کنید",
-        "date": "۱۲ خرداد ۱۴۰۱",
-        "link": "/fa/blog/1",
+        "title": "روندهای توسعه موبایل چندپلتفرمه ۲۰۲۵",
+        "description": "بررسی جدیدترین روندهای توسعه موبایل و چگونگی ارائه راه‌حل‌های پیشرفته موبایل برای مشتریان",
+        "date": "۳ شهریور ۱۴۰۴",
+        "link": "/fa/blog/4",
         "linkName": "خواندن مقاله",
-        "slug": "wildlife-could-be-amazing-see",
+        "slug": "cross-platform-mobile-development-trends-2025",
         "images": [
             {
                 "src": "images/blog/4/1.webp",
@@ -160,14 +164,15 @@
     {
         "id": 5,
         "categories": [
-            "معماری"
+            "طراحی UI/UX",
+            "بازاریابی دیجیتال"
         ],
-        "title": "هنر روح از لیزی",
-        "description": "کشف جنبه‌های هنری و خلاقانه در کارهای لیزی",
-        "date": "۲۱ خرداد ۱۴۰۱",
+        "title": "اصول طراحی تجربه کاربری برای بازارهای خاورمیانه",
+        "description": "چگونه درک فرهنگی و اصول طراحی کاربرمحور تجربیات دیجیتال جذابی برای مخاطبان متنوع خاورمیانه ایجاد می‌کند",
+        "date": "۱۹ مرداد ۱۴۰۴",
         "link": "/fa/blog/5",
         "linkName": "خواندن مقاله",
-        "slug": "soul-artwork-from-lizzy",
+        "slug": "user-experience-design-principles-middle-eastern-markets",
         "images": [
             {
                 "src": "images/blog/5/1.webp",
@@ -195,14 +200,15 @@
     {
         "id": 6,
         "categories": [
-            "دسته‌بندی نشده"
+            "تحلیل کسب‌وکار",
+            "فناوری"
         ],
-        "title": "ایجاد بهترین محیط کاری",
-        "description": "راهنمای جامع برای ایجاد یک محیط کار ایده‌آل و پویا",
-        "date": "۱۲ خرداد ۱۴۰۱",
+        "title": "استراتژی‌های تحول دیجیتال برای کسب‌وکارهای در حال رشد",
+        "description": "رویکردهای استراتژیک برای پیاده‌سازی ابتکارات تحول دیجیتال که رشد کسب‌وکار و کارایی عملیاتی را ارتقا می‌دهد",
+        "date": "۸ مرداد ۱۴۰۴",
         "link": "/fa/blog/6",
         "linkName": "خواندن مقاله",
-        "slug": "create-the-bestworkplace",
+        "slug": "digital-transformation-strategies-growing-businesses",
         "images": [
             {
                 "src": "images/blog/6/1.webp",

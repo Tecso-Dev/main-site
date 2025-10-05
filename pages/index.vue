@@ -28,6 +28,8 @@ import StructuredData from "@/components/seo/StructuredData.vue";
 import SeoHead from "@/components/seo/SeoHead.vue";
 import GeoSeo from "@/components/seo/GeoSeo.vue";
 import GoogleMyBusiness from "@/components/seo/GoogleMyBusiness.vue";
+import EnhancedMeta from "@/components/seo/EnhancedMeta.vue";
+import Breadcrumb from "@/components/navigation/Breadcrumb.vue";
 
 // SEO Configuration
 useSeoMeta({
@@ -44,7 +46,7 @@ useSeoMeta({
   robots: 'index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1'
 });
 
-// Breadcrumb data for structured data
+// Enhanced breadcrumb data for better SEO
 const breadcrumbs = [
   {
     "@type": "ListItem",
@@ -53,14 +55,71 @@ const breadcrumbs = [
     "item": "https://tecso.team/"
   }
 ];
+
+// Article structured data for homepage content
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://tecso.team/#webpage",
+  "url": "https://tecso.team/",
+  "name": "Tecso Team - Leading Iranian IT Company",
+  "description": "Professional Iranian software development company specializing in modern web development, AI solutions, and cybersecurity for Middle Eastern markets",
+  "isPartOf": {
+    "@type": "WebSite",
+    "@id": "https://tecso.team/#website"
+  },
+  "about": {
+    "@type": "Organization",
+    "@id": "https://tecso.team/#organization"
+  },
+  "mainEntity": {
+    "@type": "Organization",
+    "@id": "https://tecso.team/#organization"
+  },
+  "breadcrumb": {
+    "@type": "BreadcrumbList",
+    "itemListElement": breadcrumbs
+  },
+  "potentialAction": [
+    {
+      "@type": "ContactAction",
+      "target": "https://tecso.team/contact"
+    },
+    {
+      "@type": "ViewAction", 
+      "target": "https://tecso.team/portfolio"
+    }
+  ]
+};
+
+// Inject additional structured data
+useHead(() => ({
+  script: [
+    {
+      key: 'homepage-article',
+      type: 'application/ld+json',
+      children: JSON.stringify(articleSchema)
+    }
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://tecso.team/'
+    }
+  ]
+}));
 </script>
 
 <template>
-	<!-- SEO Components -->
-	<SeoHead 
+	<!-- Enhanced SEO Components -->
+	<EnhancedMeta 
 		:title="'Tecso Team - Leading Iranian Digital Agency & Software Development Company'"
 		:description="'Leading Iranian IT company founded by expert developers Sobhan Azimzadeh (CEO/Vue.js), Ashkan Maleki (UI/UX), and Sajjad Manafi (GoLang). Specializing in Platform Development, AI Software, Cybersecurity, and Digital Solutions.'"
 		:keywords="'Tecso Team, Iran IT company, Sobhan Azimzadeh, Ashkan Maleki, Sajjad Manafi, Platform Development, Vue.js Developer, GoLang Developer, AI Software, Cybersecurity, Mobile Development'"
+		:og-image="'/images/og-tecso-team-home.webp'"
+		:twitter-image="'/images/twitter-tecso-team-home.webp'"
+		:og-image-alt="'Tecso Team - Leading Iranian IT Company'"
+		:twitter-image-alt="'Tecso Team - Iranian Software Development'"
 	/>
 	<StructuredData :breadcrumbs="breadcrumbs" />
 	<GeoSeo />

@@ -1,26 +1,26 @@
 [
   {
     "id": 1,
-    "categories": ["Uncategorized"],
-    "title": "Wildlife Can Be Amazing – See Why",
-    "description": "Discover engaging and detailed content about wildlife with full attention to detail.",
-    "date": "June 2, 2022",
+    "categories": ["Technology", "Platform Development"],
+    "title": "Building Scalable Web Applications with Vue.js and Nuxt.js",
+    "description": "Discover how we leverage Vue.js and Nuxt.js to create high-performance, scalable web applications for our Iranian and Middle Eastern clients.",
+    "date": "October 1, 2025",
     "link": "/blog/1",
     "linkName": "Read Article",
-    "slug": "wildlife-could-be-amazing-see-why",
+    "slug": "building-scalable-web-applications-vuejs-nuxtjs",
     "images": [
       { "src": "images/blog/1/1.webp", "name": "Image #01" },
       { "src": "images/blog/1/2.webp", "name": "Image #02" }
     ],
     "strings": [
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Our experience demonstrates the agency's approach to growing brands through technology. In an article published in FWA Insights, our team explains the motivation behind creating this site.",
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Our experience demonstrates the agency's approach to growing brands through technology. In an article published in FWA Insights, our team explains the motivation behind creating this site.",
-      "<a href='#'>As a leading UX design agency, </a> prospective clients and fellow designers often ask us similar questions. Our experience demonstrates the agency's approach to growing brands through technology. In an article published in FWA Insights, our team explains the motivation behind creating this site."
+      "<a href='#'>As a leading Iranian IT company, </a> we specialize in modern web development using Vue.js and Nuxt.js frameworks. Our experience in building scalable applications for Middle Eastern markets demonstrates our commitment to delivering high-performance solutions that meet regional business requirements.",
+      "<a href='#'>Our development approach </a> combines cutting-edge technology with deep understanding of local market needs. We've successfully deployed numerous Vue.js applications for Iranian businesses, focusing on performance, security, and user experience optimization.",
+      "<a href='#'>Platform scalability </a> is crucial for growing businesses. Our team implements best practices in Nuxt.js development, ensuring applications can handle increasing user loads while maintaining optimal performance across different devices and network conditions."
     ],
     "blockquote": [
-      "Through continuous effort in innovation and creativity, we always strive to provide the best solutions for our clients. Leveraging our experience and expertise, we deliver unique solutions for every project."
+      "Through continuous innovation in web development and strategic technology choices, we help Iranian businesses establish strong digital presence. Our Vue.js and Nuxt.js expertise enables us to deliver scalable, maintainable solutions that drive business growth."
     ],
-    "tags": ["Blog", "Creativity"],
+    "tags": ["Vue.js", "Nuxt.js", "Web Development", "Iran", "Technology"],
     "comments": [
       {
         "name": "Diana Torres",
@@ -43,13 +43,13 @@
   },
   {
     "id": 2,
-    "categories": ["Editorial"],
-    "title": "Quick Tips for an Effective Styled Wedding",
-    "description": "A comprehensive guide to hosting a beautiful and memorable wedding ceremony.",
-    "date": "March 15, 2023",
+    "categories": ["AI", "Software Development"],
+    "title": "AI Integration in Modern Business Solutions",
+    "description": "Learn how we implement artificial intelligence and machine learning solutions to streamline business processes and enhance user experiences.",
+    "date": "September 15, 2025",
     "link": "/blog/2",
     "linkName": "Read Article",
-    "slug": "quick-tips-for-an-effective-styled-wedding",
+    "slug": "ai-integration-modern-business-solutions",
     "images": [
       { "src": "images/blog/2/1.webp", "name": "Image #01" },
       { "src": "images/blog/2/2.webp", "name": "Image #02" }
@@ -67,13 +67,13 @@
   },
   {
     "id": 3,
-    "categories": ["Uncategorized"],
-    "title": "Soul Artwork from Lizzy Styled Wedding",
-    "description": "A look at the artistic beauty in a uniquely styled wedding.",
-    "date": "October 23, 2022",
-    "link": "/blog/1",
+    "categories": ["Cybersecurity", "Technology"],
+    "title": "Essential Cybersecurity Practices for Iranian Businesses",
+    "description": "Comprehensive guide to implementing robust cybersecurity measures for businesses operating in Iran and the Middle East region.",
+    "date": "September 20, 2025",
+    "link": "/blog/3",
     "linkName": "Read Article",
-    "slug": "soul-artwork-from-lizzy-styled-wedding",
+    "slug": "essential-cybersecurity-practices-iranian-businesses",
     "images": [
       { "src": "images/blog/3/1.webp", "name": "Caption #01" },
       { "src": "images/blog/3/2.webp", "name": "Caption #02" }
@@ -91,13 +91,13 @@
   },
   {
     "id": 4,
-    "categories": ["Uncategorized"],
-    "title": "Wildlife Can Be Amazing – See",
-    "description": "Discover engaging and detailed content about wildlife with full attention to detail.",
-    "date": "June 2, 2022",
-    "link": "/blog/1",
+    "categories": ["Mobile Development", "Technology"],
+    "title": "Cross-Platform Mobile Development Trends 2025",
+    "description": "Exploring the latest trends in mobile development and how we deliver cutting-edge mobile solutions for our clients.",
+    "date": "August 25, 2025",
+    "link": "/blog/4",
     "linkName": "Read Article",
-    "slug": "wildlife-could-be-amazing-see",
+    "slug": "cross-platform-mobile-development-trends-2025",
     "images": [
       { "src": "images/blog/4/1.webp", "name": "Caption #01" },
       { "src": "images/blog/4/2.webp", "name": "Caption #02" }
@@ -115,13 +115,13 @@
   },
   {
     "id": 5,
-    "categories": ["Architecture"],
-    "title": "Soul Artwork from Lizzy",
-    "description": "Exploring the artistic and creative aspects of Lizzy's work.",
-    "date": "June 11, 2022",
+    "categories": ["UI/UX Design", "Digital Marketing"],
+    "title": "User Experience Design Principles for Middle Eastern Markets",
+    "description": "How cultural understanding and user-centric design principles create engaging digital experiences for diverse Middle Eastern audiences.",
+    "date": "August 10, 2025",
     "link": "/blog/5",
     "linkName": "Read Article",
-    "slug": "soul-artwork-from-lizzy",
+    "slug": "user-experience-design-principles-middle-eastern-markets",
     "images": [
       { "src": "images/blog/5/1.webp", "name": "Caption #01" },
       { "src": "images/blog/5/2.webp", "name": "Caption #02" }
@@ -139,13 +139,13 @@
   },
   {
     "id": 6,
-    "categories": ["Uncategorized"],
-    "title": "Creating the Best Workplace",
-    "description": "A comprehensive guide to creating an ideal and dynamic work environment.",
-    "date": "June 2, 2022",
+    "categories": ["Business Analysis", "Technology"],
+    "title": "Digital Transformation Strategies for Growing Businesses",
+    "description": "Strategic approaches to implementing digital transformation initiatives that drive business growth and operational efficiency.",
+    "date": "July 30, 2025",
     "link": "/blog/6",
     "linkName": "Read Article",
-    "slug": "create-the-bestworkplace",
+    "slug": "digital-transformation-strategies-growing-businesses",
     "images": [
       { "src": "images/blog/6/1.webp", "name": "Caption #01" },
       { "src": "images/blog/6/2.webp", "name": "Caption #02" }

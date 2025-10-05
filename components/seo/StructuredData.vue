@@ -10,27 +10,44 @@ const props = withDefaults(defineProps<{ breadcrumbs?: any[] }>(), {
 
 const organizationSchema = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": ["Organization", "TechnologyCompany"],
+  "@id": "https://tecso.team/#organization",
   "name": "Tecso Team",
-  "alternateName": "Tecso",
+  "alternateName": ["Tecso", "تکسو تیم", "Tecso Development Team"],
   "url": "https://tecso.team",
-  "logo": "https://tecso.team/images/logo-tecso-team.webp",
-  "description": "Leading Iranian IT company specializing in Platform Development, AI Software, Cybersecurity, and Digital Solutions",
-  "foundingDate": "2020",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://tecso.team/images/logo-tecso-team.webp",
+    "width": 200,
+    "height": 200
+  },
+  "image": "https://tecso.team/images/tecso-team-hero.webp",
+  "description": "Leading Iranian IT company specializing in Platform Development, AI Software, Cybersecurity, and Digital Solutions for Iran, Iraq, Turkey, and Azerbaijan markets",
+  "foundingDate": "2020-01-01",
+  "slogan": "Smart Technology Solutions for Middle East",
   "contactPoint": [
     {
       "@type": "ContactPoint",
       "telephone": "+98-905-843-2452",
       "contactType": "customer service",
       "email": "tecsoteam@gmail.com",
-      "availableLanguage": ["English", "Persian", "Arabic", "Turkish"]
+      "availableLanguage": ["English", "Persian", "Arabic", "Turkish"],
+      "areaServed": ["IR", "IQ", "TR", "AZ"]
+    },
+    {
+      "@type": "ContactPoint", 
+      "telephone": "+98-914-445-4463",
+      "contactType": "design department",
+      "availableLanguage": ["English", "Persian"]
     }
   ],
   "address": {
     "@type": "PostalAddress",
     "addressCountry": "IR",
-    "addressRegion": "Tehran",
-    "addressLocality": "Tehran"
+    "addressRegion": "West Azerbaijan",
+    "addressLocality": "Urmia",
+    "streetAddress": "Bra'ati Street - Asatid Building - P 6",
+    "postalCode": "5715693656"
   },
   "geo": {
     "@type": "GeoCoordinates",
@@ -49,28 +66,134 @@ const organizationSchema = {
       "name": "Sobhan Azimzadeh",
       "jobTitle": "CEO & Vue.js Developer",
       "url": "https://www.linkedin.com/in/sobhan-azimzadeh/",
-      "telephone": "+98-905-843-2452"
+      "telephone": "+98-905-843-2452",
+      "email": "sobhan.gjhav.azimzadeh@gmail.com",
+      "nationality": "Iranian",
+      "knowsAbout": ["Vue.js", "JavaScript", "Frontend Development", "Project Management"],
+      "worksFor": {
+        "@type": "Organization",
+        "@id": "https://tecso.team/#organization"
+      }
     }
   ],
   "employee": [
-    { "@type": "Person", "name": "Ashkan Maleki", "jobTitle": "COD, Designer and UI/UX Specialist", "telephone": "+98-914-445-4463" },
-    { "@type": "Person", "name": "Sajjad Manafi", "jobTitle": "GoLang Developer and Backend Team Lead" }
+    {
+      "@type": "Person", 
+      "name": "Ashkan Maleki",
+      "jobTitle": "COO & UI/UX Designer",
+      "telephone": "+98-914-445-4463",
+      "nationality": "Iranian",
+      "knowsAbout": ["UI/UX Design", "Graphic Design", "Adobe Creative Suite", "Figma"]
+    },
+    {
+      "@type": "Person",
+      "name": "Sajjad Manafi", 
+      "jobTitle": "GoLang Developer & Backend Lead",
+      "nationality": "Iranian",
+      "knowsAbout": ["GoLang", "Backend Development", "Database Design", "API Development"]
+    }
   ],
   "areaServed": [
-    { "@type": "Country", "name": "Iran" },
-    { "@type": "Country", "name": "Iraq" },
-    { "@type": "Country", "name": "Turkey" },
-    { "@type": "Country", "name": "Azerbaijan" }
+    {
+      "@type": "Country",
+      "name": "Iran",
+      "alternateName": "IR"
+    },
+    {
+      "@type": "Country", 
+      "name": "Iraq",
+      "alternateName": "IQ"
+    },
+    {
+      "@type": "Country",
+      "name": "Turkey", 
+      "alternateName": "TR"
+    },
+    {
+      "@type": "Country",
+      "name": "Azerbaijan",
+      "alternateName": "AZ"
+    }
   ],
   "serviceType": [
     "Platform Development",
+    "Vue.js Development", 
+    "Nuxt.js Development",
+    "GoLang Development",
     "AI Software Programming",
     "Cybersecurity",
     "Mobile Development",
     "UI/UX Design",
     "Digital Marketing",
     "Backend Development"
-  ]
+  ],
+  "knowsAbout": [
+    "Web Development",
+    "Mobile App Development", 
+    "Artificial Intelligence",
+    "Cybersecurity",
+    "UI/UX Design",
+    "Digital Marketing",
+    "Vue.js Framework",
+    "Nuxt.js Framework", 
+    "GoLang Programming",
+    "JavaScript Development"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Tecso Digital Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Platform Development & Web Solutions",
+          "description": "Custom platform development using Vue.js, Nuxt.js, React, and GoLang"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Cybersecurity & Data Protection",
+          "description": "Comprehensive cybersecurity solutions for Middle Eastern businesses"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Mobile App Development",
+          "description": "iOS and Android development for Middle Eastern markets"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "UI/UX Design & Brand Identity", 
+          "description": "Cultural-sensitive design for Middle Eastern audiences"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "AI Solutions & Digital Marketing",
+          "description": "AI development and digital marketing for regional markets"
+        }
+      }
+    ]
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "32",
+    "bestRating": "5",
+    "worstRating": "1"
+  },
+  "numberOfEmployees": "3-10",
+  "legalName": "Tecso Team Software Development Company"
 } as const
 
 const websiteSchema = {

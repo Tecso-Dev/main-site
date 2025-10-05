@@ -34,12 +34,12 @@ export default defineNuxtConfig({
 				{ name: 'msvalidate.01', content: 'your-bing-verification-code' },
 				
 				// Enhanced GEO targeting for Iran and Middle East
-				{ name: 'geo.region', content: 'IR-07' }, // Tehran Province
-				{ name: 'geo.placename', content: 'Tehran, Iran' },
-				{ name: 'geo.position', content: '37.5310850;45.0808324' }, // Updated coordinates
+				{ name: 'geo.region', content: 'IR-07' }, // West Azerbaijan Province
+				{ name: 'geo.placename', content: 'Urmia, Iran' },
+				{ name: 'geo.position', content: '37.5310850;45.0808324' }, // Urmia coordinates
 				{ name: 'ICBM', content: '37.5310850, 45.0808324' },
 				{ name: 'geo.country', content: 'IR' },
-				{ name: 'geo.locality', content: 'Tehran' },
+				{ name: 'geo.locality', content: 'Urmia' },
 				{ name: 'distribution', content: 'global' },
 				{ name: 'coverage', content: 'worldwide' },
 				{ name: 'target', content: 'all' },
@@ -48,7 +48,7 @@ export default defineNuxtConfig({
 				// Regional market targeting
 				{ name: 'geo.primary-region', content: 'Iran' },
 				{ name: 'geo.secondary-regions', content: 'Iraq, Turkey, Azerbaijan' },
-				{ name: 'business.location', content: 'Tehran, Iran' },
+				{ name: 'business.location', content: 'Urmia, Iran' },
 				{ name: 'business.service-area', content: 'Middle East' },
 				{ name: 'business.timezone', content: 'Asia/Tehran' },
 				{ name: 'business.currency', content: 'IRR' },
@@ -71,9 +71,9 @@ export default defineNuxtConfig({
 				{ property: 'og:locale:alternate', content: 'az_AZ' },
 				
 				// Open Graph Business Info
-				{ property: 'business:contact_data:street_address', content: 'Tehran Tech District' },
-				{ property: 'business:contact_data:locality', content: 'Tehran' },
-				{ property: 'business:contact_data:region', content: 'Tehran Province' },
+				{ property: 'business:contact_data:street_address', content: 'Bra\'ati Street - Asatid Building - P 6' },
+				{ property: 'business:contact_data:locality', content: 'Urmia' },
+				{ property: 'business:contact_data:region', content: 'West Azerbaijan Province' },
 				{ property: 'business:contact_data:country_name', content: 'Iran' },
 				{ property: 'business:contact_data:phone_number', content: '+98-905-843-2452' },
 				{ property: 'business:contact_data:website', content: 'https://tecso.team' },
@@ -109,10 +109,10 @@ export default defineNuxtConfig({
 				{ name: 'contact:phone_number', content: '+98 905 843 2452' },
 				{ name: 'contact:email', content: 'tecsoteam@gmail.com' },
 				{ name: 'contact:country_name', content: 'Iran' },
-				{ name: 'contact:region', content: 'Tehran' },
-				{ name: 'contact:locality', content: 'Tehran' },
-				{ name: 'contact:postal_code', content: '1234567890' },
-				{ name: 'contact:street_address', content: 'Tehran Tech District' },
+				{ name: 'contact:region', content: 'West Azerbaijan' },
+				{ name: 'contact:locality', content: 'Urmia' },
+				{ name: 'contact:postal_code', content: '5715693656' },
+				{ name: 'contact:street_address', content: 'Bra\'ati Street - Asatid Building - P 6' },
 				
 				// Regional business targeting
 				{ name: 'business.ceo', content: 'Sobhan Azimzadeh' },
