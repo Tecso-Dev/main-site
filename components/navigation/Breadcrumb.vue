@@ -22,11 +22,11 @@
           v-else 
           class="breadcrumb-current"
           itemprop="item"
-          :aria-current="index === breadcrumbs.length - 1 ? 'page' : null"
+          :aria-current="index === breadcrumbs.length - 1 ? 'page' : undefined"
         >
           <span itemprop="name">{{ item.name }}</span>
         </span>
-        <meta itemprop="position" :content="index + 1" />
+        <meta itemprop="position" :content="(index + 1).toString()" />
         <span v-if="index < breadcrumbs.length - 1" class="breadcrumb-separator" aria-hidden="true">/</span>
       </li>
     </ol>
