@@ -85,13 +85,13 @@ onMounted(() => {
                             <span class="background-revere">CONTACT</span>
                         </h4>
                         <div class="col-contact">
-                            <p><strong>T</strong> :&nbsp;+98 905 843 2452</p>
-                            <p><strong>T</strong> :&nbsp;+98 919 989 1447</p>
-                            <p><strong>T</strong> :&nbsp;+98 992 746 1899</p>
+                            <p><strong>CEO</strong> :&nbsp;+98 905 843 2452 (Sobhan)</p>
+                            <p><strong>COD</strong> :&nbsp;+98 914 445 4463 (Ashkan)</p>
+                            <p><strong>Telegram</strong> :&nbsp;+98 992 206 8945</p>
                             <!-- <p class="mt-10"><strong>F</strong> :&nbsp;+001 225 3351</p> -->
                             <p class="over-hidden mt-10">
                                 <strong>E</strong> :
-                                <a class="link-hover" href="mailto:sobhan.gjhav.azimzadeh@gmail.com">&nbsp;info@Tecso.team</a>
+                                <a class="link-hover" href="mailto:tecsoteam@gmail.com">&nbsp;tecsoteam@gmail.com</a>
                             </p>
                         </div>
                     </div>

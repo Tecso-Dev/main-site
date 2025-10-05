@@ -10,13 +10,13 @@
 			<div class="nav-content mt-30">
 				<h5 class="sm-title-block mb-10">Contact</h5>
 				<p class="links over-hidden mb-1">
-						<NuxtLink to="tel:+989058432452">+98 905 843 2452</NuxtLink><br>
-						<NuxtLink to="tel:+989199891447">+98 919 989 1447</NuxtLink><br>
-						<NuxtLink to="tel:+989927461899">+98 992 746 1899</NuxtLink>
+					<NuxtLink to="tel:+989058432452">+98 905 843 2452 (CEO)</NuxtLink><br>
+					<NuxtLink to="tel:+989144454463">+98 914 445 4463 (COD)</NuxtLink><br>
+					<NuxtLink to="tel:+989922068945">+98 992 206 8945 (Telegram)</NuxtLink>
 
 				</p>
 				<p class="links over-hidden">
-					<a class="link-hover" href="mailto:info@Tecso.team">info@Tecso.team</a>
+					<a class="link-hover" href="mailto:tecsoteam@gmail.com">tecsoteam@gmail.com</a>
 				</p>
 			</div>
 		</div>
@@ -35,9 +35,9 @@
 
 <script setup>
 const socialData = [
-	{ link: "#0",name: "Instagram" },
+	{ link: "https://www.instagram.com/tecso.team/",name: "Instagram" },
 	{ link: "https://github.com/Tecso-Dev",name: "Github" },
-	{ link: "#0",name: "Linkedin" },
+	{ link: "https://www.linkedin.com/in/sobhan-azimzadeh/",name: "Linkedin" },
 ];
 </script>
 

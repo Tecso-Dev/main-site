@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Sobhan Azimzadeh",
-        "job": "CEO,Vue.js Developer, and Strategist",
+        "job": "CEO, Vue.js Developer, and Strategist",
         "imageSrc": "images/team/sobhan.webp",
         "social": [
             {
@@ -54,7 +54,7 @@
     {
         "id": 3,
         "name": "Sajjad Manafi",
-        "job": "GoLang Developer and Backend Team Head",
+        "job": "GoLang Developer and Backend Team Lead",
         "imageSrc": "images/team/sajjad.webp",
         "social": [
             {

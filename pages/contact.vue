@@ -29,13 +29,13 @@ import DsnFooter from '@/components/footer/DsnFooter.vue';
             <template v-slot:address>West Azarbayjan - Urmia <br> Bra'ati Street - Asatid Building - P 6<br> Iran</template>
             <template v-slot:phones_title>Phones:</template>
             <template v-slot:phones>
-                <NuxtLink to="tel:+989058432452">+98 905 843 2452</NuxtLink><br>
-                <NuxtLink to="tel:+989199891447">+98 919 989 1447</NuxtLink><br>
-                <NuxtLink to="tel:+989927461899">+98 992 746 1899</NuxtLink>
+                <NuxtLink to="tel:+989058432452">+98 905 843 2452 (CEO - Sobhan)</NuxtLink><br>
+                <NuxtLink to="tel:+989144454463">+98 914 445 4463 (COD - Ashkan)</NuxtLink><br>
+                <NuxtLink to="tel:+989922068945">+98 992 206 8945 (Telegram)</NuxtLink>
             </template>
             <template v-slot:email_title>Write Us:</template>
             <template v-slot:email>
-                <NuxtLink to="mailto:info@Tecso.team">info@Tecso.team</NuxtLink>
+                <NuxtLink to="mailto:tecsoteam@gmail.com">tecsoteam@gmail.com</NuxtLink>
             </template>
         </contactForm>
         <!-- ========== End Contact  =============== -->
